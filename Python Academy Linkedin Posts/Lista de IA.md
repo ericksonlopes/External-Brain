@@ -39,3 +39,4 @@
 #IA  #pythonacademy #Tecnologia #Inovação
 
 Curtiu? Compartilhe com sua rede e não esqueça de nos seguir para não perder dicas como esta!
+
