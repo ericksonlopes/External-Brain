@@ -19,7 +19,6 @@
 `docker run -d -p 80:80 dockersamples/static-site` - Executa o container dockersamples/static-site em background e  
 mapeia a porta 80 do container para a porta 80 do host  
   
-  
 ## Listando containers  
   
 `docker ps` - Lista os containers em execução  
@@ -44,10 +43,80 @@ mapeia a porta 80 do container para a porta 80 do host
   
 `docker unpause <container_id>` - Despausa o container  
   
+`docker stop $(docker ps -q)` - Para todos os containers  
+  
 ## Removendo containers  
   
 `docker rm <container_id>` - Remove o container  
   
-`docker rm $(docker ps -a -q)` - Remove todos os containers
-
-#docker #alura #curso
+`docker rm $(docker ps -a -q)` - Remove todos os containers  
+  
+## images  
+  
+`docker images` - Lista as imagens  
+  
+`docker inespect <image_id>` - Exibe informações sobre a imagem  
+  
+`docker history <image_id>` - Exibe o histórico de criação da imagem  
+  
+## Criando uma imagem a partir de um Dockerfile  
+  
+```dockerfile  
+# Cria uma imagem do docker com python 3.8  
+FROM python:3.8  
+  
+# Define o diretório de trabalho  
+WORKDIR /app-node  
+  
+# Copia os arquivo para o diretório de trabalho  
+COPY . .  
+  
+# Define a variável de ambiente FLASK_APP  
+ENV FLASK_APP=app.py  
+  
+# Instala as dependências  
+RUN pip install -r requirements.txt  
+  
+# Expõe o host que ira rodar a aplicação (por padrão a porta é 5000)  
+ENTRYPOINT ["flask", "run", "--host=0.0.0.0"]  
+```  
+  
+``docker build -t erickson/app-python:1.0 .`` - Cria a imagem a partir do Dockerfile, erickson/app-python é o nome da  
+imagem e 1.0 é a versão, e o . indica que o Dockerfile está no diretório atual  
+  
+``docker run -p 5000:5000 erickson/app-python:1.0`` - Executa o container  
+  
+```dockerfile  
+FROM python:3.8  
+  
+# Define o diretório de trabalho  
+WORKDIR /app-node  
+  
+# Copia os arquivo para o diretório de trabalho  
+COPY . .  
+  
+# Define a variável de ambiente FLASK_APP  
+ENV FLASK_APP=app.py  
+  
+# Define a variável PORT  
+ARG PORT=5000  
+  
+# Define a variável de ambiente PORT  
+ENV PORT=$PORT  
+  
+# Expõe a porta 5000 (indica para outros usuários que a porta 5000 será exposta)  
+EXPOSE $PORT  
+  
+# Instala as dependências  
+RUN pip install -r requirements.txt  
+  
+# Expõe o host que ira rodar a aplicação (por padrão a porta é 5000)  
+ENTRYPOINT ["flask", "run", "--host=0.0.0.0"]  
+  
+```  
+  
+`docker tag <imagem> <novo nome da imagem>` - Adiciona para outro repositório  
+  
+`docker push <imagem>` - Envia a imagem para o repositório  
+  
+#python #dockerfile #flask #docker
