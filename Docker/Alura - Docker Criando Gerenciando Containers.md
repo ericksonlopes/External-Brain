@@ -115,7 +115,7 @@ RUN pip install -r requirements.txt
 # Expõe o host que ira rodar a aplicação (por padrão a porta é 5000)  
 ENTRYPOINT ["flask", "run", "--host=0.0.0.0"]  
 ```  
-  
+   
 #virtual-environment #variáveis-de-ambiente  
   
 `docker tag <imagem> <novo nome da imagem>` - Adiciona para outro repositório  
