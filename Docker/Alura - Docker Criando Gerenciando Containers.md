@@ -1,3 +1,5 @@
+#python #dockerfile #flask #docker #docker-compose  
+  
 # Comandos  
   
 `docker run hello-world` - Teste de funcionamento do Docker  
@@ -112,11 +114,12 @@ RUN pip install -r requirements.txt
   
 # Expõe o host que ira rodar a aplicação (por padrão a porta é 5000)  
 ENTRYPOINT ["flask", "run", "--host=0.0.0.0"]  
-  
 ```  
+  
+#virtual-environment #variáveis-de-ambiente  
   
 `docker tag <imagem> <novo nome da imagem>` - Adiciona para outro repositório  
   
 `docker push <imagem>` - Envia a imagem para o repositório  
   
-#python #dockerfile #flask #docker
+`docker container rm $(docker container ls -aq)` - Remove todos os containers (-aq lista todos os containers)
