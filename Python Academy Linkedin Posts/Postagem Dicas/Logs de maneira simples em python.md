@@ -1,7 +1,7 @@
 
 Dica Python Academy 🐍 - Biblioteca Logging
 
-ℹ️ Dica básica de biblioteca 
+ℹ️ Um exemplo simples de como usar a biblioteca de log nativa do Python
 
 🚀 Conheça nosso blog: https://lnkd.in/dTc8amnw
 ↩️ Dica anterior:  
