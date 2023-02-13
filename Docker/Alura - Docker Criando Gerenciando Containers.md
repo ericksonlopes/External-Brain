@@ -115,11 +115,60 @@ RUN pip install -r requirements.txt
 # Expõe o host que ira rodar a aplicação (por padrão a porta é 5000)  
 ENTRYPOINT ["flask", "run", "--host=0.0.0.0"]  
 ```  
-   
+  
 #virtual-environment #variáveis-de-ambiente  
   
 `docker tag <imagem> <novo nome da imagem>` - Adiciona para outro repositório  
   
 `docker push <imagem>` - Envia a imagem para o repositório  
   
-`docker container rm $(docker container ls -aq)` - Remove todos os containers (-aq lista todos os containers)
+`docker container rm $(docker container ls -aq)` - Remove todos os containers (-aq lista todos os containers)  
+  
+`docker rmi $(docker images -aq)` - Remove todas as imagens (-q lista todas as imagens)  
+  
+`docker rmi $(docker images -aq) --force` - Remove todas as imagens forçadamente  
+  
+`docker ps -s` - Lista os containers e o tamanho de cada um  
+  
+## persistencia de dados  
+  
+- Maneira antiga de criar para dados persistentes  
+  
+`docker run -it -v /home/erickson/Documentos/Projetos/Python:/app-python erickson/app-python:1.0 bash` - Persistencia de  
+dados sobe novos container com os dados  
+  
+- maneira nova de criar para dados persistentes  
+  
+`docker run –mount type=bind,source=/home/diretorio,target=/app nginx` - Persistencia de dados sobe novos container com  
+os dados  
+  
+## Volume  
+  
+`docker volume create <nome do volume>` - Cria um volume  
+  
+`docker volume ls` - Lista os volumes  
+  
+`docker run -it -v meu-volume:/app ubuntu bash` - Cria um container com o volume criado  
+  
+- se o volume não existir ele cria  
+  
+## tmpfs  
+  
+``docker run -it --tmpfs=/app ubuntu bash`` - Cria um container com o volume criado com pasta temporária  
+  
+## network  
+  
+`docker network ls` - Lista as redes  
+  
+- com o `docker inspect <container_id>` é possível ver as configurações de rede do container  
+  
+```json  
+{  
+  "Networks": {    "bridge": {      "IPAMConfig": null,      "Links": null,      "Aliases": null,      "NetworkID": "4d43933633b8677715093daac6e4379f77097862f7de795e11668fb7b5b98eb2",      "EndpointID": "21b41f3f84d878d28191bbfa0e8b4ca64a7f288dd9588992a7df40e8fe00e7c1",      "Gateway": "172.17.0.1",      "IPAddress": "172.17.0.2",      "IPPrefixLen": 16,      "IPv6Gateway": "",      "GlobalIPv6Address": "",      "GlobalIPv6PrefixLen": 0,      "MacAddress": "02:42:ac:11:00:02",      "DriverOpts": null    }  }}  
+```  
+  
+`docker network create --driver bridge minha-rede` - Cria uma rede  
+  
+`docker run -it --name ubuntu1 --network minha-rede ubuntu bash` - Cria um container com a rede criada  
+  
+`docker run -it --network none ubuntu bash` - isolar containers da rede do host
