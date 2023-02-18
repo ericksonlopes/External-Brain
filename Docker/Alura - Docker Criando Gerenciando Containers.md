@@ -1,4 +1,5 @@
-#python #dockerfile #flask #docker #docker-compose  
+#python #dockerfile #flask #docker #docker-compose  #alura
+
   
 # Comandos  
   
