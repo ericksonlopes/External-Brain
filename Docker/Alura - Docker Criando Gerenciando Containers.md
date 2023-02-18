@@ -171,4 +171,52 @@ os dados
   
 `docker run -it --name ubuntu1 --network minha-rede ubuntu bash` - Cria um container com a rede criada  
   
-`docker run -it --network none ubuntu bash` - isolar containers da rede do host
+`docker run -it --network none ubuntu bash` - isolar containers da rede do host  
+  
+## criando uma rede que se comunica  
+  
+`docker network create --driver bridge minha-bridge` - cria uma rede  
+  
+`docker run -d --network minha-bridge --name meu-mongo mongo:4.4.6` - cria um container com a rede criada  
+  
+`docker run -d --network minha-bridge --name alurabooks -p 3000:3000 aluradocker/alura-books:1.0` - cria um container  
+com a rede criada  
+  
+#rede #network #mongodb  
+  
+## docker-compose  
+  
+#docker-compose #docker #compose  
+  
+- Definindo o arquivo docker-compose.yml  
+  
+```yaml  
+version: "3.9"  
+services:  
+	# nome do serviço 
+	mongodb:    
+		image: mongo:4.4.6    
+		container_name: meu-mongo    
+		# nome da rede    
+		networks:      
+			- compose-bridge
+			
+alurabooks:    
+	image: aluradocker/alura-books:1.0    
+	container_name: alurabooks    
+	networks:      
+		- compose-bridge    
+	ports:      
+		- 3000:3000      
+	#   dependencia do container alurabooks    
+	depends_on:      
+		- mongodb  
+#  nome da rede  
+networks:  
+  compose-bridge:    driver: bridge  
+```  
+  
+  
+`docker-compose up` - Inicia os containers  
+  
+`docker-compose up -d` - Inicia os containers em background
