@@ -24,3 +24,22 @@ FastAPI e Pyramid. Aqui estão alguns princípios e práticas recomendadas para 
   sistema, escolhendo a mais adequada para cada necessidade.
 
 ## Desvantagens
+
+- **Complexidade**: o uso de microserviços pode aumentar a complexidade da aplicação, principalmente quando há muitos
+  microserviços interconectados.
+
+- **Dificuldades de integração**: como os microserviços são independentes, a integração entre eles pode ser mais
+  complexa e requerer mais tempo e esforço.
+
+- **Overhead de rede**: como os microserviços são acessados através de uma rede, pode haver um overhead de rede maior do
+  que em uma aplicação monolítica.
+
+- **Gerenciamento de dados**: com microserviços independentes, pode ser necessário gerenciar dados e informações
+  redundantes em diferentes serviços, o que pode ser mais complexo.
+
+- **Mais desafios de segurança**: com mais serviços em execução, há mais superfície de ataque para possíveis
+  vulnerabilidades, o que pode aumentar os desafios de segurança da aplicação.
+
+## Exemplo
+
+```python
