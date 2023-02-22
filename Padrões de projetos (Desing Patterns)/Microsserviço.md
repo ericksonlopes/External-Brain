@@ -43,3 +43,78 @@ FastAPI e Pyramid. Aqui estão alguns princípios e práticas recomendadas para 
 ## Exemplo
 
 ```python
+# importações das bibliotecas necessárias
+from flask import Flask, jsonify, request
+from flask_sqlalchemy import SQLAlchemy
+
+# criação do objeto Flask
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///products.db'
+db = SQLAlchemy(app)
+
+# definição da classe de modelo de Produto
+class Product(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(80), nullable=False)
+    price = db.Column(db.Float, nullable=False)
+
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+    def to_dict(self):
+        return {'id': self.id, 'name': self.name, 'price': self.price}
+
+# rota para listar todos os produtos
+@app.route('/products', methods=['GET'])
+def get_products():
+    products = Product.query.all()
+    return jsonify([product.to_dict() for product in products])
+
+# rota para buscar um produto específico pelo ID
+@app.route('/products/<int:product_id>', methods=['GET'])
+def get_product(product_id):
+    product = Product.query.filter_by(id=product_id).first()
+    if product:
+        return jsonify(product.to_dict())
+    else:
+        return jsonify({'error': 'Produto não encontrado'})
+
+# rota para criar um novo produto
+@app.route('/products', methods=['POST'])
+def create_product():
+    name = request.json.get('name')
+    price = request.json.get('price')
+    product = Product(name, price)
+    db.session.add(product)
+    db.session.commit()
+    return jsonify(product.to_dict())
+
+# rota para atualizar um produto existente pelo ID
+@app.route('/products/<int:product_id>', methods=['PUT'])
+def update_product(product_id):
+    product = Product.query.filter_by(id=product_id).first()
+    if product:
+        product.name = request.json.get('name')
+        product.price = request.json.get('price')
+        db.session.commit()
+        return jsonify(product.to_dict())
+    else:
+        return jsonify({'error': 'Produto não encontrado'})
+
+# rota para deletar um produto existente pelo ID
+@app.route('/products/<int:product_id>', methods=['DELETE'])
+def delete_product(product_id):
+    product = Product.query.filter_by(id=product_id).first()
+    if product:
+        db.session.delete(product)
+        db.session.commit()
+        return jsonify({'success': 'Produto deletado'})
+    else:
+        return jsonify({'error': 'Produto não encontrado'})
+
+# execução do servidor Flask
+if __name__ == '__main__':
+    db.create_all()
+    app.run(debug=True)
+```
