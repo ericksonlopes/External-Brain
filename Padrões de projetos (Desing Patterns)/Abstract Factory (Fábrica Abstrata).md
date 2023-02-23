@@ -35,83 +35,48 @@ dependentes sem especificar suas classes concretas.
 ```python
 from abc import ABC, abstractmethod
 
-# Definição da classe abstrata AnimalFactory
-class AnimalFactory(ABC):
+
+# Classe abstrata
+class Car(ABC):
+    def __init__(self, name):
+        self.name = name
+
     @abstractmethod
-    def create_dog(self):
-        pass
-    
-    @abstractmethod
-    def create_cat(self):
-        pass
-    
-    @abstractmethod
-    def create_bird(self):
+    def drive(self):
         pass
 
-# Definição das classes concretas de fábricas de animais
-class WildAnimalFactory(AnimalFactory):
-    def create_dog(self):
-        return Wolf()
-    
-    def create_cat(self):
-        return Lion()
-    
-    def create_bird(self):
-        return Eagle()
+    @abstractmethod
+    def stop(self):
+        pass
 
-class PetAnimalFactory(AnimalFactory):
-    def create_dog(self):
-        return Dog()
-    
-    def create_cat(self):
-        return Cat()
-    
-    def create_bird(self):
-        return Parrot()
 
-# Definição das classes concretas de animais
-class Dog:
-    def speak(self):
-        return "Woof!"
+# Classe concreta
+class SportsCar(Car):
+    def drive(self):
+        return f"{self.name} esta dirigindo muito rápido!"
 
-class Cat:
-    def speak(self):
-        return "Meow!"
+    def stop(self):
+        return f"{self.name} esta parando muito rápido!"
 
-class Parrot:
-    def speak(self):
-        return "Squawk!"
 
-class Wolf:
-    def speak(self):
-        return "Howl!"
+# Classe concreta
+class CommonCar(Car):
+    def drive(self):
+        return f"{self.name} esta dirigindo em velocidade normal."
 
-class Lion:
-    def speak(self):
-        return "Roar!"
+    def stop(self):
+        return f"{self.name} está parando em velocidade normal."
 
-class Eagle:
-    def speak(self):
-        return "Screech!"
 
-# Exemplo de uso
-wild_factory = WildAnimalFactory()
-pet_factory = PetAnimalFactory()
+# Criação de instâncias de carros
+sport_car = SportsCar("Ferrari")
+truck = CommonCar("Uno")
 
-wild_dog = wild_factory.create_dog()
-wild_cat = wild_factory.create_cat()
-wild_bird = wild_factory.create_bird()
+# Execução dos métodos
+print(sport_car.drive())
+print(sport_car.stop())
 
-pet_dog = pet_factory.create_dog()
-pet_cat = pet_factory.create_cat()
-pet_bird = pet_factory.create_bird()
+print(truck.drive())
+print(truck.stop())
 
-print(wild_dog.speak())
-print(wild_cat.speak())
-print(wild_bird.speak())
-
-print(pet_dog.speak())
-print(pet_cat.speak())
-print(pet_bird.speak())
 ```
