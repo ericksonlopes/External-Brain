@@ -16,3 +16,16 @@ dependentes sem especificar suas classes concretas.
   organizado e as alterações podem ser feitas sem afetar o restante do sistema.
 
 ## Desvantagens
+
+- Complexidade: A implementação do padrão Abstract Factory pode ser complexa, pois requer a criação de várias classes e
+  interfaces.
+
+- Acoplamento: O Abstract Factory pode aumentar o acoplamento entre classes, tornando o sistema mais difícil de manter e
+  alterar.
+
+- Sobrecarga de código: A implementação do Abstract Factory pode levar a uma sobrecarga de código, com muitas classes e
+  interfaces sendo criadas, o que pode tornar o código mais difícil de entender.
+
+- Limitações de reutilização: O Abstract Factory pode ter limitações em relação à reutilização de código, já que a
+  criação de objetos complexos é encapsulada em uma classe específica e pode não ser fácil de reutilizar em outros
+  contextos.
