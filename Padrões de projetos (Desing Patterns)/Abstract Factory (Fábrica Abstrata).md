@@ -32,6 +32,10 @@ dependentes sem especificar suas classes concretas.
 
 ## Exemplo
 
+Neste exemplo, vamos criar uma classe abstrata Car, que será a classe base para as classes concretas SportsCar e
+CommonCar. A classe abstrata Car possui dois métodos abstratos, drive e stop, que serão implementados pelas classes
+concretas.
+
 ```python
 from abc import ABC, abstractmethod
 

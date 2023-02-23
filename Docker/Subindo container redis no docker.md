@@ -1,6 +1,11 @@
 #docker #redis 
 
 
+
+
+Subindo container com docker compose, 
+#docker-compose 
+
 ```d
 version: "3"  
   
