@@ -18,6 +18,8 @@ Embora o padrão monolítico em Python seja simples e fácil de desenvolver, pod
 
 # Exemplo
 
+Nesse exemplo, todas as etapas do programa - coleta das notas, cálculo da média e exibição do resultado - estão dentro do mesmo arquivo e dentro de um único bloco de código. Não há separação clara de funções ou módulos, o que pode dificultar a manutenção e o teste do código no futuro.
+
 ```python
 # Programa para cálculo de média de notas 
 
@@ -33,6 +35,4 @@ media = soma / len(notas)
 print("A média das notas é: {:.2f}".format(media))
 ```
 
-Nesse exemplo, todas as etapas do programa - coleta das notas, cálculo da média e exibição do resultado - estão dentro do mesmo arquivo e dentro de um único bloco de código. Não há separação clara de funções ou módulos, o que pode dificultar a manutenção e o teste do código no futuro.
-
-#python #design-pattern #padrão-de-projeto #monolitico #monolithic
+#python #design-pattern #padrão-de-projeto #monolithic
