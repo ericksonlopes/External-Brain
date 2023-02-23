@@ -50,3 +50,4 @@ print(redis_client.get('nome'))
 
 
 
+
