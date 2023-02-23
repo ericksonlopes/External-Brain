@@ -30,6 +30,8 @@ dependentes sem especificar suas classes concretas.
   criação de objetos complexos é encapsulada em uma classe específica e pode não ser fácil de reutilizar em outros
   contextos.
 
+## Exemplo
+
 ```python
 from abc import ABC, abstractmethod
 
