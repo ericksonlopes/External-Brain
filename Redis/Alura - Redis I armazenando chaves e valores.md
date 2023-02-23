@@ -1,4 +1,4 @@
-#redis #alura
+#redis #alura #NoSQL
 
 # Instalação
 

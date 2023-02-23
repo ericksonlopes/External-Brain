@@ -44,10 +44,8 @@ docker-compose down
 docker-compose ps
 ``` 
 
-```bash
-docker-compose logs
-``` 
+- Lista os logs
 
 ```bash
-docker-compose logs -f
+docker-compose logs
 ``` 
