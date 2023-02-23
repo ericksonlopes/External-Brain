@@ -42,6 +42,10 @@ FastAPI e Pyramid. Aqui estão alguns princípios e práticas recomendadas para 
 
 ## Exemplo
 
+Este exemplo mostra como criar um serviço CRUD básico para gerenciar uma lista de produtos. Cada produto é representado como um objeto do modelo de Produto, que é definido como uma classe em Python e mapeado para uma tabela no banco de dados usando o SQLAlchemy.
+
+O serviço tem rotas para listar todos os produtos, buscar um produto específico pelo ID, criar um novo produto, atualizar um produto existente pelo ID e deletar um produto existente pelo ID. As rotas usam os métodos HTTP GET, POST, PUT e DELETE para realizar as operações CRUD correspondentes.
+
 ```python
 # importações das bibliotecas necessárias
 from flask import Flask, jsonify, request
@@ -118,3 +122,5 @@ if __name__ == '__main__':
     db.create_all()
     app.run(debug=True)
 ```
+
+#microsserviço #python #design-pattern #padrao #Padrão-de-projeto
