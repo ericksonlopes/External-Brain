@@ -2,9 +2,19 @@
 
 ## Configurar ambiente
 
+Instalar Redis (wsl ou linux)
 
+```bash  
+curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list  
 
-Baixar imagem do Redis (Caso você deseje utilizar o Redis como um container):
+sudo apt-get updatesudo apt-get install redis
+```  
+
+`sudo service redis-server start` - Inicia o servidor
+
+- Caso você deseje utilizar o Redis como um container Docker, siga os passos abaixo:
+
+Baixar imagem do Redis ():
 
 ```bash
 docker pull redis
