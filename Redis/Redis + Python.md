@@ -1,4 +1,4 @@
-#docker #redis #python
+#docker #redis #python #docker-compose
 
 ## Configurar ambiente
 
@@ -34,6 +34,8 @@ pip install redis
 
 ## Exemplo
 
+- Exemplo de código em Python:
+
 ```python
 import redis
 
@@ -48,6 +50,31 @@ redis_client.set('nome', 'João')
 print(redis_client.get('nome'))
 ```
 
+## Exemplo com docker compose
+
+- Exemplo de código em Python:
+
+```python
+version: "3"
+
+services:
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+  app:
+    build: .
+    depends_on:
+      - redis
+    environment:
+      - REDIS_HOST=redis
+
+volumes:
+  redis_data:
+```
 
 
 
