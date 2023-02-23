@@ -38,13 +38,14 @@ pip install redis
 import redis
 
 # Criação de instância do Redis
-r = redis.Redis(host='localhost', port=6379, db=0)
+redis_pool = redis.ConnectionPool(host='localhost', port=6379, db=0)
+redis_client = redis.Redis(connection_pool=redis_pool)
 
 # Inserção de dados
-r.set('nome', 'João')
+redis_client.set('nome', 'João')
 
 # Recuperação de dados
-print(r.get('nome'))
+print(redis_client.get('nome'))
 ```
 
 
