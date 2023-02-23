@@ -2,6 +2,7 @@
 #docker 
 
 ```bash
-docker build -t <container>
+docker build -t nome-da-imagem .
 ```
+
 
