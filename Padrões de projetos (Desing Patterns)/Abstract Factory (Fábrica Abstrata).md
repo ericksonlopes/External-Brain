@@ -29,3 +29,40 @@ dependentes sem especificar suas classes concretas.
 - Limitações de reutilização: O Abstract Factory pode ter limitações em relação à reutilização de código, já que a
   criação de objetos complexos é encapsulada em uma classe específica e pode não ser fácil de reutilizar em outros
   contextos.
+
+```python
+from abc import ABC, abstractmethod
+
+class CarFactory(ABC):
+    @abstractmethod
+    def create_sports_car(self):
+        pass
+    
+    @abstractmethod
+    def create_sedan(self):
+        pass
+        
+class SportsCarFactory(CarFactory):
+    def create_sports_car(self):
+        return SportsCar()
+    
+    def create_sedan(self):
+        return LuxurySedan()
+        
+class FamilyCarFactory(CarFactory):
+    def create_sports_car(self):
+        return BasicCar()
+    
+    def create_sedan(self):
+        return FamilySedan()
+        
+if __name__ == '__main__':
+    # Cria uma fábrica de carros esportivos
+    factory = SportsCarFactory()
+    
+    # Cria um carro esportivo
+    sports_car = factory.create_sports_car()
+    
+    # Cria um sedan de luxo
+    sedan = factory.create_sedan()
+```
