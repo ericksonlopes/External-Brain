@@ -1,8 +1,8 @@
-Um padrão de projeto monolítico em Python é um estilo de arquitetura de software em que toda a aplicação é desenvolvida como um único bloco de código que é executado em um único processo. Neste modelo, todas as funcionalidades da aplicação são desenvolvidas e implementadas dentro do mesmo código.
+Um padrão de projeto monolítico em Python é um estilo de arquitetura de software em que toda a aplicação é desenvolvida como um único bloco de código executado em um único processo. Neste modelo, todas as funcionalidades da aplicação são desenvolvidas e implementadas dentro do mesmo código.
 
 ## Vantagens
 
-O padrão monolítico em Python geralmente é usado em pequenas e médias aplicações em que a complexidade do código não é muito alta e a escalabilidade não é uma preocupação imediata.
+O padrão monolítico em Python é geralmente usado em pequenas e médias aplicações em que a complexidade do código não é muito alta e a escalabilidade não é uma preocupação imediata.
 
 Alguns dos benefícios do padrão monolítico em Python incluem:
 
@@ -35,4 +35,4 @@ media = soma / len(notas)
 print("A média das notas é: {:.2f}".format(media))
 ```
 
-#python #design-pattern #monolithic
+#python #design-patterns #monolithic

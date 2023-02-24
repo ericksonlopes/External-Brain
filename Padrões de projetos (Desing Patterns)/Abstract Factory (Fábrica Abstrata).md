@@ -122,4 +122,4 @@ print(common_car.stop())
 
 ```
 
-#design-pattern #factory-abstract #python
+#design-patterns #factory-abstract #python
