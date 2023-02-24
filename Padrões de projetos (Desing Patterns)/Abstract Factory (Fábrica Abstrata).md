@@ -32,19 +32,15 @@ dependentes sem especificar as suas classes concretas.
 
 ## Exemplo
 
-Neste exemplo, vamos criar uma classe abstrata Car, que será a classe base para as classes concretas SportsCar e
-CommonCar. A classe abstrata Car possui dois métodos abstratos, drive e stop, que serão implementados pelas classes
-concretas.
+Nesse exemplo, temos as interfaces abstratas `Car` e `CarFactory`. As classes concretas `SportsCar` e `CommonCar` implementam a interface `Car`, enquanto as classes `CarFactoryBrazil`, `SportsCarBrazil` e `CommonCarBrazil` implementam a interface `CarFactory` e a interface `Car` para criar objetos relacionados. A fábrica concreta `CarFactoryBrazil` cria carros brasileiros e as classes `SportsCarBrazil` e `CommonCarBrazil` implementam as operações específicas para esses carros.
+
+Ao criar uma instância da fábrica `CarFactoryBrazil`, podemos criar instâncias de carros brasileiros por meio dos métodos `create_sports_car()` e `create_common_car()`. Dessa forma, conseguimos criar objetos relacionados de maneira independente da sua implementação concreta.
 
 ```python
 from abc import ABC, abstractmethod
 
-
-# Classe abstrata
+# Interface abstrata para os carros
 class Car(ABC):
-    def __init__(self, name):
-        self.name = name
-
     @abstractmethod
     def drive(self):
         pass
@@ -54,34 +50,75 @@ class Car(ABC):
         pass
 
 
-# Classe concreta
+# Interface abstrata para a fábrica de carros
+class CarFactory(ABC):
+    @abstractmethod
+    def create_sports_car(self):
+        pass
+
+    @abstractmethod
+    def create_common_car(self):
+        pass
+
+
+# Classe concreta para o carro esportivo
 class SportsCar(Car):
     def drive(self):
-        return f"{self.name} esta dirigindo muito rápido!"
+        return "Dirigindo o carro esportivo em alta velocidade."
 
     def stop(self):
-        return f"{self.name} esta parando muito rápido!"
+        return "Parando o carro esportivo rapidamente."
 
 
-# Classe concreta
+# Classe concreta para o carro comum
 class CommonCar(Car):
     def drive(self):
-        return f"{self.name} esta dirigindo em velocidade normal."
+        return "Dirigindo o carro comum em velocidade normal."
 
     def stop(self):
-        return f"{self.name} está parando em velocidade normal."
+        return "Parando o carro comum em velocidade normal."
 
+
+# Fábrica concreta para os carros
+class CarFactoryBrazil(CarFactory):
+    def create_sports_car(self):
+        return SportsCarBrazil()
+
+    def create_common_car(self):
+        return CommonCarBrazil()
+
+
+# Fábrica concreta para os carros brasileiros
+class SportsCarBrazil(SportsCar):
+    def drive(self):
+        return "Dirigindo o carro esportivo brasileiro em alta velocidade."
+
+    def stop(self):
+        return "Parando o carro esportivo brasileiro rapidamente."
+
+
+# Fábrica concreta para os carros brasileiros
+class CommonCarBrazil(CommonCar):
+    def drive(self):
+        return "Dirigindo o carro comum brasileiro em velocidade normal."
+
+    def stop(self):
+        return "Parando o carro comum brasileiro em velocidade normal."
+
+
+# Criação de instância da fábrica de carros
+factory = CarFactoryBrazil()
 
 # Criação de instâncias de carros
-sport_car = SportsCar("Ferrari")
-truck = CommonCar("Uno")
+sports_car = factory.create_sports_car()
+common_car = factory.create_common_car()
 
 # Execução dos métodos
-print(sport_car.drive())
-print(sport_car.stop())
+print(sports_car.drive())
+print(sports_car.stop())
 
-print(truck.drive())
-print(truck.stop())
+print(common_car.drive())
+print(common_car.stop())
 
 ```
 
