@@ -1,5 +1,5 @@
 O padrão Abstract Factory é um padrão de design que fornece uma interface para criar famílias de objetos relacionados ou
-dependentes sem especificar suas classes concretas.
+dependentes sem especificar as suas classes concretas.
 
 ## Vantagens
 
@@ -27,7 +27,7 @@ dependentes sem especificar suas classes concretas.
   interfaces sendo criadas, o que pode tornar o código mais difícil de entender.
 
 - Limitações de reutilização: O Abstract Factory pode ter limitações em relação à reutilização de código, já que a
-  criação de objetos complexos é encapsulada em uma classe específica e pode não ser fácil de reutilizar em outros
+  criação de objetos complexos é encapsulada numa classe específica e pode não ser fácil de reutilizar em outros
   contextos.
 
 ## Exemplo
@@ -85,4 +85,4 @@ print(truck.stop())
 
 ```
 
-#design-pattern #padrão-de-projeto #abstract-factory #fabrica-abstrata
+#design-pattern #factory-abstract #python

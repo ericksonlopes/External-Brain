@@ -123,4 +123,4 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
-#microsserviço #python #design-pattern #padrão-de-projeto #microservices
+ #python #design-pattern #microservices

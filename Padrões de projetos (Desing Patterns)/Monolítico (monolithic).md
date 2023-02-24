@@ -35,4 +35,4 @@ media = soma / len(notas)
 print("A média das notas é: {:.2f}".format(media))
 ```
 
-#python #design-pattern #padrão-de-projeto #monolithic
+#python #design-pattern #monolithic

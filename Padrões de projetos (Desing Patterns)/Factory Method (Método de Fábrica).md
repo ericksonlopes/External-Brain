@@ -1,0 +1,1 @@
+#factory-method #design-pattern #python 
