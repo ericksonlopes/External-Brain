@@ -84,3 +84,5 @@ print(truck.drive())
 print(truck.stop())
 
 ```
+
+#design-pattern #padrão-de-projeto #abstract-factory #fabrica-abstrata
