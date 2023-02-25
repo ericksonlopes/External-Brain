@@ -8,7 +8,7 @@ A arquitetura de sistema com FastAPI pode conduzir um padrão de arquitetura MVC
 
 Responsável por lidar com a lógica de negócios do aplicativo e acessar os dados. Ela pode ser implementada usando uma biblioteca de ORM, como SQLAlchemy ou Tortoise ORM. Com o ORM, você pode definir os seus modelos de banco de dados como classes Python e, em seguida, interagir com o banco de dados usando essas classes.
 
-`/models/car.py
+`/models/car.py`
 ```python
 from pydantic import BaseModel  
   
@@ -23,7 +23,7 @@ class Car(BaseModel):
 
 A camada do controlador é responsável por controlar o fluxo de dados entre o modelo e a visualização. Ela pode ser implementada como uma camada intermediária que recebe solicitações da visualização, chama a camada do modelo para obter dados e, em seguida, retorna uma resposta adequada à visualização.
 
-`/controller/car_controller.py
+`/controller/car_controller.py`
 ```python
 from models.Car import Car  
   
@@ -41,7 +41,7 @@ Em uma aplicação FastAPI, as views são geralmente tratadas automaticamente pe
 
 Logo, Routes é responsável por receber solicitações do cliente e retornar uma resposta adequada. Ela pode ser implementada usando rotas FastAPI que correspondem às URLs da API. A view pode chamar a camada do modelo para obter dados e, em seguida, usar um esquema FastAPI para serializar a resposta em um formato adequado, como JSON.
 
-`/routes/car_router.py
+`/routes/car_router.py`
 ```python
 from fastapi import APIRouter  
   
