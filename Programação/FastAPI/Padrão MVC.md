@@ -35,11 +35,13 @@ class CarController:
 ```
 
 
-2.  Routes: Responsável pela apresentação dos dados ao usuário
+3.  Routes: Responsável pela apresentação dos dados ao usuário
 
-Responsável por receber solicitações do cliente e retornar uma resposta adequada. Ela pode ser implementada usando rotas FastAPI que correspondem às URLs da API. A view pode chamar a camada do modelo para obter dados e, em seguida, usar um esquema FastAPI para serializar a resposta em um formato adequado, como JSON.
+Em uma aplicação FastAPI, as views são geralmente tratada automaticamente pelo framework, então neste exemplo vamo utilizar. 
 
-`/views/car_router.py
+Logo, Routes é responsável por receber solicitações do cliente e retornar uma resposta adequada. Ela pode ser implementada usando rotas FastAPI que correspondem às URLs da API. A view pode chamar a camada do modelo para obter dados e, em seguida, usar um esquema FastAPI para serializar a resposta em um formato adequado, como JSON.
+
+`/routes/car_router.py
 ```python
 from fastapi import APIRouter  
   
@@ -61,7 +63,7 @@ async def get_todos() -> Car:
 ```python
 from fastapi import FastAPI  
   
-from views.car_view import router_car  
+from routes.car_view import car_router  
   
 app = FastAPI()  
   
@@ -73,3 +75,5 @@ if __name__ == "__main__":
     uvicorn.run(app, host="localhost", port=8000)
 
 ```
+
+Em resumo, o padrão MVC é uma maneira eficaz de organizar o código em sua aplicação FastAPI, separando a lógica de negócios (Model), as rotas e funções de manipulação de solicitações HTTP (Controller) e a exibição dos dados (View).
