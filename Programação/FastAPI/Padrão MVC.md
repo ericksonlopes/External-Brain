@@ -1,5 +1,7 @@
 #fastAPI #MVC #design-patterns 
 
+O padrão MVC é usado em muitos tipos de aplicativos, como aplicativos web, desktop e móveis. Ele ajuda a separar a lógica de negócios da interface do usuário, tornando o código mais organizado e fácil de entender e manter. O padrão MVC também ajuda a promover a reutilização de código, pois as diferentes camadas podem ser desenvolvidas separadamente.
+
 A arquitetura de sistema com FastAPI pode seguir um padrão de arquitetura MVC (Model-View-Controller) ou similar, onde a lógica de negócios (Model) é separada da interface do usuário (View) e controlada por um controlador (Controller).
 
 1.  Models: Representa os dados e as regras de negócios relacionadas a eles
@@ -33,11 +35,11 @@ class CarController:
 ```
 
 
-2.  Views: Responsável pela apresentação dos dados ao usuário
+2.  Routes: Responsável pela apresentação dos dados ao usuário
 
 Responsável por receber solicitações do cliente e retornar uma resposta adequada. Ela pode ser implementada usando rotas FastAPI que correspondem às URLs da API. A view pode chamar a camada do modelo para obter dados e, em seguida, usar um esquema FastAPI para serializar a resposta em um formato adequado, como JSON.
 
-`/views/car_view.py
+`/views/car_router.py
 ```python
 from fastapi import APIRouter  
   
