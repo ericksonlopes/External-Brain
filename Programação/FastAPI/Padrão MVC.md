@@ -35,13 +35,11 @@ class CarController:
 ```
 
 
-3.  Routes: Responsável pela apresentação dos dados ao usuário
+3.  Views: Responsável pela apresentação dos dados ao usuário
 
-Em uma aplicação FastAPI, as views são geralmente tratadas automaticamente pelo framework.
+É responsável por receber solicitações do cliente e retornar uma resposta adequada. Ela pode ser implementada usando rotas FastAPI que correspondem às URLs da API. A view pode chamar a camada do modelo para obter dados e, em seguida, usar um esquema FastAPI para serializar a resposta em um formato adequado, como JSON.
 
-Logo, Routes é responsável por receber solicitações do cliente e retornar uma resposta adequada. Ela pode ser implementada usando rotas FastAPI que correspondem às URLs da API. A view pode chamar a camada do modelo para obter dados e, em seguida, usar um esquema FastAPI para serializar a resposta em um formato adequado, como JSON.
-
-`/routes/car_router.py
+`/views/car_view.py
 ```python
 from fastapi import APIRouter  
   
@@ -63,7 +61,7 @@ async def get_todos() -> Car:
 ```python
 from fastapi import FastAPI  
   
-from routes.car_router import router_car  
+from views.car_view import router_car  
   
 app = FastAPI()  
   
