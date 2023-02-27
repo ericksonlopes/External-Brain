@@ -23,7 +23,7 @@ class Car(BaseModel):
 
 A camada do controlador é responsável por controlar o fluxo de dados entre o modelo e a visualização. Ela pode ser implementada como uma camada intermediária que recebe solicitações da visualização, chama a camada do modelo para obter dados e, em seguida, retorna uma resposta adequada à visualização.
 
-`/controller/car_controller.py
+`/controller/car_controller.py`
 ```python
 from models.Car import Car  
   
@@ -39,7 +39,7 @@ class CarController:
 
 É responsável por receber solicitações do cliente e retornar uma resposta adequada. Ela pode ser implementada usando rotas FastAPI que correspondem às URLs da API. A view pode chamar a camada do modelo para obter dados e, em seguida, usar um esquema FastAPI para serializar a resposta em um formato adequado, como JSON.
 
-`/views/car_view.py
+`/views/car_view.py`
 ```python
 from fastapi import APIRouter  
   
@@ -56,7 +56,7 @@ async def get_todos() -> Car:
     return await car.get()
 ```
 
-`main.py
+`main.py`
 
 ```python
 from fastapi import FastAPI  
