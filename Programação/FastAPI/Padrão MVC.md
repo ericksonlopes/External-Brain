@@ -56,6 +56,10 @@ async def get_todos() -> Car:
     return await car.get()
 ```
 
+O arquivo `main.py` é o arquivo principal que inicia o servidor FastAPI e inclui as rotas para todas as visualizações da API. O arquivo começa importando a classe `FastAPI` do módulo `fastapi` e as rotas de visualização (`router_car`) do arquivo `views/car_view.py`.
+
+Em resumo, o arquivo `main.py` é o ponto de entrada para a aplicação FastAPI e configura o servidor e as rotas para todas as visualizações da API.
+
 `main.py`
 
 ```python
