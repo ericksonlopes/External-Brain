@@ -1,4 +1,4 @@
-#docker #redis #python #docker-compose #NoSQL
+#docker #redis #python #docker-compose #NoSQL #Cache
 
 ## Configurar ambiente
 

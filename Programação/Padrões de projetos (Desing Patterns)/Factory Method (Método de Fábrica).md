@@ -65,4 +65,3 @@ print(cat.speak()) # Output: Meow!
 
 Por fim, criamos uma instância da fábrica e usamos seu método get_animal para obter instâncias de Dog e Cat, que são usadas para chamar o método speak.
 
-#factory-method #design-patterns  #python 
