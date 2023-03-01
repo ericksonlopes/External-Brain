@@ -16,15 +16,15 @@ Em resumo, o padrão Iterador separa a lógica de percorrer uma coleção de obj
 
 # Desvantagens
 
-- Complexidade: a implementação do padrão Iterador pode adicionar complexidade ao seu código, especialmente se você não estiver familiarizado com o padrão ou não estiver acostumado a trabalhar com classes e objetos em Python.
-    
--   Limitações: o padrão Iterador é adequado apenas para coleções que podem ser percorridas de forma sequencial. Se você precisar acessar elementos de uma coleção de forma aleatória ou por meio de uma chave, o padrão Iterador pode não ser a melhor opção.
-    
--  Performance limitada em algumas situações: embora o padrão Iterador seja geralmente eficiente em termos de desempenho, em algumas situações, como quando você precisa iterar várias vezes sobre a mesma coleção, o padrão Iterador pode ser menos eficiente do que outras formas de iteração.
-    
--  Depuração: o uso do padrão Iterador pode tornar a depuração do seu código mais difícil, especialmente se você tiver várias classes e objetos interagindo uns com os outros. Isso pode dificultar a identificação de erros e problemas em seu código.
-    
--  Limitações na manipulação de dados: o padrão Iterador geralmente não é adequado para manipulação de dados, pois é voltado para a iteração sobre uma coleção de objetos. Se você precisar fazer operações mais complexas nos dados, pode ser necessário usar outras ferramentas ou abordagens.
+- **Complexidade**: a implementação do padrão Iterador pode adicionar complexidade ao seu código, especialmente se você não estiver familiarizado com o padrão ou não estiver acostumado a trabalhar com classes e objetos em Python.
+
+- **Limitações**: o padrão Iterador é adequado apenas para coleções que podem ser percorridas de forma sequencial. Se você precisar acessar elementos de uma coleção de forma aleatória ou por meio de uma chave, o padrão Iterador pode não ser a melhor opção.
+
+- **Desempenho limitada em algumas situações**: embora o padrão Iterador seja geralmente eficiente em termos de desempenho, em algumas situações, como quando você precisa iterar várias vezes sobre a mesma coleção, o padrão Iterador pode ser menos eficiente do que outras formas de iteração.
+
+- **Depuração**: o uso do padrão Iterador pode tornar a depuração do seu código mais difícil, especialmente se você tiver várias classes e objetos interagindo uns com os outros. Isso pode dificultar a identificação de erros e problemas no seu código.
+
+- **Limitações na manipulação de dados**: o padrão Iterador geralmente não é adequado para manipulação de dados, pois é voltado para a iteração sobre uma coleção de objetos. Se você precisar fazer operações mais complexas nos dados, pode ser necessário usar outras ferramentas ou abordagens.
 
 
 # Exemplo
@@ -36,4 +36,24 @@ O método `__iter__` retorna o próprio objeto iterador, enquanto o método `__n
 No exemplo de uso, criamos uma lista de números e, em seguida, criamos um iterador a partir dessa lista usando a classe `MeuIterador`. Em seguida, percorremos os valores do iterador usando um laço for. Cada valor é impresso na tela.
 
 ```python
+class MeuIterador:
+    def __init__(self, lista):
+        self.lista = lista
+        self.indice = 0
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.indice >= len(self.lista):
+            raise StopIteration
+        valor = self.lista[self.indice]
+        self.indice += 1
+        return valor
+
+# Exemplo de uso
+lista = [1, 2, 3, 4, 5]
+iterador = MeuIterador(lista)
+for valor in iterador:
+    print(valor)
 ```
