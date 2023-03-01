@@ -16,3 +16,19 @@ Em outras palavras, o padrão Factory Method é usado para encapsular a criaçã
 - **Testabilidade**: O padrão Factory Method pode ajudar a tornar o código mais testável, pois permite que os objetos sejam substituídos por objetos falsos ou de teste. Isso pode ser útil ao escrever testes automatizados para garantir que o código esteja funcionando corretamente.
 
 # Desvantagens
+
+- **Complexidade**: O padrão Factory Method pode adicionar complexidade ao código, especialmente quando há muitas subclasses ou quando as subclasses precisam ser modificadas com frequência. Isso pode tornar o código mais difícil de entender e manter.
+
+- **Abstração excessiva**: O uso excessivo do padrão Factory Method pode levar à abstração excessiva, o que pode tornar o código difícil de entender e manter. É importante encontrar o equilíbrio certo entre a abstração e a simplicidade.
+
+- **Overhead de memória**: A criação de uma classe de fábrica pode adicionar algum overhead de memória ao código, especialmente em projetos pequenos ou com poucas classes.
+
+- **Limitações**: O padrão Factory Method pode ter algumas limitações, dependendo das necessidades do projeto. Por exemplo, pode não ser a melhor opção para projetos com requisitos de desempenho muito rigorosos.
+
+- **Aumento da complexidade de depuração**: O uso de classes de fábrica pode aumentar a complexidade de depuração, especialmente quando há muitas subclasses ou quando as subclasses são modificadas com frequência.
+
+# Exemplo
+
+```python
+
+```
