@@ -33,8 +33,6 @@ Neste exemplo, definimos a classe `MeuIterador`, que implementa o padrão iterad
 
 O método `__iter__` retorna o próprio objeto iterador, enquanto o método `__next__` retorna o próximo valor na sequência de itens. Se não houver mais itens na sequência, o método `__next__` lançará uma exceção `StopIteration`.
 
-No exemplo de uso, criamos uma lista de números e, em seguida, criamos um iterador a partir dessa lista usando a classe `MeuIterador`. Em seguida, percorremos os valores do iterador usando um laço for. Cada valor é impresso na tela.
-
 ```python
 class MeuIterador:
     def __init__(self, lista):
@@ -57,3 +55,7 @@ iterador = MeuIterador(lista)
 for valor in iterador:
     print(valor)
 ```
+
+No exemplo de uso, criamos uma lista de números e, em seguida, criamos um iterador a partir dessa lista usando a classe `MeuIterador`. Em seguida, percorremos os valores do iterador usando um laço for. Cada valor é impresso na tela.
+
+#design-patterns #Iterator #python 

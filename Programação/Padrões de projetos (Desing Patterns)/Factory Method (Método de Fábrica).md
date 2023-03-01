@@ -1,5 +1,3 @@
-#factory-method #design-patterns  #python 
-
 O padrão Factory Method é um padrão de projeto de software que pertence à categoria de padrões de criação (também conhecidos como padrões de construção). Ele define uma interface para criar objetos, mas permite que as subclasses decidam qual classe instanciar. Ou seja, ele fornece um método abstrato para criar objetos, mas delega a escolha da classe concreta para as subclasses.
 
 Em outras palavras, o padrão Factory Method é usado para encapsular a criação de objetos, permitindo que uma classe delegue a responsabilidade de criar objetos para suas subclasses. Isso pode ajudar a reduzir o acoplamento entre classes e fornecer uma maneira flexível de criar objetos.
@@ -29,6 +27,42 @@ Em outras palavras, o padrão Factory Method é usado para encapsular a criaçã
 
 # Exemplo
 
-```python
+Neste exemplo, temos uma classe abstrata Animal que define o método speak. As classes concretas Dog e Cat implementam este método de forma diferente. A classe AnimalFactory é responsável por criar instâncias dessas classes concretas com base no tipo de animal fornecido.
 
+```python
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def speak(self):
+        pass
+
+class Dog(Animal):
+    def speak(self):
+        return "Woof!"
+
+class Cat(Animal):
+    def speak(self):
+        return "Meow!"
+
+class AnimalFactory:
+    def get_animal(self, animal_type):
+        if animal_type == "dog":
+            return Dog()
+        elif animal_type == "cat":
+            return Cat()
+        else:
+            return None
+
+factory = AnimalFactory()
+
+dog = factory.get_animal("dog")
+print(dog.speak()) # Output: Woof!
+
+cat = factory.get_animal("cat")
+print(cat.speak()) # Output: Meow!
 ```
+
+Por fim, criamos uma instância da fábrica e usamos seu método get_animal para obter instâncias de Dog e Cat, que são usadas para chamar o método speak.
+
+#factory-method #design-patterns  #python 

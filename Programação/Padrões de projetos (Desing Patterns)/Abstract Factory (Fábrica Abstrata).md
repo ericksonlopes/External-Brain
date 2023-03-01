@@ -1,3 +1,5 @@
+#design-patterns #factory-abstract #python
+
 O padrão Abstract Factory é um padrão de design que fornece uma interface para criar famílias de objetos relacionados ou
 dependentes sem especificar as suas classes concretas.
 
@@ -33,8 +35,6 @@ dependentes sem especificar as suas classes concretas.
 ## Exemplo
 
 Nesse exemplo, temos as interfaces abstratas `Car` e `CarFactory`. As classes concretas `SportsCar` e `CommonCar` implementam a interface `Car`, enquanto as classes `CarFactoryBrazil`, `SportsCarBrazil` e `CommonCarBrazil` implementam a interface `CarFactory` e a interface `Car` para criar objetos relacionados. A fábrica concreta `CarFactoryBrazil` cria carros brasileiros e as classes `SportsCarBrazil` e `CommonCarBrazil` implementam as operações específicas para esses carros.
-
-Ao criar uma instância da fábrica `CarFactoryBrazil`, podemos criar instâncias de carros brasileiros por meio dos métodos `create_sports_car()` e `create_common_car()`. Dessa forma, conseguimos criar objetos relacionados de maneira independente da sua implementação concreta.
 
 ```python
 from abc import ABC, abstractmethod
@@ -122,4 +122,4 @@ print(common_car.stop())
 
 ```
 
-#design-patterns #factory-abstract #python
+Ao criar uma instância da fábrica `CarFactoryBrazil`, podemos criar instâncias de carros brasileiros por meio dos métodos `create_sports_car()` e `create_common_car()`. Dessa forma, conseguimos criar objetos relacionados de maneira independente da sua implementação concreta.
