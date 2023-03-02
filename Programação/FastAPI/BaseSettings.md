@@ -28,3 +28,5 @@ Em seguida, criamos uma instância de `Settings` chamada `settings`. Podemos ace
 Por fim, definimos uma rota de API em `fastAPI` que retorna as configurações `database_url` e `secret_key` como um dicionário JSON.
 
 Usar `BaseSettings` é uma maneira simples e eficaz de gerenciar configurações em suas aplicações `fastAPI`. Ele oferece uma maneira fácil de definir e acessar as configurações de forma consistente em toda a aplicação.
+
+
