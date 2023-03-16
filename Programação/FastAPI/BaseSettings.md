@@ -29,4 +29,5 @@ Por fim, definimos uma rota de API em `fastAPI` que retorna as configurações `
 
 Usar `BaseSettings` é uma maneira simples e eficaz de gerenciar configurações em suas aplicações `fastAPI`. Ele oferece uma maneira fácil de definir e acessar as configurações de forma consistente em toda a aplicação.
 
+#base-settings #python #fastAPI 
 
