@@ -47,3 +47,13 @@ volumes:
   mongodb_data:
 
 ```
+
+Explicando o que cada linha faz:
+
+**version**: especifica a versão do Docker Compose que estamos usando.
+**services**: especifica os serviços que queremos executar.
+**mongodb**: nome que damos ao nosso serviço MongoDB, pode ser alterado.
+**image**: especifica a imagem do MongoDB que queremos usar. Neste caso, estamos usando a imagem oficial do MongoDB no Docker Hub.
+**restart**: especifica que o serviço deve ser sempre reiniciado em caso de falha.
+**ports**: especifica a porta que queremos expor para o host. Aqui, estamos expondo a porta 27017, que é a porta padrão do MongoDB.
+Com este arquivo docker-compose.yml, você pode executar o seguinte comando na linha de comando na pasta onde o arquivo está localizado para iniciar o serviço MongoDB:
