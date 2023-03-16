@@ -27,6 +27,7 @@ docker exec -it mongodb bash
 
 ## Docker Compose
 
+#docker-compose 
 1. Crie um arquivo chamado `docker-compose.yml` com o seguinte conteúdo:
 
 ```yaml
@@ -35,10 +36,12 @@ version: '3'
 services:
   mongodb:
     image: mongo
+#   restart: always
     ports:
       - '27017:27017'
     volumes:
       - mongodb_data:/data/db
+
     environment:
       - MONGO_INITDB_ROOT_USERNAME=root
       - MONGO_INITDB_ROOT_PASSWORD=example
@@ -50,10 +53,21 @@ volumes:
 
 Explicando o que cada linha faz:
 
-**version**: especifica a versão do Docker Compose que estamos usando.
-**services**: especifica os serviços que queremos executar.
-**mongodb**: nome que damos ao nosso serviço MongoDB, pode ser alterado.
-**image**: especifica a imagem do MongoDB que queremos usar. Neste caso, estamos usando a imagem oficial do MongoDB no Docker Hub.
-**restart**: especifica que o serviço deve ser sempre reiniciado em caso de falha.
-**ports**: especifica a porta que queremos expor para o host. Aqui, estamos expondo a porta 27017, que é a porta padrão do MongoDB.
+- **version**: especifica a versão do Docker Compose que estamos usando.
+- **services**: especifica os serviços que queremos executar.
+- **mongodb**: nome que damos ao nosso serviço MongoDB, pode ser alterado.
+- **image**: especifica a imagem do MongoDB que queremos usar. Neste caso, estamos usando a imagem oficial do MongoDB no Docker Hub.
+- **restart**: especifica que o serviço deve ser sempre reiniciado em caso de falha.
+- **ports**: especifica a porta que queremos expor para o host. Aqui, estamos expondo a porta 27017, que é a porta padrão do MongoDB.
+
 Com este arquivo docker-compose.yml, você pode executar o seguinte comando na linha de comando na pasta onde o arquivo está localizado para iniciar o serviço MongoDB:
+
+```yaml
+docker-compose up -d
+```
+
+Para verificar se o serviço está rodando, execute o seguinte comando:
+
+```yaml
+docker-compose ps
+```
