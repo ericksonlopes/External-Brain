@@ -1,4 +1,4 @@
-#mongodb #NoSQL #docker
+#mongodb #NoSQL #docker #docker-compose 
 
 1. Instale o Docker no seu sistema, se ainda não o fez.
 2. Abra um terminal e execute o seguinte comando para baixar a imagem do MongoDB:
@@ -27,7 +27,6 @@ docker exec -it mongodb bash
 
 ## Docker Compose
 
-#docker-compose 
 1. Crie um arquivo chamado `docker-compose.yml` com o seguinte conteúdo:
 
 ```yaml

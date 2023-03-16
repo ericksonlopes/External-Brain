@@ -1,4 +1,4 @@
-#computador #docker-compose #redis #Cache 
+#docker-compose #redis #Cache 
 
 
 
