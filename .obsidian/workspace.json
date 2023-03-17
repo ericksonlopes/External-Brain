@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Streamlit/Streamlit + Jinja2.md",
+                "file": "Programação/Streamlit/Tutorial.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Streamlit/Streamlit + Jinja2.md",
+                "file": "Programação/Streamlit/Tutorial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Streamlit/Streamlit + Jinja2.md",
+                "file": "Programação/Streamlit/Tutorial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Streamlit/Streamlit + Jinja2.md"
+                "file": "Programação/Streamlit/Tutorial.md"
               }
             }
           }
@@ -174,9 +174,9 @@
   },
   "active": "13f3ff5f84d33f99",
   "lastOpenFiles": [
+    "Programação/Streamlit/Streamlit + Jinja2.md",
     "Programação/Streamlit/Tutorial.md",
     "Programação/Docker/Alura - Docker Criando Gerenciando Containers.md",
-    "Programação/Streamlit/Streamlit + Jinja2.md",
     "Programação/Docker/redis no docker.md",
     "Programação/Docker/mongodb no docker.md",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
