@@ -4,7 +4,9 @@
     
 2.  Abra o terminal ou prompt de comando e execute o seguinte comando para baixar a imagem Redis do Docker Hub:
 
-```docker pull redis```
+```
+docker pull redis
+```
 
 Este comando baixará a imagem Redis mais recente disponível no Docker Hub.
     
