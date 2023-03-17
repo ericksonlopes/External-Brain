@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Componentes computador\"",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:Docker",
+      "color": {
+        "a": 1,
+        "rgb": 2535144
+      }
+    },
+    {
+      "query": "path:\"Python Academy Linkedin Posts\"",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:Redis",
+      "color": {
+        "a": 1,
+        "rgb": 15535116
+      }
+    },
+    {
+      "query": "path:\"Padrões de projetos (Desing Patterns)\"",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:Programação/FastAPI",
+      "color": {
+        "a": 1,
+        "rgb": 995907
+      }
+    },
+    {
+      "query": "path:Programação/MongoDB",
+      "color": {
+        "a": 1,
+        "rgb": 10734760
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -1.8,
+  "nodeSizeMultiplier": 1.0953125,
+  "lineSizeMultiplier": 2.6265625,
+  "collapse-forces": false,
+  "centerStrength": 0.119791666666667,
+  "repelStrength": 10.3125,
+  "linkStrength": 0.895833333333333,
+  "linkDistance": 253,
+  "scale": 0.5087618855792863,
+  "close": true
+}

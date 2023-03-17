@@ -1,0 +1,21 @@
+{
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "Python Academy Linkedin Posts/Imagens",
+  "promptDelete": false,
+  "spellcheckDictionary": [
+    "Factory",
+    "models",
+    "SQLAlchemy",
+    "ORM",
+    "ORM",
+    "controllers",
+    "Controller",
+    "FastAPI",
+    "FastAPI",
+    "serializar",
+    "view",
+    "Model",
+    "View",
+    "erializar "
+  ]
+}
