@@ -33,7 +33,7 @@ df.show()
 df.select("word", "id").show()
 ```
 
-## Filtrando
+## Filtrando dados
 
 ```python
 df.filter(df.id == 0).show()
