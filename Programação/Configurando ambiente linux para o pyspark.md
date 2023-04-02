@@ -78,7 +78,14 @@ pip install virtualenv
 
 ## Criar o virtualenv
 
-```bash
-File > Settings > Project: <nome do projeto> > Project Interpreter > Add > Existing environment > /home/<nome do usuário>/.virtualenvs/<nome do virtualenv>/bin/python
-```
+`Edit configurations > + > Python > Virtualenv environment > /opt/spark/bin/python`
+
+| Name           | Value           |
+|----------------|-----------------|
+| PYSPARK_PYTHON | /usr/bin/python |
+| PYTHONPATH     |     PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH            |
+|                |                 |
+
+SPARK_HOME=/caminho/para/o/diretorio/do/spark
+
 
