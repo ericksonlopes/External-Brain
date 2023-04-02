@@ -1,4 +1,4 @@
-#pypsark #linux #python
+#pypsark #linux #python #pycharm #spark #apache
 
 ## Instalação do Java
 
@@ -66,10 +66,13 @@ start-slave.sh spark://localhost:7077
 
 # Configurando pycharm
 
-
-Siga os passos abaixo para configurar
+Selecionando o python3 como base interpreter do projeto que esteja usando o pyspark
 
 `Settings > Project: > Project Interpreter > Add > Existing environment > Select base interpreter > /usr/bin/python3`
+
+Configurando o pyspark no pycharm
+
+`edit configurations > environment variables > +` e adicione as variáveis abaixo
 
 | Name           | Value                                     |
 |----------------|-------------------------------------------|
