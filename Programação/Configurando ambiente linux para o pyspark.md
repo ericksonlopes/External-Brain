@@ -64,3 +64,21 @@ start-master.sh
 start-slave.sh spark://localhost:7077
 ```
 
+# Configurando pycharm
+
+## Criar um projeto
+
+## Criar um virtualenv
+
+## Instalar o pyspark
+
+```bash
+pip install pyspark
+```
+
+## Configurar o pycharm
+
+```bash
+File > Settings > Project: <nome do projeto> > Project Interpreter > Add > Existing environment > /home/<nome do usuário>/.virtualenvs/<nome do virtualenv>/bin/python
+```
+
