@@ -11,7 +11,7 @@ dados = [("Caneta", 20), ("Tesoura", 30), ("Caneta", 40)]
 df = spark.createDataFrame(data=dados, schema=schema)
 ```
 
-# Visualizando dados
+## Visualizando dados
 
 ```python
 df.show()
@@ -27,7 +27,7 @@ Saída:
     | Caneta|        40|
     +-------+----------+
 
-# Selecionando colunas
+## Selecionando colunas
 
 ```python
 df.select("Produto").show()
@@ -43,7 +43,7 @@ Saída:
     | Caneta|
     +-------+
 
-# Filtrando dados
+## Filtrando dados
 
 ```python
 df.filter(df["Quantidade"] > 20).show()
@@ -72,7 +72,7 @@ Saída:
     | Caneta|        40|
     +-------+----------+
 
-# Agrupando dados
+## Agrupando dados
 
 ```python
 df.groupBy("Produto").sum().show()
@@ -87,7 +87,8 @@ Saída:
     |Tesoura|             30|
     +-------+---------------+
 
-## Agrupando dados c
+## Agrupando dados com functions
+
 ```python
 from pyspark.sql.functions import sum
 
@@ -105,7 +106,7 @@ Saída:
     |Tesoura|             30|
     +-------+---------------+
 
-# Aplicando expressões
+## Aplicando expressões
 
 ```python
 from pyspark.sql.functions import expr
