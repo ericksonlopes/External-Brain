@@ -18,32 +18,20 @@
             }
           },
           {
-            "id": "335dfac913121b8c",
+            "id": "03b69d265e3447d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Configurando ambiente linux para o pyspark.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d6baac0278106dfa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Configurando ambiente linux para o pyspark.md",
+                "file": "Programação/PySpark/Configurando ambiente linux para o pyspark e pycharm.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/PySpark/Configurando ambiente linux para o pyspark e pycharm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/PySpark/Configurando ambiente linux para o pyspark e pycharm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/PySpark/Configurando ambiente linux para o pyspark e pycharm.md"
+              }
             }
           }
         ],
@@ -172,8 +164,10 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "03b69d265e3447d0",
   "lastOpenFiles": [
+    "Programação/PySpark/Configurando ambiente linux para o pyspark e pycharm.md",
+    "Programação/PySpark",
     "Programação/Configurando ambiente linux para o pyspark.md~",
     "Programação/Configurando ambiente linux para o pyspark.md",
     "Programação/Streamlit/Tutorial.md",
@@ -205,7 +199,6 @@
     "Componentes computador/Componentes.md",
     "Programação/Padrões de projetos (Desing Patterns)/Builder (Construtor).md~",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md~",
-    "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md~",
     "Python Academy Linkedin Posts/Postagem Dicas/Utilização de Decorators em Python..md",
     "Python Academy Linkedin Posts/Postagem Dicas/Utilizando o else em loops for.md",
     "Python Academy Linkedin Posts/Postagem Dicas/Métodos assíncronos com python..md",
