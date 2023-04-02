@@ -4,8 +4,8 @@
 sudo apt install curl mlocate default-jdk -y
 ```
 
-## Instalação do python
+## Baixar o Spark
 
 ```bash
-sudo apt install python3-pip -y
+wget https://downloads.apache.org/spark/
 ```
