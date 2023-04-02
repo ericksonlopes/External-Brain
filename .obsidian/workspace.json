@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente linux para o pyspark e pycharm.md",
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente linux para o pyspark e pycharm.md",
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente linux para o pyspark e pycharm.md",
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente linux para o pyspark e pycharm.md"
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md"
               }
             }
           }
@@ -166,6 +166,7 @@
   },
   "active": "03b69d265e3447d0",
   "lastOpenFiles": [
+    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
     "Programação/PySpark/Configurando ambiente linux para o pyspark e pycharm.md",
     "Programação/PySpark",
     "Programação/Configurando ambiente linux para o pyspark.md~",
@@ -202,7 +203,6 @@
     "Python Academy Linkedin Posts/Postagem Dicas/Utilização de Decorators em Python..md",
     "Python Academy Linkedin Posts/Postagem Dicas/Utilizando o else em loops for.md",
     "Python Academy Linkedin Posts/Postagem Dicas/Métodos assíncronos com python..md",
-    "Python Academy Linkedin Posts/Postagem Dicas/Logs de maneira simples em python.md",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113449.jpg",

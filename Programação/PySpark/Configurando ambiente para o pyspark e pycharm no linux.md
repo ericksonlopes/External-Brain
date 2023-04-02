@@ -35,10 +35,9 @@ nano ~/.bashrc
 ```bash 
 export SPARK_HOME=/opt/spark
 export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin
-
-# Para sair
-ctrl + x
 ```
+
+`ctrl + x` para sair
 
 ## Atualizar o bashrc
 
