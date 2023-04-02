@@ -22,7 +22,7 @@ tar vzf spark-3.3.2-bin-hadoop3.tgz
 sudo mv spark-3.3.2-bin-hadoop3 /opt/spark
 ```
 
-## Configurar a variável de ambiente SPARK_HOME 
+## Configurar a variável de ambiente SPARK_HOME
 
 ```bash
 nano ~/.bashrc
@@ -50,7 +50,7 @@ source ~/.bashrc
 start-master.sh
 ```
 
-## Iniciar o pyspark no modo standalone
+## worker process
 
 ```
 /opt/spark/sbin/start-master.sh spark://localhost:7077
