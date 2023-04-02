@@ -56,3 +56,9 @@ start-master.sh
 /opt/spark/sbin/start-master.sh spark://localhost:7077
 ```
 
+## Iniciar o pyspark no modo cluster
+
+```bash
+start-slave.sh spark://localhost:7077
+```
+
