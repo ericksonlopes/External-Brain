@@ -43,3 +43,16 @@ ctrl + x
 ```bash
 source ~/.bashrc
 ```
+
+## iniciar o pyspark no modo standalone
+
+```bash
+start-master.sh
+```
+
+## Iniciar o pyspark no modo standalone
+
+```
+/opt/spark/sbin/start-master.sh spark://localhost:7077
+```
+
