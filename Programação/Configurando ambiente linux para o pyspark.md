@@ -27,5 +27,5 @@ sudo mv spark-3.3.2-bin-hadoop3 /opt/spark
 ```bash
 echo "export SPARK_HOME=/opt/spark" >> ~/.bashrc
 
-echo "export PATH=$PATH:$SPARK_HOME/bin" >> ~/.bashrc
+echo "export PATH=$PATH:$SPARK_HOME/sbin" >> ~/.bashrc
 ```
