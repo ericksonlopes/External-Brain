@@ -1,4 +1,4 @@
-## Instalação do java
+## Instalação do Java
 
 ```bash
 sudo apt install curl mlocate default-jdk -y
