@@ -1,4 +1,4 @@
-#pypsark #linux
+#pypsark #linux #python
 
 ## Instalação do Java
 

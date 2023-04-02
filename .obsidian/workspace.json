@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Configurando ambiente linux para o pyspark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Configurando ambiente linux para o pyspark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Configurando ambiente linux para o pyspark.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -177,10 +172,10 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "335dfac913121b8c",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
-    "Programação/Streamlit/Tutorial.md",
     "Programação/Configurando ambiente linux para o pyspark.md",
+    "Programação/Streamlit/Tutorial.md",
     "Programação/Configurando ambiente linux para o pyspark.md~",
     "Programação/Streamlit/Streamlit + Jinja2.md",
     "Programação/Docker/Alura - Docker Criando Gerenciando Containers.md",
