@@ -16,6 +16,19 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "22939bb9263b8669",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -154,13 +167,13 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
+    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
+    "Programação/PySpark/Iniciando com pyspark.md",
     "Sem título.canvas",
     "Programação/Streamlit/Streamlit + Jinja2.md",
-    "Programação/PySpark/Iniciando com pyspark.md",
     "Programação/PySpark/Iniciando com pyspark.md~",
-    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
     "Programação/PySpark/Configurando ambiente linux para o pyspark e pycharm.md",
     "Programação/PySpark",
     "Programação/Configurando ambiente linux para o pyspark.md~",
