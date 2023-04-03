@@ -86,6 +86,10 @@ Configurando o pyspark no pycharm
 
 ## Instalar o Java JDK
 
+`https://www.oracle.com/br/java/technologies/downloads/`
 
+## Instalar o Spark
+
+`https://spark.apache.org/downloads.html`
 
 
