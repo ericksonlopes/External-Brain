@@ -8,7 +8,7 @@
 sudo apt install curl mlocate default-jdk -y
 ```
 
-## Baixar o Spark
+## Download o Spark
 
 ```bash
 wget https://dlcdn.apache.org/spark/spark-3.3.2/spark-3.3.2-bin-hadoop3.tgz
@@ -85,13 +85,13 @@ Configurando o pyspark no pycharm
 
 ## Instalar o Java JDK
 
-`https://www.oracle.com/br/java/technologies/downloads/`
+Faça o download e instale o Java JDK `https://www.oracle.com/br/java/technologies/downloads/`
 
 ## Instalar o Spark
 
-`https://www.apache.org/dyn/closer.lua/spark/spark-3.3.2/spark-3.3.2-bin-hadoop3.tgz`
+Baixe o arquivo `https://www.apache.org/dyn/closer.lua/spark/spark-3.3.2/spark-3.3.2-bin-hadoop3.tgz` e descompacte na pasta `C:\Spark`
 
-Baixe o arquivo `winutils.exe` e coloque na pasta `C:\spark-3.3.2-bin-hadoop3\bin`
+Baixe o arquivo `winutils.exe` e coloque na pasta `C:\Spark\spark-3.3.2-bin-hadoop3\bin`
 
 ## Configurar as variáveis de ambiente
 
