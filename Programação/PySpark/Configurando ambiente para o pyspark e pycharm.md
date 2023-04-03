@@ -84,3 +84,8 @@ Configurando o pyspark no pycharm
 # Ambiente windows
 
 
+## Instalar o Java JDK
+
+
+
+
