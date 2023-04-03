@@ -1,5 +1,7 @@
 #pypsark #linux #python #pycharm #spark #apache
 
+# Ambiente Linux
+
 ## Instalação do Java
 
 ```bash
@@ -79,5 +81,6 @@ Configurando o pyspark no pycharm
 | PYTHONPATH     | PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH |
 | SPARK_HOME     | /opt/spark                                |
 
+# Ambiente windows
 
 

@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md"
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md"
               }
             }
           },
@@ -175,7 +175,7 @@
   "active": "22939bb9263b8669",
   "lastOpenFiles": [
     "main.ipynb",
-    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
+    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Programação/PySpark/Iniciando com pyspark.md",
     "Sem título.canvas",
     "Programação/Streamlit/Streamlit + Jinja2.md",
