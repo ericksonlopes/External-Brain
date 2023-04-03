@@ -23,15 +23,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
+                "file": "Programação/PySpark/Iniciando com pyspark.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,12 +167,12 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "22939bb9263b8669",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
+    "Programação/PySpark/Iniciando com pyspark.md",
+    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md~",
     "main.ipynb",
-    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
-    "Programação/PySpark/Iniciando com pyspark.md",
     "Sem título.canvas",
     "Programação/Streamlit/Streamlit + Jinja2.md",
     "Programação/PySpark/Iniciando com pyspark.md~",
@@ -208,7 +203,6 @@
     "Programação/Redis/Alura - Redis I armazenando chaves e valores.md",
     "Programação/MongoDB",
     "Programação/FastAPI/BaseSettings.md~",
-    "Programação/Docker/logger + docker + volumes.md~",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Componentes computador/Componentes.md",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",

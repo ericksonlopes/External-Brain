@@ -1,4 +1,4 @@
-#pypsark #linux #python #pycharm #spark #apache
+#pypsark #linux #python #pycharm #spark #apache #windows #hadoop
 
 # Ambiente Linux
 
@@ -65,6 +65,31 @@ start-master.sh
 start-slave.sh spark://localhost:7077
 ```
 
+# Ambiente windows
+
+## Instalar o Java JDK
+
+Faça o download e instale o Java JDK `https://www.oracle.com/br/java/technologies/downloads/`
+
+## Instalar o Spark
+
+Baixe o arquivo `https://www.apache.org/dyn/closer.lua/spark/spark-3.3.2/spark-3.3.2-bin-hadoop3.tgz` e descompacte na
+pasta `C:\Spark`
+
+Baixe o arquivo `winutils.exe` e coloque na pasta `C:\Spark\spark-3.3.2-bin-hadoop3\bin`
+
+## Configurar as variáveis de ambiente
+
+| Name                       | Value                            |
+|----------------------------|----------------------------------|
+| HADOOP_HOME                | C:\Spark\spark-3.3.2-bin-hadoop3 |
+| SPARK_HOME                 | C:\Spark\spark-3.3.2-bin-hadoop3 |
+| PYSPARK_DRIVER_PYTHON      | jupyter                          |
+| PYSPARK_DRIVER_PYTHON_OPTS | notebook                         |
+| PYSPARK_PYTHON             | python                           |
+
+Dentro do PATH adicione o caminho do spark `%SPARK_HOME%\bin`
+
 # Configurando pycharm
 
 Selecionando o python3 como base interpreter do projeto que esteja usando o pyspark
@@ -80,29 +105,5 @@ Configurando o pyspark no pycharm
 | PYSPARK_PYTHON | /usr/bin/python                           |
 | PYTHONPATH     | PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH |
 | SPARK_HOME     | /opt/spark                                |
-
-# Ambiente windows
-
-## Instalar o Java JDK
-
-Faça o download e instale o Java JDK `https://www.oracle.com/br/java/technologies/downloads/`
-
-## Instalar o Spark
-
-Baixe o arquivo `https://www.apache.org/dyn/closer.lua/spark/spark-3.3.2/spark-3.3.2-bin-hadoop3.tgz` e descompacte na pasta `C:\Spark`
-
-Baixe o arquivo `winutils.exe` e coloque na pasta `C:\Spark\spark-3.3.2-bin-hadoop3\bin`
-
-## Configurar as variáveis de ambiente
-
-| Name                       | Value                            |
-|----------------------------|----------------------------------|
-| HADOOP_HOME                | C:\Spark\spark-3.3.2-bin-hadoop3 |
-| SPARK_HOME                 | C:\Spark\spark-3.3.2-bin-hadoop3 |
-| PYSPARK_DRIVER_PYTHON      | jupyter                          |
-| PYSPARK_DRIVER_PYTHON_OPTS | notebook                         |
-| PYSPARK_PYTHON             | python                           |
-
-Dentro do PATH adicione o caminho do spark `%SPARK_HOME%\bin`
 
 
