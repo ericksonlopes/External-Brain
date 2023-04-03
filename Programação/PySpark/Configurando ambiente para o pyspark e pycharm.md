@@ -89,17 +89,19 @@ Configurando o pyspark no pycharm
 
 ## Instalar o Spark
 
-`https://spark.apache.org/downloads.html`
+`https://www.apache.org/dyn/closer.lua/spark/spark-3.3.2/spark-3.3.2-bin-hadoop3.tgz`
 
-Baixe o arquivo `winutils.exe` e coloque na pasta `C:\spark-3.1.2-bin-hadoop3.2\bin`
+Baixe o arquivo `winutils.exe` e coloque na pasta `C:\spark-3.3.2-bin-hadoop3\bin`
 
 ## Configurar as variáveis de ambiente
 
-| Name           | Value                                                           |
-|----------------|-----------------------------------------------------------------|
-| PYSPARK_PYTHON | C:\Users\user\AppData\Local\Programs\Python\Python39\python.exe |
-| PYTHONPATH     | PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH                       |
-| SPARK_HOME     | C:\spark-3.1.2-bin-hadoop3.2\                                   |
+| Name                       | Value                            |
+|----------------------------|----------------------------------|
+| HADOOP_HOME                | C:\Spark\spark-3.3.2-bin-hadoop3 |
+| SPARK_HOME                 | C:\Spark\spark-3.3.2-bin-hadoop3 |
+| PYSPARK_DRIVER_PYTHON      | jupyter                          |
+| PYSPARK_DRIVER_PYTHON_OPTS | notebook                         |
+| PYSPARK_PYTHON             | python                           |
 
 Dentro do PATH adicione o caminho do spark `%SPARK_HOME%\bin`
 
