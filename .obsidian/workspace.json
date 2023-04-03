@@ -30,7 +30,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md"
+              }
             }
           },
           {
@@ -167,7 +172,7 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "22939bb9263b8669",
   "lastOpenFiles": [
     "main.ipynb",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm no linux.md",
