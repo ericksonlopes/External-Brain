@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#pypsark",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -174,11 +174,11 @@
   },
   "active": "3220f7db1aeb3e9a",
   "lastOpenFiles": [
+    "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
     "Cursos/Udemy/spark-curso-completo/Iniciando com pyspark.md",
     "Cursos/Udemy/spark-curso-completo/iniciando com pyspark.md~",
     "Cursos/Udemy/Sem título.md",
     "Cursos/Udemy/spark-curso-completo",
-    "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
     "Cursos/Sem título.md",
     "Cursos/Alura",
     "Cursos/Udemy",

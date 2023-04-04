@@ -1,5 +1,5 @@
 ```python
-from pyspark.sql import SparkSession
+  from pyspark.sql import SparkSession
 spark = SparkSession.builder.appName("dados").getOrCreate()
 ```
 
@@ -291,3 +291,6 @@ df.groupBy("year").sum("vendas").show()
     |2019|         67|
     |2020|        204|
     +----+-----------+
+
+
+#course #udemy #pypsark #python 

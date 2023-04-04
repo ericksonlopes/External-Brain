@@ -1,4 +1,4 @@
-#python #dockerfile #flask #docker #docker-compose #alura #Cache #NoSQL #volumes
+#python #dockerfile #flask #docker #docker-compose #alura #Cache #NoSQL #volumes #course 
 
 # Comandos
 
