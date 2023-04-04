@@ -71,6 +71,10 @@ start-slave.sh spark://localhost:7077
 
 Faça o download e instale o Java JDK `https://www.oracle.com/br/java/technologies/downloads/`
 
+## Instalar o Anaconda
+
+Faça o download e instale o Anaconda `https://www.anaconda.com/`
+
 ## Instalar o Spark
 
 Baixe o arquivo `https://www.apache.org/dyn/closer.lua/spark/spark-3.3.2/spark-3.3.2-bin-hadoop3.tgz` e descompacte na
