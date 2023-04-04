@@ -1,4 +1,4 @@
-#pypsark #linux #python #pycharm #spark #apache #windows #hadoop
+#pyspark #linux #python #pycharm #pyspark #apache #windows #hadoop
 
 # Ambiente Linux
 

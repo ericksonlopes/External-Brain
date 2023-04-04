@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cursos/Udemy/spark-curso-completo/DataFrames P2.md",
+                "file": "Programação/PySpark/Iniciando com pyspark.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cursos/Udemy/spark-curso-completo/DataFrames P1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cursos/Udemy/spark-curso-completo/DataFrames P1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cursos/Udemy/spark-curso-completo/DataFrames P1.md"
-              }
+              "state": {}
             }
           },
           {
@@ -185,8 +180,10 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "fea97a5d3e3dbfa7",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "Programação/PySpark/Iniciando com pyspark.md",
+    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Cursos/Udemy/spark-curso-completo/DataFrames P2.md",
     "Cursos/Udemy/spark-curso-completo/DataFrames P1.md",
     "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
@@ -198,8 +195,6 @@
     "Cursos/Udemy",
     "Cursos",
     "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
-    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
-    "Programação/PySpark/Iniciando com pyspark.md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md~",
     "main.ipynb",
     "Sem título.canvas",

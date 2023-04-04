@@ -1,4 +1,4 @@
-#python #pypsark
+#python #pyspark
 
 ```python
 from pyspark.sql import SparkSession
