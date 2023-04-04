@@ -55,6 +55,20 @@
         "a": 1,
         "rgb": 10734760
       }
+    },
+    {
+      "query": "path:Cursos",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "path:Programação/PySpark",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
     }
   ],
   "collapse-display": false,
@@ -67,6 +81,6 @@
   "repelStrength": 10.3125,
   "linkStrength": 0.895833333333333,
   "linkDistance": 253,
-  "scale": 0.5087618855792956,
-  "close": true
+  "scale": 0.5087618855792969,
+  "close": false
 }
