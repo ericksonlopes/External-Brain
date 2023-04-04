@@ -1,15 +1,15 @@
 `BaseSettings` é uma classe em `fastAPI` que permite que você gerencie as configurações da sua aplicação de forma mais fácil. Essa classe é fornecida pela biblioteca `pydantic`, que é uma dependência do `fastAPI`.
 
-Com `BaseSettings`, você pode definir variáveis de ambiente e arquivos de configuração em uma classe. Isso torna mais fácil acessar e gerenciar essas configurações em toda a sua aplicação.
+Com `BaseSettings`, você pode definir variáveis de ambiente e arquivos de configuração em uma classe. Isso facilita acessar e gerir essas configurações em toda a sua aplicação.
 
 Aqui está um exemplo de como usar `BaseSettings` em `fastAPI`:
 
 ```python
 from fastapi import FastAPI
 from pydantic import BaseSettings
-from dorenv import lead_dotenv
+from dotenv import load_dotenv
 
-
+load_dotenv()
 
 class Settings(BaseSettings):
     database_url: str

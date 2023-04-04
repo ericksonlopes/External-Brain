@@ -116,7 +116,7 @@ RUN pip install -r requirements.txt
 ENTRYPOINT ["flask", "run", "--host=0.0.0.0"]  
 ```  
 
-#virtual-environment #variáveis-de-ambiente
+#virtual-environment #
 
 `docker tag <imagem> <novo nome da imagem>` - Adiciona para outro repositório
 

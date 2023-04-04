@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/FastAPI/BaseSettings + FastAPI.md",
+                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#pypsark",
+                "query": "tag:#variáveis-de-ambiente",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/FastAPI/BaseSettings + FastAPI.md",
+                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/FastAPI/BaseSettings + FastAPI.md",
+                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/FastAPI/BaseSettings + FastAPI.md"
+                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md"
               }
             }
           },
@@ -185,10 +186,11 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "f960e6ca4d1569ad",
+  "active": "6a0b55f782205883",
   "lastOpenFiles": [
-    "Programação/Pydantic/BaseSettings.md",
     "Programação/FastAPI/BaseSettings + FastAPI.md",
+    "Programação/FastAPI/estudar sobre.md",
+    "Programação/Pydantic/BaseSettings.md",
     "Programação/Pydantic",
     "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
     "Cursos/Alura/Alura - Redis I armazenando chaves e valores.md",
