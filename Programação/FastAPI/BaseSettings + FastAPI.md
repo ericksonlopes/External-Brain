@@ -7,6 +7,9 @@ Aqui está um exemplo de como usar `BaseSettings` em `fastAPI`:
 ```python
 from fastapi import FastAPI
 from pydantic import BaseSettings
+from dorenv import lead_dotenv
+
+
 
 class Settings(BaseSettings):
     database_url: str
@@ -29,5 +32,5 @@ Por fim, definimos uma rota de API em `fastAPI` que retorna as configurações `
 
 Usar `BaseSettings` é uma maneira simples e eficaz de gerenciar configurações em suas aplicações `fastAPI`. Ele oferece uma maneira fácil de definir e acessar as configurações de forma consistente em toda a aplicação.
 
-#base-settings #python #fastAPI 
+#base-settings #python #fastAPI #pydantic
 

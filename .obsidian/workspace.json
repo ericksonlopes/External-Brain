@@ -18,12 +18,25 @@
             }
           },
           {
-            "id": "435dcd2a02d49d3c",
+            "id": "f960e6ca4d1569ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
+                "file": "Programação/FastAPI/BaseSettings + FastAPI.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c8db6104efa51f40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/FastAPI/BaseSettings + FastAPI.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
+                "file": "Programação/FastAPI/BaseSettings + FastAPI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
+                "file": "Programação/FastAPI/BaseSettings + FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md"
+                "file": "Programação/FastAPI/BaseSettings + FastAPI.md"
               }
             }
           },
@@ -172,8 +185,11 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "435dcd2a02d49d3c",
+  "active": "f960e6ca4d1569ad",
   "lastOpenFiles": [
+    "Programação/Pydantic/BaseSettings.md",
+    "Programação/FastAPI/BaseSettings + FastAPI.md",
+    "Programação/Pydantic",
     "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
     "Cursos/Alura/Alura - Redis I armazenando chaves e valores.md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
@@ -196,12 +212,10 @@
     "Programação/PySpark/Iniciando com pyspark.md~",
     "Programação/PySpark/Configurando ambiente linux para o pyspark e pycharm.md",
     "Programação/PySpark",
-    "Programação/Configurando ambiente linux para o pyspark.md~",
     "Programação/Configurando ambiente linux para o pyspark.md",
     "Programação/Docker/redis no docker.md",
     "Programação/Docker/mongodb no docker.md",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
-    "Programação/FastAPI/BaseSettings.md",
     "Programação/Docker/Comandos Docker.md",
     "Programação/Docker/logger + docker + volumes.md",
     "Programação/MongoDB/CRUD em  MongoDB com python.md",
@@ -209,8 +223,6 @@
     "Programação/Padrões de projetos (Desing Patterns)/Builder (Construtor).md",
     "Programação/Padrões de projetos (Desing Patterns)/Microsserviço (microservices).md",
     "Programação/Padrões de projetos (Desing Patterns)/Monolítico (monolithic).md",
-    "Programação/Padrões de projetos (Desing Patterns)/Iterator (Iterador).md",
-    "Ava - Getting Started.md",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
