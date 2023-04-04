@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/PySpark/Iniciando com pyspark.md",
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -167,10 +167,11 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
-    "Programação/PySpark/Iniciando com pyspark.md",
+    "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
+    "Programação/PySpark/Iniciando com pyspark.md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md~",
     "main.ipynb",
     "Sem título.canvas",
@@ -193,7 +194,6 @@
     "Programação/MongoDB/CRUD em  MongoDB com python.md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Padrões de projetos (Desing Patterns)/Builder (Construtor).md",
-    "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "Programação/Padrões de projetos (Desing Patterns)/Microsserviço (microservices).md",
     "Programação/Padrões de projetos (Desing Patterns)/Monolítico (monolithic).md",
     "Programação/Padrões de projetos (Desing Patterns)/Iterator (Iterador).md",
