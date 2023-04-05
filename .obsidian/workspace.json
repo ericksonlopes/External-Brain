@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/FastAPI/estudar sobre.md",
+                "file": "Cursos/Udemy/spark-curso-completo/DataFrames P2.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/FastAPI/estudar sobre.md",
+                "file": "Cursos/Udemy/spark-curso-completo/DataFrames P2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/FastAPI/estudar sobre.md",
+                "file": "Cursos/Udemy/spark-curso-completo/DataFrames P2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/FastAPI/estudar sobre.md"
+                "file": "Cursos/Udemy/spark-curso-completo/DataFrames P2.md"
               }
             }
           },
@@ -174,12 +174,12 @@
   },
   "active": "bc59b7a87bbe199b",
   "lastOpenFiles": [
+    "Cursos/Alura/Alura - Redis I armazenando chaves e valores.md",
     "Programação/FastAPI/estudar sobre.md",
     "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
     "Programação/FastAPI/BaseSettings + FastAPI.md",
     "Programação/Pydantic/BaseSettings.md",
     "Programação/Pydantic",
-    "Cursos/Alura/Alura - Redis I armazenando chaves e valores.md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Programação/PySpark/Iniciando com pyspark.md",
     "Programação/Streamlit/Streamlit + Jinja2.md",

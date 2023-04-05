@@ -1,4 +1,4 @@
-#redis #alura #Cache #NoSQL 
+#redis #alura #Cache #NoSQL #course 
 # Instalação
 
 ```bash  
