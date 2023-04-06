@@ -16,8 +16,22 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "cf935f2b084b3d14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md"
+              }
             }
           },
           {
@@ -154,9 +172,10 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "cf935f2b084b3d14",
   "lastOpenFiles": [
     "Cursos/Udemy/spark-curso-completo/DataFrames P2.md",
+    "Cursos/Udemy/spark-curso-completo/DataFrames P1.md",
     "Cursos/Alura/Alura - Redis I armazenando chaves e valores.md",
     "Programação/FastAPI/estudar sobre.md",
     "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
@@ -167,7 +186,6 @@
     "Programação/PySpark/Iniciando com pyspark.md",
     "Programação/Streamlit/Streamlit + Jinja2.md",
     "Programação/Streamlit/Tutorial.md",
-    "Cursos/Udemy/spark-curso-completo/DataFrames P1.md",
     "Cursos/Udemy/spark-curso-completo/iniciando com pyspark.md~",
     "Cursos/Udemy/Sem título.md",
     "Cursos/Udemy/spark-curso-completo",
