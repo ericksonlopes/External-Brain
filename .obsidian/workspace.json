@@ -30,8 +30,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,8 +167,9 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "cf935f2b084b3d14",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
+    "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Cursos/Udemy/spark-curso-completo/DataFrames P2.md",
@@ -194,7 +190,6 @@
     "Cursos/Alura",
     "Cursos/Udemy",
     "Cursos",
-    "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md~",
     "main.ipynb",
     "Sem título.canvas",
