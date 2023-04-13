@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Python/Context.md",
+                "file": "Programação/Python/Trabalhando com datas no python.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Python/Trabalhando com datas no python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Python/Trabalhando com datas no python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Python/Trabalhando com datas no python.md"
+              }
             }
           },
           {
@@ -180,7 +185,7 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "2b7abaa0c7567775",
   "lastOpenFiles": [
     "Programação/Python/Context.md",
     "Programação/Python/Trabalhando com datas no python.md",
