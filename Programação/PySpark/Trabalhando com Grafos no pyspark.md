@@ -50,4 +50,4 @@ Você pode executar várias outras operações em um grafo, incluindo filtragem,
 
 Espero que isso ajude você a começar a trabalhar com grafos em PySpark usando o GraphFrames!
 
-#
+#grafos #python #pyspark 
