@@ -23,15 +23,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Python/Context.md",
+                "file": "Programação/Docker/logger + docker + volumes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Python/Context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Python/Context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Python/Context.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,13 +167,16 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "8a1e6e056b29a881",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
+    "Programação/Docker/logger + docker + volumes.md",
+    "Programação/Docker/mongodb no docker.md",
+    "Programação/Docker/redis no docker.md",
+    "Programação/Python/Context.md",
     "Programação/PySpark/Exportando arquivos com pyspark.md",
     "Programação/Python/Trabalhando com datas no python.md",
     "Programação/Python/Pipenv.md",
     "Programação/Python/Decorator.md",
-    "Programação/Python/Context.md",
     "Programação/Docker/Trabalhando com selenoid.md",
     "Programação/PySpark/Joins com pyspark.md~",
     "Programação/PySpark/Joins com pyspark.md",
@@ -205,9 +203,6 @@
     "Cursos/Udemy/spark-curso-completo/DataFrames P2.md",
     "Cursos/Udemy/spark-curso-completo/DataFrames P1.md",
     "Cursos/Alura/Alura - Redis I armazenando chaves e valores.md",
-    "Programação/FastAPI/estudar sobre.md",
-    "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
-    "Programação/FastAPI/BaseSettings + FastAPI.md",
     "Programação/Pydantic",
     "Cursos/Udemy/spark-curso-completo/iniciando com pyspark.md~",
     "Sem título.canvas",
