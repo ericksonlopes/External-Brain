@@ -18,6 +18,19 @@
             }
           },
           {
+            "id": "4df80995cd8f8ade",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Docker/Trabalhando com selenoid.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "65536aafad63b82c",
             "type": "leaf",
             "state": {
@@ -30,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Docker/Trabalhando com selenoid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Docker/Trabalhando com selenoid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Docker/Trabalhando com selenoid.md"
+              }
             }
           },
           {
@@ -167,8 +185,10 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "4df80995cd8f8ade",
   "lastOpenFiles": [
+    "Programação/Docker/Trabalhando com selenoid.md~",
+    "Programação/Docker/Trabalhando com selenoid.md",
     "Programação/Python/Pipenv.md",
     "Programação/Git/Instalar Git no Linux.md",
     "Programação/Python/Pipenv.md~",
@@ -200,9 +220,7 @@
     "Programação/Pydantic/BaseSettings.md",
     "Programação/Pydantic",
     "Programação/PySpark/Iniciando com pyspark.md",
-    "Programação/Streamlit/Streamlit + Jinja2.md",
     "Cursos/Udemy/spark-curso-completo/iniciando com pyspark.md~",
-    "Cursos/Udemy/Sem título.md",
     "Cursos/Udemy/spark-curso-completo",
     "Cursos/Alura",
     "Sem título.canvas",
