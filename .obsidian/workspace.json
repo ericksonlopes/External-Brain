@@ -18,38 +18,12 @@
             }
           },
           {
-            "id": "7aecd74892a86280",
+            "id": "f8c9bb9527bca8f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2b7abaa0c7567775",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Python/Trabalhando com datas no python.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c4374d316ad9248",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Python/Trabalhando com datas no python.md",
+                "file": "Programação/PySpark/Sem título.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -123,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
+                "file": "Programação/PySpark/Sem título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
+                "file": "Programação/PySpark/Sem título.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Git/Conectar o repositorio local ao remoto.md"
+                "file": "Programação/PySpark/Sem título.md"
               }
             }
           },
@@ -198,12 +172,15 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "7aecd74892a86280",
+  "active": "f8c9bb9527bca8f3",
   "lastOpenFiles": [
+    "Programação/PySpark/Sem título.md",
+    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Programação/Git/Conectar o repositorio local ao remoto.md",
+    "Programação/Pydantic/BaseSettings + env.md",
+    "Programação/Python/Trabalhando com datas no python.md",
     "Programação/Git",
     "Programação/Python/Context.md~",
-    "Programação/Python/Trabalhando com datas no python.md",
     "Programação/Python/Context.md",
     "Programação/Python/decorator.md",
     "Programação/Python/Sem título",
@@ -212,7 +189,6 @@
     "Programação/Streamlit/Tutorial stremlit.md",
     "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
-    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Cursos/Udemy/spark-curso-completo/DataFrames P2.md",
     "Cursos/Udemy/spark-curso-completo/DataFrames P1.md",
     "Cursos/Alura/Alura - Redis I armazenando chaves e valores.md",
@@ -235,8 +211,6 @@
     "Programação/Configurando ambiente linux para o pyspark.md",
     "Programação/Docker/redis no docker.md",
     "Programação/Docker/mongodb no docker.md",
-    "Programação/FastAPI/Padrão MVC Com FastAPI.md",
-    "Programação/Docker/Comandos Docker.md",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
