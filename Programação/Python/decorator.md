@@ -33,4 +33,4 @@ Minha função.
 Depois da função.
 ```
 
-#decorator #
+#decorator #python

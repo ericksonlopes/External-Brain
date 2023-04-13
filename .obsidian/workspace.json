@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "1200799aa51811c7",
+            "id": "2b7abaa0c7567775",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Python/decorator.md",
+                "file": "Programação/Python/Context.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Python/decorator.md",
+                "file": "Programação/Python/Context.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Python/decorator.md",
+                "file": "Programação/Python/Context.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Python/decorator.md"
+                "file": "Programação/Python/Context.md"
               }
             }
           },
@@ -172,10 +172,12 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "1200799aa51811c7",
+  "active": "2b7abaa0c7567775",
   "lastOpenFiles": [
-    "Programação/Python/Sem título.md",
     "Programação/Python/decorator.md",
+    "Programação/Python/Context.md",
+    "Programação/Python/Context.md~",
+    "Programação/Python/Sem título",
     "Programação/Sem título.md",
     "Programação/Python",
     "Programação/Streamlit/Tutorial stremlit.md",
@@ -200,9 +202,7 @@
     "Cursos/Udemy",
     "Cursos",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md~",
-    "main.ipynb",
     "Sem título.canvas",
-    "Programação/PySpark/Iniciando com pyspark.md~",
     "Programação/PySpark/Configurando ambiente linux para o pyspark e pycharm.md",
     "Programação/Configurando ambiente linux para o pyspark.md",
     "Programação/Docker/redis no docker.md",
@@ -210,7 +210,6 @@
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
     "Programação/Docker/Comandos Docker.md",
     "Programação/Docker/logger + docker + volumes.md",
-    "Programação/MongoDB/CRUD em  MongoDB com python.md",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
