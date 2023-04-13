@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#variáveis-de-ambiente",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,15 +154,15 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "Programação/PySpark/Exportando arquivos com pyspark.md",
     "Programação/PySpark/Trabalhando com views no pyspark.md",
     "Programação/Docker/logger + docker + volumes.md",
     "Programação/PySpark/Trabalhando com views n o pyspark",
     "Programação/Docker/mongodb no docker.md",
     "Programação/Docker/redis no docker.md",
     "Programação/Python/Context.md",
-    "Programação/PySpark/Exportando arquivos com pyspark.md",
     "Programação/Python/Trabalhando com datas no python.md",
     "Programação/Python/Pipenv.md",
     "Programação/Python/Decorator.md",
