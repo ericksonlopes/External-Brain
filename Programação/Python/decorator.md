@@ -28,5 +28,9 @@ Nesse exemplo, o decorator `meu_decorator` envolve a função `minha_funcao` em 
 
 
 ```python
-
+Antes da função.
+Minha função.
+Depois da função.
 ```
+
+#decorator #
