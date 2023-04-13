@@ -30,8 +30,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Python/Pipenv.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Python/Pipenv.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Python/Pipenv.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,10 +167,11 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "65536aafad63b82c",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
-    "Programação/Python/Pipenv.md~",
     "Programação/Python/Pipenv.md",
+    "Programação/Git/Instalar Git no Linux.md",
+    "Programação/Python/Pipenv.md~",
     "Programação/Python/Decorator.md",
     "Componentes computador/Componentes.md",
     "Componentes computador/Periféricos.md",
@@ -209,7 +205,6 @@
     "Cursos/Udemy/Sem título.md",
     "Cursos/Udemy/spark-curso-completo",
     "Cursos/Alura",
-    "Cursos/Udemy",
     "Sem título.canvas",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
