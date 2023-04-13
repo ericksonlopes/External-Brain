@@ -28,6 +28,10 @@ diferenca_datas = data_futura - data_atual
 print(diferenca_datas.days)
 ```
 
+
+
+# Transformar string em datetime
+
 Para transformar uma string em um objeto datetime, podemos usar o método strptime() da classe datetime.datetime. Este método converte uma string em um objeto datetime com base em um formato específico.
 
 Por exemplo, suponha que temos uma string contendo uma data no formato dd/mm/aaaa:

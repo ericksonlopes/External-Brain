@@ -20,7 +20,7 @@ class OpenFile:
 
 with OpenFile("file.txt", "w") as f:
     f.write("Hello, World!")
-    ```
+```
 
 Neste exemplo, o método `__enter__` é invocado ao entrar no bloco `with`, abrindo o arquivo `file.txt` com o modo de escrita e retornando a referência ao objeto de arquivo. Quando saímos do bloco `with`, o método `__exit__` é chamado, fechando o arquivo automaticamente.
 

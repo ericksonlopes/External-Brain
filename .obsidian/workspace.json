@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Python/Trabalhando com datas no python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Python/Trabalhando com datas no python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Python/Trabalhando com datas no python.md"
-              }
+              "state": {}
             }
           },
           {
@@ -185,12 +180,12 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "2b7abaa0c7567775",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
-    "Programação/Python/Context.md",
-    "Programação/Python/Trabalhando com datas no python.md",
-    "Programação/Python/decorator.md",
     "Programação/Python/Context.md~",
+    "Programação/Python/Trabalhando com datas no python.md",
+    "Programação/Python/Context.md",
+    "Programação/Python/decorator.md",
     "Programação/Python/Sem título",
     "Programação/Sem título.md",
     "Programação/Python",
@@ -223,7 +218,6 @@
     "Programação/Docker/mongodb no docker.md",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
     "Programação/Docker/Comandos Docker.md",
-    "Programação/Docker/logger + docker + volumes.md",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
