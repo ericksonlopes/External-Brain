@@ -16,8 +16,22 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "a5176b063b1d0c75",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Iterator (Iterador).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Iterator (Iterador).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Iterator (Iterador).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Iterator (Iterador).md"
+              }
             }
           },
           {
@@ -154,18 +172,21 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "a5176b063b1d0c75",
   "lastOpenFiles": [
-    "Programação/PySpark/Exportando arquivos com pyspark.md",
-    "Programação/PySpark/Trabalhando com views no pyspark.md",
+    "Programação/Python/Decorator.md",
+    "Programação/Python/Pipenv.md",
     "Programação/Docker/logger + docker + volumes.md",
-    "Programação/PySpark/Trabalhando com views n o pyspark",
     "Programação/Docker/mongodb no docker.md",
-    "Programação/Docker/redis no docker.md",
+    "Programação/MongoDB/CRUD em  MongoDB com python.md",
+    "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "Programação/Python/Context.md",
     "Programação/Python/Trabalhando com datas no python.md",
-    "Programação/Python/Pipenv.md",
-    "Programação/Python/Decorator.md",
+    "Programação/Redis/Redis + Python.md",
+    "Programação/PySpark/Exportando arquivos com pyspark.md",
+    "Programação/PySpark/Trabalhando com views no pyspark.md",
+    "Programação/PySpark/Trabalhando com views n o pyspark",
+    "Programação/Docker/redis no docker.md",
     "Programação/Docker/Trabalhando com selenoid.md",
     "Programação/PySpark/Joins com pyspark.md~",
     "Programação/PySpark/Joins com pyspark.md",
@@ -187,10 +208,7 @@
     "Programação/Sem título.md",
     "Programação/Python",
     "Programação/Streamlit/Tutorial stremlit.md",
-    "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
-    "Cursos/Udemy/spark-curso-completo/DataFrames P2.md",
-    "Cursos/Udemy/spark-curso-completo/DataFrames P1.md",
     "Programação/Pydantic",
     "Sem título.canvas",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
