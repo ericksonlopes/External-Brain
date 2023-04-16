@@ -18,25 +18,12 @@
             }
           },
           {
-            "id": "5ef56391cf81294a",
+            "id": "b726b0a654113c91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80ff5696e38962f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Padrões de pastas para usar.md",
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -44,7 +31,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Padrões de pastas para usar.md",
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Padrões de pastas para usar.md",
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Padrões de pastas para usar.md"
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md"
               }
             }
           },
@@ -185,13 +172,14 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "80ff5696e38962f1",
+  "active": "b726b0a654113c91",
   "lastOpenFiles": [
-    "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Padrões de pastas para usar.md",
+    "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
+    "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
+    "LINKS PARA VER.md",
     "Programação/Docker/logger + docker + volumes.md",
     "Programação/FastAPI/estudar sobre.md",
-    "LINKS PARA VER.md",
     "Programação/FastAPI/FastAPI + tests.md",
     "Programação/Docker/Redis + docker.md",
     "Programação/Padrões de projetos (Desing Patterns)/Iterator (Iterador).md",
@@ -216,7 +204,6 @@
     "Componentes computador/Componentes.md",
     "Componentes computador/Periféricos.md",
     "Programação/Git/Conectar o repositorio local ao remoto.md",
-    "Programação/PySpark/Trabalhando com Grafos no pyspark.md",
     "Programação/PySpark/Trabalhando com Grafos no pyspark.md~",
     "Programação/Git",
     "Programação/Python/Context.md~",
