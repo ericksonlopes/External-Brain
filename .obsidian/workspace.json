@@ -16,22 +16,8 @@
               "state": {},
               "pinned": true
             }
-          },
-          {
-            "id": "ea13e590713f6618",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LINKS PARA VER.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 408.5
+    "width": 249.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -97,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LINKS PARA VER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LINKS PARA VER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "LINKS PARA VER.md"
-              }
+              "state": {}
             }
           },
           {
@@ -153,7 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 312.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,13 +153,13 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "ea13e590713f6618",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
-    "Programação/FastAPI/Tests com FastAPI.md",
-    "LINKS PARA VER.md",
-    "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
-    "Programação/Redis/Redis + docker.md",
     "Programação/Redis/Redis + Python.md",
+    "Programação/Redis/Redis + docker.md",
+    "LINKS PARA VER.md",
+    "Programação/FastAPI/Tests com FastAPI.md",
+    "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
     "Programação/MongoDB/mongodb no docker.md",
     "Programação/Sem título",
     "Programação/MongoDB/CRUD em  MongoDB com python.md",
