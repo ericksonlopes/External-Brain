@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
+                "file": "Programação/MongoDB/mongodb no docker.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
+                "file": "Programação/MongoDB/mongodb no docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
+                "file": "Programação/MongoDB/mongodb no docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md"
+                "file": "Programação/MongoDB/mongodb no docker.md"
               }
             }
           },
@@ -172,10 +172,12 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "4666f090d275984b",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
-    "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
+    "Programação/Sem título",
+    "Programação/MongoDB/CRUD em  MongoDB com python.md",
     "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
+    "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/Git/Instalar Git no Linux.md",
@@ -184,12 +186,11 @@
     "Programação/Docker/logger + docker + volumes.md",
     "Programação/FastAPI/estudar sobre.md",
     "Programação/FastAPI/FastAPI + tests.md",
-    "Programação/Docker/Redis + docker.md",
+    "Programação/Redis/Redis + docker.md",
     "Programação/Padrões de projetos (Desing Patterns)/Iterator (Iterador).md",
     "Programação/Python/Decorator.md",
     "Programação/Python/Pipenv.md",
-    "Programação/Docker/mongodb no docker.md",
-    "Programação/MongoDB/CRUD em  MongoDB com python.md",
+    "Programação/MongoDB/mongodb no docker.md",
     "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "Programação/Python/Context.md",
     "Programação/Python/Trabalhando com datas no python.md",
@@ -203,7 +204,6 @@
     "Programação/PySpark/joins.md",
     "Programação/Docker/Trabalhando com selenoid.md~",
     "Programação/Python/Pipenv.md~",
-    "Componentes computador/Componentes.md",
     "Programação/PySpark/Trabalhando com Grafos no pyspark.md~",
     "Programação/Git",
     "Programação/Python/Context.md~",
