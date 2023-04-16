@@ -30,3 +30,6 @@ app/
 -   `infrastructure/database.py`: Aqui você pode implementar a conexão com o banco de dados, usando SQLAlchemy ou outro ORM.
     
 -   `infrastructure/models.py`: Aqui você pode definir os modelos do SQLAlchemy, que representam as tabelas do banco de dados.
+
+
+#design-patterns #python #Application-Factory-Pattern

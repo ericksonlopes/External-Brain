@@ -23,15 +23,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Git/Conectar o repositorio local ao remoto.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,13 +167,14 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
-    "Programação/Git/Instalar Git no Linux.md",
-    "Programação/Git/Conectar o repositorio local ao remoto.md",
+    "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
-    "Padrões de pastas para usar.md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
+    "Programação/Git/Conectar o repositorio local ao remoto.md",
+    "Programação/Git/Instalar Git no Linux.md",
+    "Padrões de pastas para usar.md",
     "LINKS PARA VER.md",
     "Programação/Docker/logger + docker + volumes.md",
     "Programação/FastAPI/estudar sobre.md",
@@ -203,7 +199,6 @@
     "Programação/Docker/Trabalhando com selenoid.md~",
     "Programação/Python/Pipenv.md~",
     "Componentes computador/Componentes.md",
-    "Componentes computador/Periféricos.md",
     "Programação/PySpark/Trabalhando com Grafos no pyspark.md~",
     "Programação/Git",
     "Programação/Python/Context.md~",
