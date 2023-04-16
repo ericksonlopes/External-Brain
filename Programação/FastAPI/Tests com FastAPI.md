@@ -1,4 +1,4 @@
-#fastAPI #python #testsPara 
+#fastAPI #python #tests 
 
 Escrever testes com o FastAPI, você pode usar as bibliotecas de teste padrão do Python, como o `unittest` ou o `pytest`. O FastAPI também possui uma biblioteca de testes interna, o `TestClient`, que é uma maneira fácil de testar suas rotas de API.
 
