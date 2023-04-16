@@ -23,15 +23,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/MongoDB/mongodb no docker.md",
+                "file": "Programação/Redis/Redis + docker.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/MongoDB/mongodb no docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/MongoDB/mongodb no docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/MongoDB/mongodb no docker.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,8 +167,11 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
+    "Programação/Redis/Redis + docker.md",
+    "Programação/Redis/Redis + Python.md",
+    "Programação/MongoDB/mongodb no docker.md",
     "Programação/Sem título",
     "Programação/MongoDB/CRUD em  MongoDB com python.md",
     "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
@@ -186,15 +184,12 @@
     "Programação/Docker/logger + docker + volumes.md",
     "Programação/FastAPI/estudar sobre.md",
     "Programação/FastAPI/FastAPI + tests.md",
-    "Programação/Redis/Redis + docker.md",
     "Programação/Padrões de projetos (Desing Patterns)/Iterator (Iterador).md",
     "Programação/Python/Decorator.md",
     "Programação/Python/Pipenv.md",
-    "Programação/MongoDB/mongodb no docker.md",
     "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "Programação/Python/Context.md",
     "Programação/Python/Trabalhando com datas no python.md",
-    "Programação/Redis/Redis + Python.md",
     "Programação/PySpark/Exportando arquivos com pyspark.md",
     "Programação/PySpark/Trabalhando com views no pyspark.md",
     "Programação/PySpark/Trabalhando com views n o pyspark",
@@ -209,7 +204,6 @@
     "Programação/Python/Context.md~",
     "Programação/Python/Sem título",
     "Programação/Python",
-    "Programação/Pydantic",
     "Sem título.canvas",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
