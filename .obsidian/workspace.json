@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
+                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
+                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
+                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md"
+                "file": "Programação/Git/Conectar o repositorio local ao remoto.md"
               }
             }
           },
@@ -172,11 +172,13 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "b726b0a654113c91",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "Programação/Git/Instalar Git no Linux.md",
+    "Programação/Git/Conectar o repositorio local ao remoto.md",
+    "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
     "Padrões de pastas para usar.md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
-    "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
     "LINKS PARA VER.md",
     "Programação/Docker/logger + docker + volumes.md",
     "Programação/FastAPI/estudar sobre.md",
@@ -199,11 +201,9 @@
     "Programação/PySpark/Joins com pyspark.md",
     "Programação/PySpark/joins.md",
     "Programação/Docker/Trabalhando com selenoid.md~",
-    "Programação/Git/Instalar Git no Linux.md",
     "Programação/Python/Pipenv.md~",
     "Componentes computador/Componentes.md",
     "Componentes computador/Periféricos.md",
-    "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/PySpark/Trabalhando com Grafos no pyspark.md~",
     "Programação/Git",
     "Programação/Python/Context.md~",
