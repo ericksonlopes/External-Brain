@@ -16,8 +16,22 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "ea13e590713f6618",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LINKS PARA VER.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "LINKS PARA VER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "LINKS PARA VER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "LINKS PARA VER.md"
+              }
             }
           },
           {
@@ -154,7 +172,7 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "ea13e590713f6618",
   "lastOpenFiles": [
     "Programação/FastAPI/Tests com FastAPI.md",
     "LINKS PARA VER.md",
