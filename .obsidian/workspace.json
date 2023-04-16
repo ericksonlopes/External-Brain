@@ -18,25 +18,12 @@
             }
           },
           {
-            "id": "a5176b063b1d0c75",
+            "id": "5ef56391cf81294a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/FastAPI/estudar sobre.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da5ddb3b7f74790b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem título.md",
+                "file": "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -44,7 +31,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título.md",
+                "file": "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem título.md",
+                "file": "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sem título.md"
+                "file": "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md"
               }
             }
           },
@@ -185,16 +172,17 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "da5ddb3b7f74790b",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
+    "Programação/Docker/logger + docker + volumes.md",
     "Programação/FastAPI/estudar sobre.md",
-    "Sem título.md",
+    "LINKS PARA VER.md",
     "Programação/FastAPI/FastAPI + tests.md",
     "Programação/Docker/Redis + docker.md",
     "Programação/Padrões de projetos (Desing Patterns)/Iterator (Iterador).md",
     "Programação/Python/Decorator.md",
     "Programação/Python/Pipenv.md",
-    "Programação/Docker/logger + docker + volumes.md",
     "Programação/Docker/mongodb no docker.md",
     "Programação/MongoDB/CRUD em  MongoDB com python.md",
     "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
@@ -217,7 +205,6 @@
     "Programação/PySpark/Trabalhando com Grafos no pyspark.md",
     "Programação/PySpark/Trabalhando com Grafos no pyspark.md~",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
-    "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Git",
     "Programação/Python/Context.md~",
     "Programação/Python/Sem título",
