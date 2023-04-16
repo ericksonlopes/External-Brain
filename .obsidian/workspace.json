@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "padrao de pastas para usar.md",
+                "file": "Padrões de pastas para usar.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "padrao de pastas para usar.md",
+                "file": "Padrões de pastas para usar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "padrao de pastas para usar.md",
+                "file": "Padrões de pastas para usar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "padrao de pastas para usar.md"
+                "file": "Padrões de pastas para usar.md"
               }
             }
           },
@@ -188,7 +188,7 @@
   "active": "80ff5696e38962f1",
   "lastOpenFiles": [
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
-    "padrao de pastas para usar.md",
+    "Padrões de pastas para usar.md",
     "Programação/Docker/logger + docker + volumes.md",
     "Programação/FastAPI/estudar sobre.md",
     "LINKS PARA VER.md",
