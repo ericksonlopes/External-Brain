@@ -126,7 +126,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequencyReverse",
+                "sortOrder": "frequency",
                 "useHierarchy": true
               }
             }
@@ -174,6 +174,7 @@
   },
   "active": "4a05506a8e462698",
   "lastOpenFiles": [
+    "Programação/Criando um projeto em python.md",
     "Programação/Criando um projeto em python.md~",
     "Programação/Projetos/Words-In-Songs.md",
     "Programação/Projetos/Search In Export Chat (StreamLit).md",
@@ -187,7 +188,6 @@
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Projetos/Words-In-Songs.md~",
     "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
-    "Programação/Criando um projeto em python.md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
