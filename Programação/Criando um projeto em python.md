@@ -40,7 +40,21 @@ pipenv install pytest-cov
 ``` 
 app/
 |__ tests
+    |__ __init__.py
 ``` 
 
-3. Crie um arquivo pytest.ini na raiz do seu projeto e defina as configurações do pytest.
+3. Crie um arquivo `pytest.ini` na raiz do seu projeto e defina as configurações do pytest.
 
+``` 
+app/
+|__ tests
+    |__ __init__.py
+|__ pytest.ini
+``` 
+
+4. Adicione o seguinte conteúdo ao arquivo `pytest.ini`:
+
+```
+[pytest]
+addopts = --cov=app --cov-report=term-missing
+```
