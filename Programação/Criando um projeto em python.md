@@ -1,4 +1,4 @@
-#venv #virtual-environment #pipenv #tests #pytest #github #github-actions #workflow
+#venv #virtual-environment #pipenv #tests #pytest #github #github-actions #workflow #docker #coverage 
 
 ## Primeiro Passo: Ambiente Virtual
 
