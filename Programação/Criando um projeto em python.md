@@ -17,7 +17,6 @@ Project/
 |__ venv
 ```
 
-
 Dessa forma, você terá iniciado a sua venv em Python. Para desativar a venv, basta digitar o comando `deactivate`.
 
 ## Segundo Passo: Pipenv
@@ -47,6 +46,7 @@ Project/
 2. Crie uma pasta `config` onde ficará o arquivo de configuração do seu projeto e o arquivo `__init__.py` para que o python reconheça a pasta como um módulo.
 
 - O projeto deve ficar da seguinte forma:
+
 ```
 Project/
 |__ venv
@@ -71,17 +71,19 @@ pipenv install pytest-cov
 3. Crie um arquivo `pytest.ini` na raiz do seu projeto e defina as configurações do pytest.
 
 4. Adicione o seguinte conteúdo ao arquivo `pytest.ini`:
-    - ``-v``: mostra os testes que estão a ser executados
-    - ``--cov=src``: define a pasta que será testada
-    - ``--cov-report=term-missing``: mostra o coverage no terminal
-    - ``--cov-report=html``: gera um arquivo html com o coverage
+
 ```
 [pytest]
 
 addopts = -v --cov=src --cov-report=term-missing --cov-report=html
 ```
 
-5. Crie um arquivo `.coveragerc` na raiz do seu projeto e defina as configurações do coverage.
+- ``-v``: mostra os testes que estão a ser executados
+- ``--cov=src``: define a pasta que será testada
+- ``--cov-report=term-missing``: mostra o coverage no terminal
+- ``--cov-report=html``: gera um arquivo html com o coverage
+
+5.   Crie um arquivo `.coveragerc` na raiz do seu projeto e defina as configurações do coverage.
     - directory: define o diretório onde o coverage será gerado
 
 ```
@@ -166,13 +168,6 @@ Para adicionar um workflow de testes no Github Actions para um projeto Python, v
 1. Crie uma pasta `.github/workflows/` na raiz do seu repositório.
 2. Crie um arquivo `python-test.yml` nessa pasta.
 3. Adicione o seguinte código ao arquivo:
-    - ``on``: define quando o workflow será executado
-    - ``jobs``: define o job que será executado
-    - ``name``: define o nome do job
-    - ``runs-on``: define o sistema operacional que será usado
-    - ``python-version``: define a versão do python que será usada
-    - ``steps``: define os passos que serão executados
-    - ``run``: define o comando que será executado
 
 ```yaml
 name: Python Test
@@ -180,31 +175,39 @@ name: Python Test
 on: [ push, pull_request ]
 
 jobs:
-  build:
+   build:
 
-    runs-on: ubuntu-latest
+      runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        python-version: [ 3.7, 3.8, 3.9 ]
+      strategy:
+         matrix:
+            python-version: [ 3.7, 3.8, 3.9 ]
 
-    steps:
-      - uses: actions/checkout@v2
+      steps:
+         - uses: actions/checkout@v2
 
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
-        with:
-          python-version: ${{ matrix.python-version }}
+         - name: Set up Python ${{ matrix.python-version }}
+           uses: actions/setup-python@v2
+           with:
+              python-version: ${{ matrix.python-version }}
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pytest
+         - name: Install dependencies
+           run: |
+              python -m pip install --upgrade pip
+              pip install pytest
 
-      - name: Run tests
-        run: |
-          pytest
+         - name: Run tests
+           run: |
+              pytest
 ```
+
+- ``on``: define quando o workflow será executado
+- ``jobs``: define o job que será executado
+- ``name``: define o nome do job
+- ``runs-on``: define o sistema operacional que será usado
+- ``python-version``: define a versão do python que será usada
+- ``steps``: define os passos que serão executados
+- ``run``: define o comando que será executado
 
 Esse arquivo configura um workflow que será executado quando ocorrerem pushs ou pull requests no repositório. O nome do workflow é "Python Test".
 
