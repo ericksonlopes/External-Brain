@@ -308,7 +308,7 @@ Project/
 
 # Sétimo Passo: Ignorando arquivos
 
-Agora que você já configurou o seu projeto Python, é hora de adicionar alguns arquivos ao arquivo `.gitignore` para ignorar arquivos desnecessários no repositório.
+Agora que você já configurou o seu projeto Python, é hora de adicionar alguns arquivos e pastas ao arquivo `.gitignore` para ignorar arquivos desnecessários no repositório e ao arquivo `.dockerignore` para ignorar arquivos desnecessários na imagem do Docker.
 
 1. Crie um arquivo `.gitignore` na raiz do seu projeto.
 2. Adicione os seguintes arquivos ao arquivo `.gitignore`:
@@ -336,6 +336,8 @@ venv/
 
 # Conclusão
 
-Neste tutorial, você aprendeu como configurar um projeto Python do zero, incluindo a criação de um ambiente virtual, instalação de dependências, configuração de testes, dockerização e criação de um workflow de testes no Github Actions.
+Neste tutorial, você aprendeu como configurar um projeto Python do zero, incluindo a criação de um ambiente virtual, instalação de dependências, configuração de testes e criação de uma imagem Docker.
 
-Espero que você tenha gostado do tutorial e que ele tenha sido útil para você. Se você tiver alguma dúvida ou sugestão, deixe um comentário abaixo.
+Você também aprendeu como adicionar um workflow de testes no Github Actions para um projeto Python.
+
+Espero que você tenha gostado do tutorial.
