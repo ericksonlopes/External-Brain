@@ -35,7 +35,7 @@ O Pipenv também oferece outras funcionalidades úteis, como a criação automá
 
 - O projeto deve ficar da seguinte forma:
 ```
-app/
+Project/
 |__ venv
 |__ Pipfile
 |__ Pipfile.lock
@@ -73,8 +73,10 @@ directory = ./tests/coverage
 - O projeto deve ficar da seguinte forma:
  
 ``` 
-app/
+Project/
 |__ venv
+|__ pytest
+	|__ _init__.py_
 |__ Pipfile
 |__ Pipfile.lock
 |__ pytest.ini
