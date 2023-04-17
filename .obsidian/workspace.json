@@ -18,19 +18,6 @@
             }
           },
           {
-            "id": "0c62dd4ee63e249c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Projetos/Words-In-Songs.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e90a88cb8011aa05",
             "type": "leaf",
             "state": {
@@ -93,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 216.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",

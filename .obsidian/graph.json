@@ -6,17 +6,53 @@
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:Programação/Projetos",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Programação/Docker",
+      "color": {
+        "a": 1,
+        "rgb": 5431008
+      }
+    },
+    {
+      "query": "path:Cursos",
+      "color": {
+        "a": 1,
+        "rgb": 7577879
+      }
+    },
+    {
+      "query": "path:Programação/FastAPI",
+      "color": {
+        "a": 1,
+        "rgb": 14729554
+      }
+    },
+    {
+      "query": "path:Programação/Python",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    }
+  ],
   "collapse-display": false,
-  "showArrow": false,
-  "textFadeMultiplier": -0.9,
-  "nodeSizeMultiplier": 0.82734375,
-  "lineSizeMultiplier": 1.36328125,
+  "showArrow": true,
+  "textFadeMultiplier": -2.5,
+  "nodeSizeMultiplier": 1.10807291666667,
+  "lineSizeMultiplier": 1.82265625,
   "collapse-forces": false,
   "centerStrength": 0.393229166666667,
   "repelStrength": 12.7604166666667,
   "linkStrength": 0.8984375,
   "linkDistance": 188,
-  "scale": 0.7514342322277867,
+  "scale": 0.3823010968770116,
   "close": false
 }
