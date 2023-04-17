@@ -171,7 +171,7 @@ RUN pytest
 CMD [ "python", "./run.py" ]
 ```
 
-- ``FROM``: define a imagem base do Docker que será usada para criar a imagem do seu projeto. Neste caso, estamos usando a imagem oficial do Python 3.9
+- ``FROM``: define a imagem base do Docker que será usada para criar a imagem do seu projeto. Neste caso, estamos a usar a imagem oficial do Python 3.9
 - ``WORKDIR``: define o diretório de trabalho do contêiner Docker. Todos os comandos subsequentes serão executados neste diretório.
 - ``COPY``: copia arquivos do seu sistema local para o contêiner Docker.
 - ``RUN``: executa um comando no contêiner Docker.
@@ -212,10 +212,11 @@ Project/
 |__ Pipfile.lock
 |__ pytest.ini
 |__ .coveragerc
+|__ dockerfile
 |__ run.py
 ```
 
-# Sexto Passo: GitHub Workflow para Tests
+# Sexto Passo: GitHub Actions (Wro)
 
 Para adicionar um workflow de testes no Github Actions para um projeto Python, você precisará criar um arquivo de configuração `.yml` na pasta `.github/workflows/` do seu repositório. Aqui está um exemplo básico de como fazer isso:
 
@@ -303,6 +304,7 @@ Project/
 |__ Pipfile.lock
 |__ pytest.ini
 |__ .coveragerc
+|__ dockerfile
 |__ run.py
 ```
 
