@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Projetos/Words-In-Songs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Projetos/Words-In-Songs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Projetos/Words-In-Songs.md"
-              }
+              "state": {}
             }
           },
           {
@@ -184,9 +179,10 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
     "Programação/Projetos/Words-In-Songs.md",
+    "Programação/Projetos/Words-In-Songs.md~",
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Criando um projeto em python.md~",
     "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
@@ -213,7 +209,6 @@
     "Programação/Docker/logger + docker + volumes.md",
     "Programação/FastAPI/estudar sobre.md",
     "Programação/Padrões de projetos (Desing Patterns)/Iterator (Iterador).md",
-    "Programação/Python/Decorator.md",
     "Programação/PySpark/Trabalhando com views n o pyspark",
     "Programação/PySpark/Joins com pyspark.md~",
     "Programação/Docker/Trabalhando com selenoid.md~",
@@ -221,7 +216,6 @@
     "Programação/PySpark/Trabalhando com Grafos no pyspark.md~",
     "Programação/Git",
     "Programação/Python/Context.md~",
-    "Programação/Python/Sem título",
     "Sem título.canvas",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
