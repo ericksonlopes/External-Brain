@@ -50,7 +50,7 @@ Project/
 
 ```python
 def main():
-    print("Hello World!")
+    return "Hello World!"
 ```
 
 2. Crie uma pasta `config` onde ficará todos os arquivos de configuração do seu projeto. Dentro desta pasta, crie um arquivo `__init__.py` para que o python reconheça a pasta como um módulo.
@@ -103,11 +103,13 @@ addopts = -v --cov=src --cov-report=term-missing --cov-report=html
 directory = ./tests/coverage
 ```
 
-6. Crie um arquivo  `test_init.py` para testes dentro do diretório `test` e adicione o código abaixo:
+6. Crie um arquivo  `test_main.py` para testes dentro do diretório `test` e adicione o código abaixo:
 
 ```
-def test_init():
-    assert True
+from src.main import main
+
+def test_main():
+    assert main() == "Hello World!"
 ```
 
 7. Execute o comando `pytest` para rodar os testes e verifique se o coverage foi gerado.
@@ -117,11 +119,18 @@ def test_init():
 ``` 
 Project/
 |__ venv
+    |__ ...
 |__ src
+    |__ __init__.py
+    |__ main.py
 |__ config
-    |__ _init__.py_
+    |__ __init__.py
 |__ Pipfile
 |__ Pipfile.lock
+|__ tests
+    |__ __init__.py
+    |__ test_init.py
+
 |__ pytest.ini
 |__ .coveragerc
 ```
