@@ -306,33 +306,23 @@ Project/
 |__ run.py
 ```
 
-
 # Sétimo Passo: Ignorando arquivos
 
-Para ignorar arquivos no Git, você pode criar um arquivo chamado `.gitignore` na raiz do seu repositório. Esse arquivo deve conter uma lista de arquivos e diretórios que você deseja ignorar. Aqui está um exemplo de como fazer isso:
+Agora que você já configurou o seu projeto Python, é hora de adicionar alguns arquivos ao arquivo `.gitignore` para ignorar arquivos desnecessários no repositório.
 
+1. Crie um arquivo `.gitignore` na raiz do seu projeto.
+2. Adicione os seguintes arquivos ao arquivo `.gitignore`:
 
-# Oitavo Passo: Rodando e Testando aplicação
+```ignorelang
+# venv
+venv/
 
-Para construir a imagem Docker, você pode executar o seguinte comando no diretório onde está o Dockerfile:
+# .pytest_cache
+.pytest_cache/
 
-
-```bash
-docker build -t nome-da-imagem .
+# coverage
+test/coverage/
 ```
-
-Isso irá construir a imagem e dar-lhe o nome `nome-da-imagem`. O ponto no final do comando indica que o contexto de construção é o diretório atual.
-
-Para executar o contêiner a partir da imagem, você pode executar o seguinte comando:
-
-```bash
-docker run -it --rm nome-da-imagem
-```
-
-Isso irá iniciar o contêiner e executar o comando padrão especificado no Dockerfile, que é executar o arquivo `app.py`. O parâmetro `-it` é usado para iniciar o contêiner em modo interativo e a opção `--rm` é usada para remover o contêiner quando ele é interrompido.
-
-Com esses passos, você pode criar e executar uma imagem Docker para sua aplicação Python. Claro, isso é apenas um exemplo simples e você pode personalizar o Dockerfile para incluir outras dependências ou configurações específicas para sua aplicação.
-
 
 # Conclusão
 
