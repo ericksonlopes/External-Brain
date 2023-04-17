@@ -28,4 +28,5 @@ O Pipenv também oferece outras funcionalidades úteis, como a criação automá
 
 ## Terceiro passo: Testes
 
-1. Execute o  
+1. Digite o comando `pipenv install pytest`  e `pipenv install pytest-cov` para instalar as bibliotecas
+
