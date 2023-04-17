@@ -61,7 +61,7 @@ O projeto deve ficar da seguinte forma:
 ```
 Project/
 |__ venv
-    |__ ...
+    ...
 |__ src
     |__ __init__.py
     |__ main.py
@@ -79,6 +79,7 @@ Project/
 pipenv install pytest
 pipenv install pytest-cov
 ```
+- O pytest é uma ferramenta para testes em Python e o pytest-cov é uma extensão do pytest que gera um coverage report.
 
 2. Crie uma pasta `tests` para armazenar os testes do seu projeto. Dentro desta pasta, crie um arquivo `__init__.py` para que o python reconheça a pasta como um módulo.
 3. Crie um arquivo `pytest.ini` na raiz do seu projeto e defina as configurações do pytest.
@@ -130,7 +131,7 @@ Project/
     |__ test_main.py
     |__ coverage
         |__ index.html
-        |__ ... 
+        ... 
 |__ Pipfile
 |__ Pipfile.lock
 |__ pytest.ini
