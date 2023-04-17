@@ -140,14 +140,14 @@ Project/
 
 ## Quinto Passo: Docker
 
-Para começar, você precisará ter o Docker instalado na sua máquina. Depois, você pode criar um Dockerfile para sua aplicação Python. O Dockerfile é um arquivo de texto que contém as instruções para construir uma imagem do Docker, que é uma espécie de pacote que contém todo o ambiente necessário para executar a sua aplicação.
+Para começar, você precisará ter o Docker instalado na sua máquina. Depois, você pode criar um ``dockerfile`` para sua aplicação Python. O Dockerfile é um arquivo de texto que contém as instruções para construir uma imagem do Docker, que é uma espécie de pacote que contém todo o ambiente necessário para executar a sua aplicação.
 
 Um exemplo de Dockerfile para uma aplicação Python simples seria:
 
 ```dockerfile
 FROM python:3.9  
 
-WORKDIR /app  
+WORKDIR /project
 
 COPY . .
 
@@ -164,9 +164,9 @@ CMD [ "python", "./run.py" ]
 - ``RUN``: executa um comando no contêiner Docker.
 - ``CMD``: define o comando padrão a ser executado quando o contêiner é iniciado.
 
-Este Dockerfile começa com uma imagem base do Python 3.9 e define um diretório de trabalho chamado `/app`. Em seguida, copia o arquivo `requirements.txt` para o diretório de trabalho e executa o comando `pip install` para instalar as dependências listadas no arquivo.
+Este Dockerfile começa com uma imagem base do Python 3.9 e define um diretório de trabalho chamado `/project`. Em seguida, ele copia todos os arquivos do diretório atual para o diretório de trabalho no contêiner Docker. Em seguida, ele instala o pipenv e instala todas as dependências do projeto.
 
-Depois, ele copia todos os arquivos do diretório atual para o diretório de trabalho no contêiner Docker. Por fim, ele define o comando padrão a ser executado quando o contêiner é iniciado, que é executar o arquivo `app.py`.
+Depois, ele executa o comando `pytest` para executar os testes e, por fim, define o comando padrão para executar o arquivo `run.py` quando o contêiner for iniciado.
 
 - O projeto deve ficar da seguinte forma:
     
