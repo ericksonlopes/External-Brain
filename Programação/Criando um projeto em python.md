@@ -158,3 +158,59 @@ docker run -it --rm nome-da-imagem
 Isso irá iniciar o contêiner e executar o comando padrão especificado no Dockerfile, que é executar o arquivo `app.py`. O parâmetro `-it` é usado para iniciar o contêiner em modo interativo e a opção `--rm` é usada para remover o contêiner quando ele é interrompido.
 
 Com esses passos, você pode criar e executar uma imagem Docker para sua aplicação Python. Claro, isso é apenas um exemplo simples e você pode personalizar o Dockerfile para incluir outras dependências ou configurações específicas para sua aplicação.
+
+# Sexto Passo: Github Workflow para Tests
+Para adicionar um workflow de testes no Github Actions para um projeto Python, você precisará criar um arquivo de configuração `.yml` na pasta `.github/workflows/` do seu repositório. Aqui está um exemplo básico de como fazer isso:
+
+1.  Crie uma pasta `.github/workflows/` na raiz do seu repositório.
+2.  Crie um arquivo `python-test.yml` nessa pasta.
+3.  Adicione o seguinte código ao arquivo:
+	-  
+
+
+```yaml
+name: Python Test
+
+on: [push, pull_request]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: [3.7, 3.8, 3.9]
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest
+
+    - name: Run tests
+      run: |
+        pytest
+
+
+```
+Esse arquivo configura um workflow que será executado quando ocorrerem pushs ou pull requests no repositório. O nome do workflow é "Python Test".
+
+Em seguida, é definido um job chamado "build", que será executado na última versão do Ubuntu. Ele usa a estratégia `matrix` para definir uma lista de versões do Python que o job deve ser executado.
+
+Dentro do job, o primeiro passo é usar a ação `actions/checkout` para clonar o repositório.
+
+Depois, é definido um passo para configurar a versão do Python. Ele usa a ação `actions/setup-python` para instalar a versão especificada do Python.
+
+Em seguida, há um passo para instalar as dependências necessárias, que neste exemplo é apenas o pytest.
+
+Por fim, há um passo para executar os testes usando o pytest.
+
+Com isso, você terá um workflow de testes básico configurado para seu projeto Python. Claro, você pode personalizar o arquivo `.yml` para incluir outras ações, passos de teste ou configurações específicas para sua aplicação.
