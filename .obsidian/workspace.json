@@ -23,20 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Projetos/SearchInExportChat (Todo).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13b6ca8eb924b964",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Projetos/ScrapingcoinMarketCap.md",
+                "file": "Programação/Projetos/Words-In-Songs.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -44,7 +31,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Projetos/ScrapingcoinMarketCap.md",
+                "file": "Programação/Projetos/Words-In-Songs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Projetos/ScrapingcoinMarketCap.md",
+                "file": "Programação/Projetos/Words-In-Songs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Projetos/ScrapingcoinMarketCap.md"
+                "file": "Programação/Projetos/Words-In-Songs.md"
               }
             }
           },
@@ -162,7 +149,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -184,11 +172,12 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "13b6ca8eb924b964",
+  "active": "8bc3df3a2531bcd1",
   "lastOpenFiles": [
-    "Programação/Projetos/SearchInExportChat (Todo).md",
     "Programação/Projetos/ScrapingcoinMarketCap.md",
     "Programação/Projetos/Words-In-Songs.md",
+    "Programação/Projetos/SearchInExportChat (Todo).md",
+    "Programação/Docker/logger + docker + volumes.md",
     "Programação/Projetos/SearchInExportChat-StreamLit.md",
     "Programação/Projetos/Compile-Repo (Todo).md",
     "Programação/Projetos/SearchInExportChat-StreamLit.md~",
@@ -215,7 +204,6 @@
     "Programação/MongoDB/CRUD em  MongoDB com python.md",
     "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/Git/Instalar Git no Linux.md",
-    "Padrões de pastas para usar.md",
     "Programação/PySpark/Trabalhando com views n o pyspark",
     "Programação/PySpark/Joins com pyspark.md~",
     "Programação/Docker/Trabalhando com selenoid.md~",

@@ -1,4 +1,4 @@
-#python #docker #fastAPI  #redis #dockerfile #docker-compose #pytest #tests 
+#python #docker #fastAPI  #redis #dockerfile #docker-compose #pytest #tests #scraping #beautifulsoup  
 https://github.com/ericksonlopes/Compile-Repo
 
 
