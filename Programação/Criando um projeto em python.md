@@ -46,7 +46,7 @@ Project/
 
 1. Crie uma pasta `src` onde ficará todo o código do seu projeto e o arquivo `__init__.py` para que o python reconheça a pasta como um módulo
    - Exemplo: arquivos de rotas, arquivos de models, arquivos de controllers, etc.
-   - Crie um arquivo `main.py` na pasta `src` e adicione o seguinte código. Usaremos este arquivo para testar se o projeto está funcionando corretamente.
+   - Crie um arquivo `main.py` na pasta `src` e adicione o seguinte código. Usaremos este arquivo para testar se o projeto está funcionando corretamente. Adicione o seguinte código:
 
 ```python
 def main():
