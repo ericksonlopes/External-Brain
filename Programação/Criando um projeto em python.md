@@ -129,6 +129,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .  
 
+RUN pytest
+
 CMD [ "python", "./app.py" ]
 ```
 
@@ -140,7 +142,9 @@ Para construir a imagem Docker, você pode executar o seguinte comando no diret�
 
 Copy code
 
-`docker build -t nome-da-imagem .`
+```bash
+docker build -t nome-da-imagem .
+```
 
 Isso irá construir a imagem e dar a ela o nome `nome-da-imagem`. O ponto no final do comando indica que o contexto de construção é o diretório atual.
 
@@ -148,8 +152,9 @@ Para executar o contêiner a partir da imagem, você pode executar o seguinte co
 
 arduinoCopy code
 
-`docker run -it --rm nome-da-imagem`
-
+```bash
+docker run -it --rm nome-da-imagem
+```
 Isso irá iniciar o contêiner e executar o comando padrão especificado no Dockerfile, que é executar o arquivo `app.py`. O parâmetro `-it` é usado para iniciar o contêiner em modo interativo e a opção `--rm` é usada para remover o contêiner quando ele é interrompido.
 
 Com esses passos, você pode criar e executar uma imagem Docker para sua aplicação Python. Claro, isso é apenas um exemplo simples e você pode personalizar o Dockerfile para incluir outras dependências ou configurações específicas para sua aplicação.
