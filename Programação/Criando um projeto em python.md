@@ -193,7 +193,8 @@ Project/
 |__ Pipfile.lock
 |__ pytest.ini
 |__ .coveragerc
-|__ Dockerfile
+|__ run.py
+|__ dockerfile
 ```
 
 # Sexto Passo: GitHub Workflow para Tests
