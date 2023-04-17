@@ -41,7 +41,23 @@ Project/
 |__ Pipfile.lock
 ```
 
-## Terceiro passo: Testes
+## Terceiro passo: Pasta do projeto e pasta de configuração
+
+1. Crie uma pasta `src` onde ficará todo o código do seu projeto.
+2. Crie uma pasta `config` onde ficará o arquivo de configuração do seu projeto e o arquivo `__init__.py` para que o python reconheça a pasta como um módulo.
+
+- O projeto deve ficar da seguinte forma:
+```
+Project/
+|__ venv
+|__ src
+|__ config
+    |__ _init__.py_
+|__ Pipfile
+|__ Pipfile.lock
+```
+
+## Quarto passo: Testes
 
 1. Execute os seguintes comandos para instalar o pytest e o pytest-cov:
 
@@ -55,7 +71,10 @@ pipenv install pytest-cov
 3. Crie um arquivo `pytest.ini` na raiz do seu projeto e defina as configurações do pytest.
 
 4. Adicione o seguinte conteúdo ao arquivo `pytest.ini`:
-
+    - -v: mostra os testes que estão sendo executados
+    - --cov=src: define a pasta que será testada
+    - --cov-report=term-missing: mostra o coverage no terminal
+    - --cov-report=html: gera um arquivo html com o coverage
 ```
 [pytest]
 
@@ -63,7 +82,7 @@ addopts = -v --cov=src --cov-report=term-missing --cov-report=html
 ```
 
 5. Crie um arquivo `.coveragerc` na raiz do seu projeto e defina as configurações do coverage.
-    - Definimos que a pasta coverage irá ficar dentro da pasta tests 
+    - directory: define o diretório onde o coverage será gerado
 
 ```
 [html]
@@ -84,16 +103,11 @@ def test_init():
 ``` 
 Project/
 |__ venv
-|__ pytest
-	|__ _init__.py_
+|__ src
+|__ config
+    |__ _init__.py_
 |__ Pipfile
 |__ Pipfile.lock
 |__ pytest.ini
 |__ .coveragerc
-``` 
-
-
-Quarto passo: Pastas do projeto
-
-Crie uma pasta `src` onde ficará todo o código do seu projeto.
-8. Crie uma pasta `config` onde ficará o arquivo de configuração do seu projeto e o arquivo `__init__.py` para que o python reconheça a pasta como um módulo.
+```
