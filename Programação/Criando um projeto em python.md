@@ -10,6 +10,7 @@ Para iniciar uma venv (ambiente virtual) em Python, você pode seguir os seguint
 5.  Ative a venv digitando o comando específico para o seu sistema operacional:
     -   Windows: `.\nome_da_venv\Scripts\activate.bat`
     -   Linux/MacOS: `source nome_da_venv/bin/activate`
+6.  Crie uma pasta chama `src` para implementar 
 
 Dessa forma, você terá iniciado a sua venv em Python. Para desativar a venv, basta digitar o comando `deactivate`.
 
@@ -39,6 +40,7 @@ pipenv install pytest-cov
 
 ``` 
 app/
+|__ src
 |__ tests
     |__ __init__.py
 ``` 
@@ -47,13 +49,13 @@ app/
 
 ``` 
 app/
+|__ src
 |__ tests
     |__ __init__.py
 |__ pytest.ini
 ``` 
 
 4. Adicione o seguinte conteúdo ao arquivo `pytest.ini`:
-
 
 ```
 [pytest]
@@ -62,6 +64,7 @@ addopts = -v --cov=src --cov-report=term-missing --cov-report=html
 ```
 
 5. Crie um arquivo `.coveragerc` na raiz do seu projeto e defina as configurações do coverage.
+    - Definimos que a pasta coverage irá ficar dentro da pasta tests 
 
 ```
 [html]
