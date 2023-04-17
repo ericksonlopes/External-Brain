@@ -10,7 +10,11 @@ Para iniciar uma venv (ambiente virtual) em Python, você pode seguir os seguint
 5.  Ative a venv digitando o comando específico para o seu sistema operacional:
     -   Windows: `.\venv\Scripts\activate.bat`
     -   Linux/MacOS: `source venv/bin/activate`
-6.  Crie uma pasta chama `src` para implementar
+6.  Crie uma pasta `src` onde ficará todo o código do seu projeto.
+8. Crie uma pasta `config` onde ficará o arquivo de configuração do seu projeto e o arquivo `__init__.py` para que o python reconheça a pasta como um módulo.
+
+- O projeto deve ficar da seguinte forma:
+
 
 Dessa forma, você terá iniciado a sua venv em Python. Para desativar a venv, basta digitar o comando `deactivate`.
 
@@ -56,16 +60,7 @@ app/
 
 3. Crie um arquivo `pytest.ini` na raiz do seu projeto e defina as configurações do pytest.
 
-``` 
-app/
-|__ src
-|__ tests
-    |__ __init__.py
-|__ Pipfile
-|__ Pipfile.lock
-|__ pytest.ini
-``` 
-
+```
 4. Adicione o seguinte conteúdo ao arquivo `pytest.ini`:
 
 ```
