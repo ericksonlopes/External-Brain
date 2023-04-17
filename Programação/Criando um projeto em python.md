@@ -83,8 +83,9 @@ directory = ./tests/coverage
 ``` 
 app/
 |__ src
-|__ tests
+|__ config
     |__ __init__.py
+|__ venv
 |__ Pipfile
 |__ Pipfile.lock
 |__ pytest.ini
