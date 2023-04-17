@@ -45,11 +45,21 @@ Project/
 ## Terceiro passo: Pasta do projeto e pasta de configuração
 
 1. Crie uma pasta `src` onde ficará todo o código do seu projeto e o arquivo `__init__.py` para que o python reconheça a pasta como um módulo
-   - Esta pasta é onde ficará o código do seu projeto, regras de negócio, etc.
+   - Exemplo: arquivos de rotas, arquivos de models, arquivos de controllers, etc.
 
-2. Crie uma pasta `config` onde ficará o arquivo de configuração do seu projeto e o arquivo `__init__.py` para que o python reconheça a pasta como um módulo.
+2. Crie uma pasta `config` onde ficará todos os arquivos de configuração do seu projeto. Dentro desta pasta, crie um arquivo `__init__.py` para que o python reconheça a pasta como um módulo.
+   -  Exemplo: arquivos de configuração do banco de dados, arquivos de configuração do pytest, etc.
 
-- O projeto deve ficar da seguinte forma:
+Vamos adicionar um arquivo na pasta `src` .
+
+```python
+
+```
+
+
+
+
+O projeto deve ficar da seguinte forma:
 
 ```
 Project/
