@@ -45,6 +45,8 @@ Project/
 ## Terceiro passo: Pasta do projeto e pasta de configuração
 
 1. Crie uma pasta `src` onde ficará todo o código do seu projeto e o arquivo `__init__.py` para que o python reconheça a pasta como um módulo
+   - Esta pasta é onde ficará o código do seu projeto, regras de negócio, etc.
+
 2. Crie uma pasta `config` onde ficará o arquivo de configuração do seu projeto e o arquivo `__init__.py` para que o python reconheça a pasta como um módulo.
 
 - O projeto deve ficar da seguinte forma:
@@ -54,9 +56,9 @@ Project/
 |__ venv
     |__ ...
 |__ src
-    |__ _init__.py_
+    |__ _init__.py
 |__ config
-    |__ _init__.py_
+    |__ _init__.py
 |__ Pipfile
 |__ Pipfile.lock
 ```
