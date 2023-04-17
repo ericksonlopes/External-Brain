@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Projetos/SearchInExportChat-StreamLit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Projetos/SearchInExportChat-StreamLit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +146,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Projetos/SearchInExportChat-StreamLit.md"
-              }
+              "state": {}
             }
           },
           {
@@ -184,11 +179,11 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "e90a88cb8011aa05",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
+    "Programação/Projetos/SearchInExportChat-StreamLit.md",
     "Programação/Projetos/SearchInExportChat-StreamLit.md~",
     "Programação/Projetos/Compile-Repo (Todo).md",
-    "Programação/Projetos/SearchInExportChat-StreamLit.md",
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Projetos/Words-In-Songs.md",
     "Programação/Projetos/SearchInExportChat (Todo).md",
@@ -221,7 +216,6 @@
     "Programação/Python/Pipenv.md~",
     "Programação/PySpark/Trabalhando com Grafos no pyspark.md~",
     "Programação/Git",
-    "Programação/Python/Context.md~",
     "Sem título.canvas",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
