@@ -22,7 +22,7 @@ Dessa forma, você terá iniciado a sua venv em Python. Para desativar a venv, b
 
 ## Segundo Passo:  Pipenv
 
-O Pipenv é uma ferramenta que combina e simplifica a criação e gerenciamento de ambientes virtuais com a instalação de pacotes Python. Para utilizá-lo, siga os seguintes passos:
+O Pipenv é uma ferramenta que combina e simplifica a criação e gestão de ambientes virtuais com a instalação de pacotes Python. Para utilizá-lo, siga os seguintes passos:
 
 1.  Abra o terminal do seu sistema operacional
 2.  Navegue até o diretório do seu projeto usando o comando `cd`
