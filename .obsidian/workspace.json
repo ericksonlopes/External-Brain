@@ -16,22 +16,8 @@
               "state": {},
               "pinned": true
             }
-          },
-          {
-            "id": "82b8b787ff1ab6d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,7 +154,7 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "82b8b787ff1ab6d4",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
     "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
     "Programação/Criando um projeto em python.md",
