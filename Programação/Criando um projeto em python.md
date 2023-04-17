@@ -140,9 +140,27 @@ Este Dockerfile começa com uma imagem base do Python 3.9 e define um diretório
 
 Depois, ele copia todos os arquivos do diretório atual para o diretório de trabalho no contêiner Docker. Por fim, ele define o comando padrão a ser executado quando o contêiner é iniciado, que é executar o arquivo `app.py`.
 
+- O projeto deve ficar da seguinte forma:
+    
+```
+Project/
+|__ venv
+|__ src
+|__ config
+    |__ _init__.py_
+|__ .github
+    |__ workflows
+        |__ python-test.yml
+|__ Pipfile
+|__ Pipfile.lock
+|__ pytest.ini
+|__ .coveragerc
+
+```
+
+
 Para construir a imagem Docker, você pode executar o seguinte comando no diretório onde está o Dockerfile:
 
-Copy code
 
 ```bash
 docker build -t nome-da-imagem .
@@ -152,11 +170,10 @@ Isso irá construir a imagem e dar a ela o nome `nome-da-imagem`. O ponto no fin
 
 Para executar o contêiner a partir da imagem, você pode executar o seguinte comando:
 
-arduinoCopy code
-
 ```bash
 docker run -it --rm nome-da-imagem
 ```
+
 Isso irá iniciar o contêiner e executar o comando padrão especificado no Dockerfile, que é executar o arquivo `app.py`. O parâmetro `-it` é usado para iniciar o contêiner em modo interativo e a opção `--rm` é usada para remover o contêiner quando ele é interrompido.
 
 Com esses passos, você pode criar e executar uma imagem Docker para sua aplicação Python. Claro, isso é apenas um exemplo simples e você pode personalizar o Dockerfile para incluir outras dependências ou configurações específicas para sua aplicação.
@@ -221,7 +238,7 @@ Em seguida, há um passo para instalar as dependências necessárias, que neste 
 
 Por fim, há um passo para executar os testes usando o pytest.
 
-Com isso, você terá um workflow de testes básico configurado para seu projeto Python. Claro, você pode personalizar o arquivo `.yml` para incluir outras ações, passos de teste ou configurações específicas para sua aplicação.
+Com isso, você terá um workflow de testes básico configurado para o seu projeto Python. Claro, você pode personalizar o arquivo `.yml` para incluir outras ações, passos de teste ou configurações específicas para sua aplicação.
 
 obs: Para mais informações sobre o Github Actions, acesse a documentação oficial: https://docs.github.com/pt/actions
 
@@ -241,6 +258,8 @@ Project/
 |__ pytest.ini
 |__ .coveragerc
 ```
+
+# Sétimo Passo: Rodando e Testando aplicação
 
 # Conclusão
 
