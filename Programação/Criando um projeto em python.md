@@ -1,4 +1,4 @@
-#venv #virtual-environment #pipenv 
+#venv #virtual-environment #pipenv #tests #pytest
 
 ## Primeiro Passo: Ambiente Virtual
 
@@ -71,7 +71,7 @@ pipenv install pytest-cov
 3. Crie um arquivo `pytest.ini` na raiz do seu projeto e defina as configurações do pytest.
 
 4. Adicione o seguinte conteúdo ao arquivo `pytest.ini`:
-    - -v: mostra os testes que estão sendo executados
+    - -v: mostra os testes que estão a ser executados
     - --cov=src: define a pasta que será testada
     - --cov-report=term-missing: mostra o coverage no terminal
     - --cov-report=html: gera um arquivo html com o coverage
@@ -89,7 +89,7 @@ addopts = -v --cov=src --cov-report=term-missing --cov-report=html
 directory = ./tests/coverage
 ```
 
-6. Crie um arquivo  `test_init.py` para testes dentro do diretório test e adicione o código abaixo:
+6. Crie um arquivo  `test_init.py` para testes dentro do diretório `test` e adicione o código abaixo:
 
 ```
 def test_init():
@@ -111,3 +111,5 @@ Project/
 |__ pytest.ini
 |__ .coveragerc
 ```
+
+## Quinto Passo: Docker

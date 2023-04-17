@@ -20,6 +20,7 @@
     "venv",
     "MacOS",
     "Pipenv",
-    "venv"
+    "venv",
+    "coverage"
   ]
 }
