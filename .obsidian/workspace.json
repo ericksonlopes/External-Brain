@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Criando um projeto em python.md"
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md"
               }
             }
           },
@@ -184,10 +184,10 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "01c6a263d2ddc706",
+  "active": "ee857c1d786c1b3b",
   "lastOpenFiles": [
-    "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
     "Programação/Criando um projeto em python.md",
+    "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "Programação/Padrões de projetos (Desing Patterns)/Builder (Construtor).md",
