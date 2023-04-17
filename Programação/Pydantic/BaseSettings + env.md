@@ -1,4 +1,4 @@
-#pydantic
+#pydantic #env
 
 O Pydantic é uma biblioteca Python para validação de dados comummente utilizada em aplicações web. Ele fornece um conjunto de recursos para validar as entradas do usuário, mapear dados JSON em objetos Python e serializar objetos Python em JSON, YAML ou outros formatos. Uma das maneiras mais comuns de usar o Pydantic é definir modelos de dados que herdam de `BaseModel`, que permite que você defina campos obrigatórios, tipos de dados esperados, valores padrão e muitos outros recursos.
 

@@ -226,18 +226,17 @@ obs: Para mais informações sobre o Github Actions, acesse a documentação ofi
     
 ```
 Project/
-|__ .github
-    |__ workflows
-        |__ python-test.yml
 |__ venv
 |__ src
 |__ config
     |__ _init__.py_
+|__ .github
+    |__ workflows
+        |__ python-test.yml
 |__ Pipfile
 |__ Pipfile.lock
 |__ pytest.ini
 |__ .coveragerc
-
 ```
 
 # Conclusão
