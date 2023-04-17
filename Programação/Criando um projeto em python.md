@@ -28,7 +28,19 @@ O Pipenv também oferece outras funcionalidades úteis, como a criação automá
 
 ## Terceiro passo: Testes
 
-1. Digite o comando `pipenv install pytest`  e `pipenv install pytest-cov` para instalar as bibliotecas
-2. Crie um pacote  python com o nome `test` (Uma pasta com o nome `tests` um arquivo `__init__.py` dentro)
+1. Execute os seguintes comandos para instalar o pytest e o pytest-cov:
+
+``` 
+pipenv install pytest
+pipenv install pytest-cov
+```
+
+2. Crie uma pasta para seus testes e coloque os seus arquivos de teste dentro dela (De preferência pasta chamada tests com um arquivo `__init__.py` dentro).
+
+``` 
+app/
+|__ tests
+``` 
+
 3. Crie um arquivo pytest.ini na raiz do seu projeto e defina as configurações do pytest.
 
