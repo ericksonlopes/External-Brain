@@ -8,8 +8,8 @@ Para iniciar uma venv (ambiente virtual) em Python, você pode seguir os seguint
 2.  Navegue até o diretório onde deseja criar a venv usando o comando `cd`
 3.  Digite o comando `python -m venv venv` para criar a venv (o último venv se refere ao nome do ambiente virtual)
 5.  Ative a venv digitando o comando específico para o seu sistema operacional:
-    -   Windows: `.\venv\Scripts\activate.bat`
-    -   Linux/MacOS: `source venv/bin/activate`
+    -   Windows: ``.\venv\Scripts\activate.bat``
+    -   Linux/MacOS: ``source venv/bin/activate``
 
 - O projeto deve ficar da seguinte forma:
 ```
@@ -71,10 +71,10 @@ pipenv install pytest-cov
 3. Crie um arquivo `pytest.ini` na raiz do seu projeto e defina as configurações do pytest.
 
 4. Adicione o seguinte conteúdo ao arquivo `pytest.ini`:
-    - -v: mostra os testes que estão a ser executados
-    - --cov=src: define a pasta que será testada
-    - --cov-report=term-missing: mostra o coverage no terminal
-    - --cov-report=html: gera um arquivo html com o coverage
+    - ``-v``: mostra os testes que estão a ser executados
+    - ``--cov=src``: define a pasta que será testada
+    - ``--cov-report=term-missing``: mostra o coverage no terminal
+    - ``--cov-report=html``: gera um arquivo html com o coverage
 ```
 [pytest]
 
@@ -160,18 +160,24 @@ Isso irá iniciar o contêiner e executar o comando padrão especificado no Dock
 Com esses passos, você pode criar e executar uma imagem Docker para sua aplicação Python. Claro, isso é apenas um exemplo simples e você pode personalizar o Dockerfile para incluir outras dependências ou configurações específicas para sua aplicação.
 
 # Sexto Passo: Github Workflow para Tests
+
 Para adicionar um workflow de testes no Github Actions para um projeto Python, você precisará criar um arquivo de configuração `.yml` na pasta `.github/workflows/` do seu repositório. Aqui está um exemplo básico de como fazer isso:
 
-1.  Crie uma pasta `.github/workflows/` na raiz do seu repositório.
-2.  Crie um arquivo `python-test.yml` nessa pasta.
-3.  Adicione o seguinte código ao arquivo:
-	-  
-
+1. Crie uma pasta `.github/workflows/` na raiz do seu repositório.
+2. Crie um arquivo `python-test.yml` nessa pasta.
+3. Adicione o seguinte código ao arquivo:
+    - ``on``: define quando o workflow será executado
+    - ``jobs``: define o job que será executado
+    - ``name``: define o nome do job
+    - ``runs-on``: define o sistema operacional que será usado
+    - ``python-version``: define a versão do python que será usada
+    - ``steps``: define os passos que serão executados
+    - ``run``: define o comando que será executado
 
 ```yaml
 name: Python Test
 
-on: [push, pull_request]
+on: [ push, pull_request ]
 
 jobs:
   build:
@@ -180,27 +186,26 @@ jobs:
 
     strategy:
       matrix:
-        python-version: [3.7, 3.8, 3.9]
+        python-version: [ 3.7, 3.8, 3.9 ]
 
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v2
-      with:
-        python-version: ${{ matrix.python-version }}
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install pytest
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
 
-    - name: Run tests
-      run: |
-        pytest
-
-
+      - name: Run tests
+        run: |
+          pytest
 ```
+
 Esse arquivo configura um workflow que será executado quando ocorrerem pushs ou pull requests no repositório. O nome do workflow é "Python Test".
 
 Em seguida, é definido um job chamado "build", que será executado na última versão do Ubuntu. Ele usa a estratégia `matrix` para definir uma lista de versões do Python que o job deve ser executado.
