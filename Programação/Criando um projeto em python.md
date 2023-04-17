@@ -324,6 +324,16 @@ venv/
 test/coverage/
 ```
 
+4. Crie um arquivo `.dockerignore` na raiz do seu projeto.
+5. Adicione os seguintes arquivos ao arquivo `.dockerignore`:
+
+
+```ignorelang
+tests/coverage
+.github/workflows/python-test.yml
+venv/
+```
+
 # Conclusão
 
 Neste tutorial, você aprendeu como configurar um projeto Python do zero, incluindo a criação de um ambiente virtual, instalação de dependências, configuração de testes, dockerização e criação de um workflow de testes no Github Actions.
