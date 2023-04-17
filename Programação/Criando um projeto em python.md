@@ -56,9 +56,9 @@ Project/
 |__ venv
     |__ ...
 |__ src
-    |__ _init__.py
+    |__ __init__.py
 |__ config
-    |__ _init__.py
+    |__ __init__.py
 |__ Pipfile
 |__ Pipfile.lock
 ```
