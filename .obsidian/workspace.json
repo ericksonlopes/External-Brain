@@ -16,8 +16,22 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "82b8b787ff1ab6d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Criando um projeto em python.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Criando um projeto em python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Criando um projeto em python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Criando um projeto em python.md"
+              }
             }
           },
           {
@@ -153,7 +171,7 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "82b8b787ff1ab6d4",
   "lastOpenFiles": [
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Criando um projeto em python.md",
