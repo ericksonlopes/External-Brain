@@ -118,9 +118,19 @@ Para começar, você precisará ter o Docker instalado em sua máquina. Depois, 
 
 Um exemplo de Dockerfile para uma aplicação Python simples seria:
 
-sqlCopy code
+```dockerfile
+FROM python:3.9  
 
-`FROM python:3.9  WORKDIR /app  COPY requirements.txt .  RUN pip install --no-cache-dir -r requirements.txt  COPY . .  CMD [ "python", "./app.py" ]`
+WORKDIR /app  
+
+COPY requirements.txt .  
+
+RUN pip install --no-cache-dir -r requirements.txt  
+
+COPY . .  
+
+CMD [ "python", "./app.py" ]
+```
 
 Este Dockerfile começa com uma imagem base do Python 3.9 e define um diretório de trabalho chamado `/app`. Em seguida, copia o arquivo `requirements.txt` para o diretório de trabalho e executa o comando `pip install` para instalar as dependências listadas no arquivo.
 
