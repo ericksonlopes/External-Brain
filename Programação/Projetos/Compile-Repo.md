@@ -1,0 +1,2 @@
+#python #flask #pytest #beautifulsoup #github 
+Imagine uma API que te liste todos os diretórios e arquivos com suas informações como. path, tamanho, quantidade de linhas... Este é exatamente o propósito dessa API.

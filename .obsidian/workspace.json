@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "15934f51c1e54de7",
+            "id": "0c62dd4ee63e249c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Projetos/Words-In-Songs.md",
+                "file": "Programação/Projetos/Compile-Repo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Projetos/Compile-Repo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Projetos/Compile-Repo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Projetos/Compile-Repo.md"
+              }
             }
           },
           {
@@ -179,9 +184,10 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "0c62dd4ee63e249c",
   "lastOpenFiles": [
     "Programação/Projetos/Words-In-Songs.md",
+    "Programação/Projetos/Compile-Repo.md",
     "Programação/Projetos/Words-In-Songs.md~",
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Criando um projeto em python.md~",
