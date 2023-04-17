@@ -125,12 +125,14 @@ Project/
     |__ main.py
 |__ config
     |__ __init__.py
-|__ Pipfile
-|__ Pipfile.lock
 |__ tests
     |__ __init__.py
-    |__ test_init.py
-
+    |__ test_main.py
+    |__ coverage
+        |__ index.html
+        |__ ... 
+|__ Pipfile
+|__ Pipfile.lock
 |__ pytest.ini
 |__ .coveragerc
 ```
