@@ -216,7 +216,7 @@ Project/
 |__ run.py
 ```
 
-# Sexto Passo: GitHub Actions (Wro)
+# Sexto Passo: GitHub Actions (Workflow para testes)
 
 Para adicionar um workflow de testes no Github Actions para um projeto Python, você precisará criar um arquivo de configuração `.yml` na pasta `.github/workflows/` do seu repositório. Aqui está um exemplo básico de como fazer isso:
 
