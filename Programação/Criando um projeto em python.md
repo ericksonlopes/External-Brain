@@ -56,8 +56,6 @@ def main():
 2. Crie uma pasta `config` onde ficará todos os arquivos de configuração do seu projeto. Dentro desta pasta, crie um arquivo `__init__.py` para que o python reconheça a pasta como um módulo.
    - Exemplo: arquivos de configuração do banco de dados, arquivos de configuração do pytest, etc.
 
-
-
 O projeto deve ficar da seguinte forma:
 
 ```
