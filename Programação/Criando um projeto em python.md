@@ -113,3 +113,33 @@ Project/
 ```
 
 ## Quinto Passo: Docker
+
+Para começar, você precisará ter o Docker instalado em sua máquina. Depois, você pode criar um Dockerfile para sua aplicação Python. O Dockerfile é um arquivo de texto que contém as instruções para construir uma imagem do Docker, que é uma espécie de pacote que contém todo o ambiente necessário para executar sua aplicação.
+
+Um exemplo de Dockerfile para uma aplicação Python simples seria:
+
+sqlCopy code
+
+`FROM python:3.9  WORKDIR /app  COPY requirements.txt .  RUN pip install --no-cache-dir -r requirements.txt  COPY . .  CMD [ "python", "./app.py" ]`
+
+Este Dockerfile começa com uma imagem base do Python 3.9 e define um diretório de trabalho chamado `/app`. Em seguida, copia o arquivo `requirements.txt` para o diretório de trabalho e executa o comando `pip install` para instalar as dependências listadas no arquivo.
+
+Depois, ele copia todos os arquivos do diretório atual para o diretório de trabalho no contêiner Docker. Por fim, ele define o comando padrão a ser executado quando o contêiner é iniciado, que é executar o arquivo `app.py`.
+
+Para construir a imagem Docker, você pode executar o seguinte comando no diretório onde está o Dockerfile:
+
+Copy code
+
+`docker build -t nome-da-imagem .`
+
+Isso irá construir a imagem e dar a ela o nome `nome-da-imagem`. O ponto no final do comando indica que o contexto de construção é o diretório atual.
+
+Para executar o contêiner a partir da imagem, você pode executar o seguinte comando:
+
+arduinoCopy code
+
+`docker run -it --rm nome-da-imagem`
+
+Isso irá iniciar o contêiner e executar o comando padrão especificado no Dockerfile, que é executar o arquivo `app.py`. O parâmetro `-it` é usado para iniciar o contêiner em modo interativo e a opção `--rm` é usada para remover o contêiner quando ele é interrompido.
+
+Com esses passos, você pode criar e executar uma imagem Docker para sua aplicação Python. Claro, isso é apenas um exemplo simples e você pode personalizar o Dockerfile para incluir outras dependências ou configurações específicas para sua aplicação.
