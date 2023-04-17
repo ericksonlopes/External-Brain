@@ -126,7 +126,7 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "frequencyReverse",
                 "useHierarchy": true
               }
             }
@@ -150,7 +150,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -172,7 +172,7 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "c1fc8908b1c1dfff",
   "lastOpenFiles": [
     "Programação/Projetos/Words-In-Songs.md",
     "Programação/Projetos/Search In Export Chat (StreamLit).md",
