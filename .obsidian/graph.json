@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 5431473
       }
+    },
+    {
+      "query": "path:\"Programação/Padrões de projetos (Desing Patterns)\"",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
     }
   ],
   "collapse-display": false,
@@ -53,6 +60,6 @@
   "repelStrength": 12.7604166666667,
   "linkStrength": 0.8984375,
   "linkDistance": 188,
-  "scale": 0.3823010968770116,
+  "scale": 0.5359795996226149,
   "close": false
 }

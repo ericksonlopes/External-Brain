@@ -23,14 +23,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Projetos/SearchInExportChat-StreamLit.md",
+                "file": "Programação/Projetos/SearchInExportChat (Todo).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Projetos/SearchInExportChat (Todo).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Projetos/SearchInExportChat (Todo).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Projetos/SearchInExportChat (Todo).md"
+              }
             }
           },
           {
@@ -166,7 +171,7 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "e90a88cb8011aa05",
   "lastOpenFiles": [
     "Programação/Projetos/Words-In-Songs.md",
     "Programação/Projetos/SearchInExportChat-StreamLit.md",
