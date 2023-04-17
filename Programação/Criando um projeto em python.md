@@ -124,16 +124,15 @@ FROM python:3.9
 
 WORKDIR /app  
 
-COPY requirements.txt .  
+COPY . .
 
-RUN pip install --no-cache-dir -r requirements.txt  
-
-COPY . .  
+RUN pip install --upgrade pipenv && pipenv install --system  
 
 RUN pytest
 
 CMD [ "python", "./run.py" ]
 ```
+
 - ``FROM``: define a imagem base do Docker que será usada para criar a imagem do seu projeto. Neste caso, estamos usando a imagem oficial do Python 3.9
 - ``WORKDIR``: define o diretório de trabalho do contêiner Docker. Todos os comandos subsequentes serão executados neste diretório.
 - ``COPY``: copia arquivos do seu sistema local para o contêiner Docker.
@@ -158,6 +157,7 @@ Project/
 |__ .coveragerc
 |__ Dockerfile
 ```
+
 # Sexto Passo: Github Workflow para Tests
 
 Para adicionar um workflow de testes no Github Actions para um projeto Python, você precisará criar um arquivo de configuração `.yml` na pasta `.github/workflows/` do seu repositório. Aqui está um exemplo básico de como fazer isso:
