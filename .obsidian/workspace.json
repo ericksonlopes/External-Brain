@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Projetos/Compile-Repo (Todo).md",
+                "file": "Programação/Projetos/Words-In-Songs.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -72,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#fastAPI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,13 +179,13 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
-    "Programação/Projetos/SearchInExportChat-StreamLit.md",
-    "Programação/Projetos/SearchInExportChat-StreamLit.md~",
-    "Programação/Projetos/Compile-Repo (Todo).md",
-    "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Projetos/Words-In-Songs.md",
+    "Programação/Projetos/SearchInExportChat-StreamLit.md",
+    "Programação/Projetos/Compile-Repo (Todo).md",
+    "Programação/Projetos/SearchInExportChat-StreamLit.md~",
+    "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Projetos/SearchInExportChat (Todo).md",
     "Programação/Projetos/Words-In-Songs.md~",
     "Programação/Criando um projeto em python.md~",

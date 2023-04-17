@@ -1,3 +1,4 @@
+#python #docker #fastAPI  #redis #dockerfile #docker-compose #pytest #tests 
 https://github.com/ericksonlopes/Compile-Repo
 
 
@@ -6,5 +7,5 @@ https://github.com/ericksonlopes/Compile-Repo
 ## Technologies
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?&logo=FastAPI&logoColor=FFFFFF) ![Docker](https://img.shields.io/badge/-Docker-2496ED?&logo=Docker&logoColor=FFFFFF) ![Pytest](https://img.shields.io/badge/-Pytest-0A9EDC?&logo=Pytest&logoColor=FFFFFF) ![Redis](https://img.shields.io/badge/-Redis-DC382D?&logo=Redis&logoColor=FFFFFF) ![Gunicorn](https://img.shields.io/badge/-Gunicorn-499848?&logo=gunicorn&logoColor=FFFFFF)
 
-Este projeto gira em torno de uma ideia "E se eu criar uma ferramente onde eu possa pesquisar por todas as músicas de um
+Este projeto gira em torno de uma ideia "E se eu criar uma ferramenta onde eu possa pesquisar por todas as músicas de um
 artista uma determinada frase ou palavra"
