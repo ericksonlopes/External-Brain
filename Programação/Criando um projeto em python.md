@@ -57,12 +57,13 @@ app/
 
 ```
 [pytest]
-addopts = --cov=app --cov-report=term-missing
+
+addopts = -v --cov=src --cov-report=term-missing --cov-report=html
 ```
 
 5. Crie um arquivo `.coveragerc` na raiz do seu projeto e defina as configurações do coverage.
 
 ```
 [html]
-directory = ./tests/report
+directory = ./tests/coverage
 ```
