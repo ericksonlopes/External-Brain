@@ -196,15 +196,23 @@ docker build -t python-project .
 ```
 Project/
 |__ venv
+    |__ ...
 |__ src
+    |__ __init__.py
+    |__ main.py
 |__ config
-    |__ _init__.py_
+    |__ __init__.py
+|__ tests
+    |__ __init__.py
+    |__ test_main.py
+    |__ coverage
+        |__ index.html
+        ... 
 |__ Pipfile
 |__ Pipfile.lock
 |__ pytest.ini
 |__ .coveragerc
 |__ run.py
-|__ dockerfile
 ```
 
 # Sexto Passo: GitHub Workflow para Tests
@@ -227,7 +235,7 @@ jobs:
 
       strategy:
          matrix:
-            python-version: [ 3.7, 3.8, 3.9 ]
+            python-version: [ 3.8 ]
 
       steps:
          - uses: actions/checkout@v2
@@ -275,18 +283,27 @@ obs: Para mais informações sobre o Github Actions, acesse a documentação ofi
     
 ```
 Project/
-|__ venv
-|__ src
-|__ config
-    |__ _init__.py_
 |__ .github
     |__ workflows
         |__ python-test.yml
+|__ venv
+    |__ ...
+|__ src
+    |__ __init__.py
+    |__ main.py
+|__ config
+    |__ __init__.py
+|__ tests
+    |__ __init__.py
+    |__ test_main.py
+    |__ coverage
+        |__ index.html
+        ... 
 |__ Pipfile
 |__ Pipfile.lock
 |__ pytest.ini
 |__ .coveragerc
-|__ Dockerfile
+|__ run.py
 ```
 
 
