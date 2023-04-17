@@ -1,0 +1,3 @@
+#venv
+
+## primeiro passo
