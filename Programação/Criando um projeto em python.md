@@ -48,16 +48,15 @@ Project/
    - Exemplo: arquivos de rotas, arquivos de models, arquivos de controllers, etc.
 
 2. Crie uma pasta `config` onde ficará todos os arquivos de configuração do seu projeto. Dentro desta pasta, crie um arquivo `__init__.py` para que o python reconheça a pasta como um módulo.
-   -  Exemplo: arquivos de configuração do banco de dados, arquivos de configuração do pytest, etc.
+   - Exemplo: arquivos de configuração do banco de dados, arquivos de configuração do pytest, etc.
 
-Vamos adicionar um arquivo na pasta `src` .
+3. Crie um arquivo `main.py` na pasta `src` e adicione o seguinte código:
+   - Usaremos essa função para .
 
 ```python
-
+def main():
+    print("Hello World!")
 ```
-
-
-
 
 O projeto deve ficar da seguinte forma:
 
@@ -67,6 +66,7 @@ Project/
     |__ ...
 |__ src
     |__ __init__.py
+    |__ main.py
 |__ config
     |__ __init__.py
 |__ Pipfile
