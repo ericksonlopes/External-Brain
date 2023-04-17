@@ -219,3 +219,29 @@ Em seguida, há um passo para instalar as dependências necessárias, que neste 
 Por fim, há um passo para executar os testes usando o pytest.
 
 Com isso, você terá um workflow de testes básico configurado para seu projeto Python. Claro, você pode personalizar o arquivo `.yml` para incluir outras ações, passos de teste ou configurações específicas para sua aplicação.
+
+obs: Para mais informações sobre o Github Actions, acesse a documentação oficial: https://docs.github.com/pt/actions
+
+- O projeto deve ficar da seguinte forma:
+    
+```
+Project/
+|__ .github
+    |__ workflows
+        |__ python-test.yml
+|__ venv
+|__ src
+|__ config
+    |__ _init__.py_
+|__ Pipfile
+|__ Pipfile.lock
+|__ pytest.ini
+|__ .coveragerc
+
+```
+
+# Conclusão
+
+Neste tutorial, você aprendeu como configurar um projeto Python do zero, incluindo a criação de um ambiente virtual, instalação de dependências, configuração de testes e criação de um workflow de testes no Github Actions.
+
+Espero que você tenha gostado do tutorial e que ele tenha sido útil para você. Se você tiver alguma dúvida ou sugestão, deixe um comentário abaixo.
