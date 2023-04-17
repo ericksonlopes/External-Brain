@@ -74,7 +74,6 @@ pipenv install pytest-cov
 
 ```
 [pytest]
-
 addopts = -v --cov=src --cov-report=term-missing --cov-report=html
 ```
 
@@ -116,7 +115,7 @@ Project/
 
 ## Quinto Passo: Docker
 
-Para começar, você precisará ter o Docker instalado em sua máquina. Depois, você pode criar um Dockerfile para sua aplicação Python. O Dockerfile é um arquivo de texto que contém as instruções para construir uma imagem do Docker, que é uma espécie de pacote que contém todo o ambiente necessário para executar sua aplicação.
+Para começar, você precisará ter o Docker instalado na sua máquina. Depois, você pode criar um Dockerfile para sua aplicação Python. O Dockerfile é um arquivo de texto que contém as instruções para construir uma imagem do Docker, que é uma espécie de pacote que contém todo o ambiente necessário para executar a sua aplicação.
 
 Um exemplo de Dockerfile para uma aplicação Python simples seria:
 
@@ -133,8 +132,13 @@ COPY . .
 
 RUN pytest
 
-CMD [ "python", "./app.py" ]
+CMD [ "python", "./run.py" ]
 ```
+- ``FROM``: define a imagem base do Docker que será usada para criar a imagem do seu projeto. Neste caso, estamos usando a imagem oficial do Python 3.9
+- ``WORKDIR``: define o diretório de trabalho do contêiner Docker. Todos os comandos subsequentes serão executados neste diretório.
+- ``COPY``: copia arquivos do seu sistema local para o contêiner Docker.
+- ``RUN``: executa um comando no contêiner Docker.
+- ``CMD``: define o comando padrão a ser executado quando o contêiner é iniciado.
 
 Este Dockerfile começa com uma imagem base do Python 3.9 e define um diretório de trabalho chamado `/app`. Em seguida, copia o arquivo `requirements.txt` para o diretório de trabalho e executa o comando `pip install` para instalar as dependências listadas no arquivo.
 
@@ -245,7 +249,7 @@ Para construir a imagem Docker, você pode executar o seguinte comando no diret�
 docker build -t nome-da-imagem .
 ```
 
-Isso irá construir a imagem e dar a ela o nome `nome-da-imagem`. O ponto no final do comando indica que o contexto de construção é o diretório atual.
+Isso irá construir a imagem e dar-lhe o nome `nome-da-imagem`. O ponto no final do comando indica que o contexto de construção é o diretório atual.
 
 Para executar o contêiner a partir da imagem, você pode executar o seguinte comando:
 
@@ -260,6 +264,6 @@ Com esses passos, você pode criar e executar uma imagem Docker para sua aplica�
 
 # Conclusão
 
-Neste tutorial, você aprendeu como configurar um projeto Python do zero, incluindo a criação de um ambiente virtual, instalação de dependências, configuração de testes e criação de um workflow de testes no Github Actions.
+Neste tutorial, você aprendeu como configurar um projeto Python do zero, incluindo a criação de um ambiente virtual, instalação de dependências, configuração de testes, dockerização e criação de um workflow de testes no Github Actions.
 
 Espero que você tenha gostado do tutorial e que ele tenha sido útil para você. Se você tiver alguma dúvida ou sugestão, deixe um comentário abaixo.

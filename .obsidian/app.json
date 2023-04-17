@@ -21,6 +21,12 @@
     "MacOS",
     "Pipenv",
     "venv",
-    "coverage"
+    "coverage",
+    "contêiner",
+    "contêiner",
+    "pytest",
+    "pytest-cov",
+    "Pipfile",
+    "python"
   ]
 }
