@@ -1,5 +1,6 @@
-#python #
-![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF)  ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?&logo=Streamlit&logoColor=FFFFFF) ![Plotly](https://img.shields.io/badge/-Plotly-239120?&logo=Plotly&logoColor=FFFFFF) ![Matplotlib](https://img.shields.io/badge/-Matplotlib-3776AB?&logo=Matplotlib&logoColor=FFFFFF)
+#python #github #streamlit #ploty #matplotlib #pandas
+
+![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF)  ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?&logo=Streamlit&logoColor=FFFFFF)  ![Plotly](https://img.shields.io/badge/-Plotly-239120?&logo=Plotly&logoColor=FFFFFF)  ![Matplotlib](https://img.shields.io/badge/-Matplotlib-3776AB?&logo=Matplotlib&logoColor=FFFFFF) ![Pandas](https://img.shields.io/badge/-Pandas-150458?&logo=Pandas&logoColor=FFFFFF)
 
 # Análise de dados do WhatsApp
 
