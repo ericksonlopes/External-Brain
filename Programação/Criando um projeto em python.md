@@ -65,7 +65,7 @@ Project/
 
 1. Execute os seguintes comandos para instalar o pytest e o pytest-cov:
 
-``` 
+```
 pipenv install pytest
 pipenv install pytest-cov
 ```
@@ -161,7 +161,7 @@ Project/
 |__ Dockerfile
 ```
 
-# Sexto Passo: Github Workflow para Tests
+# Sexto Passo: GitHub Workflow para Tests
 
 Para adicionar um workflow de testes no Github Actions para um projeto Python, você precisará criar um arquivo de configuração `.yml` na pasta `.github/workflows/` do seu repositório. Aqui está um exemplo básico de como fazer isso:
 
