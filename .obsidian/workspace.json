@@ -172,8 +172,9 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "c1fc8908b1c1dfff",
+  "active": "4a05506a8e462698",
   "lastOpenFiles": [
+    "Programação/Criando um projeto em python.md~",
     "Programação/Projetos/Words-In-Songs.md",
     "Programação/Projetos/Search In Export Chat (StreamLit).md",
     "Programação/Projetos/Search In Export Chat (FAZER).md",
@@ -185,7 +186,6 @@
     "Programação/Projetos/SearchInExportChat-StreamLit.md~",
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Projetos/Words-In-Songs.md~",
-    "Programação/Criando um projeto em python.md~",
     "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
     "Programação/Criando um projeto em python.md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
@@ -204,7 +204,6 @@
     "Programação/MongoDB/mongodb no docker.md",
     "Programação/Sem título",
     "Programação/MongoDB/CRUD em  MongoDB com python.md",
-    "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/PySpark/Trabalhando com views n o pyspark",
     "Programação/PySpark/Joins com pyspark.md~",
     "Programação/Docker/Trabalhando com selenoid.md~",

@@ -7,7 +7,7 @@ Para iniciar uma venv (ambiente virtual) em Python, você pode seguir os seguint
 1.  Abra o terminal do seu sistema operacional
 2.  Navegue até o diretório onde deseja criar a venv usando o comando `cd`
 3.  Digite o comando `python -m venv venv` para criar a venv (o último venv se refere ao nome do ambiente virtual)
-5.  Ative a venv digitando o comando específico para o seu sistema operacional:
+4.  Ative a venv digitando o comando específico para o seu sistema operacional:
     -   Windows: ``.\venv\Scripts\activate.bat``
     -   Linux/MacOS: ``source venv/bin/activate``
 
