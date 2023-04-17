@@ -148,36 +148,12 @@ Project/
 |__ src
 |__ config
     |__ _init__.py_
-|__ .github
-    |__ workflows
-        |__ python-test.yml
 |__ Pipfile
 |__ Pipfile.lock
 |__ pytest.ini
 |__ .coveragerc
-
+|__ Dockerfile
 ```
-
-
-Para construir a imagem Docker, você pode executar o seguinte comando no diretório onde está o Dockerfile:
-
-
-```bash
-docker build -t nome-da-imagem .
-```
-
-Isso irá construir a imagem e dar a ela o nome `nome-da-imagem`. O ponto no final do comando indica que o contexto de construção é o diretório atual.
-
-Para executar o contêiner a partir da imagem, você pode executar o seguinte comando:
-
-```bash
-docker run -it --rm nome-da-imagem
-```
-
-Isso irá iniciar o contêiner e executar o comando padrão especificado no Dockerfile, que é executar o arquivo `app.py`. O parâmetro `-it` é usado para iniciar o contêiner em modo interativo e a opção `--rm` é usada para remover o contêiner quando ele é interrompido.
-
-Com esses passos, você pode criar e executar uma imagem Docker para sua aplicação Python. Claro, isso é apenas um exemplo simples e você pode personalizar o Dockerfile para incluir outras dependências ou configurações específicas para sua aplicação.
-
 # Sexto Passo: Github Workflow para Tests
 
 Para adicionar um workflow de testes no Github Actions para um projeto Python, você precisará criar um arquivo de configuração `.yml` na pasta `.github/workflows/` do seu repositório. Aqui está um exemplo básico de como fazer isso:
@@ -257,9 +233,30 @@ Project/
 |__ Pipfile.lock
 |__ pytest.ini
 |__ .coveragerc
+|__ Dockerfile
 ```
 
 # Sétimo Passo: Rodando e Testando aplicação
+
+Para construir a imagem Docker, você pode executar o seguinte comando no diretório onde está o Dockerfile:
+
+
+```bash
+docker build -t nome-da-imagem .
+```
+
+Isso irá construir a imagem e dar a ela o nome `nome-da-imagem`. O ponto no final do comando indica que o contexto de construção é o diretório atual.
+
+Para executar o contêiner a partir da imagem, você pode executar o seguinte comando:
+
+```bash
+docker run -it --rm nome-da-imagem
+```
+
+Isso irá iniciar o contêiner e executar o comando padrão especificado no Dockerfile, que é executar o arquivo `app.py`. O parâmetro `-it` é usado para iniciar o contêiner em modo interativo e a opção `--rm` é usada para remover o contêiner quando ele é interrompido.
+
+Com esses passos, você pode criar e executar uma imagem Docker para sua aplicação Python. Claro, isso é apenas um exemplo simples e você pode personalizar o Dockerfile para incluir outras dependências ou configurações específicas para sua aplicação.
+
 
 # Conclusão
 
