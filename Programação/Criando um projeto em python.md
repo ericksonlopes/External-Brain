@@ -61,6 +61,8 @@ app/
 |__ src
 |__ tests
     |__ __init__.py
+|__ Pipfile
+|__ Pipfile.lock
 |__ pytest.ini
 ``` 
 
@@ -79,3 +81,15 @@ addopts = -v --cov=src --cov-report=term-missing --cov-report=html
 [html]
 directory = ./tests/coverage
 ```
+
+``` 
+app/
+|__ src
+|__ tests
+    |__ __init__.py
+|__ Pipfile
+|__ Pipfile.lock
+|__ pytest.ini
+|__ .coveragerc
+``` 
+
