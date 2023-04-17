@@ -70,8 +70,7 @@ pipenv install pytest
 pipenv install pytest-cov
 ```
 
-2. Crie uma pasta `tests` para armazenar os testes do seu projeto. Dentro da pasta `tests`, crie uma pasta `coverage` para armazenar o coverage do seu projeto.
-
+2. Crie uma pasta `tests` para armazenar os testes do seu projeto. Dentro desta pasta, crie um arquivo `__init__.py` para que o python reconheça a pasta como um módulo.
 3. Crie um arquivo `pytest.ini` na raiz do seu projeto e defina as configurações do pytest.
 
 4. Adicione o seguinte conteúdo ao arquivo `pytest.ini`:
