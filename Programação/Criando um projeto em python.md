@@ -54,7 +54,15 @@ app/
 
 4. Adicione o seguinte conteúdo ao arquivo `pytest.ini`:
 
+
 ```
 [pytest]
 addopts = --cov=app --cov-report=term-missing
+```
+
+5. Crie um arquivo `.coveragerc` na raiz do seu projeto e defina as configurações do coverage.
+
+```
+[html]
+directory = ./tests/report
 ```
