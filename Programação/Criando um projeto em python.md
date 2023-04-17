@@ -1,4 +1,4 @@
-#venv #virtual-environment #pipenv #tests #pytest
+#venv #virtual-environment #pipenv #tests #pytest #github #github-actions #workflow
 
 ## Primeiro Passo: Ambiente Virtual
 

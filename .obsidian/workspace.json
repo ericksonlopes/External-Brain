@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#virtual-environment",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Criando um projeto em python.md"
+                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md"
               }
             }
           },
@@ -173,8 +174,9 @@
   },
   "active": "82b8b787ff1ab6d4",
   "lastOpenFiles": [
-    "Programação/Criando um projeto em python.md~",
+    "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
     "Programação/Criando um projeto em python.md",
+    "Programação/Criando um projeto em python.md~",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
