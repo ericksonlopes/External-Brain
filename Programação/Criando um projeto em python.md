@@ -153,7 +153,7 @@ Project/
 
 ## Quinto Passo: Docker
 
-Para começar, você precisará ter o Docker instalado na sua máquina. Depois, você pode criar um ``dockerfile`` para sua aplicação Python. O Dockerfile é um arquivo de texto que contém as instruções para construir uma imagem do Docker, que é uma espécie de pacote que contém todo o ambiente necessário para executar a sua aplicação.
+1.  Para começar, você precisará ter o Docker instalado na sua máquina. Depois, você pode criar um ``dockerfile`` para sua aplicação Python. O Dockerfile é um arquivo de texto que contém as instruções para construir uma imagem do Docker, que é uma espécie de pacote que contém todo o ambiente necessário para executar a sua aplicação.
 
 Um exemplo de Dockerfile para uma aplicação Python simples seria:
 
@@ -180,6 +180,16 @@ CMD [ "python", "./run.py" ]
 Este Dockerfile começa com uma imagem base do Python 3.9 e define um diretório de trabalho chamado `/project`. Em seguida, ele copia todos os arquivos do diretório atual para o diretório de trabalho no contêiner Docker. Em seguida, ele instala o pipenv e instala todas as dependências do projeto.
 
 Depois, ele executa o comando `pytest` para executar os testes e, por fim, define o comando padrão para executar o arquivo `run.py` quando o contêiner for iniciado.
+
+2. Para construir a imagem do Docker, execute o seguinte comando na raiz do seu projeto:
+
+```
+docker build -t python-project .
+```
+
+- ``-t``: define o nome da imagem
+- ``python-project``: nome da imagem
+- ``.``: define o diretório onde o Dockerfile está localizado(neste caso, na raiz do projeto)
 
 - O projeto deve ficar da seguinte forma:
     
