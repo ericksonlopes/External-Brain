@@ -70,6 +70,15 @@ addopts = -v --cov=src --cov-report=term-missing --cov-report=html
 directory = ./tests/coverage
 ```
 
+6. Crie um arquivo  `test_init.py` para testes dentro do diretório test e adicione o código abaixo:
+
+```
+def test_init():
+    assert True
+```
+
+7. Execute o comando `pytest` para rodar os testes e verifique se o coverage foi gerado.
+
 - O projeto deve ficar da seguinte forma:
  
 ``` 
