@@ -1,4 +1,4 @@
-#venv
+#venv #virtual-environment #pipenv 
 
 ## Primeiro Passo: Ambiente Virtual
 
@@ -13,7 +13,7 @@ Para iniciar uma venv (ambiente virtual) em Python, você pode seguir os seguint
 
 Dessa forma, você terá iniciado sua venv em Python. Para desativar a venv, basta digitar o comando `deactivate`.
 
-Segundo Passo
+## Segundo Passo:  Pipenv
 
 O Pipenv é uma ferramenta que combina e simplifica a criação e gerenciamento de ambientes virtuais com a instalação de pacotes Python. Para utilizá-lo, siga os seguintes passos:
 
@@ -25,3 +25,6 @@ O Pipenv é uma ferramenta que combina e simplifica a criação e gerenciamento 
 6.  Quando terminar de usar a venv, saia do ambiente digitando o comando `exit`
 
 O Pipenv também oferece outras funcionalidades úteis, como a criação automática de um arquivo Pipfile que lista todos os pacotes instalados no ambiente virtual e suas dependências, além de permitir que você instale todas as dependências do seu projeto em apenas um comando (`pipenv install`). Com o uso do Pipenv, fica mais fácil garantir que seu projeto tenha um ambiente confiável e possui todas as dependências corretas.
+
+## Terceiro passo: Testes
+
