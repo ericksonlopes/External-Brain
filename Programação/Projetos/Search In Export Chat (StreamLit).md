@@ -4,8 +4,6 @@
 
 # Análise de dados do WhatsApp
 
-
-
 ⭐Seja bem-vindo ao meu projeto de análise de dados de conversas do WhatsApp! Este projeto foi criado visando ajudar os usuários do WhatsApp a terem uma visão mais clara e detalhada sobre suas conversas. Com esta ferramenta, você poderá exportar uma conversa do WhatsApp e importá-la no aplicativo de análise de dados. Aqui, você poderá encontrar informações importantes sobre sua conversa, como:
 
 ℹ️ Informações principais da conversa
