@@ -284,11 +284,11 @@ obs: Para mais informações sobre o Github Actions, acesse a documentação ofi
     
 ```
 Project/
+|__ venv
+    |__ ...
 |__ .github
     |__ workflows
         |__ python-test.yml
-|__ venv
-    |__ ...
 |__ src
     |__ __init__.py
     |__ main.py
