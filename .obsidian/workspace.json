@@ -18,6 +18,19 @@
             }
           },
           {
+            "id": "ff35ec9d8549ee07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Python/PEP8.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4a05506a8e462698",
             "type": "leaf",
             "state": {
@@ -30,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -97,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Python/PEP8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Python/PEP8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Python/PEP8.md"
+              }
             }
           },
           {
@@ -169,8 +186,9 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "ff35ec9d8549ee07",
   "lastOpenFiles": [
+    "Programação/Python/PEP8.md",
     "Programação/Criando um projeto em python.md~",
     "Programação/Criando um projeto em python.md",
     "Programação/Projetos/Words-In-Songs.md",
