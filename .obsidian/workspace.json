@@ -16,35 +16,8 @@
               "state": {},
               "pinned": true
             }
-          },
-          {
-            "id": "ff35ec9d8549ee07",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Python/PEP8.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4a05506a8e462698",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Criando um projeto em python.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +83,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Python/PEP8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +99,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Python/PEP8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +120,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Python/PEP8.md"
-              }
+              "state": {}
             }
           },
           {
@@ -186,7 +155,7 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "ff35ec9d8549ee07",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
     "Programação/Python/PEP8.md",
     "Programação/Criando um projeto em python.md~",
