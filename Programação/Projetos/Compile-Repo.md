@@ -1,4 +1,4 @@
-#python #flask #pytest #beautifulsoup #github #github-actions
+#python #flask #pytest #beautifulsoup #github #github-actions #projeto
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF)
 ![Pytest](https://img.shields.io/badge/-Pytest-0A9EDC?&logo=Pytest&logoColor=FFFFFF)

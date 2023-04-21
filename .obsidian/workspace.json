@@ -16,8 +16,22 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "c9ab7976f4d78385",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Projetos/Words-In-Songs.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Projetos/Words-In-Songs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Projetos/Words-In-Songs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Projetos/Words-In-Songs.md"
+              }
             }
           },
           {
@@ -155,15 +173,17 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "c9ab7976f4d78385",
   "lastOpenFiles": [
+    "Programação/Projetos/Words-In-Songs.md",
+    "Programação/Projetos/Search In Export Chat (StreamLit).md",
+    "Programação/Projetos/Search In Export Chat.md",
+    "Programação/Projetos/ScrapingcoinMarketCap.md",
+    "Programação/Projetos/Compile-Repo.md",
     "Programação/Python/PEP8.md",
     "Programação/Criando um projeto em python.md~",
     "Programação/Criando um projeto em python.md",
-    "Programação/Projetos/Words-In-Songs.md",
-    "Programação/Projetos/Search In Export Chat (StreamLit).md",
     "Programação/Projetos/Search In Export Chat (FAZER).md",
-    "Programação/Projetos/ScrapingcoinMarketCap.md",
     "Programação/Projetos/Compile-Repo (FAZER).md",
     "Programação/Projetos/Search In Export Chat (StreamLit)",
     "Programação/Projetos/SearchInExportChat-StreamLit.md",
@@ -185,9 +205,7 @@
     "Programação/Redis/Redis + Python.md",
     "LINKS PARA VER.md",
     "Programação/FastAPI/Tests com FastAPI.md",
-    "Programação/MongoDB/mongodb no docker.md",
     "Programação/Sem título",
-    "Programação/MongoDB/CRUD em  MongoDB com python.md",
     "Programação/PySpark/Trabalhando com views n o pyspark",
     "Programação/PySpark/Joins com pyspark.md~",
     "Programação/Docker/Trabalhando com selenoid.md~",
