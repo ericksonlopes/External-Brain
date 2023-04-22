@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/ElasticSearch/Elasticsearch + loguru.md",
+                "file": "Programação/Projetos/Words-In-Songs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/ElasticSearch/Elasticsearch + loguru.md",
+                "file": "Programação/Projetos/Words-In-Songs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/ElasticSearch/Elasticsearch + loguru.md"
+                "file": "Programação/Projetos/Words-In-Songs.md"
               }
             }
           },
@@ -186,10 +186,10 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "1a37c9ca34dc524a",
+  "active": "c9ab7976f4d78385",
   "lastOpenFiles": [
-    "Programação/Projetos/Words-In-Songs.md",
     "Programação/ElasticSearch/Elasticsearch + loguru.md",
+    "Programação/Projetos/Words-In-Songs.md",
     "Programação/Sem título",
     "Programação/Sem título.md",
     "Programação/ElasticSearch",
