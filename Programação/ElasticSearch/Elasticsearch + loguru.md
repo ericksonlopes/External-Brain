@@ -1,6 +1,3 @@
-
-
-
 ```python
 from elasticsearch import Elasticsearch  
 from loguru import logger  

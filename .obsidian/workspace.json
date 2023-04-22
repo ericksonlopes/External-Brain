@@ -175,6 +175,7 @@
   },
   "active": "1a37c9ca34dc524a",
   "lastOpenFiles": [
+    "Programação/ElasticSearch/Elasticsearch + loguru.md~",
     "Programação/Projetos/Words-In-Songs.md",
     "Programação/ElasticSearch/Elasticsearch + loguru.md",
     "Programação/Sem título",
@@ -206,7 +207,6 @@
     "Programação/Docker/Comandos Docker.md",
     "Programação/Python/Context.md",
     "Programação/Redis/Redis + docker.md",
-    "Programação/Redis/Redis + Python.md",
     "Programação/PySpark/Trabalhando com views n o pyspark",
     "Programação/PySpark/Joins com pyspark.md~",
     "Programação/Docker/Trabalhando com selenoid.md~",
