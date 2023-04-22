@@ -39,3 +39,5 @@ A instância `elastic_handler` da classe `ElasticHandler` é criada e adicio
 Finalmente, um registro de log de nível `info` é enviado ao logger contendo uma mensagem "Hello World!". Esse registro de log será então enviado para o Elasticsearch pelo `ElasticHandler`.
 
 Ao executar este código, você verá um registro de log na sua instância do Elasticsearch com a mensagem "Hello World!" e outros detalhes, como data/hora, nível de registro, etc. Essa configuração pode ser expandida e personalizada para atender às suas necessidades de logging e análise de dados.
+
+#Elasticsearch
