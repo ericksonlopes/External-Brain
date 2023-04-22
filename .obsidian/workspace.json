@@ -29,9 +29,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1a37c9ca34dc524a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/ElasticSearch/Elasticsearch + loguru.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Projetos/Words-In-Songs.md",
+                "file": "Programação/ElasticSearch/Elasticsearch + loguru.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Projetos/Words-In-Songs.md",
+                "file": "Programação/ElasticSearch/Elasticsearch + loguru.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Projetos/Words-In-Songs.md"
+                "file": "Programação/ElasticSearch/Elasticsearch + loguru.md"
               }
             }
           },
@@ -173,9 +186,13 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "c9ab7976f4d78385",
+  "active": "1a37c9ca34dc524a",
   "lastOpenFiles": [
     "Programação/Projetos/Words-In-Songs.md",
+    "Programação/ElasticSearch/Elasticsearch + loguru.md",
+    "Programação/Sem título",
+    "Programação/Sem título.md",
+    "Programação/ElasticSearch",
     "Programação/Projetos/Search In Export Chat (StreamLit).md",
     "Programação/Projetos/Search In Export Chat.md",
     "Programação/Projetos/ScrapingcoinMarketCap.md",
@@ -203,14 +220,10 @@
     "Programação/Python/Context.md",
     "Programação/Redis/Redis + docker.md",
     "Programação/Redis/Redis + Python.md",
-    "LINKS PARA VER.md",
-    "Programação/FastAPI/Tests com FastAPI.md",
-    "Programação/Sem título",
     "Programação/PySpark/Trabalhando com views n o pyspark",
     "Programação/PySpark/Joins com pyspark.md~",
     "Programação/Docker/Trabalhando com selenoid.md~",
     "Programação/Python/Pipenv.md~",
-    "Programação/PySpark/Trabalhando com Grafos no pyspark.md~",
     "Sem título.canvas",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
