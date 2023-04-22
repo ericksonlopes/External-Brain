@@ -10,13 +10,13 @@ es = Elasticsearch([{'host': 'localhost', 'port': 9200, 'scheme': 'http'}])
 index_name = 'api_logs'  
   
 if not es.indices.exists(index=index_name):  
-es.indices.create(index=index_name)  
+	es.indices.create(index=index_name)  
   
   
 class ElasticHandler:  
 @staticmethod  
 def write(message):  
-es.index(index=index_name, document=message)  
+	es.index(index=index_name, document=message)  
   
   
 elastic_handler = ElasticHandler()  
