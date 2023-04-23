@@ -1,26 +1,22 @@
 ```python
-from elasticsearch import Elasticsearch  
-from loguru import logger  
-  
-es = Elasticsearch([{'host': 'localhost', 'port': 9200, 'scheme': 'http'}])  
-  
-index_name = 'api_logs'  
-  
-if not es.indices.exists(index=index_name):  
-	es.indices.create(index=index_name)  
-  
-  
-class ElasticHandler:  
-@staticmethod  
-def write(message):  
-	es.index(index=index_name, document=message)  
-  
-  
-elastic_handler = ElasticHandler()  
-  
-logger.add(elastic_handler)  
-  
-logger.info({'message': 'Hello World!'})
+from elasticsearch import Elasticsearch
+from loguru import logger
+
+index_name = 'api_logs'
+es = Elasticsearch([{'host': 'localhost', 'port': 9200, 'scheme': 'http'}])
+
+if not es.indices.exists(index=index_name):
+    es.indices.create(index=index_name)
+
+
+class ElasticHandler:
+    @staticmethod
+    def write(message):
+        es.index(index=index_name, document=message)
+
+
+logger.add(ElasticHandler.write, serialize=True)
+logger.info("Successfully logged to ElasticSearch!")
 ```
 
 Este código demonstra como configurar o `Loguru` (um framework de logging) para enviar registros de log para o Elasticsearch.
@@ -37,4 +33,4 @@ Finalmente, um registro de log de nível `info` é enviado ao logger contendo 
 
 Ao executar este código, você verá um registro de log na sua instância do Elasticsearch com a mensagem "Hello World!" e outros detalhes, como data/hora, nível de registro, etc. Essa configuração pode ser expandida e personalizada para atender às suas necessidades de logging e análise de dados.
 
-#elasticsearch #loguru #logs
+#elasticsearch #loguru #python #logging #log #indexing

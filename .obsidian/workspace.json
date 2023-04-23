@@ -23,7 +23,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/ElasticSearch/Elasticsearch + loguru.md",
+                "file": "Programação/Docker/Comandos Docker.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4780998092b1dc14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Docker/Docker + elasticsearch + kibana.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -31,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/ElasticSearch/Elasticsearch + loguru.md",
+                "file": "Programação/Docker/Docker + elasticsearch + kibana.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/ElasticSearch/Elasticsearch + loguru.md",
+                "file": "Programação/Docker/Docker + elasticsearch + kibana.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/ElasticSearch/Elasticsearch + loguru.md"
+                "file": "Programação/Docker/Docker + elasticsearch + kibana.md"
               }
             }
           },
@@ -173,11 +186,15 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "1a37c9ca34dc524a",
+  "active": "4780998092b1dc14",
   "lastOpenFiles": [
+    "Programação/Docker/Docker + elasticsearch + kibana.md~",
+    "Programação/Docker/Comandos Docker.md",
+    "Programação/Docker/Docker + elasticsearch + kibana.md",
+    "Programação/Docker/Docker + elasticsearch + kibana",
+    "Programação/ElasticSearch/Elasticsearch + loguru.md",
     "Programação/ElasticSearch/Elasticsearch + loguru.md~",
     "Programação/Projetos/Words-In-Songs.md",
-    "Programação/ElasticSearch/Elasticsearch + loguru.md",
     "Programação/Sem título",
     "Programação/Sem título.md",
     "Programação/ElasticSearch",
@@ -204,13 +221,9 @@
     "Programação/Padrões de projetos (Desing Patterns)/Builder (Construtor).md",
     "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
-    "Programação/Docker/Comandos Docker.md",
     "Programação/Python/Context.md",
-    "Programação/Redis/Redis + docker.md",
     "Programação/PySpark/Trabalhando com views n o pyspark",
     "Programação/PySpark/Joins com pyspark.md~",
-    "Programação/Docker/Trabalhando com selenoid.md~",
-    "Programação/Python/Pipenv.md~",
     "Sem título.canvas",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
