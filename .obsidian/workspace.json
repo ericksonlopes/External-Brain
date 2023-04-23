@@ -16,17 +16,8 @@
               "state": {},
               "pinned": true
             }
-          },
-          {
-            "id": "bf3a6227333a70f9",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -55,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "kibana",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,7 +156,7 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "bf3a6227333a70f9",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
