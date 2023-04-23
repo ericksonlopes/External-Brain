@@ -1,16 +1,25 @@
 ```python
 import logging
+from dataclasses import dataclass
 from datetime import datetime
 
+# pip install elasticsearch
 from elasticsearch import Elasticsearch
 
 
-class ElasticSearchLogger(logging.Logger):
+@dataclass
+class ElasticsearchConfig:
+    host: str = "localhost"
+    port: int = 9200
+    scheme: str = "http"
+    index_name: str = "logs"
+
+
+class ElasticSearchLogger(logging.Logger, ElasticsearchConfig):
     def __init__(self):
-        self.index_name = "api_logs"
         super().__init__(self.index_name)
 
-        self.__es = Elasticsearch([{'host': 'localhost', 'port': 9200, 'scheme': 'http'}])
+        self.__es = Elasticsearch([{'host': self.host, 'port': self.port, 'scheme': self.scheme}])
 
         if not self.__es.indices.exists(index=self.index_name):
             self.__es.indices.create(index=self.index_name)
@@ -38,8 +47,21 @@ class ElasticSearchLogger(logging.Logger):
         self.log(logging.DEBUG, message)
 
 
-es_logger = ElasticSearchLogger()
-es_logger.error({'message': 'Hello World!'})
+class Test(ElasticSearchLogger):
+    def __init__(self):
+        super().__init__()
+
+    def test(self):
+        self.info({'message': 'Info'})
+        self.error({'message': 'Error'})
+        self.warning({'message': 'Warning'})
+        self.critical({'message': 'Critical'})
+        self.debug({'message': 'Debug'})
+
+
+if __name__ == '__main__':
+    Test().test()
+
 ```
 
 Este código implementa um logger personalizado que registra mensagens de log em um índice do Elasticsearch. Ele estende a classe logging.Logger para fornecer os níveis de log padrão (INFO, WARNING, ERROR, CRITICAL e DEBUG) e inclui um método personalizado log que permite que o usuário registre mensagens de log personalizadas.
