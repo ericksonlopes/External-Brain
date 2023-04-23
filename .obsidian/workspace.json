@@ -30,8 +30,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Streamlit/Streamlit + Jinja2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Streamlit/Streamlit + Jinja2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Streamlit/Streamlit + Jinja2.md"
-              }
+              "state": {}
             }
           },
           {
@@ -173,8 +168,9 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "d73c203fe0fcd98a",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
+    "Programação/Streamlit/Streamlit + Jinja2.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md~",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
