@@ -16,6 +16,19 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "bf3a6227333a70f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -46,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#fastAPI",
+                "query": "tag:#yaml",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,7 +76,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,6 +171,7 @@
   },
   "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
+    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Docker/Comandos Docker.md",
@@ -164,7 +179,6 @@
     "Programação/ElasticSearch/Sem título.md",
     "Programação/ElasticSearch/Sem título.md~",
     "Programação/ElasticSearch/Sem título",
-    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Docker/Docker + elasticsearch + kibana.md~",
     "Programação/Docker/Docker + elasticsearch + kibana",
     "Programação/ElasticSearch/Elasticsearch + loguru.md~",
