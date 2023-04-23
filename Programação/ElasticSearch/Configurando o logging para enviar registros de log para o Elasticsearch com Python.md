@@ -51,3 +51,5 @@ O método log adiciona informações adicionais à mensagem de log, como o níve
 Por fim, são fornecidos métodos personalizados (info, error, warning, critical e debug) que chamam o método log com o nível de log apropriado. O método log é chamado dentro desses métodos personalizados com a mensagem fornecida pelo usuário.
 
 Na última linha do código, uma instância de ElasticSearchLogger é criada e uma mensagem de erro de teste é registrada no índice do Elasticsearch usando o método error. A mensagem de erro registrada inclui uma chave "message" com o valor "Hello World!".
+
+#Python #elasticsearch #Logging #logging #indexing
