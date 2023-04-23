@@ -36,7 +36,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Docker/Docker + elasticsearch + kibana.md",
+                "file": "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "628aaec35a0b4160",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/ElasticSearch/Sem título.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -44,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Docker/Docker + elasticsearch + kibana.md",
+                "file": "Programação/ElasticSearch/Sem título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Docker/Docker + elasticsearch + kibana.md",
+                "file": "Programação/ElasticSearch/Sem título.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Docker/Docker + elasticsearch + kibana.md"
+                "file": "Programação/ElasticSearch/Sem título.md"
               }
             }
           },
@@ -186,13 +199,16 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "4780998092b1dc14",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "Programação/ElasticSearch/Sem título.md~",
+    "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
+    "Programação/ElasticSearch/Sem título.md",
+    "Programação/ElasticSearch/Sem título",
     "Programação/Docker/Comandos Docker.md",
-    "Programação/Docker/Docker + elasticsearch + kibana.md",
+    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Docker/Docker + elasticsearch + kibana.md~",
     "Programação/Docker/Docker + elasticsearch + kibana",
-    "Programação/ElasticSearch/Elasticsearch + loguru.md",
     "Programação/ElasticSearch/Elasticsearch + loguru.md~",
     "Programação/Projetos/Words-In-Songs.md",
     "Programação/Sem título",
@@ -221,8 +237,6 @@
     "Programação/Padrões de projetos (Desing Patterns)/Builder (Construtor).md",
     "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
-    "Programação/Python/Context.md",
-    "Programação/PySpark/Trabalhando com views n o pyspark",
     "Sem título.canvas",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
