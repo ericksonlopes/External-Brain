@@ -1,4 +1,4 @@
-#github #beautifulsoup #streamlit 
+#github #beautifulsoup #streamlit #requests #matplotlib #networkx
 
 ```python
 # pip install matplotlib

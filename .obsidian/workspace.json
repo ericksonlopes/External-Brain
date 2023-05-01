@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kibana",
+                "query": "tag:#netwo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
