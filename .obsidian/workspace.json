@@ -23,14 +23,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Streamlit/Streamlit + Jinja2.md",
+                "file": "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "205eddc89e2761dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Streamlit/Grafos com repositórios do github.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -96,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Streamlit/Grafos com repositórios do github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Streamlit/Grafos com repositórios do github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Streamlit/Grafos com repositórios do github.md"
+              }
             }
           },
           {
@@ -168,8 +186,11 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "205eddc89e2761dc",
   "lastOpenFiles": [
+    "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
+    "Programação/Streamlit/Grafos com repositórios do github.md",
+    "badge.md",
     "Programação/Streamlit/Streamlit + Jinja2.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md~",
@@ -203,9 +224,6 @@
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
-    "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
-    "Programação/Padrões de projetos (Desing Patterns)/Builder (Construtor).md",
-    "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "Sem título.canvas",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
