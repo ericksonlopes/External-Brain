@@ -11,4 +11,4 @@ PEP 8 é uma guia de estilo para escrever código Python. Ele fornece diretrizes
   
 Seguir a guia de estilo PEP 8 é uma boa prática para escrever código Python de alta qualidade que seja fácil de ler e compreender por outros desenvolvedores. No entanto, é importante lembrar que a guia é uma sugestão e não uma regra rígida, e você pode adaptá-la ao seu próprio estilo de codificação.  
   
-#pythonacademy #python #cleancode #PEP8
+  #python #cleancode #PEP8

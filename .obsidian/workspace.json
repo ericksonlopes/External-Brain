@@ -16,35 +16,8 @@
               "state": {},
               "pinned": true
             }
-          },
-          {
-            "id": "d73c203fe0fcd98a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "205eddc89e2761dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Streamlit/Grafos com repositórios do github.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#netwo",
+                "query": "tag:#pythonacademy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Streamlit/Grafos com repositórios do github.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Streamlit/Grafos com repositórios do github.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Streamlit/Grafos com repositórios do github.md"
-              }
+              "state": {}
             }
           },
           {
@@ -187,11 +156,12 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "205eddc89e2761dc",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
-    "Programação/Streamlit/Grafos com repositórios do github.md~",
+    "Programação/Python/PEP8.md",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
     "Programação/Streamlit/Grafos com repositórios do github.md",
+    "Programação/Streamlit/Grafos com repositórios do github.md~",
     "badge.md",
     "Programação/Streamlit/Streamlit + Jinja2.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
@@ -213,12 +183,10 @@
     "Programação/Projetos/Search In Export Chat.md",
     "Programação/Projetos/ScrapingcoinMarketCap.md",
     "Programação/Projetos/Compile-Repo.md",
-    "Programação/Python/PEP8.md",
     "Programação/Criando um projeto em python.md~",
     "Programação/Criando um projeto em python.md",
     "Programação/Projetos/Search In Export Chat (FAZER).md",
     "Programação/Projetos/Compile-Repo (FAZER).md",
-    "Programação/Projetos/Search In Export Chat (StreamLit)",
     "Programação/Projetos/SearchInExportChat-StreamLit.md",
     "Programação/Docker/logger + docker + volumes.md",
     "Programação/Pydantic/BaseSettings + env.md",
