@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
+                "file": "Componentes computador/Componentes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
+                "file": "Componentes computador/Componentes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
+                "file": "Componentes computador/Componentes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md"
+                "file": "Componentes computador/Componentes.md"
               }
             }
           },
@@ -183,6 +183,9 @@
   },
   "active": "6bf732d541731762",
   "lastOpenFiles": [
+    "Componentes computador/Periféricos.md",
+    "Componentes computador/Componentes.md",
+    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "RoadMap Python.canvas",
     "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
@@ -217,8 +220,6 @@
     "Programação/Projetos/SearchInExportChat-StreamLit.md",
     "Programação/Docker/logger + docker + volumes.md",
     "Programação/Pydantic/BaseSettings + env.md",
-    "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
-    "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
