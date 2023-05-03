@@ -32,7 +32,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "RoadMap Python.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "RoadMap Python.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +138,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "RoadMap Python.canvas"
+              }
             }
           },
           {
@@ -170,7 +175,7 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "6bf732d541731762",
   "lastOpenFiles": [
     "RoadMap Python.canvas",
     "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
