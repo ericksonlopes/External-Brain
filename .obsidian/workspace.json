@@ -23,11 +23,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Sem título.canvas",
+                "file": "RoadMap Python.canvas",
                 "viewState": {
-                  "x": 430,
-                  "y": -50,
-                  "zoom": -0.23401150460328138
+                  "x": 356.99107293570296,
+                  "y": -38.03739722528793,
+                  "zoom": -0.5673448379366148
                 }
               }
             }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título.canvas",
+                "file": "RoadMap Python.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem título.canvas",
+                "file": "RoadMap Python.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sem título.canvas"
+                "file": "RoadMap Python.canvas"
               }
             }
           },
@@ -177,7 +177,7 @@
   },
   "active": "6bf732d541731762",
   "lastOpenFiles": [
-    "Sem título.canvas",
+    "RoadMap Python.canvas",
     "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
