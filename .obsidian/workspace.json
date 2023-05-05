@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Componentes computador/Componentes.md",
+                "file": "Componentes computador/Periféricos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Componentes computador/Componentes.md",
+                "file": "Componentes computador/Periféricos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Componentes computador/Componentes.md",
+                "file": "Componentes computador/Periféricos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Componentes computador/Componentes.md"
+                "file": "Componentes computador/Periféricos.md"
               }
             }
           },
@@ -183,8 +183,8 @@
   },
   "active": "6bf732d541731762",
   "lastOpenFiles": [
-    "Componentes computador/Periféricos.md",
     "Componentes computador/Componentes.md",
+    "Componentes computador/Periféricos.md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "RoadMap Python.canvas",
     "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
