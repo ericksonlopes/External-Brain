@@ -5,7 +5,9 @@ Tabela ACE 1 e 2 n junta
 PHARMATYPE(3, 4 ,10) join
 
 
+se for o primeiro  = T0
 se hospital_registry for igual  E hospitalizacao_arm_1 = Ta
+
 1 = Ta
 2 = Tb
 3 = Tc
