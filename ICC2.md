@@ -19,7 +19,11 @@ fu_2_30d_arm_1 = T30
 
 fu_2_(Total de dias)_arm_1 = T(Total de dias)
 
+
 ```
 import requests data = { 'token': 'D37063A905B619510904523CCB559B57', 'content': 'record', 'format': 'csv', 'returnFormat': 'json' } r = requests.post('[https://servicos3.hcor.com.br/redcap/api/',data=data](https://servicos3.hcor.com.br/redcap/api/',data=data)) print('HTTP Status: ' + str(r.status_code)) print(r.text)
+````
+
+
 
 
