@@ -105,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ICC2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ICC2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ICC2.md"
-              }
+              "state": {}
             }
           },
           {
@@ -181,9 +177,10 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "23d01a0400d916c7",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
     "ICC2.md",
+    "Sem título.md",
     "Componentes computador/Periféricos.md",
     "Componentes computador/Componentes.md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
@@ -219,7 +216,6 @@
     "Programação/Projetos/Search In Export Chat (FAZER).md",
     "Programação/Projetos/Compile-Repo (FAZER).md",
     "Programação/Projetos/SearchInExportChat-StreamLit.md",
-    "Programação/Docker/logger + docker + volumes.md",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
