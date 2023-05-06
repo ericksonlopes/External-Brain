@@ -1,4 +1,4 @@
-Tabela ACE arb disch_yn
+Tabela ACE 1 e 2 n junta
 2 = 555
 3 = 999
 
