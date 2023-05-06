@@ -105,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "ICC2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "ICC2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +144,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "ICC2.md"
+              }
             }
           },
           {
@@ -177,10 +181,10 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "23d01a0400d916c7",
   "lastOpenFiles": [
-    "ICC2.md",
     "Sem título.md",
+    "ICC2.md",
     "Componentes computador/Periféricos.md",
     "Componentes computador/Componentes.md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
