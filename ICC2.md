@@ -5,6 +5,13 @@ Tabela ACE 1 e 2 n junta
 PHARMATYPE(3, 4 ,10) join
 
 
+se hospital_registry for igual  E hospitalizacao_arm_1 = Ta
+1 = Ta
+2 = Tb
+3 = Tc
+...
+
+
 hospitalizacao_arm_1 = T0
 fu_2_30d_arm_1 = T30
 
