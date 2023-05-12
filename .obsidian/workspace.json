@@ -18,6 +18,19 @@
             }
           },
           {
+            "id": "190a96d0c4bf7197",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5e81bc63fceb4a75",
             "type": "leaf",
             "state": {
@@ -30,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md"
+              }
             }
           },
           {
@@ -176,8 +194,10 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "5e81bc63fceb4a75",
   "lastOpenFiles": [
+    "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
+    "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "LINKS PARA VER.md",
     "RoadMap Python.canvas",
@@ -188,7 +208,6 @@
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Projetos/Compile-Repo.md",
     "Programação/Streamlit/Grafos com repositórios do github.md",
     "Programação/Python/PEP8.md",
@@ -214,7 +233,6 @@
     "Programação/Projetos/ScrapingcoinMarketCap.md",
     "Programação/Criando um projeto em python.md~",
     "Programação/Criando um projeto em python.md",
-    "Programação/Projetos/Search In Export Chat (FAZER).md",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
