@@ -30,8 +30,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +120,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +141,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md"
-              }
+              "state": {}
             }
           },
           {
@@ -181,8 +176,9 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "5e81bc63fceb4a75",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
+    "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
     "LINKS PARA VER.md",
     "RoadMap Python.canvas",
     "ICC2.md",
@@ -219,7 +215,6 @@
     "Programação/Criando um projeto em python.md~",
     "Programação/Criando um projeto em python.md",
     "Programação/Projetos/Search In Export Chat (FAZER).md",
-    "Programação/Projetos/Compile-Repo (FAZER).md",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
