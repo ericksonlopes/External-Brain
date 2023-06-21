@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "92960267e8f7987c",
+            "id": "a446ff78285a5543",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Programação/Selenium/Fazendo download automatico do webdriver.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Programação/Selenium/Fazendo download automatico do webdriver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Programação/Selenium/Fazendo download automatico do webdriver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Criando um projeto em python.md"
+                "file": "Programação/Selenium/Fazendo download automatico do webdriver.md"
               }
             }
           },
@@ -181,8 +181,11 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "92960267e8f7987c",
+  "active": "a446ff78285a5543",
   "lastOpenFiles": [
+    "Programação/Selenium/Fazendo download automatico do webdriver.md~",
+    "Programação/Selenium/Fazendo download automatico do webdriver.md",
+    "Programação/Selenium",
     "Programação/Criando um projeto em python.md",
     "classes.drawio",
     "Componentes computador/Componentes.md",
@@ -214,12 +217,8 @@
     "Programação/Docker/Docker + elasticsearch + kibana",
     "Programação/ElasticSearch/Elasticsearch + loguru.md~",
     "Programação/Projetos/Words-In-Songs.md",
-    "Programação/Sem título",
     "Programação/Sem título.md",
-    "Programação/ElasticSearch",
     "Programação/Projetos/Search In Export Chat (StreamLit).md",
-    "Programação/Projetos/Search In Export Chat.md",
-    "Programação/Projetos/ScrapingcoinMarketCap.md",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
