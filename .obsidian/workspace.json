@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "loguru",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md"
+                "file": "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md"
               }
             }
           },
@@ -196,6 +195,7 @@
   },
   "active": "a446ff78285a5543",
   "lastOpenFiles": [
+    "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Selenium/Fazendo download automatico do webdriver.md",
     "Programação/Criando um projeto em python.md",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
@@ -211,7 +211,6 @@
     "ICC2.md",
     "Sem título.md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
-    "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Projetos/Compile-Repo.md",
     "Programação/Streamlit/Grafos com repositórios do github.md",
