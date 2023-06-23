@@ -23,14 +23,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Selenium/Fazendo download automatico do webdriver.md",
+                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da37b40b32abf1fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Criando um projeto em python.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -59,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#pythonacademy",
+                "query": "loguru",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -104,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +158,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md"
+              }
             }
           },
           {
@@ -157,8 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5,
-    "collapsed": true
+    "width": 312.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,12 +194,12 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "a446ff78285a5543",
   "lastOpenFiles": [
     "Programação/Selenium/Fazendo download automatico do webdriver.md",
+    "Programação/Criando um projeto em python.md",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
     "Programação/Selenium",
-    "Programação/Criando um projeto em python.md",
     "classes.drawio",
     "Componentes computador/Componentes.md",
     "Componentes computador/Periféricos.md",

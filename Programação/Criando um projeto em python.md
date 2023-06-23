@@ -158,7 +158,7 @@ Project/
 Um exemplo de Dockerfile para uma aplicação Python simples seria:
 
 ```dockerfile
-FROM python:3.9  
+FROM python:3.10  
 
 WORKDIR /project
 
@@ -236,7 +236,7 @@ jobs:
 
       strategy:
          matrix:
-            python-version: [ 3.8 ]
+            python-version: [ 3.10 ]
 
       steps:
          - uses: actions/checkout@v2
