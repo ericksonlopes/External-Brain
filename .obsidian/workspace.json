@@ -16,22 +16,8 @@
               "state": {},
               "pinned": true
             }
-          },
-          {
-            "id": "725b7267e2acdea3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +107,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md"
-              }
+              "state": {}
             }
           },
           {
@@ -180,13 +162,14 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "725b7267e2acdea3",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
+    "Programação/Selenium/Default Capabilities.md",
+    "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
     "Programação/Criando um projeto em python.md",
-    "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
     "Programação/Selenium/WebDriver Remoto com aerokube selenoid.md",
     "Programação/Selenium/Fazendo download automatico do webdriver.md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
