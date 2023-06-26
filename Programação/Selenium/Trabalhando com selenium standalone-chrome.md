@@ -1,3 +1,5 @@
+#chrome #selenium #webdriver 
+
 🚀🌟 Estou animado para compartilhar com vocês um código incrível para aprimorar sua automação de testes! 💻✨
 
 Se você já trabalhou com testes de interface do usuário, com certeza conhece a poderosa ferramenta Selenium. E agora, vou mostrar como usar o Selenium em conjunto com o Docker para tornar suas tarefas de teste ainda mais eficientes e escaláveis.

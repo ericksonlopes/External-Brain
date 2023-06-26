@@ -1,4 +1,4 @@
-#docker #webdriver #selenium #python
+#docker #webdriver #selenium #python #selenoid-ui #chrome
 
 Neste tutorial, vamos aprender como utilizar o WebDriver Remoto com o Selenium e Docker para executar testes automatizados em navegadores. O WebDriver Remoto permite que você controle um navegador em uma máquina remota, o que é especialmente útil para testes de integração ou quando você precisa executar testes em diferentes ambientes.
 
@@ -19,27 +19,42 @@ Para começar, vamos configurar o ambiente remoto usando o Docker. Siga as etapa
 2. Crie um arquivo chamado `docker-compose.yml` no diretório raiz do seu projeto e cole o seguinte conteúdo:
 
 ```yaml
-version: "3.8"
-
-services:
-  selenoid-chrome:
-      image: "selenoid/chrome:latest"
-      network_mode: bridge
-      restart: always
-      volumes:
-        - "/var/run/docker.sock:/var/run/docker.sock"
-      depends_on:
-        - selenoid
-
-  selenoid:
-    image: "aerokube/selenoid"
-    network_mode: bridge
-    restart: always
-    ports:
-      - "4444:4444"
-    volumes:
-      - "./config:/etc/selenoid/"
-      - "/var/run/docker.sock:/var/run/docker.sock"
+version: "3.8"  
+  
+services:  
+	selenoid-ui:  
+		name: selenoid-ui  
+		image: "aerokube/selenoid-ui"  
+		network_mode: bridge  
+		restart: always  
+		links:  
+			- selenoid  
+		ports:  
+			- "8080:8080"  
+		command: ["--selenoid-uri", "http://selenoid:4444"]  
+		depends_on:  
+			- selenoid  
+		  
+	selenoid:  
+		name: selenoid  
+		image: "aerokube/selenoid" # Imagem selenoid/firefox adicionada  
+		network_mode: bridge  
+		restart: always  
+		ports:  
+			- "4444:4444"  
+		volumes:  
+			- "./config:/etc/selenoid/"  
+			- "/var/run/docker.sock:/var/run/docker.sock"  
+	  
+	selenoid-chrome:  
+		name: selenoid-chrome  
+		image: "selenoid/chrome:latest"  
+		network_mode: bridge  
+		restart: always  
+		volumes:  
+			- "/var/run/docker.sock:/var/run/docker.sock"  
+		depends_on:  
+			- selenoid
 ```
 
 Esse arquivo define dois serviços Docker: `selenoid-chrome` e `selenoid`. Eles fornecerão a infraestrutura necessária para executar os navegadores remotamente.
