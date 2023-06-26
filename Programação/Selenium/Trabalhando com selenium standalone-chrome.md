@@ -1,4 +1,4 @@
-#python #docker #selenoid
+#python #docker #chrome #webdriver #selenium
 
 Para conectar o Selenium com o Docker, você precisa primeiro ter certeza de que o container do Selenium está em execução. Você pode fazer isso executando o seguinte comando no terminal:
 

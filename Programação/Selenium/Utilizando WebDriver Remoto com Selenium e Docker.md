@@ -132,5 +132,3 @@ O código irá se conectar ao WebDriver Remoto e abrirá o Google no navegador r
 Parabéns! Você aprendeu como utilizar o WebDriver Remoto com o Selenium e Docker para executar testes automatizados em navegadores remotos. Agora você pode explorar ainda mais essa poderosa ferramenta e automatizar seus testes em diferentes ambientes de forma eficiente.
 
 Espero que este tutorial tenha sido útil. Continue aprendendo e aprimorando suas habilidades em Python!
-
-Happy coding! 🐍✨
