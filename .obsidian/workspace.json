@@ -16,48 +16,8 @@
               "state": {},
               "pinned": true
             }
-          },
-          {
-            "id": "da37b40b32abf1fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Criando um projeto em python.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25d78b3a216abd60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0e21c94db91b39c9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +91,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +107,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,9 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md"
-              }
+              "state": {}
             }
           },
           {
@@ -206,11 +162,12 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "25d78b3a216abd60",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
-    "Programação/Selenium/WebDriver Remoto com aerokube selenoid.md",
-    "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
     "Programação/Criando um projeto em python.md",
+    "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
+    "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
+    "Programação/Selenium/WebDriver Remoto com aerokube selenoid.md",
     "Programação/Selenium/Fazendo download automatico do webdriver.md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
@@ -244,7 +201,6 @@
     "Programação/Docker/Docker + elasticsearch + kibana",
     "Programação/ElasticSearch/Elasticsearch + loguru.md~",
     "Programação/Projetos/Words-In-Songs.md",
-    "Programação/Sem título.md",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
