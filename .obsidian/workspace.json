@@ -42,8 +42,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0e21c94db91b39c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Docker/Trabalhando com selenoid.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Selenium/WebDriver Remoto com Selenoid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Selenium/WebDriver Remoto com Selenoid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +171,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Selenium/WebDriver Remoto com Selenoid.md"
+              }
             }
           },
           {
@@ -189,8 +207,9 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "6a0b55f782205883",
+  "active": "25d78b3a216abd60",
   "lastOpenFiles": [
+    "Programação/Docker/Trabalhando com selenoid.md",
     "Programação/Criando um projeto em python.md",
     "Programação/Selenium/WebDriver Remoto com Selenoid.md",
     "Programação/Selenium/Fazendo download automatico do webdriver.md",
@@ -227,7 +246,6 @@
     "Programação/ElasticSearch/Elasticsearch + loguru.md~",
     "Programação/Projetos/Words-In-Songs.md",
     "Programação/Sem título.md",
-    "Programação/Projetos/Search In Export Chat (StreamLit).md",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
