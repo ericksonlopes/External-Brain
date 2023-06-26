@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Selenium/WebDriver Remoto com Selenoid.md",
+                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Docker/Trabalhando com selenoid.md",
+                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#webdriver",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,8 +111,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -132,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Selenium/WebDriver Remoto com Selenoid.md",
+                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Selenium/WebDriver Remoto com Selenoid.md",
+                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Selenium/WebDriver Remoto com Selenoid.md"
+                "file": "Programação/Selenium/Trabalhando com selenium standalone-chrome.md"
               }
             }
           },
@@ -209,9 +208,9 @@
   },
   "active": "25d78b3a216abd60",
   "lastOpenFiles": [
-    "Programação/Docker/Trabalhando com selenoid.md",
+    "Programação/Selenium/WebDriver Remoto com aerokube selenoid.md",
+    "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
     "Programação/Criando um projeto em python.md",
-    "Programação/Selenium/WebDriver Remoto com Selenoid.md",
     "Programação/Selenium/Fazendo download automatico do webdriver.md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
