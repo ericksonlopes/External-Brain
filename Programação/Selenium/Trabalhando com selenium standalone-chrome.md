@@ -29,6 +29,5 @@ if __name__ == '__main__':
 	driver.get('https://www.google.com')  
 	print('chrome', driver.title)  
 	driver.quit()
-
 ```
 O código acima configura o driver do Selenium para usar o servidor do Selenium em execução no Docker, abre o site do Google, pesquisa por "Python Selenium Docker" e fecha o navegador. Note que as opções `--no-sandbox` e `--disable-dev-shm-usage` são necessárias para evitar problemas de permissões no Docker.
