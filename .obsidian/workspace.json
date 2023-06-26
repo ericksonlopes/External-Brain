@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md"
+                "file": "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md"
               }
             }
           },
@@ -182,6 +182,8 @@
   },
   "active": "e12dfcec2d8f04b2",
   "lastOpenFiles": [
+    "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
+    "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Python/Pipenv.md",
     "Programação/Python/Trabalhando com datas no python.md",
     "Programação/Python/PEP8.md",
@@ -196,7 +198,6 @@
     "Programação/Criando um projeto em python.md",
     "Programação/Selenium/WebDriver Remoto com aerokube selenoid.md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
-    "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
     "Programação/Selenium",
     "classes.drawio",
@@ -209,7 +210,6 @@
     "ICC2.md",
     "Sem título.md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
-    "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Projetos/Compile-Repo.md",
     "Programação/Streamlit/Grafos com repositórios do github.md",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
