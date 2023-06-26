@@ -29,6 +29,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "25d78b3a216abd60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Selenium/WebDriver Remoto com Selenoid.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -59,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#webdriver",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +97,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -104,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md"
-              }
+              "state": {}
             }
           },
           {
@@ -179,11 +189,13 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "c1fc8908b1c1dfff",
+  "active": "6a0b55f782205883",
   "lastOpenFiles": [
-    "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/Selenium/Fazendo download automatico do webdriver.md",
     "Programação/Criando um projeto em python.md",
+    "Programação/Selenium/WebDriver Remoto com Selenoid.md",
+    "Programação/Selenium/Fazendo download automatico do webdriver.md",
+    "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
+    "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
     "Programação/Selenium",
     "classes.drawio",
@@ -191,7 +203,6 @@
     "Componentes computador/Periféricos.md",
     "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
     "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
-    "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "LINKS PARA VER.md",
     "RoadMap Python.canvas",
     "ICC2.md",
