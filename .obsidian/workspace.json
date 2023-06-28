@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/Docker/elasticsearch + kibana.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#elasticsearch",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/Docker/elasticsearch + kibana.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/Docker/elasticsearch + kibana.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md"
+                "file": "Programação/Docker/elasticsearch + kibana.md"
               }
             }
           },
@@ -180,12 +181,12 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "e12dfcec2d8f04b2",
+  "active": "6a0b55f782205883",
   "lastOpenFiles": [
+    "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
-    "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Python/Pipenv.md",
     "Programação/Python/Trabalhando com datas no python.md",
     "Programação/Python/PEP8.md",
