@@ -28,7 +28,7 @@ O Pipenv é uma ferramenta que combina e simplifica a criação e gestão de amb
 2.  Navegue até o diretório do seu projeto usando o comando `cd`
 3.  Instale o Pipenv digitando o comando `pip install pipenv`
 4.  Inicialize o ambiente virtual com o comando `pipenv shell`
-5.  Instale os pacotes necessários usando o comando `pipenv install`
+5.  Instale os pacotes necessários usando o comando `pipenv install <pacote>` 
 6.  Quando terminar de usar a venv, saia do ambiente digitando o comando `exit`
 
 O Pipenv também oferece outras funcionalidades úteis, como a criação automática de um arquivo Pipfile que lista todos os pacotes instalados no ambiente virtual e as suas dependências, além de permitir que você instale todas as dependências do seu projeto em apenas um comando (`pipenv install`). Com o uso do Pipenv, fica mais fácil garantir que o seu projeto tenha um ambiente confiável e possui todas as dependências corretas.
