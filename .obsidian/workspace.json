@@ -16,22 +16,8 @@
               "state": {},
               "pinned": true
             }
-          },
-          {
-            "id": "e12dfcec2d8f04b2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Docker/elasticsearch + kibana.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -60,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#elasticsearch",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Docker/elasticsearch + kibana.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Docker/elasticsearch + kibana.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +129,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Docker/elasticsearch + kibana.md"
-              }
+              "state": {}
             }
           },
           {
@@ -181,8 +163,13 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "6a0b55f782205883",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
+    "Programação/Criando um projeto em python.md",
+    "Componentes computador/Componentes.md",
+    "Programação/PySpark/Joins com pyspark.md",
+    "Programação/Padrões de projetos (Desing Patterns)/Builder (Construtor).md",
+    "Programação/Docker/elasticsearch + kibana.md",
     "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
@@ -196,13 +183,11 @@
     "Programação/Selenium/Capabilities.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
-    "Programação/Criando um projeto em python.md",
     "Programação/Selenium/WebDriver Remoto com aerokube selenoid.md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
     "Programação/Selenium",
     "classes.drawio",
-    "Componentes computador/Componentes.md",
     "Componentes computador/Periféricos.md",
     "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
     "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
@@ -212,10 +197,7 @@
     "Sem título.md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Programação/Projetos/Compile-Repo.md",
-    "Programação/Streamlit/Grafos com repositórios do github.md",
-    "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
     "Programação/Streamlit/Grafos com repositórios do github.md~",
-    "badge.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md~",
     "Programação/ElasticSearch/Sem título.md~",
     "Programação/ElasticSearch/Sem título",
