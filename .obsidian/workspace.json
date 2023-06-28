@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Programação/Docker/Comandos Docker.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Programação/Docker/Comandos Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Programação/Docker/Comandos Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Criando um projeto em python.md"
+                "file": "Programação/Docker/Comandos Docker.md"
               }
             }
           },
@@ -182,11 +182,13 @@
   },
   "active": "929855b7501417ab",
   "lastOpenFiles": [
+    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
+    "Programação/Docker/elasticsearch + kibana.md",
+    "Programação/Docker/Comandos Docker.md",
     "Programação/Criando um projeto em python.md",
     "Componentes computador/Componentes.md",
     "Programação/PySpark/Joins com pyspark.md",
     "Programação/Padrões de projetos (Desing Patterns)/Builder (Construtor).md",
-    "Programação/Docker/elasticsearch + kibana.md",
     "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
@@ -212,8 +214,6 @@
     "RoadMap Python.canvas",
     "ICC2.md",
     "Sem título.md",
-    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
-    "Programação/Projetos/Compile-Repo.md",
     "Programação/Streamlit/Grafos com repositórios do github.md~",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md~",
     "Programação/ElasticSearch/Sem título.md~",
