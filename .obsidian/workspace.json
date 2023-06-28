@@ -71,8 +71,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,7 +162,7 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
     "Programação/Criando um projeto em python.md",
     "Componentes computador/Componentes.md",
