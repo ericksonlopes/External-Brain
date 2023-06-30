@@ -197,6 +197,7 @@
   "active": "1c97fb2330b91ad8",
   "lastOpenFiles": [
     "Programação/Projects/PyInvestAnalyser.md",
+    "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Python/PEP8.md",
     "Programação/Projects/Compile-Repo.md",
@@ -223,7 +224,6 @@
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
     "Programação/Selenium/WebDriver Remoto com aerokube selenoid.md",
-    "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
     "Programação/Selenium",
     "classes.drawio",
