@@ -38,5 +38,4 @@ O serviço `elastic` usa a imagem do Docker Elasticsearch versão 8.6.2 e é def
 
 O serviço `kibana` usa a imagem do Docker Kibana versão 8.6.2 e é definido com um nome de contêiner `kibana`. Ele também é configurado para reiniciar automaticamente, caso pare por algum motivo. O serviço tem uma variável ​​de ambiente `ELASTICSEARCH_URL` definida para a URL do Elasticsearch. O serviço depende do serviço `elastic` e a porta 5601 do contêiner é mapeada para a porta 5601 do host.
 
-#docker #elasticsearch #kibana #logging #docker-compose
-
+#docker #elasticsearch #kibana #logging #docker-compose #loguru
