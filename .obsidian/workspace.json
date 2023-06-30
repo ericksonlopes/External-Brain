@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Pydantic/BaseSettings + env.md",
+                "file": "Programação/Projects/Sem título.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Pydantic/BaseSettings + env.md",
+                "file": "Programação/Projects/Sem título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Pydantic/BaseSettings + env.md",
+                "file": "Programação/Projects/Sem título.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Pydantic/BaseSettings + env.md"
+                "file": "Programação/Projects/Sem título.md"
               }
             }
           },
@@ -193,8 +193,13 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "334dcb3e7cbaa912",
   "lastOpenFiles": [
+    "Programação/Projects/Compile-Repo.md",
+    "Programação/Projects/Sem título.md",
+    "Programação/Projects/ScrapingcoinMarketCap.md",
+    "Programação/Projects/Search In Export Chat.md",
+    "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Docker/Comandos Docker.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Docker/elasticsearch + kibana.md",
@@ -221,12 +226,7 @@
     "Programação/Selenium",
     "classes.drawio",
     "Componentes computador/Periféricos.md",
-    "Programação/Padrões de projetos (Desing Patterns)/Application Factory Pattern (Fábrica de aplicativos).md",
-    "Programação/Padrões de projetos (Desing Patterns)/Factory Method (Método de Fábrica).md",
-    "LINKS PARA VER.md",
     "RoadMap Python.canvas",
-    "ICC2.md",
-    "Sem título.md",
     "Programação/Streamlit/Grafos com repositórios do github.md~",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md~",
     "Programação/ElasticSearch/Sem título.md~",
