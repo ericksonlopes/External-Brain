@@ -29,8 +29,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "45aa5e7320740776",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Padrões de projetos (Desing Patterns)/patterns.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,6 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Padrões de projetos (Desing Patterns)/patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,6 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Padrões de projetos (Desing Patterns)/patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +157,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Padrões de projetos (Desing Patterns)/patterns.md"
+              }
             }
           },
           {
@@ -175,8 +193,10 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "45aa5e7320740776",
   "lastOpenFiles": [
+    "Programação/Padrões de projetos (Desing Patterns)/patterns.md~",
+    "Programação/Padrões de projetos (Desing Patterns)/patterns.md",
     "Programação/Streamlit/Streamlit Templates.md",
     "Programação/Projects/PyInvestAnalyser.md",
     "Componentes computador/Componentes.md",
@@ -201,8 +221,6 @@
     "Programação/Python/Pipenv.md",
     "Programação/Python/Trabalhando com datas no python.md",
     "Programação/Python/Decorator.md",
-    "Programação/Python/Context.md",
-    "Programação/Selenium/Fazendo download automatico do webdriver.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
