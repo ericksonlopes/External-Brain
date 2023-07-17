@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/patterns.md",
+                "file": "Programação/PySpark/Exportando arquivos com pyspark.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -56,8 +56,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +130,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +146,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,9 +167,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Padrões de projetos (Desing Patterns)/patterns.md"
-              }
+              "state": {}
             }
           },
           {
@@ -206,11 +201,13 @@
       "publish:Publicar alterações": false
     }
   },
-  "active": "45aa5e7320740776",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
-    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Programação/Streamlit/Streamlit Templates.md",
+    "Programação/PySpark/Exportando arquivos com pyspark.md",
+    "Programação/PySpark/Joins com pyspark.md",
     "Programação/Padrões de projetos (Desing Patterns)/patterns.md",
+    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Programação/Padrões de projetos (Desing Patterns)/patterns.md~",
     "Programação/Projects/PyInvestAnalyser.md",
     "Componentes computador/Componentes.md",
@@ -226,7 +223,6 @@
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Docker/elasticsearch + kibana.md",
     "Programação/Criando um projeto em python.md",
-    "Programação/PySpark/Joins com pyspark.md",
     "Programação/Padrões de projetos (Desing Patterns)/Builder (Construtor).md",
     "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
@@ -234,7 +230,6 @@
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
     "Programação/Python/Pipenv.md",
     "Programação/Python/Trabalhando com datas no python.md",
-    "Programação/Python/Decorator.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
