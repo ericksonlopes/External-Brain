@@ -83,7 +83,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#placa-mãe",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 319.5,
+    "collapsed": true
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -158,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Componentes computador/Componentes.md",
+                "file": "Programação/Criando um projeto em python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Componentes computador/Componentes.md",
+                "file": "Programação/Criando um projeto em python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Componentes computador/Componentes.md"
+                "file": "Programação/Criando um projeto em python.md"
               }
             }
           },
@@ -229,11 +230,13 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "publish:Publish changes...": false,
-      "canvas:Create new canvas": false
+      "canvas:Create new canvas": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1efacef5890fa45a",
+  "active": "3175679482df2b1b",
   "lastOpenFiles": [
+    "Componentes computador/Componentes.md",
     "Programação/Criando um projeto em python.md",
     "Programação/Projects/Compile-Repo.md",
     "Programação/Projects/Words-In-Songs.md",
@@ -246,7 +249,6 @@
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Programação/Padrões de projetos (Desing Patterns)/patterns.md~",
     "Programação/Projects/PyInvestAnalyser.md",
-    "Componentes computador/Componentes.md",
     "Componentes computador/Periféricos.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
