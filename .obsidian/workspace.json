@@ -98,7 +98,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,9 +197,9 @@
   "active": "7712571f21bc742e",
   "lastOpenFiles": [
     "Programação/Streamlit/Streamlit Templates.md",
+    "Componentes computador/Mouse PiPer.md",
     "Programação/PySpark/Exportando arquivos com pyspark.md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
-    "Componentes computador/Mouse PiPer.md",
     "Componentes computador/Componentes.md",
     "Programação/Criando um projeto em python.md",
     "Programação/Projects/Compile-Repo.md",
