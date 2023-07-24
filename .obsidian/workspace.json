@@ -55,8 +55,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7712571f21bc742e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Componentes computador/Mouse PiPer.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,13 +124,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 319.5,
-    "collapsed": true
+    "width": 319.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -132,6 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Componentes computador/Mouse PiPer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,6 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Componentes computador/Mouse PiPer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +183,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Componentes computador/Mouse PiPer.md"
+              }
             }
           },
           {
@@ -203,10 +219,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "7712571f21bc742e",
   "lastOpenFiles": [
-    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Componentes computador/Componentes.md",
+    "Componentes computador/Mouse PiPer.md",
+    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Programação/Criando um projeto em python.md",
     "Programação/Projects/Compile-Repo.md",
     "Programação/Projects/Words-In-Songs.md",
@@ -231,7 +248,6 @@
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
-    "Programação/Python/Pipenv.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
