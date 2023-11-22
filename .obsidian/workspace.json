@@ -173,7 +173,10 @@
       "random-note:Abrir nota aleatória": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "publish:Publicar mudanças": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "ava:Ava": false,
+      "ava:Ava - Show Links": false,
+      "ava:Ava - Open Rewrite Playground": false
     }
   },
   "active": "829d99f2dd3cb506",
