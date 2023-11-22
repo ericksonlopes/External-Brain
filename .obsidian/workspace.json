@@ -4,26 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9c5fd871f566f436",
+        "id": "a17371ed7a2a20c0",
         "type": "tabs",
         "children": [
           {
-            "id": "829d99f2dd3cb506",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "06bbfd623e9bad56",
+            "id": "05abaa80f516250e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Airflow/Criar artigos.md",
+                "file": "Programação/CosmosDB/Criar um artigo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -84,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -105,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/CosmosDB/Criar um artigo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/CosmosDB/Criar um artigo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/CosmosDB/Criar um artigo.md"
+              }
             }
           },
           {
@@ -153,8 +146,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,8 +171,12 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "829d99f2dd3cb506",
+  "active": "05abaa80f516250e",
   "lastOpenFiles": [
+    "RoadMap Python.canvas",
+    "Programação/CosmosDB/Criar um artigo.md",
+    "Programação/CosmosDB",
+    "Programação/CosmosDB.md",
     "Programação/Airflow/Criar artigos.md",
     "Programação/Docker/Comandos Docker.md",
     "Programação/Airflow",
@@ -206,18 +202,13 @@
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Docker/elasticsearch + kibana.md",
     "Programação/Padrões de projetos (Desing Patterns)/Builder (Construtor).md",
-    "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
     "Programação/Selenium",
     "classes.drawio",
-    "RoadMap Python.canvas",
     "Programação/Streamlit/Grafos com repositórios do github.md~",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md~",
-    "Programação/ElasticSearch/Sem título.md~",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
