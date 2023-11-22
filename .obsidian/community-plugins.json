@@ -1,6 +1,7 @@
 [
   "table-editor-obsidian",
-  "obsidian-wakatime",
   "obsidian-git",
-  "obsidian-languagetool-plugin"
+  "obsidian-languagetool-plugin",
+  "obsidian-wakatime",
+  "ava"
 ]
