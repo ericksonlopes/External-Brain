@@ -3,5 +3,8 @@
   "urlMode": "standard",
   "glassBg": false,
   "shouldAutoCheck": true,
-  "pickyMode": false
+  "autoCheckDelay": 3000,
+  "pickyMode": false,
+  "staticLanguage": "auto",
+  "portugueseVeriety": "pt-BR"
 }

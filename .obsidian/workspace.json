@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/CosmosDB/Criar um artigo.md",
-                "mode": "source",
+                "file": "Programação/Docker/Comandos Docker.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/CosmosDB/Criar um artigo.md",
+                "file": "Programação/Docker/Comandos Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/CosmosDB/Criar um artigo.md",
+                "file": "Programação/Docker/Comandos Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/CosmosDB/Criar um artigo.md"
+                "file": "Programação/Docker/Comandos Docker.md"
               }
             }
           },
@@ -173,8 +173,8 @@
   },
   "active": "05abaa80f516250e",
   "lastOpenFiles": [
-    "RoadMap Python.canvas",
     "Programação/CosmosDB/Criar um artigo.md",
+    "RoadMap Python.canvas",
     "Programação/CosmosDB",
     "Programação/CosmosDB.md",
     "Programação/Airflow/Criar artigos.md",
