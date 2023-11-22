@@ -18,33 +18,19 @@
             }
           },
           {
-            "id": "4044145a343b20bd",
+            "id": "06bbfd623e9bad56",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Streamlit/Streamlit Templates.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7712571f21bc742e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Componentes computador/Mouse PiPer.md",
+                "file": "Programação/Airflow/Criar artigos.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Componentes computador/Mouse PiPer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Componentes computador/Mouse PiPer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Componentes computador/Mouse PiPer.md"
-              }
+              "state": {}
             }
           },
           {
@@ -190,11 +172,15 @@
       "zk-prefixer:Criar nova nota única": false,
       "random-note:Abrir nota aleatória": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
-      "publish:Publicar mudanças": false
+      "publish:Publicar mudanças": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7712571f21bc742e",
+  "active": "829d99f2dd3cb506",
   "lastOpenFiles": [
+    "Programação/Airflow/Criar artigos.md",
+    "Programação/Docker/Comandos Docker.md",
+    "Programação/Airflow",
     "Programação/Streamlit/Streamlit Templates.md",
     "Componentes computador/Mouse PiPer.md",
     "Programação/PySpark/Exportando arquivos com pyspark.md",
@@ -213,7 +199,6 @@
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Python/PEP8.md",
-    "Programação/Docker/Comandos Docker.md",
     "Programação/Projects/Search In Export Chat (StreamLit).md",
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Docker/elasticsearch + kibana.md",
@@ -221,7 +206,6 @@
     "Programação/ElasticSearch/Configurando o loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
-    "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
@@ -231,7 +215,6 @@
     "Programação/Streamlit/Grafos com repositórios do github.md~",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md~",
     "Programação/ElasticSearch/Sem título.md~",
-    "Programação/ElasticSearch/Sem título",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
