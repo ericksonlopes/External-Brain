@@ -1,4 +1,4 @@
-x#airflow #python #docker #docker-compose 
+#airflow #python #docker #docker-compose 
 
 ## Antes de você começar
 
