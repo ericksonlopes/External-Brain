@@ -1,4 +1,4 @@
-#Airflow, Python, Docker, Docker Compose
+#Airflow, #Python, #docker, #dockerfile #docker #docker-compose 
 
 ## Antes de começar
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b3723171215d7031",
+        "id": "8d98c9201ddd07e6",
         "type": "tabs",
         "children": [
           {
-            "id": "dee7e93167531470",
+            "id": "fb222484a3af6385",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker (Linux).md",
+                "file": "Programação/Airflow/Airflow no docker(Linux).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker (Linux).md",
+                "file": "Programação/Airflow/Airflow no docker(Linux).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker (Linux).md",
+                "file": "Programação/Airflow/Airflow no docker(Linux).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker (Linux).md"
+                "file": "Programação/Airflow/Airflow no docker(Linux).md"
               }
             }
           },
@@ -172,13 +172,13 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "dee7e93167531470",
+  "active": "fb222484a3af6385",
   "lastOpenFiles": [
     "Programação/Airflow/Airflow Standalone.md",
-    "Programação/Airflow/Airflow no docker (Linux).md",
+    "Programação/Airflow/Airflow no docker(Linux).md",
+    "Programação/Airflow/Agendando Dags(Schedule).md",
     "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
     "Programação/Airflow/TaskGroup.md",
-    "Programação/Airflow/Agendando Dags(Schedule).md",
     "Programação/Airflow/Executando Taks independente de erros (as_teardown).md~",
     "Programação/Streamlit/Grafos com repositórios do github.md",
     "Programação/Docker/Comandos Docker.md",
