@@ -35,7 +35,7 @@ RUN pip install --user --upgrade pip
 RUN pip install --upgrade pipenv && pipenv install --system
 ```
 
-# Agora é só rodar o docker com os comandos abaixo
+## Agora é só rodar o docker com os comandos abaixo
 
 ```shell
 mkdir -p ./dags ./logs ./plugins ./config ./data
