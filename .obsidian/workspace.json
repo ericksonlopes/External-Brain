@@ -172,8 +172,11 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "fb222484a3af6385",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "classes.svg",
+    "teste.svg~",
+    "teste.svg",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
     "Ava - Getting Started.md",
     "badge.md",
@@ -204,13 +207,11 @@
     "Programação/Projects/Compile-Repo.md",
     "Programação/Projects/Words-In-Songs.md",
     "Programação/Projects/Search In Export Chat.md",
-    "Programação/Projects/ScrapingcoinMarketCap.md",
     "Programação/Padrões de projetos (Desing Patterns)/patterns.md~",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
     "Programação/Selenium",
-    "classes.drawio",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
@@ -220,7 +221,6 @@
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113356.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113335.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211105448.jpg",
-    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211105238.jpg",
-    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211105225.jpg"
+    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211105238.jpg"
   ]
 }
