@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
+                "file": "Programação/Airflow/TaskGroup.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
+                "file": "Programação/Airflow/TaskGroup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
+                "file": "Programação/Airflow/TaskGroup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Airflow/Executando Taks independente de erros (as_teardown).md"
+                "file": "Programação/Airflow/TaskGroup.md"
               }
             }
           },
@@ -172,11 +172,12 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "dee7e93167531470",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
+    "Programação/Airflow/TaskGroup.md",
     "Programação/Airflow/Executando Taks independente de erros (as_teardown).md~",
     "Programação/Airflow/Airflow Standalone.md",
-    "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
     "Programação/Airflow/Agendando Dags(Schedule).md",
     "Programação/Streamlit/Grafos com repositórios do github.md",
     "Programação/Docker/Comandos Docker.md",
@@ -210,7 +211,6 @@
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
     "Programação/Selenium",
     "classes.drawio",
-    "Programação/Streamlit/Grafos com repositórios do github.md~",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
