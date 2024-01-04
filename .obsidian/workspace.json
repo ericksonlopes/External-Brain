@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "509daf3911a63ce0",
+        "id": "1b8fb4acdbf305c7",
         "type": "tabs",
         "children": [
           {
-            "id": "3c17766073fa0eb0",
+            "id": "2bd95ca2813297cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -171,10 +171,11 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "32efcf806dc55de8",
+  "active": "2bd95ca2813297cc",
   "lastOpenFiles": [
-    "Programação/Airflow/Airflow Standalone.md",
+    "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/Airflow/Airflow no docker.md",
+    "Programação/Airflow/Airflow Standalone.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Ava - Getting Started.md",
     "Programação/Docker/Comandos Docker.md",
@@ -202,7 +203,6 @@
     "Programação/Python/PEP8.md",
     "Programação/Projects/Search In Export Chat (StreamLit).md",
     "Programação/Pydantic/BaseSettings + env.md",
-    "Programação/Docker/elasticsearch + kibana.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
