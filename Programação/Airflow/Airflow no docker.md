@@ -106,6 +106,11 @@ docker build . --tag extending_airflow:latest
 docker compose up -d --build
 ```
 
+Caso você queira parar o docker-compose, execute o seguinte comando:
+```shell
+docker compose down
+```
+
 5. Acesse o Airflow em seu navegador em http://localhost:8080.
 
 
