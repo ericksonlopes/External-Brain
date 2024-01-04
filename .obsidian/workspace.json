@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker.md",
+                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker.md",
+                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker.md",
+                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker.md"
+                "file": "Programação/Git/Conectar o repositorio local ao remoto.md"
               }
             }
           },
@@ -173,8 +173,9 @@
   },
   "active": "2bd95ca2813297cc",
   "lastOpenFiles": [
-    "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/Airflow/Airflow no docker.md",
+    "Programação/Airflow/Airflow no docker.md~",
+    "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/Airflow/Airflow Standalone.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Ava - Getting Started.md",
@@ -202,14 +203,12 @@
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Python/PEP8.md",
     "Programação/Projects/Search In Export Chat (StreamLit).md",
-    "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
     "Programação/Selenium",
     "classes.drawio",
     "Programação/Streamlit/Grafos com repositórios do github.md~",
-    "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md~",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
