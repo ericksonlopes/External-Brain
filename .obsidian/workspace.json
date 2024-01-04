@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker(Linux).md",
+                "file": "Programação/Criando um projeto em python.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker(Linux).md",
+                "file": "Programação/Criando um projeto em python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker(Linux).md",
+                "file": "Programação/Criando um projeto em python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker(Linux).md"
+                "file": "Programação/Criando um projeto em python.md"
               }
             }
           },
@@ -174,9 +174,15 @@
   },
   "active": "fb222484a3af6385",
   "lastOpenFiles": [
-    "Programação/Airflow/Airflow Standalone.md",
+    "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
+    "Ava - Getting Started.md",
+    "badge.md",
+    "LINKS PARA VER.md",
+    "RoadMap Python.canvas",
     "Programação/Airflow/Airflow no docker(Linux).md",
     "Programação/Airflow/Agendando Dags(Schedule).md",
+    "Programação/Airflow/Airflow Standalone.md",
+    "Programação/Criando um projeto em python.md",
     "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
     "Programação/Airflow/TaskGroup.md",
     "Programação/Airflow/Executando Taks independente de erros (as_teardown).md~",
@@ -187,8 +193,6 @@
     "Programação/Airflow/Airflow no docker.md~",
     "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/Git/Instalar Git no Linux.md",
-    "Ava - Getting Started.md",
-    "RoadMap Python.canvas",
     "Programação/CosmosDB",
     "Programação/CosmosDB.md",
     "Programação/Airflow",
@@ -197,15 +201,11 @@
     "Programação/PySpark/Exportando arquivos com pyspark.md",
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Componentes computador/Componentes.md",
-    "Programação/Criando um projeto em python.md",
     "Programação/Projects/Compile-Repo.md",
     "Programação/Projects/Words-In-Songs.md",
     "Programação/Projects/Search In Export Chat.md",
     "Programação/Projects/ScrapingcoinMarketCap.md",
-    "Programação/PySpark/Joins com pyspark.md",
-    "Programação/Padrões de projetos (Desing Patterns)/patterns.md",
     "Programação/Padrões de projetos (Desing Patterns)/patterns.md~",
-    "Programação/Projects/PyInvestAnalyser.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
