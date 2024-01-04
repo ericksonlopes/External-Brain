@@ -100,7 +100,7 @@
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -171,7 +171,7 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "3c17766073fa0eb0",
+  "active": "32efcf806dc55de8",
   "lastOpenFiles": [
     "Programação/Airflow/Airflow Standalone.md",
     "Programação/Airflow/Airflow no docker.md",
