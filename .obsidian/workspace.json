@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "54c5e120f9abecfb",
+        "id": "b3723171215d7031",
         "type": "tabs",
         "children": [
           {
-            "id": "5a64859d4de6bf31",
+            "id": "dee7e93167531470",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Airflow/Agendando Dags(Schedule).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#docker",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Airflow/Agendando Dags(Schedule).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Airflow/Agendando Dags(Schedule).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Airflow/Agendando Dags(Schedule).md"
+              }
             }
           },
           {
@@ -164,8 +172,9 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "5a64859d4de6bf31",
+  "active": "dee7e93167531470",
   "lastOpenFiles": [
+    "Programação/Airflow/Agendando Dags(Schedule).md",
     "Programação/Streamlit/Grafos com repositórios do github.md",
     "Programação/Docker/Comandos Docker.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
@@ -196,7 +205,6 @@
     "Programação/Projects/PyInvestAnalyser.md",
     "Componentes computador/Periféricos.md",
     "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
-    "Programação/Python/PEP8.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
