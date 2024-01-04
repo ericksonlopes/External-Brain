@@ -15,13 +15,13 @@ Siga estas etapas para instalar as ferramentas necessárias, caso ainda não ten
 
 Para implantar o Airflow no Docker Compose, você deve buscar [docker-compose.yaml](https://airflow-apache-org.translate.goog/docs/apache-airflow/2.8.0/docker-compose.yaml?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US).
 
-Execute o seguinte comando para buscar o arquivo`docker-compose.yaml`:
+3. Execute o seguinte comando para buscar o arquivo`docker-compose.yaml`:
 
 ```shell
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.0/docker-compose.yaml'
 ```
 
-Agora vamos configurar o arquivo `docker-compose.yaml` para o nosso projeto.
+4. Agora vamos configurar o arquivo `docker-compose.yaml` para o nosso projeto.
 ao abrir o arquivo `docker-compose.yaml` você vai ver que ele tem uma estrutura parecida com essa:
 
 ```yaml
@@ -57,26 +57,7 @@ environment:
 Se caso você queria que o ariflow encontre arquivos em um diretório diferente do que o padrão, você pode alterar o volume do docker-compose.yaml para que ele encontre os arquivos no diretório que você deseja dentro de sua maquina.
 como no exemplo abaixo:
 
-```yaml
-volumes:
-    - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
-    - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
-    - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
-    - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
-    
-    - /home/erickson/my_project/scraping:/opt/airflow/scraping
-```
-
-Vamos supor que dentro do diretório `scraping` você tenha um arquivo chamado `scraping.py` que você deseja que a dag execute ele, para chamar o arquivo basta chamar da seguinte forma em sua dag.
-
-```python
-
-
-
-
-```yaml
-
-Crie um dockerfile para estender o airflow
+5. Crie um dockerfile para estender o airflow
 
 ```dockerfile
 FROM apache/airflow:2.7.1-python3.9
@@ -103,22 +84,45 @@ meu_projeto/
 └── Pipfile.lock
 ```
 
-Crie os diretórios necessários para o Airflow:
+## Rodando o docker
+
+1. Crie os diretórios necessários para o Airflow:
 ```shell
 mkdir -p ./dags ./logs ./plugins ./config ./data
 ```
 
-Crie um arquivo .env com o UID do usuário atual. Isso é necessário para que o Airflow possa atribuir permissões corretas aos arquivos criados no host. O arquivo .env deve estar no mesmo diretório que o arquivo docker-compose.yaml. Para criar o arquivo .env, execute o seguinte comando:
+2. Crie um arquivo .env com o UID do usuário atual. Isso é necessário para que o Airflow possa atribuir permissões corretas aos arquivos criados no host. O arquivo .env deve estar no mesmo diretório que o arquivo docker-compose.yaml. Para criar o arquivo .env, execute o seguinte comando:
 ```shell
 echo -e "AIRFLOW_UID=$(id -u)" > .env
 ```
 
-Execute o seguinte comando para iniciar o Airflow dockerfile:
+3. Execute o seguinte comando para iniciar o Airflow dockerfile:
 ```shell
 docker build . --tag extending_airflow:latest
 ```
 
-Execute o seguinte comando para iniciar o docker-compose:
+4. Execute o seguinte comando para iniciar o docker-compose:
 ```shell
 docker compose up -d --build
+```
+
+5. Acesse o Airflow em seu navegador em http://localhost:8080.
+
+
+## Arquivos fora do diretório do projeto
+
+```yaml
+volumes:
+    - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
+    - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
+    - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
+    - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+    
+    - /home/erickson/my_project/scraping:/opt/airflow/scraping
+```
+
+Vamos supor que dentro do diretório `scraping` você tenha um arquivo chamado `google.py` e dentro deste arquivo você tenha uma classe chamada `ScrapingGoogle` que você deseja que a dag execute ele, para chamar o arquivo basta chamar da seguinte forma em sua dag.
+
+```python
+from scraping.google import ScrapingGoogle
 ```
