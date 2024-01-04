@@ -21,6 +21,50 @@ Execute o seguinte comando para buscar o arquivo`docker-compose.yaml`:
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.0/docker-compose.yaml'
 ```
 
+Agora vamos configurar o arquivo `docker-compose.yaml` para o nosso projeto.
+ao abrir o arquivo `docker-compose.yaml` você vai ver que ele tem uma estrutura parecida com essa:
+
+```yaml
+...
+x-airflow-common:
+&airflow-common
+# In order to add custom dependencies or upgrade provider packages you can use your extended image.
+# Comment the image line, place your Dockerfile in the directory where you placed the docker-compose.yaml
+# and uncomment the "build" line below, Then run `docker-compose build` to build the images.
+image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.8.0}
+# build: .
+environment:
+&airflow-common-env
+...
+```
+
+Você irá comentar a linha `image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.8.0}` e descomentar a linha `build: .` para que o docker-compose possa construir a imagem do airflow com base no Dockerfile que você irá criar.
+
+```yaml
+...
+x-airflow-common:
+&airflow-common
+# In order to add custom dependencies or upgrade provider packages you can use your extended image.
+# Comment the image line, place your Dockerfile in the directory where you placed the docker-compose.yaml
+# and uncomment the "build" line below, Then run `docker-compose build` to build the images.
+image: ${AIRFLOW_IMAGE_NAME:-extending_airflow:latest}
+# build: .
+environment:
+&airflow-common-env
+...
+```
+
+Um pouco mais abaixo você irá encontrar a seguinte estrutura:
+
+```yaml
+volumes:
+    - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
+    - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
+    - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
+    - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+
+```
+
 Crie um dockerfile para estender o airflow
 
 ```dockerfile
