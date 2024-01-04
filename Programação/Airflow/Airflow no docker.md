@@ -1,6 +1,4 @@
-
-#airflow #python #docker #docker-compose 
-
+x#airflow #python #docker #docker-compose 
 
 ## Antes de você começar
 
@@ -15,11 +13,29 @@ Siga estas etapas para instalar as ferramentas necessárias, caso ainda não ten
 
 ## Buscando`docker-compose.yaml`[](https://airflow-apache-org.translate.goog/docs/apache-airflow/stable/howto/docker-compose/index.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US#fetching-docker-compose-yaml "Link permanente para este título")
 
-Para implantar o Airflow no Docker Compose, você deve buscar [docker-compose.yaml](https://airflow-apache-org.translate.goog/docs/apache-airflow/2.8.0/docker-compose.yaml?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US) .
+Para implantar o Airflow no Docker Compose, você deve buscar [docker-compose.yaml](https://airflow-apache-org.translate.goog/docs/apache-airflow/2.8.0/docker-compose.yaml?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US) .
 
-```
+Execute o seguinte comando para buscar o arquivo`docker-compose.yaml`:
+
+```shell
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.0/docker-compose.yaml'
 ```
+
+Crie um dockerfile para estender o airflow
+
+```dockerfile
+FROM apache/airflow:2.7.1-python3.9
+
+# Copie o arquivo Pipfile e Pipfile.lock para o diretório de trabalho
+COPY Pipfile /Pipfile
+COPY Pipfile.lock /Pipfile.lock
+
+# Instale o pipenv e as dependências do Pipfile
+RUN pip install --user --upgrade pip
+RUN pip install --upgrade pipenv && pipenv install --system
+```
+
+# Agora é só rodar o docker com os comandos abaixo
 
 ```shell
 mkdir -p ./dags ./logs ./plugins ./config ./data

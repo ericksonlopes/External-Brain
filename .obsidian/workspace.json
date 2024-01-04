@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
+                "file": "Programação/Airflow/Airflow no docker.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
+                "file": "Programação/Airflow/Airflow no docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Git/Conectar o repositorio local ao remoto.md",
+                "file": "Programação/Airflow/Airflow no docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Git/Conectar o repositorio local ao remoto.md"
+                "file": "Programação/Airflow/Airflow no docker.md"
               }
             }
           },
@@ -173,9 +173,9 @@
   },
   "active": "2bd95ca2813297cc",
   "lastOpenFiles": [
+    "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/Airflow/Airflow no docker.md~",
     "Programação/Airflow/Airflow no docker.md",
-    "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/Airflow/Airflow Standalone.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Ava - Getting Started.md",
