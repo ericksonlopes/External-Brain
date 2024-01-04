@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Airflow/Agendando Dags(Schedule).md",
+                "file": "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Airflow/Agendando Dags(Schedule).md",
+                "file": "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Airflow/Agendando Dags(Schedule).md",
+                "file": "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Airflow/Agendando Dags(Schedule).md"
+                "file": "Programação/Airflow/Executando Taks independente de erros (as_teardown).md"
               }
             }
           },
@@ -174,13 +174,14 @@
   },
   "active": "dee7e93167531470",
   "lastOpenFiles": [
+    "Programação/Airflow/Airflow Standalone.md",
+    "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
     "Programação/Airflow/Agendando Dags(Schedule).md",
     "Programação/Streamlit/Grafos com repositórios do github.md",
     "Programação/Docker/Comandos Docker.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Airflow/Airflow no docker (Linux).md",
-    "Programação/Airflow/Airflow Standalone.md",
     "Programação/Airflow/Airflow no docker.md~",
     "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/Git/Instalar Git no Linux.md",
@@ -204,7 +205,6 @@
     "Programação/Padrões de projetos (Desing Patterns)/patterns.md~",
     "Programação/Projects/PyInvestAnalyser.md",
     "Componentes computador/Periféricos.md",
-    "Programação/Padrões de projetos (Desing Patterns)/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
     "Programação/Selenium/Fazendo download automatico do webdriver.md~",
