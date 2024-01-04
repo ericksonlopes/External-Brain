@@ -11,7 +11,7 @@ Siga estas etapas para instalar as ferramentas necessárias, caso ainda não ten
 2. Instale [o Docker Compose](https://translate.google.com/website?sl=auto&tl=en&hl=en-US&u=https://docs.docker.com/compose/install/) v2.14.0 ou mais recente em sua estação de trabalho.
 
 
-## Buscando`docker-compose.yaml`[](https://airflow-apache-org.translate.goog/docs/apache-airflow/stable/howto/docker-compose/index.html?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US#fetching-docker-compose-yaml "Link permanente para este título")
+## Buscando`docker-compose.yaml`
 
 Para implantar o Airflow no Docker Compose, você deve buscar [docker-compose.yaml](https://airflow-apache-org.translate.goog/docs/apache-airflow/2.8.0/docker-compose.yaml?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US).
 
@@ -54,8 +54,7 @@ environment:
 ...
 ```
 
-Se caso você queria que o ariflow encontre arquivos em um diretório diferente do que o padrão, você pode alterar o volume do docker-compose.yaml para que ele encontre os arquivos no diretório que você deseja dentro de sua maquina.
-como no exemplo abaixo:
+
 
 5. Crie um dockerfile para estender o airflow
 
@@ -97,33 +96,38 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
 ```
 
 3. Execute o seguinte comando para iniciar o Airflow dockerfile:
+
 ```shell
 docker build . --tag extending_airflow:latest
 ```
 
 4. Execute o seguinte comando para iniciar o docker-compose:
+
 ```shell
 docker compose up -d --build
 ```
 
-Caso você queira parar o docker-compose, execute o seguinte comando:
+- Caso você queira parar o docker-compose, execute o seguinte comando:
+
 ```shell
 docker compose down
 ```
 
 5. Acesse o Airflow em seu navegador em http://localhost:8080.
 
-
 ## Arquivos fora do diretório do projeto
+
+Se caso você queria que o ariflow encontre arquivos em um diretório diferente do que o padrão, você pode alterar o volume do docker-compose.yaml para que ele encontre os arquivos no diretório que você deseja dentro de sua maquina.
+como no exemplo abaixo:
 
 ```yaml
 volumes:
-    - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
-    - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
-    - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
-    - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
-    
-    - /home/erickson/my_project/scraping:/opt/airflow/scraping
+   - ${AIRFLOW_PROJ_DIR:-.}/dags:/opt/airflow/dags
+   - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
+   - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
+   - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+
+   - /home/erickson/my_project/scraping:/opt/airflow/scraping
 ```
 
 Vamos supor que dentro do diretório `scraping` você tenha um arquivo chamado `google.py` e dentro deste arquivo você tenha uma classe chamada `ScrapingGoogle` que você deseja que a dag execute ele, para chamar o arquivo basta chamar da seguinte forma em sua dag.
