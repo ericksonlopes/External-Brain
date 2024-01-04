@@ -17,7 +17,14 @@ Siga estas etapas para instalar as ferramentas necessárias, caso ainda não ten
 
 Para implantar o Airflow no Docker Compose, você deve buscar [docker-compose.yaml](https://airflow-apache-org.translate.goog/docs/apache-airflow/2.8.0/docker-compose.yaml?_x_tr_sl=auto&_x_tr_tl=en&_x_tr_hl=en-US) .
 
-`curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.0/docker-compose.yaml'`
+```
+curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.8.0/docker-compose.yaml'
+```
 
+```shell
+mkdir -p ./dags ./logs ./plugins ./config ./data
+echo -e "AIRFLOW_UID=$(id -u)" > .env
 
-
+docker build . --tag extending_airflow:latest
+docker compose up -d --build
+```
