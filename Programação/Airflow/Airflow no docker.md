@@ -37,10 +37,23 @@ RUN pip install --upgrade pipenv && pipenv install --system
 
 ## Agora é só rodar o docker com os comandos abaixo
 
+
+Crie os diretórios necessários para o Airflow:
 ```shell
 mkdir -p ./dags ./logs ./plugins ./config ./data
-echo -e "AIRFLOW_UID=$(id -u)" > .env
+```
 
+Crie um arquivo .env com o UID do usuário atual. Isso é necessário para que o Airflow possa atribuir permissões corretas aos arquivos criados no host. O arquivo .env deve estar no mesmo diretório que o arquivo docker-compose.yaml. Para criar o arquivo .env, execute o seguinte comando:
+```shell
+echo -e "AIRFLOW_UID=$(id -u)" > .env
+```
+
+Execute o seguinte comando para iniciar o Airflow dockerfile:
+```shell
 docker build . --tag extending_airflow:latest
+```
+
+Execute o seguinte comando para iniciar o docker-compose:
+```shell
 docker compose up -d --build
 ```
