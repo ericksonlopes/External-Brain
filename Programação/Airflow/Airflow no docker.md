@@ -64,8 +64,17 @@ volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
     
-    - /home/erickson/my_project/data:/opt/airflow/data
+    - /home/erickson/my_project/scraping:/opt/airflow/scraping
 ```
+
+Vamos supor que dentro do diretório `scraping` você tenha um arquivo chamado `scraping.py` que você deseja que a dag execute ele, para chamar o arquivo basta chamar da seguinte forma em sua dag.
+
+```python
+
+
+
+
+```yaml
 
 Crie um dockerfile para estender o airflow
 
