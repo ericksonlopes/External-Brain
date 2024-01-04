@@ -37,6 +37,16 @@ RUN pip install --upgrade pipenv && pipenv install --system
 
 ## Agora é só rodar o docker com os comandos abaixo
 
+Estrutura da pasta:
+
+```
+meu_projeto/
+│
+├── Dockerfile
+├── docker-compose.yml
+├── Pipfile
+└── Pipfile.lock
+```
 
 Crie os diretórios necessários para o Airflow:
 ```shell
