@@ -54,7 +54,7 @@ environment:
 ...
 ```
 
-Um pouco mais abaixo você irá encontrar a seguinte estrutura:
+Se caso você queria que o ariflow encontre arquivos em um diretório diferente do que o padrão, você pode alterar o volume do docker-compose.yaml para que ele encontre os arquivos no diretório que você deseja dentro de sua maquina.
 
 ```yaml
 volumes:
@@ -62,7 +62,8 @@ volumes:
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
-
+    - 
+    - /home/erickson/my_project/data:/opt/airflow/data
 ```
 
 Crie um dockerfile para estender o airflow
