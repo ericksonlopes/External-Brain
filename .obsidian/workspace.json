@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Criando um projeto em python.md"
+                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md"
               }
             }
           },
@@ -172,8 +172,9 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "fb222484a3af6385",
   "lastOpenFiles": [
+    "Programação/Criando um projeto em python.md",
     "classes.svg",
     "teste.svg~",
     "teste.svg",
@@ -185,7 +186,6 @@
     "Programação/Airflow/Airflow no docker(Linux).md",
     "Programação/Airflow/Agendando Dags(Schedule).md",
     "Programação/Airflow/Airflow Standalone.md",
-    "Programação/Criando um projeto em python.md",
     "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
     "Programação/Airflow/TaskGroup.md",
     "Programação/Airflow/Executando Taks independente de erros (as_teardown).md~",
@@ -220,7 +220,6 @@
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113414.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113356.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113335.jpg",
-    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211105448.jpg",
-    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211105238.jpg"
+    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211105448.jpg"
   ]
 }
