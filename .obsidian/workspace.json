@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8d98c9201ddd07e6",
+        "id": "bd5024446f433e1f",
         "type": "tabs",
         "children": [
           {
-            "id": "fb222484a3af6385",
+            "id": "8e7e51918c8cba05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
-                "mode": "source",
+                "file": "Programação/sklearn/Algoritmo de Similaridade.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/sklearn/Algoritmo de Similaridade.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/sklearn/Algoritmo de Similaridade.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md"
+                "file": "Programação/sklearn/Algoritmo de Similaridade.md"
               }
             }
           },
@@ -172,8 +172,10 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "fb222484a3af6385",
+  "active": "8e7e51918c8cba05",
   "lastOpenFiles": [
+    "Programação/sklearn/Algoritmo de Similaridade.md~",
+    "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Criando um projeto em python.md",
     "classes.svg",
     "teste.svg~",
@@ -206,7 +208,6 @@
     "Componentes computador/Componentes.md",
     "Programação/Projects/Compile-Repo.md",
     "Programação/Projects/Words-In-Songs.md",
-    "Programação/Projects/Search In Export Chat.md",
     "Programação/Padrões de projetos (Desing Patterns)/patterns.md~",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",

@@ -1,3 +1,5 @@
+#sklearn #python #algoritmo-de-similaridade #datascience #nlp #textanalysis
+
 ```python
 
 from itertools import combinations
