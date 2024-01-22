@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "83404e49df9e556e",
+        "id": "3a728c06be4f94d5",
         "type": "tabs",
         "children": [
           {
-            "id": "f1c32db8849ed1d0",
+            "id": "39d1000ecf567973",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Streamlit/Tutorial stremlit.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Streamlit/Tutorial stremlit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Streamlit/Tutorial stremlit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Streamlit/Tutorial stremlit.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,10 +163,12 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "f1c32db8849ed1d0",
+  "active": "39d1000ecf567973",
   "lastOpenFiles": [
-    "Programação/Streamlit/Streamlit Templates.md",
+    "Programação/Criando um projeto em python.md",
     "Programação/Streamlit/Streamlit + Jinja2.md",
+    "Programação/Streamlit/Streamlit Templates.md",
+    "Programação/Streamlit/Tutorial stremlit.md",
     "Programação/Streamlit/Grafos com repositórios do github.md",
     "Programação/SQLAlchemy/Query com sqlalchemy sem definir tabelas.md",
     "Programação/Git/Instalar Git no Linux.md",
@@ -201,7 +194,6 @@
     "groups (union).md",
     "Programação/sklearn/Algoritmo de Similaridade.md~",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/Criando um projeto em python.md",
     "classes.svg",
     "teste.svg~",
     "teste.svg",
@@ -210,7 +202,6 @@
     "RoadMap Python.canvas",
     "Programação/Airflow/Executando Taks independente de erros (as_teardown).md~",
     "Programação/Docker/Comandos Docker.md",
-    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Airflow/Airflow no docker.md~",
     "Programação/CosmosDB",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
