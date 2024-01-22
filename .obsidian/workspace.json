@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/sklearn/Algoritmo de Similaridade.md",
+                "file": "Programação/sklearn/Algoritmo de Similaridade - Ajustar.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35b6c425d56b4778",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "groups (set).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/sklearn/Algoritmo de Similaridade.md",
+                "file": "groups (set).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/sklearn/Algoritmo de Similaridade.md",
+                "file": "groups (set).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/sklearn/Algoritmo de Similaridade.md"
+                "file": "groups (set).md"
               }
             }
           },
@@ -172,9 +186,10 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "3030b8c4f990a62d",
+  "active": "35b6c425d56b4778",
   "lastOpenFiles": [
-    "Programação/sklearn/Algoritmo de Similaridade.md",
+    "Programação/sklearn/Algoritmo de Similaridade - Ajustar.md",
+    "groups (set).md",
     "Programação/sklearn/Algoritmo de Similaridade.md~",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Criando um projeto em python.md",
@@ -208,7 +223,6 @@
     "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Componentes computador/Componentes.md",
     "Programação/Projects/Compile-Repo.md",
-    "Programação/Projects/Words-In-Songs.md",
     "Programação/Padrões de projetos (Desing Patterns)/patterns.md~",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md~",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md~",
