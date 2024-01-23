@@ -40,3 +40,9 @@ uf.union(4, 5)
 
 uf.display_groups()
 ```
+
+```text
+Grupo 3: [1, 2, 3, 7]
+Grupo 5: [4, 5]
+```
+
