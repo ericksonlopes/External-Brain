@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "3a728c06be4f94d5",
+        "id": "6da63ed62a87a7a8",
         "type": "tabs",
         "children": [
           {
-            "id": "39d1000ecf567973",
+            "id": "486373db039d1762",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           }
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#computador",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -163,8 +164,14 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "39d1000ecf567973",
+  "active": "6a0b55f782205883",
   "lastOpenFiles": [
+    "Programação/Desing Patterns/patterns.md",
+    "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
+    "Programação/Selenium/Capabilities.md",
+    "Ava - Getting Started.md",
+    "Programação/Python/Context.md",
+    "Algoritmo de Similaridade - (Ajustar).md",
     "Programação/Criando um projeto em python.md",
     "Programação/Streamlit/Streamlit + Jinja2.md",
     "Programação/Streamlit/Streamlit Templates.md",
@@ -175,7 +182,6 @@
     "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/MongoDB/mongodb no docker.md",
     "Programação/MongoDB/CRUD em  MongoDB com python.md",
-    "Ava - Getting Started.md",
     "Programação/Projects/Compile-Repo.md",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
     "Agendando Dags(Schedule) (airflow).md",
@@ -188,20 +194,15 @@
     "Programação/Composite Pattern",
     "Programação/SQLAlchemy",
     "Querys com sqlalchemy sem definir tabelas.md~",
-    "Programação/sklearn/Algoritmo de Similaridade - Ajustar.md",
     "groups (set).md~",
     "groups (collections).md~",
     "groups (union).md",
     "Programação/sklearn/Algoritmo de Similaridade.md~",
-    "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "classes.svg",
     "teste.svg~",
     "teste.svg",
-    "badge.md",
-    "LINKS PARA VER.md",
     "RoadMap Python.canvas",
     "Programação/Airflow/Executando Taks independente de erros (as_teardown).md~",
-    "Programação/Docker/Comandos Docker.md",
     "Programação/Airflow/Airflow no docker.md~",
     "Programação/CosmosDB",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",

@@ -1,3 +1,4 @@
+#dataclass #python #dotenv #variable-environment 
 Para usar `dataclass` para pegar as variáveis de ambiente e usá-las como arquivo de configuração, você pode seguir os seguintes passos:
 
 1.  Importe as bibliotecas necessárias:
