@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6da63ed62a87a7a8",
+        "id": "5983cb79a6a25ae2",
         "type": "tabs",
         "children": [
           {
-            "id": "486373db039d1762",
+            "id": "bbbd523f1ada7cde",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#computador",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,8 +164,10 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "6a0b55f782205883",
+  "active": "bbbd523f1ada7cde",
   "lastOpenFiles": [
+    "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
+    "Linux",
     "Programação/Desing Patterns/patterns.md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Selenium/Capabilities.md",
@@ -190,13 +192,11 @@
     "Programação/Airflow/Airflow no docker(Linux).md",
     "Executando Taks independente de erros (as_teardown).md",
     "Programação/Composite Pattern/groups (set).md",
-    "Programação/Composite Pattern/groups (collections).md",
     "Programação/Composite Pattern",
     "Programação/SQLAlchemy",
     "Querys com sqlalchemy sem definir tabelas.md~",
     "groups (set).md~",
     "groups (collections).md~",
-    "groups (union).md",
     "Programação/sklearn/Algoritmo de Similaridade.md~",
     "classes.svg",
     "teste.svg~",
@@ -204,7 +204,6 @@
     "RoadMap Python.canvas",
     "Programação/Airflow/Executando Taks independente de erros (as_teardown).md~",
     "Programação/Airflow/Airflow no docker.md~",
-    "Programação/CosmosDB",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
