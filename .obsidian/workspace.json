@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "p",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,7 +173,7 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "5b6378dfc0f4e000",
+  "active": "6a0b55f782205883",
   "lastOpenFiles": [
     "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
     "Linux",
