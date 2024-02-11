@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0ff1ccd2c143da77",
+        "id": "2430b139405f6ed7",
         "type": "tabs",
         "children": [
           {
-            "id": "5b6378dfc0f4e000",
+            "id": "9c6d095a9ca144f2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Airflow/Airflow no docker(Linux).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -49,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "p",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker(Linux).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Airflow/Airflow no docker(Linux).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Airflow/Airflow no docker(Linux).md"
-              }
+              "state": {}
             }
           },
           {
@@ -173,8 +164,9 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "6a0b55f782205883",
+  "active": "9c6d095a9ca144f2",
   "lastOpenFiles": [
+    "Programação/Airflow/Airflow no docker(Linux).md",
     "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
     "Linux",
     "Programação/Desing Patterns/patterns.md",
@@ -198,7 +190,6 @@
     "Agendando Dags(Schedule) (airflow).md",
     "Airflow Standalone.md",
     "TaskGroup (airflow).md",
-    "Programação/Airflow/Airflow no docker(Linux).md",
     "Executando Taks independente de erros (as_teardown).md",
     "Programação/Composite Pattern/groups (set).md",
     "Programação/Composite Pattern",
