@@ -11,8 +11,10 @@
             "id": "ec41a9141c7d17c4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
             }
           }
         ]
