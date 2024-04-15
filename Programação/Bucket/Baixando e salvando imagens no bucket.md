@@ -12,13 +12,8 @@ def download_and_convert_to_png(url_image):
     if response.status_code != 200:
         raise Exception(f"Failed to download image from {url_image}: {response.status_code}")
 
-    # Abre a imagem usando o Pillow
     imagem = Image.open(BytesIO(response.content))
-
-    # Cria o objeto BytesIO para armazenar a imagem PNG
     imagem_png_bytes = BytesIO()
-
-    # Salva a imagem no novo formato PNG
     imagem.save(imagem_png_bytes, "PNG")
 
     return imagem_png_bytes.getvalue()
