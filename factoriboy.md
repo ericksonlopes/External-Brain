@@ -1,0 +1,1 @@
+https://factoryboy.readthedocs.io/en/stable/
