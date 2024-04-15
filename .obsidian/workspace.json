@@ -11,8 +11,13 @@
             "id": "e415243e6df35fb8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Bucket/Baixando e salvando imagens no bucket.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Bucket/Baixando e salvando imagens no bucket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Bucket/Baixando e salvando imagens no bucket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Bucket/Baixando e salvando imagens no bucket.md"
+              }
             }
           },
           {
@@ -165,6 +174,8 @@
   },
   "active": "e415243e6df35fb8",
   "lastOpenFiles": [
+    "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
+    "Programação/Bucket/Baixando e salvando imagens no bucket.md",
     "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Bucket/CRUD item no bucket.md",
@@ -191,8 +202,6 @@
     "Programação/Projects/Compile-Repo.md",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
     "Agendando Dags(Schedule) (airflow).md",
-    "Airflow Standalone.md",
-    "TaskGroup (airflow).md",
     "Programação/Composite Pattern",
     "Programação/SQLAlchemy",
     "Querys com sqlalchemy sem definir tabelas.md~",
