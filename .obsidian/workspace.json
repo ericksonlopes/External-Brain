@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "558c386db658f7bd",
+        "id": "306edd28d905dd51",
         "type": "tabs",
         "children": [
           {
-            "id": "24eb5147adf3122d",
+            "id": "6b69d65e38b6f361",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#kibana",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -163,8 +164,9 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "24eb5147adf3122d",
+  "active": "6b69d65e38b6f361",
   "lastOpenFiles": [
+    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Algoritmo de Similaridade - (Ajustar).md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
