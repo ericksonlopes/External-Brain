@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/CosmosDB/Criar um artigo.md",
+                "file": "Algoritmo de Similaridade - (Ajustar).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/CosmosDB/Criar um artigo.md",
+                "file": "Algoritmo de Similaridade - (Ajustar).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/CosmosDB/Criar um artigo.md",
+                "file": "Algoritmo de Similaridade - (Ajustar).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/CosmosDB/Criar um artigo.md"
+                "file": "Algoritmo de Similaridade - (Ajustar).md"
               }
             }
           },
@@ -188,6 +188,7 @@
   },
   "active": "684e3fb6cdbb9b8a",
   "lastOpenFiles": [
+    "Programação/CosmosDB/Criar um artigo.md",
     "factoriboy.md",
     "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Airflow/Airflow no docker(Linux).md",
@@ -218,7 +219,6 @@
     "Programação/Streamlit/Streamlit + Jinja2.md",
     "Programação/Streamlit/Streamlit Templates.md",
     "Programação/Streamlit/Tutorial stremlit.md",
-    "Programação/Streamlit/Grafos com repositórios do github.md",
     "Programação/Composite Pattern",
     "Programação/SQLAlchemy",
     "Querys com sqlalchemy sem definir tabelas.md~",
