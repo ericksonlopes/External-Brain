@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "factoriboy.md",
+                "file": "Programação/CosmosDB/Criar um artigo.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "factoriboy.md",
+                "file": "Programação/CosmosDB/Criar um artigo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "factoriboy.md",
+                "file": "Programação/CosmosDB/Criar um artigo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "factoriboy.md"
+                "file": "Programação/CosmosDB/Criar um artigo.md"
               }
             }
           },
@@ -188,8 +188,8 @@
   },
   "active": "684e3fb6cdbb9b8a",
   "lastOpenFiles": [
-    "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
     "factoriboy.md",
+    "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Airflow/Airflow no docker(Linux).md",
     "Algoritmo de Similaridade - (Ajustar).md",
     "Ava - Getting Started.md",
