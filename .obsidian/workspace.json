@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "370d83f6ed314ab7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sem título.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmo de Similaridade - (Ajustar).md",
+                "file": "Sem título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmo de Similaridade - (Ajustar).md",
+                "file": "Sem título.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmo de Similaridade - (Ajustar).md"
+                "file": "Sem título.md"
               }
             }
           },
@@ -186,13 +199,14 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "684e3fb6cdbb9b8a",
+  "active": "370d83f6ed314ab7",
   "lastOpenFiles": [
+    "Algoritmo de Similaridade - (Ajustar).md",
+    "Sem título.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "factoriboy.md",
     "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Airflow/Airflow no docker(Linux).md",
-    "Algoritmo de Similaridade - (Ajustar).md",
     "Ava - Getting Started.md",
     "Agendando Dags(Schedule) (airflow).md",
     "Airflow Standalone.md",
@@ -218,7 +232,6 @@
     "Programação/Criando um projeto em python.md",
     "Programação/Streamlit/Streamlit + Jinja2.md",
     "Programação/Streamlit/Streamlit Templates.md",
-    "Programação/Streamlit/Tutorial stremlit.md",
     "Programação/Composite Pattern",
     "Programação/SQLAlchemy",
     "Querys com sqlalchemy sem definir tabelas.md~",
