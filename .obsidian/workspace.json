@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "71b03c8ab1101a54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sem título 1.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título.md",
+                "file": "Sem título 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem título.md",
+                "file": "Sem título 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sem título.md"
+                "file": "Sem título 1.md"
               }
             }
           },
@@ -199,10 +212,11 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "370d83f6ed314ab7",
+  "active": "71b03c8ab1101a54",
   "lastOpenFiles": [
-    "LINKS PARA VER.md",
     "Sem título.md",
+    "Sem título 1.md",
+    "LINKS PARA VER.md",
     "Algoritmo de Similaridade - (Ajustar).md",
     "Programação/CosmosDB/Criar um artigo.md",
     "factoriboy.md",
@@ -231,7 +245,6 @@
     "Programação/Python/Context.md",
     "Programação/Criando um projeto em python.md",
     "Programação/Streamlit/Streamlit + Jinja2.md",
-    "Programação/Streamlit/Streamlit Templates.md",
     "Programação/Composite Pattern",
     "Programação/SQLAlchemy",
     "Querys com sqlalchemy sem definir tabelas.md~",
