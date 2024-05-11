@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
+                "file": "Programação/Bucket/Baixando e salvando imagens no bucket.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título 1.md",
+                "file": "Programação/Bucket/Baixando e salvando imagens no bucket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem título 1.md",
+                "file": "Programação/Bucket/Baixando e salvando imagens no bucket.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sem título 1.md"
+                "file": "Programação/Bucket/Baixando e salvando imagens no bucket.md"
               }
             }
           },
@@ -212,15 +211,16 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "71b03c8ab1101a54",
+  "active": "018a3ed1849390cc",
   "lastOpenFiles": [
+    "Programação/Bucket/CRUD item no bucket.md",
+    "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
+    "Algoritmo de Similaridade - (Ajustar).md",
     "Sem título.md",
     "Sem título 1.md",
     "LINKS PARA VER.md",
-    "Algoritmo de Similaridade - (Ajustar).md",
     "Programação/CosmosDB/Criar um artigo.md",
     "factoriboy.md",
-    "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Airflow/Airflow no docker(Linux).md",
     "Ava - Getting Started.md",
     "Agendando Dags(Schedule) (airflow).md",
@@ -235,7 +235,6 @@
     "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
     "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/Bucket/CRUD item no bucket.md",
     "Programação/Bucket/CRUD item no bucket.md~",
     "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
     "Linux",
