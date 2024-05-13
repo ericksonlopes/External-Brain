@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmo de Similaridade - (Ajustar).md",
+                "file": "Programação/Docker/Comandos Docker.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mysql",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -100,8 +100,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmo de Similaridade - (Ajustar).md",
+                "file": "Programação/Docker/Comandos Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmo de Similaridade - (Ajustar).md",
+                "file": "Programação/Docker/Comandos Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmo de Similaridade - (Ajustar).md"
+                "file": "Programação/Docker/Comandos Docker.md"
               }
             }
           },
@@ -199,15 +198,17 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "6a0b55f782205883",
+  "active": "684e3fb6cdbb9b8a",
   "lastOpenFiles": [
+    "Sem título 1.md",
+    "Sem título.md",
+    "Programação/Docker/Comandos Docker.md",
+    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
+    "Algoritmo de Similaridade - (Ajustar).md",
     "badge.md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md",
     "Programação/Bucket/CRUD item no bucket.md",
     "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
-    "Algoritmo de Similaridade - (Ajustar).md",
-    "Sem título.md",
-    "Sem título 1.md",
     "LINKS PARA VER.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "factoriboy.md",
@@ -220,7 +221,6 @@
     "RoadMap Python.canvas",
     "Executando Taks independente de erros (as_teardown).md",
     "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
-    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
     "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
@@ -231,7 +231,6 @@
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Selenium/Capabilities.md",
     "Programação/Python/Context.md",
-    "Programação/Criando um projeto em python.md",
     "Programação/Composite Pattern",
     "Programação/SQLAlchemy",
     "Querys com sqlalchemy sem definir tabelas.md~",
