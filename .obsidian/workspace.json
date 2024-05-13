@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem título.md",
+                "file": "Programação/Composite Pattern/groups (collections).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,14 +39,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem título 1.md",
+                "file": "Sem título.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Docker/Comandos Docker.md",
+                "file": "Sem título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Docker/Comandos Docker.md",
+                "file": "Sem título.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Docker/Comandos Docker.md"
+                "file": "Sem título.md"
               }
             }
           },
@@ -198,10 +199,12 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "684e3fb6cdbb9b8a",
+  "active": "71b03c8ab1101a54",
   "lastOpenFiles": [
-    "Sem título 1.md",
+    "Programação/Composite Pattern/groups (collections).md",
+    "Programação/Composite Pattern/groups (set).md",
     "Sem título.md",
+    "Sem título 1.md",
     "Programação/Docker/Comandos Docker.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Algoritmo de Similaridade - (Ajustar).md",
@@ -229,8 +232,6 @@
     "Linux",
     "Programação/Desing Patterns/patterns.md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
-    "Programação/Selenium/Capabilities.md",
-    "Programação/Python/Context.md",
     "Programação/Composite Pattern",
     "Programação/SQLAlchemy",
     "Querys com sqlalchemy sem definir tabelas.md~",
