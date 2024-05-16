@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Composite Pattern/groups (collections).md",
+                "file": "Algoritmo de Similaridade - (Ajustar).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Composite Pattern/groups (collections).md",
+                "file": "Algoritmo de Similaridade - (Ajustar).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Composite Pattern/groups (collections).md",
+                "file": "Algoritmo de Similaridade - (Ajustar).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Composite Pattern/groups (collections).md"
+                "file": "Algoritmo de Similaridade - (Ajustar).md"
               }
             }
           },
@@ -188,28 +188,30 @@
   },
   "active": "370d83f6ed314ab7",
   "lastOpenFiles": [
+    "badge.md",
+    "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
+    "Agendando Dags(Schedule) (airflow).md",
+    "Airflow Standalone.md",
+    "Algoritmo de Similaridade - (Ajustar).md",
+    "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
+    "Executando Taks independente de erros (as_teardown).md",
+    "factoriboy.md",
+    "LINKS PARA VER.md",
     "Sem título.md",
+    "Sem título 1.md",
+    "TaskGroup (airflow).md",
     "Programação/Composite Pattern/groups (collections).md",
     "Programação/Composite Pattern/groups (set).md",
-    "Sem título 1.md",
     "Programação/Docker/Comandos Docker.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Algoritmo de Similaridade - (Ajustar).md",
-    "badge.md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md",
     "Programação/Bucket/CRUD item no bucket.md",
     "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
-    "LINKS PARA VER.md",
     "Programação/CosmosDB/Criar um artigo.md",
-    "factoriboy.md",
     "Programação/Airflow/Airflow no docker(Linux).md",
     "Ava - Getting Started.md",
-    "Agendando Dags(Schedule) (airflow).md",
-    "Airflow Standalone.md",
-    "TaskGroup (airflow).md",
     "Sem título.canvas",
     "RoadMap Python.canvas",
-    "Executando Taks independente de erros (as_teardown).md",
     "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
     "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
@@ -217,8 +219,6 @@
     "Programação/Bucket/CRUD item no bucket.md~",
     "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
     "Linux",
-    "Programação/Desing Patterns/patterns.md",
-    "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Composite Pattern",
     "Programação/SQLAlchemy",
     "Querys com sqlalchemy sem definir tabelas.md~",
