@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmo de Similaridade - (Ajustar).md",
+                "file": "Programação/Selenium/Fazendo download automatico do webdriver.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmo de Similaridade - (Ajustar).md",
+                "file": "Programação/Selenium/Fazendo download automatico do webdriver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmo de Similaridade - (Ajustar).md",
+                "file": "Programação/Selenium/Fazendo download automatico do webdriver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmo de Similaridade - (Ajustar).md"
+                "file": "Programação/Selenium/Fazendo download automatico do webdriver.md"
               }
             }
           },
@@ -188,11 +188,12 @@
   },
   "active": "370d83f6ed314ab7",
   "lastOpenFiles": [
+    "Programação/Selenium/Capabilities.md",
+    "Algoritmo de Similaridade - (Ajustar).md",
     "badge.md",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
     "Agendando Dags(Schedule) (airflow).md",
     "Airflow Standalone.md",
-    "Algoritmo de Similaridade - (Ajustar).md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Executando Taks independente de erros (as_teardown).md",
     "factoriboy.md",
@@ -217,7 +218,6 @@
     "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Bucket/CRUD item no bucket.md~",
-    "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
     "Linux",
     "Programação/Composite Pattern",
     "Programação/SQLAlchemy",
