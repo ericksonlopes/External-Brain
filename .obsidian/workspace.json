@@ -42,9 +42,22 @@
                 "currentVersion": "1.6.3"
               }
             }
+          },
+          {
+            "id": "bcb171772b0517f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#flask",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +111,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -118,6 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +171,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md"
+              }
             }
           },
           {
@@ -192,8 +210,12 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "5906219b6d8886ec",
+  "active": "6a0b55f782205883",
   "lastOpenFiles": [
+    "Programação/Docker/logger + docker + volumes.md",
+    "Programação/Docker/elasticsearch + kibana.md",
+    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
+    "Programação/Docker/Comandos Docker.md",
     "WEBDRIVER.md",
     "Programação/Selenium/Capabilities.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
@@ -213,13 +235,9 @@
     "TaskGroup (airflow).md",
     "Programação/Composite Pattern/groups (collections).md",
     "Programação/Composite Pattern/groups (set).md",
-    "Programação/Docker/Comandos Docker.md",
-    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md",
     "Programação/Bucket/CRUD item no bucket.md",
     "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
-    "Programação/CosmosDB/Criar um artigo.md",
-    "Programação/Airflow/Airflow no docker(Linux).md",
     "Sem título.canvas",
     "RoadMap Python.canvas",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
