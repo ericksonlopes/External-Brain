@@ -32,9 +32,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5906219b6d8886ec",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.3"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +118,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Selenium/Fazendo download automatico do webdriver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +134,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Selenium/Fazendo download automatico do webdriver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +155,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Selenium/Fazendo download automatico do webdriver.md"
-              }
+              "state": {}
             }
           },
           {
@@ -186,8 +192,9 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "370d83f6ed314ab7",
+  "active": "5906219b6d8886ec",
   "lastOpenFiles": [
+    "WEBDRIVER.md",
     "Programação/Selenium/Capabilities.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
@@ -213,7 +220,6 @@
     "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Airflow/Airflow no docker(Linux).md",
-    "Ava - Getting Started.md",
     "Sem título.canvas",
     "RoadMap Python.canvas",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
