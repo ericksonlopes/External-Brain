@@ -19,45 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "370d83f6ed314ab7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Selenium/Fazendo download automatico do webdriver.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5906219b6d8886ec",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.3"
-              }
-            }
-          },
-          {
-            "id": "bcb171772b0517f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
+                "file": "Programação/Docker/Comandos Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
+                "file": "Programação/Docker/Comandos Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md"
+                "file": "Programação/Docker/Comandos Docker.md"
               }
             }
           },
@@ -210,17 +173,17 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "6a0b55f782205883",
+  "active": "684e3fb6cdbb9b8a",
   "lastOpenFiles": [
+    "Programação/Selenium/Fazendo download automatico do webdriver.md",
+    "Programação/Docker/Comandos Docker.md",
     "Programação/Docker/logger + docker + volumes.md",
     "Programação/Docker/elasticsearch + kibana.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/Docker/Comandos Docker.md",
     "WEBDRIVER.md",
     "Programação/Selenium/Capabilities.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
-    "Programação/Selenium/Fazendo download automatico do webdriver.md",
     "Algoritmo de Similaridade - (Ajustar).md",
     "badge.md",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
