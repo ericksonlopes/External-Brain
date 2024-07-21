@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Python/queue/queue simples.md",
+                "file": "Programação/Python/queue/queue lock.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Python/queue/queue simples.md",
+                "file": "Programação/Python/queue/queue lock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Python/queue/queue simples.md",
+                "file": "Programação/Python/queue/queue lock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Python/queue/queue simples.md"
+                "file": "Programação/Python/queue/queue lock.md"
               }
             }
           },
@@ -174,9 +174,10 @@
   },
   "active": "284ff20cfb9d3049",
   "lastOpenFiles": [
+    "Programação/Python/queue/queue simples.md",
+    "Programação/Python/queue/queue lock.md",
     "Programação/Python/queue/queue simples.md~",
     "webdriver.md",
-    "Programação/Python/queue/queue simples.md",
     "Programação/Python/queue",
     "Programação/Python/Sem título.md",
     "Programação/Docker/Comandos Docker.md",
@@ -211,7 +212,6 @@
     "Querys com sqlalchemy sem definir tabelas.md~",
     "groups (set).md~",
     "groups (collections).md~",
-    "Programação/sklearn/Algoritmo de Similaridade.md~",
     "classes.svg",
     "teste.svg",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
