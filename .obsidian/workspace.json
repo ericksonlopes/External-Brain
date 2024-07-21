@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6936b919c22fb0ff",
+        "id": "f77e2dd1d1c96aa0",
         "type": "tabs",
         "children": [
           {
-            "id": "684e3fb6cdbb9b8a",
+            "id": "284ff20cfb9d3049",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Docker/Comandos Docker.md",
+                "file": "webdriver.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -74,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Docker/Comandos Docker.md",
+                "file": "webdriver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Docker/Comandos Docker.md",
+                "file": "webdriver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Docker/Comandos Docker.md"
+                "file": "webdriver.md"
               }
             }
           },
@@ -173,10 +172,11 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "684e3fb6cdbb9b8a",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
-    "Programação/Selenium/Fazendo download automatico do webdriver.md",
+    "webdriver.md",
     "Programação/Docker/Comandos Docker.md",
+    "Programação/Selenium/Fazendo download automatico do webdriver.md",
     "Programação/Docker/logger + docker + volumes.md",
     "Programação/Docker/elasticsearch + kibana.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
@@ -200,7 +200,6 @@
     "Programação/Composite Pattern/groups (set).md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md",
     "Programação/Bucket/CRUD item no bucket.md",
-    "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
     "Sem título.canvas",
     "RoadMap Python.canvas",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
