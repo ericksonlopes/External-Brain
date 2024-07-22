@@ -1,10 +1,9 @@
 ```python
-import queue
 import threading
 import time
+from queue import Queue, Empty
 
-class TrackingQueue(queue.Queue):
-
+class TrackingQueue(Queue):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.current_item = None
@@ -20,36 +19,50 @@ class TrackingQueue(queue.Queue):
     def current_task(self):
         return self.current_item
 
+class QueueProcessor:
+    def __init__(self, queue):
+        self.queue = queue
+        self.lock = threading.Lock()
+        self.thread = threading.Thread(target=self.worker, daemon=True)
 
-# Inicialização dos recursos
-teste_queue = TrackingQueue()
-processing_lock = threading.Lock()
+    def start(self):
+        self.thread.start()
 
-def teste_worker():
-    while True:
-        item = teste_queue.get()  # Bloqueia até obter um item
-        with processing_lock:
-            print(f"Item processado: {item}")
-            time.sleep(1)  # Simulando o tempo de processamento
-            teste_queue.task_done()
+    def worker(self):
+        while True:
+            try:
+                item = self.queue.get(timeout=1)  # Espera por um item por até 1 segundo
+                with self.lock:
+                    print(f"Item processado: {item}")
+                    time.sleep(1)  # Simulando o tempo de processamento
+                    self.queue.task_done()
+            except Empty:
+                continue  # Se a fila estiver vazia, continua no loop
 
-# Inicia a thread worker
-thread = threading.Thread(target=teste_worker, daemon=True)
-thread.start()
+def main():
+    teste_queue = TrackingQueue()
+    processor = QueueProcessor(teste_queue)
+    processor.start()
 
-# Loop para adicionar itens à fila a partir da entrada do usuário
-while True:
-    item = input("Digite um item para adicionar à fila (ou 'sair' para finalizar): ")
-    if item.lower() == 'sair':
-        break
-    
-    with processing_lock:
-        teste_queue.put(item)
-        print(f"Item '{item}' adicionado à fila.")
-        print(f"Item atual em processamento: {teste_queue.current_task()}")
+    # Loop para adicionar itens à fila a partir da entrada do usuário
+    try:
+        while True:
+            item = input("Digite um item para adicionar à fila (ou 'sair' para finalizar): ")
+            if item.lower() == 'sair':
+                break
 
-    teste_queue.join()  # Espera a fila ser processada antes de aceitar o próximo item
+            with processor.lock:
+                teste_queue.put(item)
+                print(f"Item '{item}' adicionado à fila.")
+                print(f"Item atual em processamento: {teste_queue.current_task()}")
 
-print("Todos os itens foram processados.")
+            teste_queue.join()  # Espera a fila ser processada antes de aceitar o próximo item
+    except KeyboardInterrupt:
+        print("\nProcesso interrompido pelo usuário.")
+    finally:
+        print("Todos os itens foram processados.")
+
+if __name__ == "__main__":
+    main()
 
 ```
