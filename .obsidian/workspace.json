@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8a5749051c5bf06f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/MongoDB/CRUD em  MongoDB com python.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Python/queue/queue tracking.md",
+                "file": "Programação/MongoDB/CRUD em  MongoDB com python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Python/queue/queue tracking.md",
+                "file": "Programação/MongoDB/CRUD em  MongoDB com python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Python/queue/queue tracking.md"
+                "file": "Programação/MongoDB/CRUD em  MongoDB com python.md"
               }
             }
           },
@@ -172,8 +186,9 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "284ff20cfb9d3049",
+  "active": "8a5749051c5bf06f",
   "lastOpenFiles": [
+    "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Python/queue/queue adv.md~",
     "Programação/Python/queue/queue adv.md",
     "Programação/Python/queue/queue lock.md",
@@ -211,7 +226,6 @@
     "Linux",
     "Programação/Composite Pattern",
     "Programação/SQLAlchemy",
-    "Querys com sqlalchemy sem definir tabelas.md~",
     "classes.svg",
     "teste.svg",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
