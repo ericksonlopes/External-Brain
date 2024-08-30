@@ -4,50 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f77e2dd1d1c96aa0",
+        "id": "d6d7d84ba1b40861",
         "type": "tabs",
         "children": [
           {
-            "id": "284ff20cfb9d3049",
+            "id": "ddb7d3f9e092966a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Python/queue/queue tracking.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8a5749051c5bf06f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/MongoDB/CRUD em  MongoDB com python.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42ae4f8cbeb1f1f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem título 2.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#flask",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,8 +69,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -122,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem título 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Sem título 2.md"
-              }
+              "state": {}
             }
           },
           {
@@ -200,10 +163,15 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "42ae4f8cbeb1f1f8",
+  "active": "ddb7d3f9e092966a",
   "lastOpenFiles": [
-    "Programação/MongoDB/CRUD em  MongoDB com python.md",
+    "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
+    "badge.md",
+    "Algoritmo de Similaridade - (Ajustar).md",
+    "Sem título 3.md",
     "Sem título 2.md",
+    "Sem título 1.md",
+    "Programação/MongoDB/CRUD em  MongoDB com python.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Python/queue/queue adv.md~",
     "Programação/Python/queue/queue adv.md",
@@ -225,14 +193,9 @@
     "Programação/Selenium/Capabilities.md",
     "Programação/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
-    "Algoritmo de Similaridade - (Ajustar).md",
-    "badge.md",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
     "Agendando Dags(Schedule) (airflow).md",
     "Airflow Standalone.md",
-    "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
-    "Executando Taks independente de erros (as_teardown).md",
-    "factoriboy.md",
     "Sem título.canvas",
     "RoadMap Python.canvas",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
