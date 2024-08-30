@@ -25,3 +25,15 @@ def get_audio_stream_url(youtube_url):
 youtube_url = "https://www.youtube.com/watch?v=oUy6CAPgej0"  
 audio_stream_url = get_audio_stream_url(youtube_url)  
 print(f"URL de stream de áudio: {audio_stream_url}")
+
+
+
+from pytubefix import YouTube  
+  
+url = "https://www.youtube.com/watch?v=oUy6CAPgej0"  
+  
+yt = YouTube(url)  
+  
+stream = yt.streams.get_audio_only().url  
+  
+print(stream)

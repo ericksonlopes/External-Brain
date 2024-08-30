@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "d6d7d84ba1b40861",
+        "id": "1392c86ab405dec9",
         "type": "tabs",
         "children": [
           {
-            "id": "ddb7d3f9e092966a",
+            "id": "4fbc993b9df88509",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "factoriboy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "factoriboy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "factoriboy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "factoriboy.md"
+              }
             }
           },
           {
@@ -163,12 +172,13 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "ddb7d3f9e092966a",
+  "active": "4fbc993b9df88509",
   "lastOpenFiles": [
+    "Executando Taks independente de erros (as_teardown).md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
+    "Sem título 3.md",
     "badge.md",
     "Algoritmo de Similaridade - (Ajustar).md",
-    "Sem título 3.md",
     "Sem título 2.md",
     "Sem título 1.md",
     "Programação/MongoDB/CRUD em  MongoDB com python.md",
@@ -195,7 +205,6 @@
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
     "Agendando Dags(Schedule) (airflow).md",
-    "Airflow Standalone.md",
     "Sem título.canvas",
     "RoadMap Python.canvas",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
