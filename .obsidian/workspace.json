@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "42ae4f8cbeb1f1f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sem título 2.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -88,7 +101,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/MongoDB/CRUD em  MongoDB com python.md",
+                "file": "Sem título 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/MongoDB/CRUD em  MongoDB com python.md",
+                "file": "Sem título 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/MongoDB/CRUD em  MongoDB com python.md"
+                "file": "Sem título 2.md"
               }
             }
           },
@@ -186,8 +200,10 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "8a5749051c5bf06f",
+  "active": "42ae4f8cbeb1f1f8",
   "lastOpenFiles": [
+    "Programação/MongoDB/CRUD em  MongoDB com python.md",
+    "Sem título 2.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Python/queue/queue adv.md~",
     "Programação/Python/queue/queue adv.md",
@@ -217,8 +233,6 @@
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Executando Taks independente de erros (as_teardown).md",
     "factoriboy.md",
-    "LINKS PARA VER.md",
-    "Sem título.md",
     "Sem título.canvas",
     "RoadMap Python.canvas",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
