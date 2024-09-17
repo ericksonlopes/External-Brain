@@ -77,6 +77,11 @@ print(output.get("output"))
 
 Este script em Python cria um agente inteligente capaz de responder perguntas sobre o histórico de ações, especificamente da Microsoft (MSFT), utilizando dados reais obtidos através da API do **yfinance** e armazenados em um banco de dados SQLite. O agente é configurado para responder em português brasileiro e utiliza as capacidades do modelo **GPT-4** para interpretar a pergunta e consultar o banco de dados para fornecer a resposta.
 
+pip install langchain
+pip install yfinance
+pip install langchain-openai
+pip install langchain-community 
+
 ### 1. **Importações e Configurações Iniciais**
 
 
@@ -148,9 +153,6 @@ db = SQLDatabase.from_uri("sqlite:///stocks.db")
 
 ### 5. **Configuração das Ferramentas do Agente**
 
-python
-
-Copy code
 
 ```python
 toolkit = SQLDatabaseToolkit(db=db, llm=model)
