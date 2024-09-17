@@ -1,4 +1,4 @@
-#python #IA #langchain #sql #openai #langchain_community #langchain_openai
+#python #IA #langchain #sql #openai #langchain_community #langchain_openai #agent
 
 ```python
 import os
@@ -77,10 +77,12 @@ print(output.get("output"))
 
 Este script em Python cria um agente inteligente capaz de responder perguntas sobre o histórico de ações, especificamente da Microsoft (MSFT), utilizando dados reais obtidos através da API do **yfinance** e armazenados em um banco de dados SQLite. O agente é configurado para responder em português brasileiro e utiliza as capacidades do modelo **GPT-4** para interpretar a pergunta e consultar o banco de dados para fornecer a resposta.
 
+```bash
 pip install langchain
 pip install yfinance
 pip install langchain-openai
 pip install langchain-community 
+```
 
 ### 1. **Importações e Configurações Iniciais**
 
