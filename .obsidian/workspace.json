@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem título 2.md",
+                "file": "Programação/LangChain/Conetando Ia com banco de dados.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título 2.md",
+                "file": "Programação/LangChain/Conetando Ia com banco de dados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sem título 2.md",
+                "file": "Programação/LangChain/Conetando Ia com banco de dados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sem título 2.md"
+                "file": "Programação/LangChain/Conetando Ia com banco de dados.md"
               }
             }
           },
@@ -174,8 +174,10 @@
   },
   "active": "b0fa7b4296ceb023",
   "lastOpenFiles": [
-    "Sem título 1.md",
     "Sem título 2.md",
+    "Programação/LangChain/Conetando Ia com banco de dados.md",
+    "Programação/LangChain",
+    "Sem título 1.md",
     "Sem título.md",
     "LINKS PARA VER.md",
     "factoriboy.md",
@@ -204,14 +206,12 @@
     "Programação/Python/queue",
     "Programação/Python/Sem título.md",
     "Programação/Docker/Comandos Docker.md",
-    "Programação/Selenium/Fazendo download automatico do webdriver.md",
     "Sem título.canvas",
     "RoadMap Python.canvas",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
     "Programação/Bucket/CRUD item no bucket.md~",
     "Linux",
     "Programação/Composite Pattern",
-    "Programação/SQLAlchemy",
     "classes.svg",
     "teste.svg",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
