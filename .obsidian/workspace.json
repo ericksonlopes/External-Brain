@@ -44,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#dockerfile",
+                "query": "tag:#python",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,7 +164,7 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "6a0b55f782205883",
+  "active": "c1fc8908b1c1dfff",
   "lastOpenFiles": [
     "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/LangChain/Conetando Ia com banco de dados.md~",
