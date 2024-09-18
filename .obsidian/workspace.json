@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Whisper/Transcrição de audio - WhisperX.md",
+                "file": "Programação/Openai/Transcrição de audio - WhisperX.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Whisper/Transcrição de audio - WhisperX.md",
+                "file": "Programação/Openai/Transcrição de audio - WhisperX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Whisper/Transcrição de audio - WhisperX.md",
+                "file": "Programação/Openai/Transcrição de audio - WhisperX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Whisper/Transcrição de audio - WhisperX.md"
+                "file": "Programação/Openai/Transcrição de audio - WhisperX.md"
               }
             }
           },
@@ -174,9 +174,10 @@
   },
   "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "Programação/Openai",
     "Programação/Docker/Docker + MySQL.md",
-    "Programação/Whisper/Transcrição de audio - WhisperX.md",
-    "Programação/Whisper",
+    "Programação/Openai/Transcrição de audio - WhisperX.md",
+    "Programação/Openai/Whisper",
     "Programação/Git/Instalar Git no Linux.md",
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/LangChain/Conetando IA com banco de dados.md",
@@ -202,7 +203,6 @@
     "Programação/Python/queue/queue lock.md",
     "Programação/Python/queue/queue.md",
     "Programação/Airflow/Airflow no docker(Linux).md",
-    "Programação/MongoDB/CRUD em  MongoDB com python.md",
     "Programação/Python/queue/queue adv.md~",
     "Programação/Python/queue/queue tracking.md~",
     "Programação/Python/queue/queue lock.md~",

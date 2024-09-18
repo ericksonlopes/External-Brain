@@ -110,6 +110,29 @@ if __name__ == '__main__':
         print()
 ```
 
+
+# Instalar ffmpeg  
+  
+```bash  
+  
+# on Ubuntu or Debian  
+sudo apt update && sudo apt install ffmpeg  
+  
+# on Arch Linux  
+sudo pacman -S ffmpeg  
+  
+# on MacOS using Homebrew (https://brew.sh/)  
+brew install ffmpeg  
+  
+# on Windows using Chocolatey (https://chocolatey.org/)  
+choco install ffmpeg  
+  
+# on Windows using Scoop (https://scoop.sh/)  
+scoop install ffmpeg  
+```
+
+## Instalar 
+
 # Processador de Transcrição de Áudio com WhisperX
 
 Este documento fornece uma explicação detalhada do código que implementa um processador de transcrição de áudio usando a biblioteca **WhisperX**. O objetivo é transcrever arquivos de áudio, realizar alinhamento temporal e diarização de falantes.
