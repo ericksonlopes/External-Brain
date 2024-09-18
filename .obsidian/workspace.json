@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "16205dab1a04e7b0",
+        "id": "bbb1f07ec8555b48",
         "type": "tabs",
         "children": [
           {
-            "id": "134d7d776ec2b9d9",
+            "id": "0219ea34ba36b6c0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -89,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Docker/Docker + MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/Docker/Docker + MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +128,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/Docker/Docker + MySQL.md"
+              }
             }
           },
           {
@@ -163,8 +167,9 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "134d7d776ec2b9d9",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "Programação/Git/Instalar Git no Linux.md",
     "Programação/Docker/Docker + MySQL.md",
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/LangChain/Conetando IA com banco de dados.md",
@@ -193,7 +198,6 @@
     "Programação/MongoDB/CRUD em  MongoDB com python.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Python/queue/queue adv.md~",
-    "Programação/Python/queue/queue adv.md",
     "Programação/Python/queue/queue tracking.md~",
     "Programação/Python/queue/queue lock.md~",
     "Programação/Python/queue/queue simples.md~",
