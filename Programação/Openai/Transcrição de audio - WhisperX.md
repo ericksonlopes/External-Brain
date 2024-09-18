@@ -1,4 +1,4 @@
-#WhisperX #Whisper #python #audio #openai #transcription
+#WhisperX #Whisper #python #audio #openai #transcription #IA #machine-learning 
 
 
 ```python
@@ -131,8 +131,11 @@ choco install ffmpeg
 scoop install ffmpeg  
 ```
 
-## Instalar 
+## Instalar a biblioteca
 
+```
+pip install whisperx 
+```
 # Processador de Transcrição de Áudio com WhisperX
 
 Este documento fornece uma explicação detalhada do código que implementa um processador de transcrição de áudio usando a biblioteca **WhisperX**. O objetivo é transcrever arquivos de áudio, realizar alinhamento temporal e diarização de falantes.
