@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "49cb394d76634d00",
+        "id": "16205dab1a04e7b0",
         "type": "tabs",
         "children": [
           {
-            "id": "b0fa7b4296ceb023",
+            "id": "134d7d776ec2b9d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Pydantic/BaseSettings + env.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Pydantic/BaseSettings + env.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Pydantic/BaseSettings + env.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programação/Pydantic/BaseSettings + env.md"
-              }
+              "state": {}
             }
           },
           {
@@ -172,9 +163,10 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "b0fa7b4296ceb023",
+  "active": "134d7d776ec2b9d9",
   "lastOpenFiles": [
     "Programação/Docker/Docker + MySQL.md",
+    "Programação/Pydantic/BaseSettings + env.md",
     "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/LangChain/Conetando Ia com banco de dados.md~",
     "Sem título 2.md",
@@ -206,7 +198,6 @@
     "Programação/Python/queue/queue lock.md~",
     "Programação/Python/queue/queue simples.md~",
     "Programação/Python/queue",
-    "Programação/Python/Sem título.md",
     "Sem título.canvas",
     "RoadMap Python.canvas",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
