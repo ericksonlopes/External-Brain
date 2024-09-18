@@ -169,6 +169,7 @@
   },
   "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "Programação/Whipherx",
     "Programação/Git/Instalar Git no Linux.md",
     "Programação/Docker/Docker + MySQL.md",
     "Programação/Pydantic/BaseSettings + env.md",
@@ -196,7 +197,6 @@
     "Programação/Python/queue/queue.md",
     "Programação/Airflow/Airflow no docker(Linux).md",
     "Programação/MongoDB/CRUD em  MongoDB com python.md",
-    "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Python/queue/queue adv.md~",
     "Programação/Python/queue/queue tracking.md~",
     "Programação/Python/queue/queue lock.md~",
