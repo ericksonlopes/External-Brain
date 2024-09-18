@@ -11,8 +11,13 @@
             "id": "b0fa7b4296ceb023",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Programação/LangChain/Conetando IA com banco de dados.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -69,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/LangChain/Conetando IA com banco de dados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/LangChain/Conetando IA com banco de dados.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/LangChain/Conetando IA com banco de dados.md"
+              }
             }
           },
           {
@@ -164,7 +172,7 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "c1fc8908b1c1dfff",
+  "active": "b0fa7b4296ceb023",
   "lastOpenFiles": [
     "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/LangChain/Conetando Ia com banco de dados.md~",
