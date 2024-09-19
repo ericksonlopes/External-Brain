@@ -11,7 +11,13 @@ pythonCopy code
 
 pythonCopy code
 
-`@dataclass class Config:     database_url: str = os.environ.get("DATABASE_URL")     port: int = int(os.environ.get("PORT", 5000))     secret_key: str = os.environ.get("SECRET_KEY")`
+```python
+@dataclass
+class Config:     
+    database_url: str = os.environ.get("DATABASE_URL")
+    port: int = int(os.environ.get("PORT", 5000))
+    secret_key: str = os.environ.get("SECRET_KEY")
+```
 
 Observe que estamos usando `os.environ.get` para acessar as variáveis de ambiente e fornecer valores padrão (caso aplicável) se elas não estiverem definidas.
 
