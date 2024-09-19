@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Openai/Transcrição de audio - WhisperX.md",
+                "file": "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Openai/Transcrição de audio - WhisperX.md",
+                "file": "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Openai/Transcrição de audio - WhisperX.md",
+                "file": "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/Openai/Transcrição de audio - WhisperX.md"
+                "file": "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md"
               }
             }
           },
@@ -174,18 +174,22 @@
   },
   "active": "0219ea34ba36b6c0",
   "lastOpenFiles": [
+    "Sem título 3.md",
+    "TaskGroup (airflow).md",
+    "WEBDRIVER.md",
+    "webdriver.md",
+    "Sem título.md",
+    "Sem título 2.md",
+    "Programação/Openai/Transcrição de audio - WhisperX.md",
     "Programação/Openai",
     "Programação/Docker/Docker + MySQL.md",
-    "Programação/Openai/Transcrição de audio - WhisperX.md",
     "Programação/Openai/Whisper",
     "Programação/Git/Instalar Git no Linux.md",
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/LangChain/Conetando Ia com banco de dados.md~",
-    "Sem título 2.md",
     "Programação/LangChain",
     "Sem título 1.md",
-    "Sem título.md",
     "LINKS PARA VER.md",
     "factoriboy.md",
     "Executando Taks independente de erros (as_teardown).md",
@@ -195,10 +199,6 @@
     "Airflow Standalone.md",
     "202409071652.md",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
-    "Sem título 3.md",
-    "TaskGroup (airflow).md",
-    "WEBDRIVER.md",
-    "webdriver.md",
     "Programação/Python/queue/queue tracking.md",
     "Programação/Python/queue/queue lock.md",
     "Programação/Python/queue/queue.md",
@@ -211,7 +211,6 @@
     "Sem título.canvas",
     "RoadMap Python.canvas",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md~",
-    "Programação/Bucket/CRUD item no bucket.md~",
     "classes.svg",
     "teste.svg",
     "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
