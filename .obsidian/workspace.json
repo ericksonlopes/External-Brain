@@ -11,8 +11,13 @@
             "id": "0219ea34ba36b6c0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Programação/LangChain/Sem título.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/LangChain/Sem título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +121,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Programação/LangChain/Sem título.md"
+              }
             }
           },
           {
@@ -132,6 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/LangChain/Sem título.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,6 +174,7 @@
   },
   "active": "0219ea34ba36b6c0",
   "lastOpenFiles": [
+    "Programação/LangChain/Sem título.md",
     "Componentes computador/Componentes.md",
     "Sem título 2.md",
     "Sem título 3.md",
@@ -195,7 +205,6 @@
     "Airflow Standalone.md",
     "202409071652.md",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
-    "Programação/Python/queue/queue tracking.md",
     "Programação/Python/queue/queue adv.md~",
     "Programação/Python/queue/queue tracking.md~",
     "Programação/Python/queue/queue lock.md~",
