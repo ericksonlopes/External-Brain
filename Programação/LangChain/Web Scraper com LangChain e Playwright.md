@@ -1,4 +1,4 @@
-#langchain #langchain_openai #langchain_community #python #playwright #scraping #web_scraping
+#langchain #langchain_openai #langchain_community #python #playwright #scraping #web_scraping #pydantic #IA #beautifulsoup 
 
 
 Este código implementa um web scraper utilizando LangChain e Playwright para extrair e estruturar informações de artigos de notícias, com foco na extração de conteúdo a partir de tags HTML específicas.

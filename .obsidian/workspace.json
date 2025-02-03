@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#python",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 517.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -147,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -176,6 +176,7 @@
   "lastOpenFiles": [
     "Programação/LangChain/Integração com LangChain e Playwright.md",
     "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
+    "Programação/LangChain/Conetando IA com banco de dados.md",
     "Componentes computador/Componentes.md",
     "Sem título 2.md",
     "Sem título 3.md",
@@ -195,7 +196,6 @@
     "Programação/Openai/Whisper",
     "Programação/Git/Instalar Git no Linux.md",
     "Programação/Pydantic/BaseSettings + env.md",
-    "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/LangChain/Conetando Ia com banco de dados.md~",
     "Programação/LangChain",
     "LINKS PARA VER.md",
