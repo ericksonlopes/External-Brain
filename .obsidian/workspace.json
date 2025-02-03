@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/LangChain/Sem título.md",
+                "file": "Programação/LangChain/Integração com LangChain e Playwright.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/LangChain/Sem título.md",
+                "file": "Programação/LangChain/Integração com LangChain e Playwright.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programação/LangChain/Sem título.md"
+                "file": "Programação/LangChain/Integração com LangChain e Playwright.md"
               }
             }
           },
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/LangChain/Sem título.md",
+                "file": "Programação/LangChain/Integração com LangChain e Playwright.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
   },
   "active": "0219ea34ba36b6c0",
   "lastOpenFiles": [
-    "Programação/LangChain/Sem título.md",
+    "Programação/LangChain/Integração com LangChain e Playwright.md",
     "Componentes computador/Componentes.md",
     "Sem título 2.md",
     "Sem título 3.md",
