@@ -1,4 +1,4 @@
-#python #langchain #langchain_openai #langchain_community #playwrite
+#python #langchain #langchain_openai #langchain_community #playwright
 
 Este código demonstra a integração do LangChain com o Playwright e OpenAI GPT para coletar as últimas notícias de um site (G1) por meio de um agente de IA.
 
