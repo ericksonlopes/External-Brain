@@ -11,10 +11,15 @@
             "id": "0fec67444a6d61d2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao"
             }
           }
         ]
@@ -192,6 +197,7 @@
   },
   "active": "0fec67444a6d61d2",
   "lastOpenFiles": [
+    "badge.md",
     "Programação/Projects/Search In Export Chat (StreamLit).md",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
     "Programação/Projects/Words-In-Songs.md",
@@ -219,7 +225,6 @@
     "webdriver.md",
     "Programação/Openai/Transcrição de audio - WhisperX.md",
     "Programação/Openai",
-    "Programação/Docker/Docker + MySQL.md",
     "Programação/Openai/Whisper",
     "Programação/LangChain/Conetando Ia com banco de dados.md~",
     "Programação/LangChain",
