@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
+                "file": "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao"
+              "title": "Web Scraper com LangChain e Playwright"
             }
           }
         ]
@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 517.5
+    "width": 426.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -197,14 +197,15 @@
   },
   "active": "0fec67444a6d61d2",
   "lastOpenFiles": [
+    "Programação/LangChain/Integração com LangChain e Playwright.md",
+    "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
+    "Programação/LangChain/Conetando IA com banco de dados.md",
+    "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "badge.md",
     "Programação/Projects/Search In Export Chat (StreamLit).md",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
     "Programação/Projects/Words-In-Songs.md",
     "Programação/PySpark/Joins com pyspark.md",
-    "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
-    "Programação/LangChain/Integração com LangChain e Playwright.md",
-    "Programação/LangChain/Conetando IA com banco de dados.md",
     "TaskGroup (airflow).md",
     "Sem título 3.md",
     "Sem título 2.md",
@@ -219,7 +220,6 @@
     "Programação/Streamlit/Streamlit Templates.md",
     "Programação/Streamlit/Streamlit + Jinja2.md",
     "Programação/Streamlit/Grafos com repositórios do github.md",
-    "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md~",
     "WEBDRIVER.md",
     "webdriver.md",
