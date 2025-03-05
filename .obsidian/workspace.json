@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "Web Scraper com LangChain e Playwright"
             }
+          },
+          {
+            "id": "80321792e426dace",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,7 +208,7 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "0fec67444a6d61d2",
+  "active": "80321792e426dace",
   "lastOpenFiles": [
     "Programação/LangChain/Integração com LangChain e Playwright.md",
     "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
