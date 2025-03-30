@@ -43,13 +43,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem título 3.md",
+                "file": "Sem título 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sem título 3"
+              "title": "Sem título 2"
             }
           }
         ],
@@ -229,6 +229,7 @@
   },
   "active": "b90e3265da2e5a72",
   "lastOpenFiles": [
+    "Sem título 3.md",
     "Sem título 2.md",
     "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
     "202409071652.md",
@@ -253,7 +254,6 @@
     "Programação/Projects/Search In Export Chat (StreamLit).md",
     "Programação/Projects/Words-In-Songs.md",
     "Programação/PySpark/Joins com pyspark.md",
-    "Sem título 3.md",
     "LINKS PARA VER.md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md~",
     "Programação/Openai",
