@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "youtube",
+                "query": "logging",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -197,6 +198,10 @@
   },
   "active": "de886e0c22518430",
   "lastOpenFiles": [
+    "Programação/Docker/logger + docker + volumes.md",
+    "Programação/Python/Decorator.md",
+    "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
+    "Programação/Openai/Transcrição de audio - WhisperX.md",
     "202409071652.md",
     "Sem título 3.md",
     "Sem título 2.md",
@@ -219,10 +224,6 @@
     "Componentes computador/Mouse PiPer.md",
     "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/LangChain/Integração com LangChain e Playwright.md",
-    "Programação/Projects/Search In Export Chat (StreamLit).md",
-    "Programação/Projects/Words-In-Songs.md",
-    "Programação/PySpark/Joins com pyspark.md",
-    "LINKS PARA VER.md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md~",
     "Programação/Openai",
     "Programação/Openai/Whisper",
