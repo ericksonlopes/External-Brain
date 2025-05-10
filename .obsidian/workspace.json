@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "99f98e7abe8bcdaf",
+        "id": "efe9bec9bea0439b",
         "type": "tabs",
         "children": [
           {
-            "id": "67f659c930142690",
+            "id": "c1561a8b8ba0a3dc",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -189,8 +189,15 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "c1561a8b8ba0a3dc",
   "lastOpenFiles": [
+    "Programação/Docker/minio.md",
+    "Programação/Redis/Redis + Python.md",
+    "Programação/Redis/Redis + docker.md",
+    "Programação/sklearn/Sem título.md",
+    "Programação/Streamlit/Streamlit Templates.md",
+    "Programação/Streamlit/Streamlit + Jinja2.md",
+    "Programação/Streamlit/Grafos com repositórios do github.md",
     "Programação/Openai/Azure + Openai.md",
     "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
     "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
@@ -198,9 +205,7 @@
     "Programação/LangChain/Integração com LangChain e Playwright.md",
     "Programação/crewai/Iniciando com Crewai.md",
     "Programação/LangChain/Conetando IA com banco de dados.md",
-    "Programação/Redis/Redis + Python.md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md",
-    "Programação/Docker/minio.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Algoritmos/Explicação do Loop While com Estrutura de Dicionário.md",
     "202409071652.md",
@@ -213,15 +218,10 @@
     "Programação/Airflow/Agendando Dags(Schedule) (airflow).md",
     "Programação/Algoritmos/Algoritmo de Similaridade - (Ajustar).md",
     "Programação/Algoritmos/Composite Pattern/groups (set).md",
-    "Programação/Algoritmos/Composite Pattern/groups (collections).md",
     "Programação/Algoritmos/Composite Pattern",
     "Programação/Algoritmos",
-    "Programação/algoritmos/Composite Pattern/groups (set).md",
-    "Programação/algoritmos/Composite Pattern/groups (collections).md",
     "Programação/algoritmos/Composite Pattern",
     "Programação/algoritmos",
-    "Programação/Airflow/TaskGroup.md",
-    "Programação/Airflow/TaskGroup (airflow).md",
     "webdriver.md~",
     "Programação/dataclass",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md~",

@@ -1,4 +1,4 @@
-#docker #dockerfile #minio
+#docker #dockerfile #minio #bucket 
 ```dockerfile
 
 FROM minio/minio:latest  
