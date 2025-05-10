@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8f0c44497b4d1c42",
+        "id": "99f98e7abe8bcdaf",
         "type": "tabs",
         "children": [
           {
-            "id": "0fec67444a6d61d2",
+            "id": "67f659c930142690",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/crewai/Iniciando com Crewai.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Iniciando com Crewai"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -54,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#tree",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/crewai/Iniciando com Crewai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Iniciando com Crewai"
+              "title": "Backlinks"
             }
           },
           {
@@ -195,13 +189,18 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "0fec67444a6d61d2",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "Programação/Openai/Azure + Openai.md",
+    "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
+    "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
+    "Programação/Openai/Transcrição de audio - WhisperX.md",
+    "Programação/LangChain/Integração com LangChain e Playwright.md",
+    "Programação/crewai/Iniciando com Crewai.md",
     "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/Redis/Redis + Python.md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md",
     "Programação/Docker/minio.md",
-    "Programação/crewai/Iniciando com Crewai.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Algoritmos/Explicação do Loop While com Estrutura de Dicionário.md",
     "202409071652.md",
@@ -223,13 +222,8 @@
     "Programação/algoritmos",
     "Programação/Airflow/TaskGroup.md",
     "Programação/Airflow/TaskGroup (airflow).md",
-    "Programação/Selenium/webdriver.md",
     "webdriver.md~",
-    "Programação/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/dataclass",
-    "webdriver.md",
-    "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
-    "Componentes computador/Periféricos.md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md~",
     "Programação/Openai",
     "Programação/Openai/Whisper",
