@@ -11,10 +11,15 @@
             "id": "c1561a8b8ba0a3dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Git/Instalar Git no Linux.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Instalar Git no Linux"
             }
           }
         ]
@@ -100,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Git/Instalar Git no Linux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para Instalar Git no Linux"
             }
           },
           {
@@ -191,6 +197,7 @@
   },
   "active": "c1561a8b8ba0a3dc",
   "lastOpenFiles": [
+    "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/Docker/minio.md",
     "Programação/Redis/Redis + Python.md",
     "Programação/Redis/Redis + docker.md",
@@ -217,7 +224,6 @@
     "Programação/Airflow/Airflow Standalone.md",
     "Programação/Airflow/Agendando Dags(Schedule) (airflow).md",
     "Programação/Algoritmos/Algoritmo de Similaridade - (Ajustar).md",
-    "Programação/Algoritmos/Composite Pattern/groups (set).md",
     "Programação/Algoritmos/Composite Pattern",
     "Programação/Algoritmos",
     "Programação/algoritmos/Composite Pattern",
