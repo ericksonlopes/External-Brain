@@ -1,3 +1,5 @@
+#azure #openai 
+
 from openai.lib.azure import AzureOpenAI  
   
 client = AzureOpenAI(  

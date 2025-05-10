@@ -1,5 +1,5 @@
-#agent #IA #Ai 
-# Explicação do Código - `main.py`
+#agent #IA #Ai #crewai #agents
+# Iniciando com Crewai
 
 O código apresentado utiliza bibliotecas para criar um agente de IA especializado em Python, que responde a dúvidas sobre programação. Abaixo está a explicação de cada parte:
 
