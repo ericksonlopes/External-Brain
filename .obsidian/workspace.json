@@ -152,8 +152,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
             }
           },
           {
@@ -188,11 +188,7 @@
       "zk-prefixer:Criar nova nota única": false,
       "random-note:Abrir nota aleatória": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
-      "publish:Publicar mudanças": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "ava:Ava": false,
-      "ava:Ava - Show Links": false,
-      "ava:Ava - Open Rewrite Playground": false
+      "publish:Publicar mudanças": false
     }
   },
   "active": "0fec67444a6d61d2",
