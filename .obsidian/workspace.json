@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/crewai/Iniciando com Crewai.md",
+                "file": "Programação/Bucket/Baixando e salvando imagens no bucket.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Iniciando com Crewai"
+              "title": "Baixando e salvando imagens no bucket"
             }
           }
         ]
@@ -105,16 +105,17 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Bucket/Baixando e salvando imagens no bucket.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para Baixando e salvando imagens no bucket"
             }
           },
           {
@@ -173,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5,
-    "collapsed": true
+    "width": 312.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,6 +197,8 @@
   },
   "active": "0fec67444a6d61d2",
   "lastOpenFiles": [
+    "Programação/Docker/minio.md",
+    "Programação/crewai/Iniciando com Crewai.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Algoritmos/Explicação do Loop While com Estrutura de Dicionário.md",
     "202409071652.md",
@@ -228,8 +230,6 @@
     "Componentes computador/Mouse PiPer.md",
     "Componentes computador/Componentes.md",
     "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
-    "Programação/Bucket/CRUD item no bucket.md",
-    "Programação/Bucket/Baixando e salvando imagens no bucket.md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md~",
     "Programação/Openai",
     "Programação/Openai/Whisper",
