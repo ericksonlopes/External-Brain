@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Componentes computador/Periféricos.md",
+                "file": "202409071652.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Periféricos"
+              "title": "202409071652"
             }
           }
         ]
@@ -197,6 +197,9 @@
   },
   "active": "0fec67444a6d61d2",
   "lastOpenFiles": [
+    "webdriver.md",
+    "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
+    "Componentes computador/Periféricos.md",
     "Componentes computador/Mouse PiPer.md",
     "Componentes computador/Componentes.md",
     "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
@@ -215,14 +218,11 @@
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "badge.md",
     "Programação/Projects/Search In Export Chat (StreamLit).md",
-    "10 principais conceitos que todo engenheiro de dados deve conhecer.md",
     "Programação/Projects/Words-In-Songs.md",
     "Programação/PySpark/Joins com pyspark.md",
     "TaskGroup (airflow).md",
     "Sem título 3.md",
     "Sem título 2.md",
-    "LINKS PARA VER.md",
-    "Agendando Dags(Schedule) (airflow).md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md~",
     "Programação/Openai",
     "Programação/Openai/Whisper",
