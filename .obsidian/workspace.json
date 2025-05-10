@@ -11,10 +11,15 @@
             "id": "0fec67444a6d61d2",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Programação/crewai/Iniciando com Crewai.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Iniciando com Crewai"
             }
           }
         ]
@@ -49,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#python",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,8 +85,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,8 +195,9 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "6a0b55f782205883",
+  "active": "0fec67444a6d61d2",
   "lastOpenFiles": [
+    "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Algoritmos/Explicação do Loop While com Estrutura de Dicionário.md",
     "202409071652.md",
     "Programação/Algoritmos/202409071652.md",
@@ -225,7 +230,6 @@
     "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
     "Programação/Bucket/CRUD item no bucket.md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md",
-    "Programação/Composite Pattern/groups (collections).md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md~",
     "Programação/Openai",
     "Programação/Openai/Whisper",

@@ -1,7 +1,9 @@
-#agent #IA #Ai #crewai #agents
-# Iniciando com Crewai
-
+#agent #IA #Ai #crewai #agents 
 O código apresentado utiliza bibliotecas para criar um agente de IA especializado em Python, que responde a dúvidas sobre programação. Abaixo está a explicação de cada parte:
+
+```bash
+pip install python-decouple loguru crewai langchain-openai
+```
 
 ## 1. **Importação de Bibliotecas**
 ```python
@@ -16,6 +18,21 @@ from config import Config
 
 ## 2. **Configuração Inicial**
 ```python
+import os  
+  
+from decouple import config  
+from loguru import logger  
+  
+  
+class Config:  
+    """Centralized environment configuration class."""  
+  
+    def __init__(self):  
+        logger.info("Loading environment variables...")  
+        self.openai_api_key = config('OPENAI_API_KEY')  
+        os.environ['OPENAI_API_KEY'] = self.openai_api_key  
+        logger.success("OPENAI_API_KEY successfully loaded.")
+        
 Config()
 ```
 - Inicializa a classe `Config`, que carrega a chave da API OpenAI do arquivo `.env`.
