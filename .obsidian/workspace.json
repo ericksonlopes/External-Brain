@@ -11,15 +11,10 @@
             "id": "0fec67444a6d61d2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "202409071652.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "202409071652"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -54,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#python",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +80,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,8 +191,17 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "0fec67444a6d61d2",
+  "active": "6a0b55f782205883",
   "lastOpenFiles": [
+    "Programação/Algoritmos/Explicação do Loop While com Estrutura de Dicionário.md",
+    "202409071652.md",
+    "Programação/Algoritmos/202409071652.md",
+    "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
+    "Programação/Pytube/Duração video youtube.md",
+    "Programação/Pytube",
+    "Duração video youtube.md",
+    "Programação/Airflow/Airflow Standalone.md",
+    "Programação/Airflow/Agendando Dags(Schedule) (airflow).md",
     "Programação/Algoritmos/Algoritmo de Similaridade - (Ajustar).md",
     "Programação/Algoritmos/Composite Pattern/groups (set).md",
     "Programação/Algoritmos/Composite Pattern/groups (collections).md",
@@ -221,18 +226,9 @@
     "Programação/Bucket/CRUD item no bucket.md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md",
     "Programação/Composite Pattern/groups (collections).md",
-    "Programação/Composite Pattern/groups (set).md",
-    "Programação/PySpark/Configurando ambiente para o pyspark e pycharm.md",
-    "Programação/SQLAlchemy/Query com sqlalchemy sem definir tabelas.md",
-    "Programação/crewai/start.md",
-    "Programação/LangChain/Conetando IA com banco de dados.md",
-    "Programação/Openai/Transcrição de audio - WhisperX.md",
-    "Programação/Openai/Sem título 1.md",
-    "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md~",
     "Programação/Openai",
     "Programação/Openai/Whisper",
-    "Programação/LangChain/Conetando Ia com banco de dados.md~",
     "Sem título.canvas",
     "RoadMap Python.canvas",
     "classes.svg",
