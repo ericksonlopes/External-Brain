@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/LangChain/Integração com LangChain e Playwright.md",
+                "file": "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Integração com LangChain e Playwright"
+              "title": "Web Scraper com LangChain e Playwright"
             }
           }
         ]
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/LangChain/Integração com LangChain e Playwright.md",
+                "file": "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Integração com LangChain e Playwright"
+              "title": "Links inversos para Web Scraper com LangChain e Playwright"
             }
           },
           {
@@ -197,10 +197,10 @@
   },
   "active": "31807edebee59f1c",
   "lastOpenFiles": [
-    "Programação/LangChain/Conetando IA com banco de dados.md",
-    "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
     "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
     "Programação/LangChain/Integração com LangChain e Playwright.md",
+    "Programação/LangChain/Conetando IA com banco de dados.md",
+    "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
     "Programação/Criando um projeto em python.md",
     "Programação/WAHA/Como rodar o WAHA.md",
     "Programação/Sem título.md",
