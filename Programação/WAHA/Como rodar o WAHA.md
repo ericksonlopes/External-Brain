@@ -1,81 +1,125 @@
+Para rodar o WAHA com um exemplo simples em Python, siga os passos abaixo:
 
-#### Pré-requisitos
-1. **Docker** e **Docker Compose** instalados.
-2. **Python 3.8+** instalado.
-3. Clonar o repositório do projeto ou ter os arquivos necessários (`docker-compose.yml`, `.env`, `app.py`, `waha.py`).
+### 1. **Configurar o ambiente**
+Certifique-se de ter o Docker e o Docker Compose instalados no seu sistema.
 
----
+### 2. **Criar os arquivos necessários**
+Crie os seguintes arquivos no mesmo diretório:
 
-#### Passo 1: Configurar o ambiente
-1. Crie um arquivo `.env` com as variáveis de ambiente necessárias. Exemplo:
-   ```dotenv
-   POSTGRES_USER=postgres
-   POSTGRES_PASSWORD=postgres
-   POSTGRES_DB=waha_db
+#### `.env`
+```dotenv
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_DB=waha_db
 
-   WHATSAPP_SESSIONS_POSTGRESQL_URL=postgres://postgres:postgres@postgres:5432/waha_db?sslmode=disable
-   WAHA_MEDIA_STORAGE=POSTGRESQL
-   WAHA_MEDIA_POSTGRESQL_URL=postgres://postgres:postgres@postgres:5432/waha_db?sslmode=disable
-   WHATSAPP_FILES_FOLDER=/app/.media
-   WHATSAPP_FILES_LIFETIME=0
-   WAHA_WORKER_RESTART_SESSIONS=True
-   TZ=America/Sao_Paulo
+WHATSAPP_SESSIONS_POSTGRESQL_URL=postgres://postgres:postgres@postgres:5432/waha_db?sslmode=disable
+WAHA_MEDIA_STORAGE=POSTGRESQL
+WAHA_MEDIA_POSTGRESQL_URL=postgres://postgres:postgres@postgres:5432/waha_db?sslmode=disable
+WHATSAPP_FILES_FOLDER=/app/.media
+WHATSAPP_FILES_LIFETIME=0
+WAHA_WORKER_RESTART_SESSIONS=True
+TZ=America/Sao_Paulo
 
-   WAHA_SESSION=default
-   WHATSAPP_HOOK_URL=http://host.docker.internal:5000/webhook
-   WHATSAPP_HOOK_EVENTS=*
-   ```
+WAHA_SESSION=default
+WHATSAPP_HOOK_URL=http://host.docker.internal:5000/webhook
+WHATSAPP_HOOK_EVENTS=*
+```
 
-2. Certifique-se de que o arquivo `.gitignore` está configurado para ignorar o `.env` e outros arquivos sensíveis.
+#### `docker-compose.yml`
+```yaml
+services:
+  waha:
+    image: devlikeapro/waha
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
+    volumes:
+      - ./sessions:/app/.sessions
+      - ./media:/app/.media
+    depends_on:
+      - postgres
 
----
+  postgres:
+    image: postgres:17
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DB}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    command:
+      - postgres
+      - "-c"
+      - "max_connections=3000"
 
-#### Passo 2: Subir os serviços com Docker Compose
-1. Execute o comando para iniciar os serviços:
-   ```bash
-   docker-compose up -d
-   ```
+volumes:
+  postgres_data:
+```
 
-2. Verifique se os containers estão rodando:
-   ```bash
-   docker ps
-   ```
+#### `app.py`
+```python
+from flask import Flask, request, jsonify
+from waha import Waha
 
----
+app = Flask(__name__)
 
-#### Passo 3: Configurar o webhook
-1. O arquivo `app.py` já está configurado para receber eventos no endpoint `/webhook`.
-2. Certifique-se de que o `WHATSAPP_HOOK_URL` no `.env` aponta para o endereço correto do webhook.
+@app.route("/webhook", methods=["POST"])
+def whatsapp_webhook():
+    data = request.get_json()
 
----
+    if data["payload"]["from"] == 'status@broadcast':
+        return jsonify({'status': 'success'}), 200
 
-#### Passo 4: Testar o bot
-1. Execute o arquivo `app.py`:
-   ```bash
-   python app.py
-   ```
+    if data["event"] == "message" and not data["payload"]['fromMe']:
+        chat_id = data["payload"]["from"]
+        received_message = data["payload"]["body"]
 
-2. Envie uma mensagem para o número configurado no WhatsApp e veja o bot responder.
+        waha = Waha()
+        waha.start_typing(chat_id=chat_id)
+        waha.send_message(chat_id=chat_id, message="Você me enviou: " + received_message)
+        waha.stop_typing(chat_id=chat_id)
 
----
+    return jsonify({'status': 'success'}), 200
 
-#### Passo 5: Logs e Debug
-1. Para verificar os logs do WAHA:
-   ```bash
-   docker logs <container_id> -f
-   ```
+if __name__ == '__main__':
+    app.run(host="127.0.0.1", port=5000, debug=True)
+```
 
-2. Para verificar os logs do Flask:
-   Veja o console onde o `app.py` está rodando.
+#### `waha.py`
+```python
+import requests
 
----
+class Waha:
+    def __init__(self):
+        self.__api_url = 'http://localhost:3000'
 
-#### Passo 6: Parar os serviços
-1. Para parar os containers:
-   ```bash
-   docker-compose down
-   ```
+    def send_message(self, chat_id, message):
+        url = f'{self.__api_url}/api/sendText'
+        headers = {'Content-Type': 'application/json'}
+        payload = {'session': 'default', 'chatId': chat_id, 'text': message}
+        requests.post(url=url, json=payload, headers=headers)
 
----
+    def start_typing(self, chat_id):
+        url = f'{self.__api_url}/api/startTyping'
+        headers = {'Content-Type': 'application/json'}
+        payload = {'session': 'default', 'chatId': chat_id}
+        requests.post(url=url, json=payload, headers=headers)
 
-Este tutorial pode ser reutilizado para configurar e rodar o WAHA em outros ambientes.
+    def stop_typing(self, chat_id):
+        url = f'{self.__api_url}/api/stopTyping'
+        headers = {'Content-Type': 'application/json'}
+        payload = {'session': 'default', 'chatId': chat_id}
+        requests.post(url=url, json=payload, headers=headers)
+```
+
+### 3. **Subir os serviços**
+No terminal, execute:
+```bash
+docker-compose up
+```
+
+### 4. **Testar o webhook**
+Envie uma mensagem para o número configurado no WhatsApp e veja o bot responder automaticamente.
+
+Este exemplo simples configura o WAHA com um bot básico que responde mensagens recebidas.
