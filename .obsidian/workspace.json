@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Pytube/Duração video youtube.md",
+                "file": "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Duração video youtube"
+              "title": "Tutorial Implementando MCP com FastMCP e LangChain"
             }
           }
         ]
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Pytube/Duração video youtube.md",
+                "file": "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Duração video youtube"
+              "title": "Links inversos para Tutorial Implementando MCP com FastMCP e LangChain"
             }
           },
           {
@@ -197,6 +197,9 @@
   },
   "active": "31807edebee59f1c",
   "lastOpenFiles": [
+    "Programação/Pytube/Duração video youtube.md",
+    "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
+    "Programação/MCP (Model Context Protocol)",
     "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
     "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
     "Programação/LangChain/Integração com LangChain e Playwright.md",
@@ -222,8 +225,6 @@
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Algoritmos/Explicação do Loop While com Estrutura de Dicionário.md",
     "202409071652.md",
-    "Programação/Algoritmos/202409071652.md",
-    "Programação/Airflow/Executando Taks independente de erros (as_teardown).md",
     "Programação/Pytube",
     "Programação/Algoritmos/Composite Pattern",
     "Programação/Algoritmos",
@@ -232,7 +233,6 @@
     "webdriver.md~",
     "Programação/dataclass",
     "como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md~",
-    "Programação/Openai",
     "Sem título.canvas",
     "RoadMap Python.canvas",
     "classes.svg",
