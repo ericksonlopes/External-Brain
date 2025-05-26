@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
+                "file": "Programação/Crewai/Iniciando com Crewai.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Tutorial Implementando MCP com FastMCP e LangChain"
+              "title": "Iniciando com Crewai"
             }
           }
         ]
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
+                "file": "Programação/Crewai/Iniciando com Crewai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Tutorial Implementando MCP com FastMCP e LangChain"
+              "title": "Links inversos para Iniciando com Crewai"
             }
           },
           {
@@ -197,6 +197,7 @@
   },
   "active": "31807edebee59f1c",
   "lastOpenFiles": [
+    "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
     "Programação/Crewai/Iniciando com Crewai.md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md",
     "Programação/Bucket/CRUD item no bucket.md",
@@ -217,7 +218,6 @@
     "Cursos/Alura/Alura - Redis I armazenando chaves e valores.md",
     "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
     "Prompt para criação.md",
-    "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
     "Sem título 3.md",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
     "Programação/Pytube/Duração video youtube.md",
