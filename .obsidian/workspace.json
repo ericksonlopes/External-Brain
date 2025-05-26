@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
+                "file": "Programação/Crewai/Conectando Crewai a um MCP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Tutorial Implementando MCP com FastMCP e LangChain"
+              "title": "Conectando Crewai a um MCP"
             }
           }
         ]
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
+                "file": "Programação/Crewai/Conectando Crewai a um MCP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Tutorial Implementando MCP com FastMCP e LangChain"
+              "title": "Links inversos para Conectando Crewai a um MCP"
             }
           },
           {
@@ -197,9 +197,9 @@
   },
   "active": "31807edebee59f1c",
   "lastOpenFiles": [
+    "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
     "Programação/Crewai/Iniciando com Crewai.md",
     "Programação/Crewai/Conectando Crewai a um MCP.md",
-    "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
     "Programação/Bucket/Baixando e salvando imagens no bucket.md",
     "Programação/Bucket/CRUD item no bucket.md",
     "Programação/CosmosDB/Criar um artigo.md",
