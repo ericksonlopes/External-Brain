@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prompt para criação.md",
+                "file": "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Prompt para criação"
+              "title": "Tutorial Implementando MCP com FastMCP e LangChain"
             }
           }
         ]
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Prompt para criação.md",
+                "file": "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Prompt para criação"
+              "title": "Links inversos para Tutorial Implementando MCP com FastMCP e LangChain"
             }
           },
           {
@@ -197,34 +197,34 @@
   },
   "active": "31807edebee59f1c",
   "lastOpenFiles": [
-    "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
+    "Programação/Crewai/Iniciando com Crewai.md",
+    "Programação/Bucket/Baixando e salvando imagens no bucket.md",
+    "Programação/Bucket/CRUD item no bucket.md",
+    "Programação/CosmosDB/Criar um artigo.md",
+    "Programação/Desing Patterns/patterns.md",
+    "Programação/Desing Patterns/Monolítico (monolithic).md",
+    "Programação/Desing Patterns/Microsserviço (microservices).md",
+    "Programação/Desing Patterns/Iterator (Iterador).md",
+    "Programação/Desing Patterns/Builder (Construtor).md",
+    "Programação/Desing Patterns/Application Factory Pattern (Fábrica de aplicativos).md",
+    "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
+    "Componentes computador/Periféricos.md",
+    "Componentes computador/Componentes.md",
+    "Componentes computador/Mouse PiPer.md",
+    "Cursos/Udemy/spark-curso-completo/DataFrames P2.md",
+    "Cursos/Udemy/spark-curso-completo/DataFrames P1.md",
+    "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
+    "Cursos/Alura/Alura - Redis I armazenando chaves e valores.md",
+    "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
     "Prompt para criação.md",
+    "Programação/MCP (Model Context Protocol)/Tutorial Implementando MCP com FastMCP e LangChain.md",
     "Sem título 3.md",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
     "Programação/Pytube/Duração video youtube.md",
     "Programação/Projects/Compile-Repo.md",
     "Programação/Projects/PyInvestAnalyser.md",
-    "Programação/Projects/ScrapingcoinMarketCap.md",
-    "Programação/Projects/Search In Export Chat.md",
-    "Programação/Projects/Search In Export Chat (StreamLit).md",
-    "Programação/Projects/Words-In-Songs.md",
-    "Programação/Openai/Transcrição de audio - WhisperX.md",
-    "Programação/Openai/Azure + Openai.md",
-    "Programação/MongoDB/mongodb no docker.md",
-    "Programação/MongoDB/CRUD em  MongoDB com python.md",
-    "Programação/FastAPI/BaseSettings + FastAPI.md",
     "Programação/MCP (Model Context Protocol)",
-    "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
-    "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
-    "Programação/LangChain/Integração com LangChain e Playwright.md",
-    "Programação/LangChain/Conetando IA com banco de dados.md",
-    "Programação/Criando um projeto em python.md",
-    "Programação/WAHA/Como rodar o WAHA.md",
-    "Programação/Sem título.md",
     "Programação/WAHA",
-    "Programação/Crewai/Iniciando com Crewai.md",
-    "Programação/Git/Instalar Git no Linux.md",
-    "Programação/Git/Conectar o repositorio local ao remoto.md",
     "Programação/Pytube",
     "Programação/Algoritmos/Composite Pattern",
     "Programação/Algoritmos",
