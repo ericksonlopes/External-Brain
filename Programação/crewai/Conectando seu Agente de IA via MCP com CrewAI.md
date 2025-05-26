@@ -1,6 +1,4 @@
 
-  ## Uma abordagem prática para desenvolvedores Python intermediários  
-  
 # Introdução  
   
 Nos últimos anos, a inteligência artificial tem se tornado uma ferramenta poderosa em diversas aplicações. Neste artigo, vamos explorar como conectar um agente de IA utilizando o Multi-Command Protocol (MCP) com a biblioteca CrewAI. Este guia é voltado para desenvolvedores Python intermediários que desejam integrar suas soluções de IA com uma interface de comando eficiente.  
