@@ -1,6 +1,5 @@
-# Conectando seu Agente de IA via MCP com CrewAI  
-  
-## Uma abordagem prática para desenvolvedores Python intermediários  
+
+  ## Uma abordagem prática para desenvolvedores Python intermediários  
   
 # Introdução  
   
@@ -17,50 +16,53 @@ Antes de começarmos, certifique-se de ter o Python instalado em sua máquina e 
 1. **Instalação das Dependências**: Execute o seguinte comando para instalar as bibliotecas necessárias:  
      
 ```bash  
-   pip install crewai "crewai-tools[mcp]"   
-```   
+pip install crewai "crewai-tools[mcp]"   
+```
 
 2. **Defina sua chave de API**: Você precisará de uma chave de API da OpenAI. Armazene-a em uma variável de ambiente chamada `OPENAI_API_KEY`.  
   
 # Conectando o Agente de IA  
   
 Agora que temos o ambiente configurado, vamos ao código! Abaixo está um exemplo de como conectar seu agente de IA via MCP utilizando a biblioteca CrewAI:  
-  
+
 ```python  
-from crewai import Agent, Task, Crew  
-from crewai_tools import MCPServerAdapter  
-from mcp import StdioServerParameters  
-import os  
-  
-os.environ["OPENAI_API_KEY"] = "SUA_CHAVE_API_OPENAI"  
-  
+from crewai import Agent, Task, Crew
+from crewai_tools import MCPServerAdapter
+from mcp import StdioServerParameters
+import os
+
+os.environ["OPENAI_API_KEY"] = "SUA_CHAVE_API_OPENAI"
+
 # Configuração dos parâmetros do servidor MCP  
-server_params = StdioServerParameters(  
-    command="npx",  
-    args=["-y", "@openbnb/mcp-server-airbnb", "--ignore-robots-txt"],  
-)  
-  
-with MCPServerAdapter(server_params) as tools:  
-    # Criando um agente para interagir com o Airbnb    agent = Agent(  
-        role="Especialista em Busca do Airbnb",  
-        goal="Buscar e analisar informações de acomodações no Airbnb",  
-        backstory="Um especialista em encontrar as melhores opções de acomodações no Airbnb",  
-        tools=tools,  
-        verbose=True,  
-    )  
+server_params = StdioServerParameters(
+    command="npx",
+    args=["-y", "@openbnb/mcp-server-airbnb", "--ignore-robots-txt"],
+)
+
+with MCPServerAdapter(server_params) as tools:
+    # Criando um agente para interagir com o Airbnb    
+    agent = Agent(
+        role="Especialista em Busca do Airbnb",
+        goal="Buscar e analisar informações de acomodações no Airbnb",
+        backstory="Um especialista em encontrar as melhores opções de acomodações no Airbnb",
+        tools=tools,
+        verbose=True,
+    )
     # Criando uma tarefa para o agente    
-    task = Task(  
-        description="Buscar informações de acomodações no Airbnb no capão dedondo com preço máximo de 100 reais por noite",  
-        expected_output="Lista de acomodações disponíveis com detalhes",  
-        agent=agent,  
-    )  
-    # Criando e executando a crew    crew = Crew(  
-        agents=[agent],  
-        tasks=[task],  
-        verbose=True,  
-    )  
-    result = crew.kickoff()  
-    print(result)  
+    task = Task(
+        description="Buscar informações de acomodações no Airbnb no capão dedondo com preço máximo de 100 reais por noite",
+        expected_output="Lista de acomodações disponíveis com detalhes",
+        agent=agent,
+    )
+    # Criando e executando a crew    
+    crew = Crew(
+        agents=[agent],
+        tasks=[task],
+        verbose=True,
+    )
+
+result = crew.kickoff()
+print(result)  
 ```  
   
 ## Explicação do Código  
@@ -93,50 +95,7 @@ Neste artigo, vimos como conectar um agente de IA utilizando o Multi-Command Pro
 # Nota do Autor  
 Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato. Estou sempre aberto a discutir sobre IA e desenvolvimento!  
   
-## Exemplos de Código  
-  
-### Exemplo 1  
-```python  
-# pip install crewai "crewai-tools[mcp]"  
-```  
-  
-### Exemplo 2  
-```python  
-from crewai import Agent, Task, Crew  
-from crewai_tools import MCPServerAdapter  
-from mcp import StdioServerParameters  
-import os  
-  
-os.environ["OPENAI_API_KEY"] = "SUA_CHAVE_API_OPENAI"  
-  
-# Configuração dos parâmetros do servidor MCP  
-server_params = StdioServerParameters(  
-    command="npx",  
-    args=["-y", "@openbnb/mcp-server-airbnb", "--ignore-robots-txt"],  
-)  
-  
-with MCPServerAdapter(server_params) as tools:  
-    # Criando um agente para interagir com o Airbnb    agent = Agent(  
-        role="Especialista em Busca do Airbnb",  
-        goal="Buscar e analisar informações de acomodações no Airbnb",  
-        backstory="Um especialista em encontrar as melhores opções de acomodações no Airbnb",  
-        tools=tools,  
-        verbose=True,  
-    )  
-    # Criando uma tarefa para o agente    task = Task(  
-        description="Buscar informações de acomodações no Airbnb no capão dedondo com preço máximo de 100 reais por noite",  
-        expected_output="Lista de acomodações disponíveis com detalhes",  
-        agent=agent,  
-    )  
-    # Criando e executando a crew    crew = Crew(  
-        agents=[agent],  
-        tasks=[task],  
-        verbose=True,  
-    )  
-    result = crew.kickoff()  
-    print(result)  
-```  
-  
+
 ## Referências  
   
 - https://crewai.com/docs  
@@ -146,4 +105,4 @@ with MCPServerAdapter(server_params) as tools:
 *Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato. Estou sempre aberto a discutir sobre IA e desenvolvimento!*  
   
 ---  
-#Python #Inteligência Artificial #Agentes #MCP #CrewAI
+#Python #agents #MCP #CrewAI #crewai-tools
