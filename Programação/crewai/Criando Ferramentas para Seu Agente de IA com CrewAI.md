@@ -1,4 +1,4 @@
-# Criando Ferramentas para Seu Agente de IA com CrewAI
+
 
 ## Aprenda a personalizar a interação do seu agente de IA com ferramentas simples.
 
@@ -151,8 +151,7 @@ print(resultado)
 ```
 
 
-[---
 *Sinta-se à vontade para experimentar o CrewAI e personalizar seus agentes da maneira que preferir!*
-]()
+
 ---
 #IA #CrewAI #Agents #Python 
