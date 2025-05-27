@@ -155,4 +155,4 @@ print(resultado)
 *Sinta-se à vontade para experimentar o CrewAI e personalizar seus agentes da maneira que preferir!*
 ]()
 ---
-#IA #CrewAI #Agents #Python
+#IA #CrewAI #Agents #Python 

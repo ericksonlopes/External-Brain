@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:Programação/Projetos",
@@ -57,16 +57,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -2.3,
   "nodeSizeMultiplier": 1.171875,
   "lineSizeMultiplier": 2.090625,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.614583333333333,
   "repelStrength": 18.6458333333333,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.31214753848499316,
+  "scale": 0.31214753848499394,
   "close": false
 }
