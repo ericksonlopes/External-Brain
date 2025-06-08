@@ -11,11 +11,11 @@ No socialismo a propriedade dos meios de produções é coletiva, porém, aqui n
 Não quero chegar na conclusão de que o estado não é importante, mas, sim, que deveria ser mínimo e não atuar nas relações pessoas, pois se continuar assim até com quem vc deve ou não casar irá ter a intervenção do estado
 
 
-"culpa do capitalismo" Não é culpa do capitalismo e sim do consumismo, em um país onde existe o juro  negativo é real e cada vez mais seu dinheiro vale mesmo as pessoas aprendem que não adianta poupar já que tudo que elas tem é tirado pelo estado com impostos e juros exorbitantes e se dilui durante o tempo
+"culpa do capitalismo" Não é culpa do capitalismo e sim do consumismo, em um país onde existe o juro  negativo é real e cada vez mais seu dinheiro vale mesmo as pessoas aprendem que não adianta poupar já que tudo que elas tem é tirado pelo estado com impostos e juros exorbitantes e se dilui durante o tempo, lembrando que se renunciarmos do presente nosso futuro será próximo isso é tanto bíblico quanto a ideia que nossos antepassados aprenderam a cultivar grãos 
 
-Mas o país é democrata eles escolhem o que querer 
+"Mas o país é democrata, eles escolhem o que querer"!
 
-colateral do socialismo é seu dinheiro indo para coisas que são imorais 
+"mas o que que tem o pais ser socialista? " Colateral do socialismo é seu dinheiro indo para coisas que são imorais e sua liberdade vai embora
 
 
 
