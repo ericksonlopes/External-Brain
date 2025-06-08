@@ -14,7 +14,7 @@ Não quero chegar a conclusão de que o estado não é importante, mas, sim, que
 
 "Mas o país é democrata, eles escolhem o que querer"!
 
-"mas o que que tem o pais ser socialista?" Colateral do socialismo é seu dinheiro indo para coisas que são imorais e sua liberdade vai embora, cada vez mais ele vai ter liberdade para decidir o que quiser sobre sua vida "mas é só vc ser um cidadão de bem" mas o que vc não entende é que eles vão colocar o que eles acham como certo
+"mas o que que tem o pais ser socialista?" Colateral do socialismo é seu dinheiro indo para coisas que são imorais e sua liberdade vai embora, cada vez mais ele vai ter liberdade para decidir o que quiser sobre sua vida "mas é só vc ser um cidadão de bem", mas o que vc não entende é que eles vão colocar o que eles acham como certo, assim como o Lula aprovou a inseção de conta de luz 
 
 A verdade é que hoje não existe um pais que não seja socialista
 
