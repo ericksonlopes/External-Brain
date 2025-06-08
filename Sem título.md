@@ -1,1 +1,1 @@
-Vivemos no socialismo
+Nós vivemos em um pais socialista que se pinta de capitalista 
