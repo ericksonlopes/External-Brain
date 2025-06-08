@@ -8,14 +8,15 @@ O fato é que em um pais que se diz capitalista a influência do governo nos mei
 
 No socialismo a propriedade dos meios de produções é coletiva, porém, aqui no Brasil as empresas privadas são taxadas, por mais que sejam privatizadas o estado cada vez mais capta dinheiro e logo quanto mais vc tem, mais vc depende de favores políticos para continuar crescendo ou manter como, por exemplo, nosso querido Felipe Neto que deixou de pagar R$ 14 milhões em impostos, mas foi contra as propostas de isenção de imposto de renda para prêmios em dinheiro recebidos por medalhistas olímpicos. O Lula fala muita besteira, mas uma coisa certa ele realmente disse, que o dinheiro não importa, o que importa são as relações publicas que vc cria/adquire. 
 
-Não quero chegar na conclusão de que o estado não é importante, mas, sim, que deveria ser mínimo e não atuar nas relações pessoas, pois se continuar assim até com quem vc deve ou não casar irá ter a intervenção do estado
+Não quero chegar a conclusão de que o estado não é importante, mas, sim, que deveria ser mínimo e não atuar até nas relações pessoas, pois se continuar assim até com quem vc deve ou não casar irá ter a intervenção do estado.
 
-
-"culpa do capitalismo" Não é culpa do capitalismo e sim do consumismo, em um país onde existe o juro  negativo é real e cada vez mais seu dinheiro vale mesmo as pessoas aprendem que não adianta poupar já que tudo que elas tem é tirado pelo estado com impostos e juros exorbitantes e se dilui durante o tempo, lembrando que se renunciarmos do presente nosso futuro será próximo isso é tanto bíblico quanto a ideia que nossos antepassados aprenderam a cultivar grãos 
+"culpa do capitalismo" Não é culpa do capitalismo e sim do consumismo, em um país onde existe o juro  negativo é real e cada vez mais seu dinheiro vale mesmo as pessoas aprendem que não adianta poupar já que tudo que elas tem é tirado pelo estado com impostos e juros exorbitantes e se dilui durante o tempo, lembrando que se renunciarmos do presente nosso futuro será próximo isso é tanto bíblico quanto a ideia que nossos antepassados aprenderam a cultivar grãos.
 
 "Mas o país é democrata, eles escolhem o que querer"!
 
-"mas o que que tem o pais ser socialista? " Colateral do socialismo é seu dinheiro indo para coisas que são imorais e sua liberdade vai embora
+"mas o que que tem o pais ser socialista?" Colateral do socialismo é seu dinheiro indo para coisas que são imorais e sua liberdade vai embora
+
+A verdade é que hoje não existe um pais que não seja socialista
 
 
 
