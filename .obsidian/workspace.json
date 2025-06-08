@@ -101,7 +101,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -213,8 +214,8 @@
   },
   "active": "732c762ca1e9b5fe",
   "lastOpenFiles": [
-    "Sem título.md",
     "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
+    "Sem título.md",
     "Programação/Crewai/Criando Ferramentas para Seu Agente de IA com CrewAI.md",
     "Programação/Crewai/Iniciando com Crewai.md",
     "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
