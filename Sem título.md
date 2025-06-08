@@ -11,6 +11,11 @@ No socialismo a propriedade dos meios de produções é coletiva, porém, aqui n
 Não quero chegar na conclusão de que o estado não é importante, mas, sim, que deveria ser mínimo e não atuar nas relações pessoas, pois se continuar assim até com quem vc deve ou não casar irá ter a intervenção do estado
 
 
+"culpa do capitalismo" Não é culpa do capitalismo e sim do consumismo, em um país onde o juros negativo é real e cada vez mais seu dinheiro vale mesmo as pessoas aprendem que não vale a pena poupar ja que tudo que elas tem é tirado pelo estado com impostos e juros exorbitantes 
+
+
+mas o pais é democrata eles escolhem o que querer 
+
 
 
 
