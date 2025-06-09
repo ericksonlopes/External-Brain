@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem título 3.md",
+                "file": "Programação/WAHA/Como rodar o WAHA.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sem título 3"
+              "title": "Como rodar o WAHA"
             }
           }
         ],
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título 3.md",
+                "file": "Programação/WAHA/Como rodar o WAHA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Sem título 3"
+              "title": "Links inversos para Como rodar o WAHA"
             }
           },
           {
@@ -213,6 +213,7 @@
   },
   "active": "732c762ca1e9b5fe",
   "lastOpenFiles": [
+    "Sem título 3.md",
     "Sem título 1.md",
     "Sem título.md",
     "Programação/Crewai/Criando Ferramentas para Seu Agente de IA com CrewAI.md",
@@ -239,7 +240,6 @@
     "Componentes computador/Mouse PiPer.md",
     "Cursos/Udemy/spark-curso-completo/DataFrames P2.md",
     "Cursos/Udemy/spark-curso-completo/DataFrames P1.md",
-    "Cursos/Alura/Alura - Docker Criando Gerenciando Containers.md",
     "Programação/MCP (Model Context Protocol)",
     "Programação/WAHA",
     "Programação/Pytube",
