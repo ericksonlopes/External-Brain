@@ -1,8 +1,8 @@
 Vivemos em um país que se pinta de capitalista, mas cujas práticas revelam um viés fortemente socialista. A definição clássica de capitalismo envolve o acúmulo de capital e a livre mercado. Mas, nesse sentido, o Brasil está longe de ser plenamente capitalista.
 
 “A culpa é do capitalismo”. Mas a verdade é que não é o capitalismo que te impede de prosperar — é o **consumismo desenfreado**, alimentado por uma estrutura onde **poupar não vale a pena**.
-Vivemos em um país onde, Na prática os juros são negativos , A **inflação corrói seu poder de compra**,
-,O Estado toma uma fatia de tudo que você produz, consome ou herda — através de impostos, taxas e tributos invisíveis.
+Vivemos em um país onde, na prática, os juros são negativos, A **inflação corrói seu poder de compra**,
+, o Estado toma uma fatia de tudo que você produz, consome ou herda sejam através de impostos, taxas e tributos invisíveis.
 
 Vejo muitos defensores do comunismo dizendo que não conseguimos acumular dinheiro devido às grandes empresas, mas ignoram um ponto essencial: essas grandes empresas só permanecem no topo porque estão profundamente atreladas ao Estado. Seja por favores políticos, isenções fiscais seletivas, contratos públicos bilionários ou regulações que sufocam concorrentes menores. 
 
