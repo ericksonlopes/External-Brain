@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título 1.md",
+                "file": "Sem título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Sem título 1"
+              "title": "Links inversos para Sem título"
             }
           },
           {
@@ -227,11 +227,11 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "3819af84ddd2c0de",
+  "active": "732c762ca1e9b5fe",
   "lastOpenFiles": [
-    "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
-    "Sem título.md",
     "Sem título 1.md",
+    "Sem título.md",
+    "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
     "Programação/Crewai/Criando Ferramentas para Seu Agente de IA com CrewAI.md",
     "Programação/Crewai/Iniciando com Crewai.md",
     "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
