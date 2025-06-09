@@ -6,7 +6,11 @@ Um exemplo emblemático é o caso de Felipe Neto, que deixou de pagar R$ 14 milh
 
 Dito isso, onde está o livre mercado? Vivemos em um sistema onde o **Estado escolhe quem pode enriquecer e quem será tributado até quebrar**. E isso não é capitalismo. Isso é **um socialismo**, onde poucos mandam e muitos pagam a conta.
 
-Vivemos em uma democracia? Mas que tipo de democracia é essa onde quem recebe benefícios do Estado pode votar em quem promete manter esses mesmos benefícios? Ou onde juízes podem votar para aumentar o próprio salário? Isso contradiz o princípio básico de que **ninguém deve ser juiz da própria causa**.
+“A culpa é do capitalismo”. Mas a verdade é que **não é o capitalismo que te impede de prosperar** — é o **consumismo desenfreado**, alimentado por uma estrutura onde **poupar não vale a pena**.
+Vivemos em um país onde, Na prática os juros são negativos , A **inflação corrói seu poder de compra**,
+,O Estado **toma uma fatia de tudo** que você produz, consome ou herda — através de impostos, taxas e tributos invisíveis.
+
+Mas se vivemos em um pais democrata, nós escolhemos isso? Mas que tipo de democracia é essa onde quem recebe benefícios do Estado pode votar em quem promete manter esses mesmos benefícios? Ou onde juízes podem votar para aumentar o próprio salário? Isso contradiz o princípio básico de que **ninguém deve ser juiz da própria causa**.
 
 Além disso, temos um governo que escolhe o que será ensinado nas escolas públicas. E isso levanta uma questão importante: a escola pública foi feita para formar cidadãos independentes ou submissos ao Estado? Até porque são influenciadas pelo modelo prussiano, modelo que é considerado uma "tática de guerra" no sentido estratégico e ideológico porque foi concebida não apenas para educar, mas para **formar cidadãos obedientes, disciplinados e úteis ao Estado.** A disparidade entre o ensino público e o privado é gritante.
 

@@ -53,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título.md",
+                "file": "Sem título 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Sem título"
+              "title": "Links inversos para Sem título 1"
             }
           },
           {
@@ -227,10 +227,10 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "732c762ca1e9b5fe",
+  "active": "3819af84ddd2c0de",
   "lastOpenFiles": [
-    "Sem título 1.md",
     "Sem título.md",
+    "Sem título 1.md",
     "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
     "Programação/Crewai/Criando Ferramentas para Seu Agente de IA com CrewAI.md",
     "Programação/Crewai/Iniciando com Crewai.md",
