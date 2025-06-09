@@ -1,0 +1,3 @@
+O próprio ex-presidente Lula disse: "dinheiro não importa, o que importa são as relações públicas que você constrói" — uma frase que sintetiza bem como o poder está atrelado à proximidade com o Estado, e não ao mérito ou à produção.
+
+A verdade é que hoje **não existe um país verdadeiramente capitalista**. Todos incorporam, em diferentes níveis, práticas socialistas. O Brasil, infelizmente, se destaca por adotar o pior dos dois mundos: tributos e controle excessivo com baixa eficiência estatal e dependência política generalizada.
