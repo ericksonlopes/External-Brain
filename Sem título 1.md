@@ -1,9 +1,8 @@
 
 Vejo muitos defensores do comunismo dizendo que não conseguimos acumular dinheiro por causa das grandes empresas, mas ignoram um ponto essencial: essas grandes empresas só permanecem no topo porque estão profundamente atreladas ao Estado. Seja por favores políticos, isenções fiscais seletivas, contratos públicos bilionários ou regulações que sufocam concorrentes menores. 
 
-Um exemplo emblemático é o caso de Felipe Neto, que deixou de pagar R$ 14 milhões em impostos, mas se posicionou contra a proposta de isenção de IR para prêmios recebidos por medalhistas olímpicos. Lembrando que o próprio Lula disse: "O judiciário desse país não vale nada, o que vale são as relações pessoais" — é uma frase que sintetiza bem como o poder está atrelado à proximidade com o Estado, e não ao mérito ou à produção. O que faz com que o vendedor ambulante também dependa do estado para conseguir vender
+Um exemplo emblemático é o caso de Felipe Neto, que deixou de pagar R$ 14 milhões em impostos, mas se posicionou contra a proposta de isenção de IR para prêmios recebidos por medalhistas olímpicos. Lembrando que o próprio Lula disse: "O judiciário desse país não vale nada, o que vale são as relações pessoais" é uma frase que sintetiza bem como o poder está atrelado à proximidade com o Estado, e não ao mérito ou à produção. O resultado? Pequenos empreendedores, autônomos e até vendedores ambulantes se tornam reféns da burocracia e dos "permissos" do Estado para conseguir existir.
 
-Não vivemos em um livre mercado.  
-Vivemos em um sistema onde o **Estado escolhe quem pode enriquecer e quem será tributado até quebrar**. E isso não é capitalismo. Isso é **um socialismo de elite**, onde poucos mandam e muitos pagam a conta.
+Dito isso, onde está o livre mercado? Vivemos em um sistema onde o **Estado escolhe quem pode enriquecer e quem será tributado até quebrar**. E isso não é capitalismo. Isso é **um socialismo**, onde poucos mandam e muitos pagam a conta.
 
 A verdade é que hoje **não existe um país verdadeiramente capitalista**. Todos incorporam, em diferentes níveis, práticas socialistas. O Brasil, infelizmente, se destaca por adotar o pior dos dois mundos: tributos e controle excessivo com baixa eficiência estatal e dependência política generalizada.
