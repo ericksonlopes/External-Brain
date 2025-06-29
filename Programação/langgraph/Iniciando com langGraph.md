@@ -166,4 +166,4 @@ print(resultado["messages"][-1].content)
 *Este artigo foi escrito para ajudar desenvolvedores a começarem com LangGraph e chatbots utilizando Python.*
 
 ---
-#Python #LangGraph #langchain #langchain_openai #openai 
+#Python #LangGraph #langchain #langchain_openai #openai #IA 
