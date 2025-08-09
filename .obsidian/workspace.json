@@ -11,10 +11,15 @@
             "id": "8772ea58d36f2a3c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Agno/Agente simples com Agno.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Agente simples com Agno"
             }
           }
         ]
@@ -100,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/Agno/Agente simples com Agno.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para Agente simples com Agno"
             }
           },
           {
@@ -189,8 +195,9 @@
       "ava:Ava - Open Rewrite Playground": false
     }
   },
-  "active": "8772ea58d36f2a3c",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "Programação/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
     "Programação/LangGraph/Iniciando com langGraph.md",
     "Sem título 1.md",
     "Sem título 3.md",
@@ -217,7 +224,6 @@
     "Programação/Desing Patterns/Application Factory Pattern (Fábrica de aplicativos).md",
     "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
     "Componentes computador/Periféricos.md",
-    "Componentes computador/Componentes.md",
     "Programação/MCP (Model Context Protocol)",
     "Programação/WAHA",
     "Programação/Pytube",

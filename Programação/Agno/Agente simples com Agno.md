@@ -1,3 +1,4 @@
+#agno #IA #agents #agent #openai 
 # Criando um Agente Simples com AGNO e OpenAI
 
 ## Um guia prático para implementar um agente conversacional em Python
