@@ -1,4 +1,4 @@
-# Construindo um RAG Simples com AGNO e OpenAI
+#agno #IA #agent #openai #rag #python
 
 ## Integração de conhecimento em PDFs com um agente de IA utilizando AGNO
 

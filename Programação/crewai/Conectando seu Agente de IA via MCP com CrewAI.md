@@ -103,4 +103,4 @@ Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em c
 *Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato. Estou sempre aberto a discutir sobre IA e desenvolvimento!*  
   
 ---  
-#Python #agents #MCP #CrewAI #crewai-tools
+#Python #agent #MCP #CrewAI #crewai-tools
