@@ -23,7 +23,7 @@
     "siblingTolerance": 50
   },
   "layout": {
-    "direction": "LR",
+    "direction": "BT",
     "autoLayout": true,
     "autoLayoutDirection": "LR",
     "autoHeight": true,
