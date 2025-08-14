@@ -11,17 +11,15 @@
             "id": "7979918d622daea3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Sem título 2.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": -1.3333333333333333
-                }
+                "file": "LINKS PARA VER.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sem título 2"
+              "icon": "lucide-file",
+              "title": "LINKS PARA VER"
             }
           }
         ]
@@ -107,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título 2.canvas",
+                "file": "LINKS PARA VER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Sem título 2"
+              "title": "Links inversos para LINKS PARA VER"
             }
           },
           {
@@ -190,18 +188,21 @@
   },
   "active": "7979918d622daea3",
   "lastOpenFiles": [
-    "Sem título 2.md",
+    "Sem título 1.md",
     "2025-08-14.md",
-    "Excalidraw/Drawing 2025-08-14 16.50.52.excalidraw.md",
-    "Sem título 2.canvas",
-    "Sem título.canvas",
-    "Excalidraw/Drawing 2025-08-14 16.48.47.excalidraw.md",
+    "Ava - Getting Started.md",
+    "Prompt para criação.md",
+    "Sem título 3.md",
+    "Sem título 2.md",
     "Sem título 1.canvas",
+    "Sem título.canvas",
+    "Sem título 2.canvas",
+    "Excalidraw/Drawing 2025-08-14 16.50.52.excalidraw.md",
+    "Excalidraw/Drawing 2025-08-14 16.48.47.excalidraw.md",
     "Programação/Agno/Agente simples com Agno.md",
     "Excalidraw/Drawing 2025-08-14 16.44.53.excalidraw.md",
     "Programação/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
     "Programação/Criando um projeto em python.md",
-    "Ava - Getting Started.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts/Remove URLs.md",
@@ -218,9 +219,6 @@
     "copilot-custom-prompts",
     "Excalidraw/Drawing 2025-08-14 16.31.18.excalidraw.md",
     "Excalidraw",
-    "Sem título.md",
-    "Programação/CosmosDB/Criar um artigo.md",
-    "Programação/crawl4ai/Apresentando crawl4ai.md",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
     "Programação/MCP (Model Context Protocol)",
     "Programação/WAHA",
