@@ -1,5 +1,7 @@
 # Apresentando o Crawl4AI: Um Web Crawler Assíncrono para Extração de Dados
 
+#python #web_scraping #IA #crawl4ai #playwright #scraping 
+
 ## Uma introdução ao uso do Crawl4AI para coletar informações da web de forma eficiente.
 
 # Introdução
