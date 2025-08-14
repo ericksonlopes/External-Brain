@@ -4,17 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "07b658443bd8b8c6",
+        "id": "331b9d99703ab8f0",
         "type": "tabs",
         "children": [
           {
-            "id": "4e8227f37d8439bb",
+            "id": "49e3be92b7651597",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
+              "type": "canvas",
+              "state": {
+                "file": "Sem título.canvas",
+                "viewState": {
+                  "x": -201,
+                  "y": -30,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Sem título"
             }
           }
         ]
@@ -80,8 +87,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Sem título.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para Sem título"
             }
           },
           {
@@ -188,12 +195,16 @@
       "ava:Ava": false,
       "ava:Ava - Show Links": false,
       "ava:Ava - Open Rewrite Playground": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "copilot:Open Copilot Chat": false
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "4e8227f37d8439bb",
+  "active": "49e3be92b7651597",
   "lastOpenFiles": [
+    "Programação/Agno/Agente simples com Agno.md",
+    "Excalidraw/Drawing 2025-08-14 16.44.53.excalidraw.md",
+    "Programação/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
+    "Programação/Criando um projeto em python.md",
+    "Ava - Getting Started.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts/Remove URLs.md",
@@ -212,17 +223,12 @@
     "Excalidraw",
     "Sem título.md",
     "Sem título.canvas",
-    "Programação/Criando um projeto em python.md",
     "Sem título 2.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/crawl4ai/Apresentando crawl4ai.md",
     "Sem título 1.md",
     "Sem título 3.md",
-    "Programação/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
-    "Programação/Agno/Agente simples com Agno.md",
     "Programação/LangChain/Conetando IA com banco de dados.md",
-    "Programação/Crewai/Iniciando com Crewai.md",
-    "Programação/Crewai/Criando Ferramentas para Seu Agente de IA com CrewAI.md",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
     "Programação/MCP (Model Context Protocol)",
     "Programação/WAHA",
