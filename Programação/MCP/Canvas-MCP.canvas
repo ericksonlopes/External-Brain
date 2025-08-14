@@ -9,7 +9,6 @@
 		{"id":"554fb88dcbc83d3e","type":"text","text":"Prompts","x":1656,"y":30,"width":125,"height":50,"color":"2"},
 		{"id":"0181017c0f84866e","type":"text","text":"Client SIDE","x":1256,"y":-60,"width":200,"height":50,"color":"2"},
 		{"id":"475bfa581a709ef9","type":"text","text":"","x":758,"y":-600,"width":200,"height":100},
-		{"id":"0ef5ea02324871c5","type":"text","text":"Tool","x":1708,"y":-1070,"width":100,"height":50,"color":"4"},
 		{"id":"0438e55fb8eebb86","type":"text","text":"Prompts","x":1708,"y":-531,"width":125,"height":50,"color":"#ffbb00"},
 		{"id":"d2da207a9a243bd1","type":"text","text":"subscribe_resource","x":1953,"y":-853,"width":200,"height":50,"color":"5"},
 		{"id":"df7c8e81c2863103","type":"text","text":"unsubscribe_resource","x":1953,"y":-763,"width":220,"height":55,"color":"5"},
@@ -18,7 +17,8 @@
 		{"id":"632ee2dad94ac253","type":"text","text":"list_prompts","x":1928,"y":-579,"width":160,"height":58,"color":"#ffbb00"},
 		{"id":"d5fae7ee55f57fd5","type":"text","text":"get_prompt","x":1928,"y":-481,"width":160,"height":50,"color":"#ffbb00"},
 		{"id":"102d1c7ec3fd03c4","type":"text","text":"list_tools","x":1908,"y":-1135,"width":125,"height":50,"color":"4"},
-		{"id":"47cfc8fe4874afea","type":"text","text":"call_tool","x":1908,"y":-1045,"width":125,"height":50,"color":"4"}
+		{"id":"47cfc8fe4874afea","type":"text","text":"call_tool","x":1908,"y":-1045,"width":125,"height":50,"color":"4"},
+		{"id":"0ef5ea02324871c5","type":"text","text":"Tool","x":1540,"y":-1045,"width":100,"height":50,"color":"4"}
 	],
 	"edges":[
 		{"id":"221e85067a183939","fromNode":"7c93dc2a3b8eee30","fromSide":"right","toNode":"0181017c0f84866e","toSide":"left"},
