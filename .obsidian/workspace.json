@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "8ef78c048e1f12c1",
+        "id": "42226da279a4c24a",
         "type": "tabs",
         "children": [
           {
-            "id": "04e3e2193f023f13",
+            "id": "9ad22507db370194",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
                 "file": "Programação/MCP/Canvas-MCP.canvas",
                 "viewState": {
-                  "x": 1836.5,
-                  "y": -704,
+                  "x": 1817,
+                  "y": -698,
                   "zoom": 0
                 }
               },
@@ -171,11 +171,11 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Abrir a troca rápida": false,
+      "command-palette:Abrir paleta de comandos": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
       "markdown-importer:Abrir importador Markdown": false,
       "zk-prefixer:Criar nova nota única": false,
       "random-note:Abrir nota aleatória": false,
@@ -188,10 +188,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "04e3e2193f023f13",
+  "active": "9ad22507db370194",
   "lastOpenFiles": [
-    "Programação/MCP/Server SIDE.md",
     "Programação/MCP/Canvas-MCP.canvas",
+    "Programação/MCP/Server SIDE.md",
     "Programação/MCP/Client SIDE.md",
     "Programação/MCP/Autenticação.md",
     "Programação/MCP/Segurança.md",
