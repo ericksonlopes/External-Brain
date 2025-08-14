@@ -15,9 +15,9 @@
               "state": {
                 "file": "Programação/MCP/Canvas-MCP.canvas",
                 "viewState": {
-                  "x": -202,
-                  "y": 262,
-                  "zoom": 0
+                  "x": -381.658841371826,
+                  "y": 320.1923951665049,
+                  "zoom": -0.3333333333333333
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -188,9 +188,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "04e3e2193f023f13",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "Programação/MCP/Client SIDE.md",
     "Programação/MCP/Canvas-MCP.canvas",
+    "Programação/MCP/Segurança.md",
+    "Programação/MCP/Server SIDE.md",
+    "Programação/MCP/Autenticação.md",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
     "LINKS PARA VER.md",
     "Sem título 1.md",
@@ -215,10 +219,6 @@
     "copilot-custom-prompts/Generate table of contents.md",
     "copilot-custom-prompts/Make longer.md",
     "copilot-custom-prompts/Make shorter.md",
-    "copilot-custom-prompts/Emojify.md",
-    "copilot-custom-prompts/Explain like I am 5.md",
-    "copilot-custom-prompts/Simplify.md",
-    "copilot-custom-prompts/Summarize.md",
     "copilot-custom-prompts",
     "Excalidraw",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
