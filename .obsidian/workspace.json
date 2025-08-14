@@ -15,9 +15,9 @@
               "state": {
                 "file": "Programação/MCP/Canvas-MCP.canvas",
                 "viewState": {
-                  "x": 1680,
-                  "y": -394,
-                  "zoom": 0
+                  "x": 1321.826847464611,
+                  "y": -210.14017159685864,
+                  "zoom": -0.6666666666666666
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -190,9 +190,9 @@
   },
   "active": "04e3e2193f023f13",
   "lastOpenFiles": [
+    "Programação/MCP/Client SIDE.md",
     "Programação/MCP/Canvas-MCP.canvas",
     "Programação/MCP/Autenticação.md",
-    "Programação/MCP/Client SIDE.md",
     "Programação/MCP/Segurança.md",
     "Programação/MCP/Server SIDE.md",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
