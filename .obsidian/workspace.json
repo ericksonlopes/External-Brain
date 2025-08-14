@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "331b9d99703ab8f0",
+        "id": "d524ed61853fa6d5",
         "type": "tabs",
         "children": [
           {
-            "id": "49e3be92b7651597",
+            "id": "7979918d622daea3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Sem título.canvas",
-                "viewState": {
-                  "x": -201,
-                  "y": -30,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Sem título"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nova aba"
             }
           }
         ]
@@ -107,7 +100,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +109,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Sem título"
+              "title": "Backlinks"
             }
           },
           {
@@ -147,16 +139,6 @@
               },
               "icon": "lucide-list",
               "title": "Sumário"
-            }
-          },
-          {
-            "id": "8bc3df3a2531bcd1",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin desativado"
             }
           },
           {
@@ -198,8 +180,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "49e3be92b7651597",
+  "active": "7979918d622daea3",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-08-14 16.48.47.excalidraw.md",
+    "Sem título.canvas",
+    "Sem título 1.canvas",
     "Programação/Agno/Agente simples com Agno.md",
     "Excalidraw/Drawing 2025-08-14 16.44.53.excalidraw.md",
     "Programação/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
@@ -222,13 +207,10 @@
     "Excalidraw/Drawing 2025-08-14 16.31.18.excalidraw.md",
     "Excalidraw",
     "Sem título.md",
-    "Sem título.canvas",
     "Sem título 2.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/crawl4ai/Apresentando crawl4ai.md",
     "Sem título 1.md",
-    "Sem título 3.md",
-    "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
     "Programação/MCP (Model Context Protocol)",
     "Programação/WAHA",

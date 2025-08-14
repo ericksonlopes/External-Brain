@@ -1,8 +1,8 @@
 {
 	"nodes":[
-		{"id":"86fa30a5329708ac","x":-120,"y":-240,"width":120,"height":50,"color":"3","type":"text","text":"MCP"},
-		{"id":"6ce8c555083db173","x":-402,"y":120,"width":250,"height":60,"color":"2","type":"text","text":""},
-		{"id":"5ce1bd8f99610d8c","x":-244,"y":-60,"width":184,"height":60,"color":"3","type":"text","text":"Server client"}
+		{"id":"6ce8c555083db173","type":"text","text":"","x":-402,"y":120,"width":250,"height":60,"color":"2"},
+		{"id":"86fa30a5329708ac","type":"text","text":"MCP","x":-581,"y":-420,"width":120,"height":50,"color":"3"},
+		{"id":"5ce1bd8f99610d8c","type":"text","text":"Server client","x":-521,"y":-200,"width":161,"height":60,"color":"3"}
 	],
 	"edges":[
 		{"id":"3a8611080f345da7","fromNode":"86fa30a5329708ac","fromSide":"bottom","toNode":"5ce1bd8f99610d8c","toSide":"top"},
