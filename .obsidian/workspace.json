@@ -11,10 +11,17 @@
             "id": "7979918d622daea3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
+              "type": "canvas",
+              "state": {
+                "file": "Sem título 2.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": -1.3333333333333333
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Sem título 2"
             }
           }
         ]
@@ -100,6 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Sem título 2.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para Sem título 2"
             }
           },
           {
@@ -182,8 +190,12 @@
   },
   "active": "7979918d622daea3",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-08-14 16.48.47.excalidraw.md",
+    "Sem título 2.md",
+    "2025-08-14.md",
+    "Excalidraw/Drawing 2025-08-14 16.50.52.excalidraw.md",
+    "Sem título 2.canvas",
     "Sem título.canvas",
+    "Excalidraw/Drawing 2025-08-14 16.48.47.excalidraw.md",
     "Sem título 1.canvas",
     "Programação/Agno/Agente simples com Agno.md",
     "Excalidraw/Drawing 2025-08-14 16.44.53.excalidraw.md",
@@ -207,10 +219,8 @@
     "Excalidraw/Drawing 2025-08-14 16.31.18.excalidraw.md",
     "Excalidraw",
     "Sem título.md",
-    "Sem título 2.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/crawl4ai/Apresentando crawl4ai.md",
-    "Sem título 1.md",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
     "Programação/MCP (Model Context Protocol)",
     "Programação/WAHA",
