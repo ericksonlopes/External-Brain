@@ -4,7 +4,6 @@
 		{"id":"d2a2155ab9bfea3f","type":"text","text":"Client SIDE","x":1308,"y":-799,"width":200,"height":50,"color":"3"},
 		{"id":"26e8ae40a68da0bf","type":"text","text":"Authentication","x":683,"y":-150,"width":175,"height":50},
 		{"id":"475bfa581a709ef9","type":"text","text":"Security","x":683,"y":-600,"width":123,"height":50},
-		{"id":"25727cd3dac89304","type":"text","text":"Resources","x":1629,"y":-803,"width":151,"height":50,"color":"5"},
 		{"id":"0181017c0f84866e","type":"text","text":"Server SIDE","x":1084,"y":90,"width":200,"height":50,"color":"2"},
 		{"id":"cfc64084a073641b","type":"text","text":"Prompts","x":1475,"y":383,"width":125,"height":50,"color":"#ffbb00"},
 		{"id":"52ba467fe358c10f","type":"text","text":"PingRequest","x":1475,"y":549,"width":166,"height":50,"color":"#ee77ea"},
@@ -16,13 +15,14 @@
 		{"id":"e7499fa632850a28","type":"text","text":"unsubscribe_resource","x":1806,"y":180,"width":220,"height":55,"color":"5"},
 		{"id":"cd4926383039e66f","type":"text","text":"Resources","x":1475,"y":126,"width":145,"height":50,"color":"5"},
 		{"id":"56372f7675304c94","type":"text","text":"Tools","x":1500,"y":-141,"width":100,"height":50,"color":"4"},
-		{"id":"0438e55fb8eebb86","type":"text","text":"Prompts","x":1629,"y":-679,"width":125,"height":50,"color":"#ffbb00"},
 		{"id":"0ef5ea02324871c5","type":"text","text":"Tools","x":1629,"y":-890,"width":100,"height":50,"color":"4"},
 		{"id":"c764da9afcc86a09","type":"text","text":"Context","x":1809,"y":-1020,"width":116,"height":50,"color":"4"},
 		{"id":"1b667a1bb173e56f","type":"text","text":"Structured Output","x":1809,"y":-940,"width":186,"height":50,"color":"4"},
 		{"id":"8698e22d2089b3b6","type":"text","text":"Images","x":1813,"y":-865,"width":112,"height":50,"color":"4"},
 		{"id":"cd6f47007e98ce0f","type":"text","text":"GetPromptRequest","x":1742,"y":473,"width":192,"height":50,"color":"#ffbb00"},
-		{"id":"c8894b875a16b19b","type":"text","text":"ListPromptsRequest","x":1742,"y":375,"width":206,"height":58,"color":"#ffbb00"}
+		{"id":"c8894b875a16b19b","type":"text","text":"ListPromptsRequest","x":1742,"y":375,"width":206,"height":58,"color":"#ffbb00"},
+		{"id":"0438e55fb8eebb86","type":"text","text":"Prompts","x":1629,"y":-799,"width":125,"height":50,"color":"#ffbb00"},
+		{"id":"25727cd3dac89304","type":"text","text":"Resources","x":1629,"y":-700,"width":151,"height":50,"color":"5"}
 	],
 	"edges":[
 		{"id":"221e85067a183939","fromNode":"7c93dc2a3b8eee30","fromSide":"right","toNode":"0181017c0f84866e","toSide":"left"},
