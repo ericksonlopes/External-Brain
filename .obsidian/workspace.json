@@ -15,8 +15,8 @@
               "state": {
                 "file": "Programação/MCP/Canvas-MCP.canvas",
                 "viewState": {
-                  "x": 1739.4495576458266,
-                  "y": -732.4216769509776,
+                  "x": 2070.5,
+                  "y": -1095,
                   "zoom": 0
                 }
               },
@@ -190,11 +190,11 @@
   },
   "active": "04e3e2193f023f13",
   "lastOpenFiles": [
-    "Programação/MCP/Client SIDE.md",
+    "Programação/MCP/Server SIDE.md",
     "Programação/MCP/Canvas-MCP.canvas",
+    "Programação/MCP/Client SIDE.md",
     "Programação/MCP/Autenticação.md",
     "Programação/MCP/Segurança.md",
-    "Programação/MCP/Server SIDE.md",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
     "LINKS PARA VER.md",
     "Sem título 1.md",
