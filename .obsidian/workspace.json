@@ -11,16 +11,14 @@
             "id": "8772ea58d36f2a3c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Sem título.canvas",
-                "viewState": {
-                  "x": -220,
-                  "y": -30,
-                  "zoom": 0
-                }
+                "file": "Sem título.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
+              "icon": "lucide-file",
               "title": "Sem título"
             }
           }
@@ -107,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título.canvas",
+                "file": "Sem título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,8 +197,8 @@
   },
   "active": "8772ea58d36f2a3c",
   "lastOpenFiles": [
-    "Programação/Criando um projeto em python.md",
     "Sem título.canvas",
+    "Programação/Criando um projeto em python.md",
     "Sem título 2.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/crawl4ai/Apresentando crawl4ai.md",
