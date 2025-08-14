@@ -1,13 +1,15 @@
 {
 	"nodes":[
 		{"id":"38015fcc24b5119c","type":"text","text":"MCP - Model Context Protocol","x":-155,"y":-151,"width":275,"height":50},
-		{"id":"c1c14604d2103ae7","type":"text","text":"Server SIDE","x":-233,"y":59,"width":152,"height":50,"color":"2"},
+		{"id":"c1c14604d2103ae7","type":"text","text":"Server SIDE","x":-529,"y":59,"width":152,"height":50,"color":"2"},
 		{"id":"cb7e87b7ec7f8841","type":"text","text":"Client SIDE","x":120,"y":59,"width":154,"height":50,"color":"3"},
-		{"id":"2dd5cabb065ad1cc","type":"text","text":"Tool","x":-384,"y":269,"width":97,"height":50,"color":"2"},
-		{"id":"6b3156f5d8487664","type":"text","text":"Prompt","x":-237,"y":269,"width":123,"height":50,"color":"2"},
-		{"id":"b29bef77fa0907d5","type":"text","text":"Resource","x":-64,"y":269,"width":134,"height":50,"color":"2"},
-		{"id":"17a9fc36a549b8d2","type":"text","text":"List Tools\n","x":120,"y":269,"width":154,"height":50},
-		{"id":"8b66fa990de9d498","x":-637,"y":360,"width":400,"height":400,"type":"file","file":"Programação/MCP/Segurança.md"}
+		{"id":"2dd5cabb065ad1cc","type":"text","text":"Tool","x":-680,"y":269,"width":97,"height":50,"color":"2"},
+		{"id":"6b3156f5d8487664","type":"text","text":"Prompt","x":-533,"y":269,"width":123,"height":50,"color":"2"},
+		{"id":"b29bef77fa0907d5","type":"text","text":"Resource","x":-360,"y":269,"width":134,"height":50,"color":"2"},
+		{"id":"17a9fc36a549b8d2","type":"text","text":"List Tools\n","x":-176,"y":269,"width":154,"height":50,"color":"3"},
+		{"id":"c1f87a15c42dd530","type":"text","text":"List Resources","x":28,"y":269,"width":160,"height":50,"color":"3"},
+		{"id":"27082ddad94aedfd","type":"text","text":"Call Tool","x":449,"y":269,"width":121,"height":50,"color":"3"},
+		{"id":"80dfba1b378ce0b2","type":"text","text":"read_resource","x":238,"y":269,"width":161,"height":50,"color":"3"}
 	],
 	"edges":[
 		{"id":"dca0bebb8efb49e4","fromNode":"38015fcc24b5119c","fromSide":"bottom","toNode":"c1c14604d2103ae7","toSide":"top"},
@@ -15,6 +17,9 @@
 		{"id":"5da63d18d2fa7f8c","fromNode":"c1c14604d2103ae7","fromSide":"bottom","toNode":"2dd5cabb065ad1cc","toSide":"top","color":"2"},
 		{"id":"51d78eba6b2a88e9","fromNode":"c1c14604d2103ae7","fromSide":"bottom","toNode":"6b3156f5d8487664","toSide":"top","color":"2"},
 		{"id":"3d0c84d297b34127","fromNode":"c1c14604d2103ae7","fromSide":"bottom","toNode":"b29bef77fa0907d5","toSide":"top","color":"2"},
-		{"id":"ee95e22c54f19c0b","fromNode":"cb7e87b7ec7f8841","fromSide":"bottom","toNode":"17a9fc36a549b8d2","toSide":"top"}
+		{"id":"ee95e22c54f19c0b","fromNode":"cb7e87b7ec7f8841","fromSide":"bottom","toNode":"17a9fc36a549b8d2","toSide":"top","color":"3"},
+		{"id":"8ef9418fb7e17675","fromNode":"cb7e87b7ec7f8841","fromSide":"bottom","toNode":"27082ddad94aedfd","toSide":"top","color":"3"},
+		{"id":"7895cf791557eeb6","fromNode":"cb7e87b7ec7f8841","fromSide":"bottom","toNode":"c1f87a15c42dd530","toSide":"top","color":"3"},
+		{"id":"9b2253d0ad5b89ec","fromNode":"cb7e87b7ec7f8841","fromSide":"bottom","toNode":"80dfba1b378ce0b2","toSide":"top","color":"3"}
 	]
 }

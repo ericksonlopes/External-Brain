@@ -15,8 +15,8 @@
               "state": {
                 "file": "Programação/MCP/Canvas-MCP.canvas",
                 "viewState": {
-                  "x": -381.658841371826,
-                  "y": 320.1923951665049,
+                  "x": -38.81757817014394,
+                  "y": 233.32536860714862,
                   "zoom": -0.3333333333333333
                 }
               },
@@ -188,13 +188,13 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "04e3e2193f023f13",
   "lastOpenFiles": [
-    "Programação/MCP/Client SIDE.md",
     "Programação/MCP/Canvas-MCP.canvas",
+    "Programação/MCP/Autenticação.md",
+    "Programação/MCP/Client SIDE.md",
     "Programação/MCP/Segurança.md",
     "Programação/MCP/Server SIDE.md",
-    "Programação/MCP/Autenticação.md",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
     "LINKS PARA VER.md",
     "Sem título 1.md",
