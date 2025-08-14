@@ -15,9 +15,9 @@
               "state": {
                 "file": "Programação/MCP/Canvas-MCP.canvas",
                 "viewState": {
-                  "x": 1642.4670705500873,
-                  "y": -445.76804472058205,
-                  "zoom": 0.16666666666666663
+                  "x": 1354.5,
+                  "y": -127.5,
+                  "zoom": -0.41333520404784335
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -191,12 +191,12 @@
   },
   "active": "08299ff80f604771",
   "lastOpenFiles": [
+    "Programação/MCP/Server SIDE.md",
+    "Programação/MCP/Canvas-MCP.canvas",
     "Programação/Desing Patterns/Application Factory Pattern (Fábrica de aplicativos).md",
     "Programação/Desing Patterns/Builder (Construtor).md",
     "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
     "Programação/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
-    "Programação/MCP/Canvas-MCP.canvas",
-    "Programação/MCP/Server SIDE.md",
     "Programação/MCP/Client SIDE.md",
     "Programação/MCP/Autenticação.md",
     "Programação/MCP/Segurança.md",
@@ -220,7 +220,6 @@
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts/Remove URLs.md",
-    "copilot-custom-prompts/Generate glossary.md",
     "copilot-custom-prompts",
     "Excalidraw",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
