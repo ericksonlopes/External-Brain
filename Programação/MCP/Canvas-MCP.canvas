@@ -18,7 +18,8 @@
 		{"id":"475bfa581a709ef9","type":"text","text":"Security","x":683,"y":-600,"width":123,"height":50},
 		{"id":"0ef5ea02324871c5","type":"text","text":"Tool","x":1629,"y":-1045,"width":100,"height":50,"color":"4"},
 		{"id":"0438e55fb8eebb86","type":"text","text":"Prompts","x":1629,"y":-546,"width":125,"height":50,"color":"#ffbb00"},
-		{"id":"25727cd3dac89304","type":"text","text":"Resources","x":1629,"y":-803,"width":145,"height":50,"color":"5"}
+		{"id":"25727cd3dac89304","type":"text","text":"Resources","x":1629,"y":-803,"width":145,"height":50,"color":"5"},
+		{"id":"1b667a1bb173e56f","type":"text","text":"Structured Output","x":2271,"y":-1135,"width":200,"height":50}
 	],
 	"edges":[
 		{"id":"221e85067a183939","fromNode":"7c93dc2a3b8eee30","fromSide":"right","toNode":"0181017c0f84866e","toSide":"left"},
@@ -38,6 +39,7 @@
 		{"id":"2649c36b004d58c1","fromNode":"0438e55fb8eebb86","fromSide":"right","toNode":"632ee2dad94ac253","toSide":"left","color":"#ffbb00"},
 		{"id":"c9ba1d0054d0dcd3","fromNode":"0438e55fb8eebb86","fromSide":"right","toNode":"d5fae7ee55f57fd5","toSide":"left","color":"#ffbb00"},
 		{"id":"f0f9a640259d9c7e","fromNode":"7c93dc2a3b8eee30","fromSide":"bottom","toNode":"26e8ae40a68da0bf","toSide":"top"},
-		{"id":"bf2e778cef9e4a95","fromNode":"7c93dc2a3b8eee30","fromSide":"top","toNode":"475bfa581a709ef9","toSide":"bottom"}
+		{"id":"bf2e778cef9e4a95","fromNode":"7c93dc2a3b8eee30","fromSide":"top","toNode":"475bfa581a709ef9","toSide":"bottom"},
+		{"id":"55f853a7b4896ed5","fromNode":"102d1c7ec3fd03c4","fromSide":"right","toNode":"1b667a1bb173e56f","toSide":"left"}
 	]
 }
