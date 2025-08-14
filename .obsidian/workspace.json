@@ -4,22 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "d524ed61853fa6d5",
+        "id": "8ef78c048e1f12c1",
         "type": "tabs",
         "children": [
           {
-            "id": "7979918d622daea3",
+            "id": "04e3e2193f023f13",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "LINKS PARA VER.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Programação/MCP/Canvas-MCP.canvas",
+                "viewState": {
+                  "x": -66.01994667329774,
+                  "y": -52.370030287412305,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "LINKS PARA VER"
+              "icon": "lucide-layout-dashboard",
+              "title": "Canvas-MCP"
             }
           }
         ]
@@ -105,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LINKS PARA VER.md",
+                "file": "Programação/MCP/Canvas-MCP.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para LINKS PARA VER"
+              "title": "Links inversos para Canvas-MCP"
             }
           },
           {
@@ -186,8 +188,11 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7979918d622daea3",
+  "active": "04e3e2193f023f13",
   "lastOpenFiles": [
+    "Programação/MCP/Canvas-MCP.canvas",
+    "Programação/FastAPI/Padrão MVC Com FastAPI.md",
+    "LINKS PARA VER.md",
     "Sem título 1.md",
     "2025-08-14.md",
     "Ava - Getting Started.md",
@@ -214,10 +219,7 @@
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Simplify.md",
     "copilot-custom-prompts/Summarize.md",
-    "copilot-custom-prompts/Translate to Chinese.md",
-    "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts",
-    "Excalidraw/Drawing 2025-08-14 16.31.18.excalidraw.md",
     "Excalidraw",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
     "Programação/MCP (Model Context Protocol)",
