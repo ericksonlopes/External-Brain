@@ -11,15 +11,17 @@
             "id": "8772ea58d36f2a3c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Sem título.canvas",
+                "viewState": {
+                  "x": -220,
+                  "y": -30,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Criando um projeto em python"
+              "icon": "lucide-layout-dashboard",
+              "title": "Sem título"
             }
           }
         ]
@@ -105,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Criando um projeto em python.md",
+                "file": "Sem título.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Criando um projeto em python"
+              "title": "Links inversos para Sem título"
             }
           },
           {
@@ -197,6 +199,9 @@
   },
   "active": "8772ea58d36f2a3c",
   "lastOpenFiles": [
+    "Programação/Criando um projeto em python.md",
+    "Sem título.canvas",
+    "Sem título 2.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/crawl4ai/Apresentando crawl4ai.md",
     "Sem título 1.md",
@@ -221,9 +226,6 @@
     "Programação/Desing Patterns/patterns.md",
     "Programação/Desing Patterns/Monolítico (monolithic).md",
     "Programação/Desing Patterns/Microsserviço (microservices).md",
-    "Programação/Desing Patterns/Iterator (Iterador).md",
-    "Programação/Desing Patterns/Builder (Construtor).md",
-    "Programação/Desing Patterns/Application Factory Pattern (Fábrica de aplicativos).md",
     "Programação/MCP (Model Context Protocol)",
     "Programação/WAHA",
     "Programação/Pytube",
@@ -233,7 +235,6 @@
     "Programação/algoritmos",
     "webdriver.md~",
     "Programação/dataclass",
-    "Sem título.canvas",
     "RoadMap Python.canvas",
     "classes.svg",
     "teste.svg",
