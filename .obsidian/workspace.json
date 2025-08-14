@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7d4ccc294f89759d",
+        "id": "07b658443bd8b8c6",
         "type": "tabs",
         "children": [
           {
-            "id": "8772ea58d36f2a3c",
+            "id": "4e8227f37d8439bb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sem título.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "Nova aba"
             }
           }
         ]
@@ -85,7 +80,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -105,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sem título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +110,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Sem título"
+              "title": "Backlinks"
             }
           },
           {
@@ -192,38 +187,43 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "ava:Ava": false,
       "ava:Ava - Show Links": false,
-      "ava:Ava - Open Rewrite Playground": false
+      "ava:Ava - Open Rewrite Playground": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8772ea58d36f2a3c",
+  "active": "4e8227f37d8439bb",
   "lastOpenFiles": [
+    "copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot-custom-prompts/Remove URLs.md",
+    "copilot-custom-prompts/Generate glossary.md",
+    "copilot-custom-prompts/Generate table of contents.md",
+    "copilot-custom-prompts/Make longer.md",
+    "copilot-custom-prompts/Make shorter.md",
+    "copilot-custom-prompts/Emojify.md",
+    "copilot-custom-prompts/Explain like I am 5.md",
+    "copilot-custom-prompts/Simplify.md",
+    "copilot-custom-prompts/Summarize.md",
+    "copilot-custom-prompts/Translate to Chinese.md",
+    "copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot-custom-prompts",
+    "Excalidraw/Drawing 2025-08-14 16.31.18.excalidraw.md",
+    "Excalidraw",
+    "Sem título.md",
     "Sem título.canvas",
     "Programação/Criando um projeto em python.md",
     "Sem título 2.md",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/crawl4ai/Apresentando crawl4ai.md",
     "Sem título 1.md",
-    "Sem título.md",
     "Sem título 3.md",
     "Programação/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
     "Programação/Agno/Agente simples com Agno.md",
     "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/Crewai/Iniciando com Crewai.md",
     "Programação/Crewai/Criando Ferramentas para Seu Agente de IA com CrewAI.md",
-    "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
-    "Programação/LangGraph/Iniciando com langGraph.md",
-    "Programação/Airflow/TaskGroup.md",
-    "Programação/WAHA/Como rodar o WAHA.md",
-    "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
-    "Programação/LangChain/Tutorial Implementando MCP com FastMCP e LangChain.md",
-    "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
-    "Programação/LangChain/Integração com LangChain e Playwright.md",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
-    "Programação/Bucket/Baixando e salvando imagens no bucket.md",
-    "Programação/Bucket/CRUD item no bucket.md",
-    "Programação/Desing Patterns/patterns.md",
-    "Programação/Desing Patterns/Monolítico (monolithic).md",
-    "Programação/Desing Patterns/Microsserviço (microservices).md",
     "Programação/MCP (Model Context Protocol)",
     "Programação/WAHA",
     "Programação/Pytube",
@@ -231,8 +231,6 @@
     "Programação/Algoritmos",
     "Programação/algoritmos/Composite Pattern",
     "Programação/algoritmos",
-    "webdriver.md~",
-    "Programação/dataclass",
     "RoadMap Python.canvas",
     "classes.svg",
     "teste.svg",
