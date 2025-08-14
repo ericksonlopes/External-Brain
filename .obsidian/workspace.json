@@ -15,8 +15,8 @@
               "state": {
                 "file": "Programação/MCP/Canvas-MCP.canvas",
                 "viewState": {
-                  "x": 151,
-                  "y": 529,
+                  "x": 2040,
+                  "y": -400,
                   "zoom": 0
                 }
               },
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 426.5
+    "width": 257.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
