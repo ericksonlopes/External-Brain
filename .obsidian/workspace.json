@@ -15,9 +15,9 @@
               "state": {
                 "file": "Programação/MCP/Canvas-MCP.canvas",
                 "viewState": {
-                  "x": 1408.4792218338046,
-                  "y": -76.9478262011838,
-                  "zoom": -0.5
+                  "x": 1642.4670705500873,
+                  "y": -445.76804472058205,
+                  "zoom": 0.16666666666666663
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -166,7 +166,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 283.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
