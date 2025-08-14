@@ -17,12 +17,12 @@
 		{"id":"1b667a1bb173e56f","type":"text","text":"Structured Output","x":1742,"y":-625,"width":186,"height":50,"color":"4"},
 		{"id":"8698e22d2089b3b6","type":"text","text":"Images","x":1746,"y":-550,"width":112,"height":50,"color":"4"},
 		{"id":"0438e55fb8eebb86","type":"text","text":"Prompts","x":1562,"y":-484,"width":125,"height":50,"color":"#ffbb00"},
-		{"id":"25727cd3dac89304","type":"text","text":"Resources","x":1562,"y":-385,"width":151,"height":50,"color":"5"},
 		{"id":"d2a2155ab9bfea3f","type":"text","text":"Client SIDE","x":1241,"y":-484,"width":200,"height":50,"color":"3"},
 		{"id":"52ba467fe358c10f","type":"text","text":"PingRequest","x":1118,"y":375,"width":166,"height":50,"color":"#ee77ea"},
 		{"id":"cd6f47007e98ce0f","type":"text","text":"GetPromptRequest","x":1566,"y":400,"width":192,"height":50,"color":"#ffbb00"},
 		{"id":"c8894b875a16b19b","type":"text","text":"ListPromptsRequest","x":1562,"y":317,"width":206,"height":58,"color":"#ffbb00"},
-		{"id":"cfc64084a073641b","type":"text","text":"Prompts","x":1341,"y":235,"width":125,"height":50,"color":"#ffbb00"}
+		{"id":"cfc64084a073641b","type":"text","text":"Prompts","x":1341,"y":235,"width":125,"height":50,"color":"#ffbb00"},
+		{"id":"25727cd3dac89304","type":"text","text":"Resources","x":1548,"y":-400,"width":139,"height":51,"color":"5"}
 	],
 	"edges":[
 		{"id":"221e85067a183939","fromNode":"7c93dc2a3b8eee30","fromSide":"right","toNode":"0181017c0f84866e","toSide":"left"},
