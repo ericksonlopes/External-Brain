@@ -183,9 +183,6 @@
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "publish:Publicar mudanças": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "ava:Ava": false,
-      "ava:Ava - Show Links": false,
-      "ava:Ava - Open Rewrite Playground": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
