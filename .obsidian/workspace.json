@@ -11,17 +11,15 @@
             "id": "08299ff80f604771",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Programação/MCP/Canvas-MCP.canvas",
-                "viewState": {
-                  "x": 1848.162222303801,
-                  "y": 203.24304106013997,
-                  "zoom": -0.10848062251942242
-                }
+                "file": "Programação/MCP/Server SIDE.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Canvas-MCP"
+              "icon": "lucide-file",
+              "title": "Server SIDE"
             }
           }
         ]
@@ -91,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5,
-    "collapsed": true
+    "width": 257.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -189,8 +186,8 @@
   },
   "active": "08299ff80f604771",
   "lastOpenFiles": [
-    "Programação/MCP/Server SIDE.md",
     "Programação/MCP/Canvas-MCP.canvas",
+    "Programação/MCP/Server SIDE.md",
     "Programação/Desing Patterns/Application Factory Pattern (Fábrica de aplicativos).md",
     "Programação/Desing Patterns/Builder (Construtor).md",
     "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
