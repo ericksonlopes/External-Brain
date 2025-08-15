@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/MCP/Construindo um Servidor MCP Básico com FastMCP.md",
+                "file": "Programação/MCP/Criando um Servidor MCP Básico com FastMCP.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Construindo um Servidor MCP Básico com FastMCP"
+              "title": "Criando um Servidor MCP Básico com FastMCP"
             }
           }
         ]
@@ -186,13 +186,16 @@
   },
   "active": "08299ff80f604771",
   "lastOpenFiles": [
-    "Programação/MCP/Canvas-MCP.canvas",
+    "Programação/MCP/Cliente MCP Assíncrono com Python.md",
+    "Programação/MCP/Criando um Servidor MCP Básico com FastMCP.md",
+    "Programação/MCP/Client SIDE.md",
     "Programação/MCP/Construindo um Servidor MCP Básico com FastMCP.md",
+    "Programação/MCP/tutorial-mcp-servidor.md~",
+    "Programação/MCP/Canvas-MCP.canvas",
     "Programação/Desing Patterns/Application Factory Pattern (Fábrica de aplicativos).md",
     "Programação/Desing Patterns/Builder (Construtor).md",
     "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
     "Programação/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
-    "Programação/MCP/Client SIDE.md",
     "Programação/MCP/Autenticação.md",
     "Programação/MCP/Segurança.md",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
@@ -214,7 +217,6 @@
     "Programação/Criando um projeto em python.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot-custom-prompts/Remove URLs.md",
     "copilot-custom-prompts",
     "Excalidraw",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
@@ -224,7 +226,6 @@
     "Programação/Algoritmos/Composite Pattern",
     "Programação/Algoritmos",
     "Programação/algoritmos/Composite Pattern",
-    "Programação/algoritmos",
     "RoadMap Python.canvas",
     "classes.svg",
     "teste.svg",
