@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/MCP/Criando um Servidor MCP Básico com FastMCP.md",
+                "file": "Programação/MCP/Cliente MCP Assíncrono com Python.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Criando um Servidor MCP Básico com FastMCP"
+              "title": "Cliente MCP Assíncrono com Python"
             }
           }
         ]
@@ -186,8 +186,9 @@
   },
   "active": "08299ff80f604771",
   "lastOpenFiles": [
-    "Programação/MCP/Cliente MCP Assíncrono com Python.md",
     "Programação/MCP/Criando um Servidor MCP Básico com FastMCP.md",
+    "Programação/MCP/Cliente MCP Assíncrono com Python.md",
+    "Programação/MCP/Autenticação.md",
     "Programação/MCP/Client SIDE.md",
     "Programação/MCP/Construindo um Servidor MCP Básico com FastMCP.md",
     "Programação/MCP/tutorial-mcp-servidor.md~",
@@ -196,7 +197,6 @@
     "Programação/Desing Patterns/Builder (Construtor).md",
     "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
     "Programação/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
-    "Programação/MCP/Autenticação.md",
     "Programação/MCP/Segurança.md",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
     "LINKS PARA VER.md",

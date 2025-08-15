@@ -1,6 +1,6 @@
 
 
-#mcp #python #fastmcp 
+#mcp #python #fastmcp #server #pydantic 
 
 Este tutorial explica como criar um servidor MCP (Model Context Protocol) básico usando a biblioteca FastMCP em Python. O código demonstra a implementação de tools, prompts e recursos para criar um servidor funcional.
 
