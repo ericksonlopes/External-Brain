@@ -14,7 +14,7 @@
 		{"id":"c8894b875a16b19b","type":"text","text":"ListPromptsRequest","x":1522,"y":418,"width":206,"height":58,"color":"6"},
 		{"id":"cd6f47007e98ce0f","type":"text","text":"GetPromptRequest","x":1526,"y":501,"width":192,"height":50,"color":"6"},
 		{"id":"0ef5ea02324871c5","type":"text","text":"Tools","x":1671,"y":-175,"width":100,"height":50,"color":"4"},
-		{"id":"d2a2155ab9bfea3f","type":"text","text":"server SIDE","x":1445,"y":-59,"width":200,"height":50,"color":"3"},
+		{"id":"d2a2155ab9bfea3f","type":"text","text":"Server SIDE","x":1445,"y":-59,"width":200,"height":50,"color":"3"},
 		{"id":"c764da9afcc86a09","type":"text","text":"Context","x":1912,"y":-225,"width":116,"height":50,"color":"4"},
 		{"id":"1b667a1bb173e56f","type":"text","text":"Structured Output","x":1912,"y":-145,"width":186,"height":50,"color":"4"},
 		{"id":"8698e22d2089b3b6","type":"text","text":"Images","x":1916,"y":-70,"width":112,"height":50,"color":"4"},
