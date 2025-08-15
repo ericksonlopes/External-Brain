@@ -1,27 +1,26 @@
 {
 	"nodes":[
 		{"id":"03f8efd81c8ac261","type":"group","x":1170,"y":120,"width":982,"height":515,"label":"Client"},
-		{"id":"95473c130788bda6","type":"group","x":1425,"y":-380,"width":727,"height":436,"label":"Server"},
+		{"id":"95473c130788bda6","type":"group","x":1425,"y":-300,"width":727,"height":356,"label":"Server"},
 		{"id":"e7499fa632850a28","type":"text","text":"ReadResourceRequest","x":1857,"y":340,"width":220,"height":55,"color":"5"},
-		{"id":"e704f0b51cda64e4","type":"text","text":"ListResourcesRequest","x":1857,"y":435,"width":220,"height":50,"color":"5"},
-		{"id":"279019022027b533","type":"text","text":"ListToolsRequest","x":1877,"y":135,"width":180,"height":50,"color":"4"},
-		{"id":"1ca59b747faa046f","type":"text","text":"CallToolRequest","x":1877,"y":225,"width":180,"height":50,"color":"4"},
 		{"id":"cd4926383039e66f","type":"text","text":"Resources","x":1526,"y":286,"width":145,"height":50,"color":"5"},
 		{"id":"56372f7675304c94","type":"text","text":"Tools","x":1623,"y":200,"width":100,"height":50,"color":"4"},
 		{"id":"0181017c0f84866e","type":"text","text":"Client SIDE","x":1190,"y":150,"width":200,"height":50,"color":"2"},
+		{"id":"d2a2155ab9bfea3f","type":"text","text":"server SIDE","x":1445,"y":-99,"width":200,"height":50,"color":"3"},
+		{"id":"25727cd3dac89304","type":"text","text":"Resources","x":1752,"y":-15,"width":139,"height":51,"color":"5"},
+		{"id":"7c93dc2a3b8eee30","type":"text","text":"MCP - Model Context Protocol","x":1099,"y":-39,"width":274,"height":50},
+		{"id":"e704f0b51cda64e4","type":"text","text":"ListResourcesRequest","x":1857,"y":435,"width":220,"height":50,"color":"5"},
+		{"id":"279019022027b533","type":"text","text":"ListToolsRequest","x":1877,"y":135,"width":180,"height":50,"color":"4"},
+		{"id":"1ca59b747faa046f","type":"text","text":"CallToolRequest","x":1877,"y":225,"width":180,"height":50,"color":"4"},
 		{"id":"52ba467fe358c10f","type":"text","text":"PingRequest","x":1289,"y":535,"width":166,"height":50,"color":"3"},
 		{"id":"cfc64084a073641b","type":"text","text":"Prompts","x":1310,"y":368,"width":125,"height":50,"color":"6"},
 		{"id":"c8894b875a16b19b","type":"text","text":"ListPromptsRequest","x":1522,"y":418,"width":206,"height":58,"color":"6"},
 		{"id":"cd6f47007e98ce0f","type":"text","text":"GetPromptRequest","x":1526,"y":501,"width":192,"height":50,"color":"6"},
-		{"id":"0ef5ea02324871c5","type":"text","text":"Tools","x":1766,"y":-190,"width":100,"height":50,"color":"4"},
-		{"id":"0438e55fb8eebb86","type":"text","text":"Prompts","x":1766,"y":-99,"width":125,"height":50,"color":"#ffbb00"},
-		{"id":"c764da9afcc86a09","type":"text","text":"Context","x":1946,"y":-320,"width":116,"height":50,"color":"4"},
-		{"id":"1b667a1bb173e56f","type":"text","text":"Structured Output","x":1946,"y":-240,"width":186,"height":50,"color":"4"},
-		{"id":"8698e22d2089b3b6","type":"text","text":"Images","x":1950,"y":-165,"width":112,"height":50,"color":"4"},
-		{"id":"d2a2155ab9bfea3f","type":"text","text":"server SIDE","x":1445,"y":-99,"width":200,"height":50,"color":"3"},
-		{"id":"a2ce74709cf64df3","type":"text","text":"Authentication","x":1535,"y":-290,"width":175,"height":50,"color":"6"},
-		{"id":"25727cd3dac89304","type":"text","text":"Resources","x":1752,"y":-15,"width":139,"height":51,"color":"5"},
-		{"id":"7c93dc2a3b8eee30","type":"text","text":"MCP - Model Context Protocol","x":1099,"y":-39,"width":274,"height":50}
+		{"id":"0438e55fb8eebb86","type":"text","text":"Prompts","x":1845,"y":-29,"width":125,"height":50,"color":"#ffbb00"},
+		{"id":"0ef5ea02324871c5","type":"text","text":"Tools","x":1671,"y":-215,"width":100,"height":50,"color":"4"},
+		{"id":"c764da9afcc86a09","type":"text","text":"Context","x":1912,"y":-265,"width":116,"height":50,"color":"4"},
+		{"id":"1b667a1bb173e56f","type":"text","text":"Structured Output","x":1912,"y":-185,"width":186,"height":50,"color":"4"},
+		{"id":"8698e22d2089b3b6","type":"text","text":"Images","x":1916,"y":-110,"width":112,"height":50,"color":"4"}
 	],
 	"edges":[
 		{"id":"c7570535ac5e9fff","fromNode":"d2a2155ab9bfea3f","fromSide":"right","toNode":"0ef5ea02324871c5","toSide":"left","color":"3"},
@@ -40,7 +39,6 @@
 		{"id":"f6d5f285840e90ae","fromNode":"0ef5ea02324871c5","fromSide":"right","toNode":"c764da9afcc86a09","toSide":"left"},
 		{"id":"ed85b7c8d00f41c5","fromNode":"0181017c0f84866e","fromSide":"bottom","toNode":"52ba467fe358c10f","toSide":"left","color":"2"},
 		{"id":"47afd9531cb34e5a","fromNode":"0181017c0f84866e","fromSide":"bottom","toNode":"cfc64084a073641b","toSide":"left","color":"2"},
-		{"id":"107225226fcb921e","fromNode":"d2a2155ab9bfea3f","fromSide":"top","toNode":"a2ce74709cf64df3","toSide":"left","color":"3"},
 		{"id":"9ce67964a5c671ae","fromNode":"7c93dc2a3b8eee30","fromSide":"top","toNode":"95473c130788bda6","toSide":"left"},
 		{"id":"53daddefc8012db8","fromNode":"7c93dc2a3b8eee30","fromSide":"left","toNode":"03f8efd81c8ac261","toSide":"left"}
 	]
