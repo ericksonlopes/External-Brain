@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#mcp",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,8 +85,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,7 +184,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "08299ff80f604771",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
     "Programação/MCP/Canvas-MCP.canvas",
     "Programação/MCP/Cliente MCP Assíncrono com Python.md",
