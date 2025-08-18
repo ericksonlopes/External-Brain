@@ -11,10 +11,15 @@
             "id": "08299ff80f604771",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Conectando seu Agente de IA via MCP com CrewAI"
             }
           }
         ]
@@ -49,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#textanalysis",
+                "query": "tag:#mcp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -182,13 +187,13 @@
   },
   "active": "08299ff80f604771",
   "lastOpenFiles": [
+    "Programação/MCP/Canvas-MCP.canvas",
     "Programação/MCP/Cliente MCP Assíncrono com Python.md",
     "Programação/MCP/Criando um Servidor MCP Básico com FastMCP.md",
     "Programação/MCP/Autenticação.md",
     "Programação/MCP/Client SIDE.md",
     "Programação/MCP/Construindo um Servidor MCP Básico com FastMCP.md",
     "Programação/MCP/tutorial-mcp-servidor.md~",
-    "Programação/MCP/Canvas-MCP.canvas",
     "Programação/Desing Patterns/Application Factory Pattern (Fábrica de aplicativos).md",
     "Programação/Desing Patterns/Builder (Construtor).md",
     "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
@@ -212,7 +217,6 @@
     "Programação/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
     "Programação/Criando um projeto em python.md",
     "copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot-custom-prompts/Rewrite as tweet.md",
     "copilot-custom-prompts",
     "Excalidraw",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
