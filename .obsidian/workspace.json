@@ -11,31 +11,20 @@
             "id": "08299ff80f604771",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Programação/LangChain/Sem título.canvas",
+                "viewState": {
+                  "x": 80,
+                  "y": -153,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Conectando seu Agente de IA via MCP com CrewAI"
-            }
-          },
-          {
-            "id": "b27440020f5bc8ba",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.9.10"
+              "icon": "lucide-layout-dashboard",
+              "title": "Sem título"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -198,8 +187,14 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "b27440020f5bc8ba",
+  "active": "08299ff80f604771",
   "lastOpenFiles": [
+    "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
+    "Programação/LangChain/Sem título.canvas",
+    "Sem título.base",
+    "Programação/FastAPI/Padrão MVC Com FastAPI.md",
+    "Sem título.md",
+    "copilot-custom-prompts/Summarize.md",
     "Programação/MCP/Canvas-MCP.canvas",
     "Programação/MCP/Cliente MCP Assíncrono com Python.md",
     "Programação/MCP/Criando um Servidor MCP Básico com FastMCP.md",
@@ -212,7 +207,6 @@
     "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
     "Programação/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/MCP/Segurança.md",
-    "Programação/FastAPI/Padrão MVC Com FastAPI.md",
     "LINKS PARA VER.md",
     "Sem título 1.md",
     "2025-08-14.md",
@@ -227,9 +221,6 @@
     "Excalidraw/Drawing 2025-08-14 16.48.47.excalidraw.md",
     "Programação/Agno/Agente simples com Agno.md",
     "Excalidraw/Drawing 2025-08-14 16.44.53.excalidraw.md",
-    "Programação/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
-    "Programação/Criando um projeto em python.md",
-    "copilot-custom-prompts/Rewrite as tweet thread.md",
     "copilot-custom-prompts",
     "Excalidraw",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
@@ -238,7 +229,6 @@
     "Programação/Pytube",
     "Programação/Algoritmos/Composite Pattern",
     "Programação/Algoritmos",
-    "Programação/algoritmos/Composite Pattern",
     "RoadMap Python.canvas",
     "classes.svg",
     "teste.svg",
