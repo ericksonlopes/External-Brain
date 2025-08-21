@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "Conectando seu Agente de IA via MCP com CrewAI"
             }
+          },
+          {
+            "id": "b27440020f5bc8ba",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notas de Lançamento 1.9.10"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,8 +84,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin desativado"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -169,6 +182,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Criar nova base": false,
       "switcher:Abrir a troca rápida": false,
       "command-palette:Abrir paleta de comandos": false,
       "graph:Abrir visualização em gráfico": false,
@@ -184,7 +198,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "b27440020f5bc8ba",
   "lastOpenFiles": [
     "Programação/MCP/Canvas-MCP.canvas",
     "Programação/MCP/Cliente MCP Assíncrono com Python.md",
