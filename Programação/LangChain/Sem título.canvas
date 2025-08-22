@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"474276eee24ebc08","type":"text","text":"LangChain","x":-345,"y":-158,"width":125,"height":60},
 		{"id":"a47c550b75f58c18","type":"text","text":"Chain","x":-20,"y":182,"width":100,"height":50},
-		{"id":"03a7f03ce7db2f48","type":"text","text":"Simple Chain","x":280,"y":137,"width":200,"height":50},
+		{"id":"03a7f03ce7db2f48","type":"text","text":"MultiRetrievalQAChain","x":280,"y":137,"width":200,"height":50},
 		{"id":"26d3c64ffe272c67","type":"text","text":" More complex chain","x":280,"y":227,"width":200,"height":50},
 		{"id":"2f7f4f5ee8ace79e","type":"text","text":"Output Parser","x":-20,"y":47,"width":140,"height":50},
 		{"id":"15eb635c77aac50f","type":"text","text":"Bind","x":-20,"y":-493,"width":80,"height":50},
