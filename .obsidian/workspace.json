@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "92e00cd3a6a6dbb7",
+        "id": "4726ddcad5fc7bb3",
         "type": "tabs",
         "children": [
           {
-            "id": "08299ff80f604771",
+            "id": "f21666af2107c2f9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Programação/LangChain/LangChain Canvas.canvas",
-                "viewState": {
-                  "x": 146.3679245283019,
-                  "y": -72.94758909853249,
-                  "zoom": -0.13144177096273355
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "LangChain Canvas"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nova aba"
             }
           }
         ]
@@ -91,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 286.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -187,12 +180,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "08299ff80f604771",
+  "active": "f21666af2107c2f9",
   "lastOpenFiles": [
+    "Sem título.canvas",
+    "Drawing 2025-08-22 11.57.10.excalidraw.md",
+    "Sem título 2.md",
+    "Sem título 1.md",
+    "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/LangChain/Chains/Simple Chains.md",
     "Programação/LangChain/Chains/Sequential Chain.md",
     "Programação/LangChain/Chains/MultiRetrievalQAChain.md",
-    "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/LangChain/Sem título.md",
     "Programação/LangChain/Chains",
     "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
@@ -213,16 +210,11 @@
     "Programação/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/MCP/Segurança.md",
     "LINKS PARA VER.md",
-    "Sem título 1.md",
     "2025-08-14.md",
     "Ava - Getting Started.md",
     "Prompt para criação.md",
-    "Sem título 3.md",
-    "Sem título 2.md",
     "Sem título 1.canvas",
-    "Sem título.canvas",
     "Sem título 2.canvas",
-    "Excalidraw/Drawing 2025-08-14 16.50.52.excalidraw.md",
     "copilot-custom-prompts",
     "Excalidraw",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
