@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/LangChain/Chains/Simple Chains.md",
+                "file": "Programação/LangChain/Chains/MultiRetrievalQAChain.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Simple Chains"
+              "title": "MultiRetrievalQAChain"
             }
           }
         ]
@@ -187,8 +187,9 @@
   },
   "active": "08299ff80f604771",
   "lastOpenFiles": [
-    "Programação/LangChain/Chains/Sequential Chain.md",
     "Programação/LangChain/Chains/Simple Chains.md",
+    "Programação/LangChain/Chains/MultiRetrievalQAChain.md",
+    "Programação/LangChain/Chains/Sequential Chain.md",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/LangChain/Sem título.md",
     "Programação/LangChain/Chains",
@@ -220,7 +221,6 @@
     "Sem título.canvas",
     "Sem título 2.canvas",
     "Excalidraw/Drawing 2025-08-14 16.50.52.excalidraw.md",
-    "Excalidraw/Drawing 2025-08-14 16.48.47.excalidraw.md",
     "copilot-custom-prompts",
     "Excalidraw",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",

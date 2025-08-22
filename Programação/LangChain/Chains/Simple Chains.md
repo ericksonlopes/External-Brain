@@ -1,4 +1,4 @@
-#langchain #chain #python #openai #langchain_community #langc
+#langchain #chain #python #openai #langchain_community #langchain_openai 
 
 ```bash
 pip install langchain[openai] langchain-community
