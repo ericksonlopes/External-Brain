@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4726ddcad5fc7bb3",
+        "id": "96f2c8a1493586c6",
         "type": "tabs",
         "children": [
           {
-            "id": "f21666af2107c2f9",
+            "id": "2d47b54e54efa68b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "diagram-edit",
+              "state": {
+                "file": "Programação/Arquitetura/Untitled Diagram.svg"
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Untitled Diagram.svg"
             }
           }
         ]
@@ -58,16 +60,6 @@
               },
               "icon": "lucide-search",
               "title": "Procurar"
-            }
-          },
-          {
-            "id": "2f2f672febacbf1d",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "starred"
             }
           },
           {
@@ -177,15 +169,38 @@
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "publish:Publicar mudanças": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f21666af2107c2f9",
+  "active": "2d47b54e54efa68b",
   "lastOpenFiles": [
+    "Programação/Arquitetura/rag.svg",
+    "Programação/Arquitetura/Untitled Diagram.svg",
+    "Untitled Diagram.svg",
+    "Programação/Arquitetura",
+    "Sem título.base",
+    "Excalidraw/Drawing 2025-08-14 16.50.52.excalidraw.md",
+    "Excalidraw/Drawing 2025-08-14 16.48.47.excalidraw.md",
+    "Excalidraw/Drawing 2025-08-14 16.44.53.excalidraw.md",
+    "Excalidraw/Drawing 2025-08-14 16.31.18.excalidraw.md",
+    "copilot-custom-prompts/Translate to Chinese.md",
+    "copilot-custom-prompts/Summarize.md",
+    "copilot-custom-prompts/Simplify.md",
+    "copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot-custom-prompts/Remove URLs.md",
+    "copilot-custom-prompts/Make shorter.md",
+    "copilot-custom-prompts/Make longer.md",
+    "copilot-custom-prompts/Generate table of contents.md",
+    "copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot-custom-prompts/Explain like I am 5.md",
+    "copilot-custom-prompts/Emojify.md",
+    "Sem título.md",
+    "Sem título 1.md",
     "Sem título.canvas",
+    "Drawing 2025-08-22 13.17.42.excalidraw.md",
     "Drawing 2025-08-22 11.57.10.excalidraw.md",
     "Sem título 2.md",
-    "Sem título 1.md",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/LangChain/Chains/Simple Chains.md",
     "Programação/LangChain/Chains/Sequential Chain.md",
@@ -193,26 +208,8 @@
     "Programação/LangChain/Sem título.md",
     "Programação/LangChain/Chains",
     "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
-    "Sem título.base",
-    "Programação/FastAPI/Padrão MVC Com FastAPI.md",
-    "Sem título.md",
-    "copilot-custom-prompts/Summarize.md",
     "Programação/MCP/Canvas-MCP.canvas",
-    "Programação/MCP/Cliente MCP Assíncrono com Python.md",
-    "Programação/MCP/Criando um Servidor MCP Básico com FastMCP.md",
-    "Programação/MCP/Autenticação.md",
-    "Programação/MCP/Client SIDE.md",
-    "Programação/MCP/Construindo um Servidor MCP Básico com FastMCP.md",
     "Programação/MCP/tutorial-mcp-servidor.md~",
-    "Programação/Desing Patterns/Application Factory Pattern (Fábrica de aplicativos).md",
-    "Programação/Desing Patterns/Builder (Construtor).md",
-    "Programação/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
-    "Programação/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
-    "Programação/MCP/Segurança.md",
-    "LINKS PARA VER.md",
-    "2025-08-14.md",
-    "Ava - Getting Started.md",
-    "Prompt para criação.md",
     "Sem título 1.canvas",
     "Sem título 2.canvas",
     "copilot-custom-prompts",
@@ -221,7 +218,6 @@
     "Programação/MCP (Model Context Protocol)",
     "Programação/WAHA",
     "Programação/Pytube",
-    "Programação/Algoritmos/Composite Pattern",
     "RoadMap Python.canvas",
     "classes.svg",
     "teste.svg",
@@ -231,8 +227,6 @@
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113449.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113432.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113414.jpg",
-    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113356.jpg",
-    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113335.jpg",
-    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211105448.jpg"
+    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113356.jpg"
   ]
 }
