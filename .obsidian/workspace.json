@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "96f2c8a1493586c6",
+        "id": "fac7fed532728308",
         "type": "tabs",
         "children": [
           {
-            "id": "2d47b54e54efa68b",
+            "id": "739acbb0bceb2ef7",
             "type": "leaf",
             "state": {
               "type": "diagram-edit",
               "state": {
-                "file": "Programação/Arquitetura/Untitled Diagram.svg"
+                "file": "Programação/Arquitetura/rag.svg"
               },
               "icon": "lucide-file",
-              "title": "Untitled Diagram.svg"
+              "title": "rag.svg"
             }
           }
         ]
@@ -173,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d47b54e54efa68b",
+  "active": "739acbb0bceb2ef7",
   "lastOpenFiles": [
     "Programação/Arquitetura/rag.svg",
     "Programação/Arquitetura/Untitled Diagram.svg",
