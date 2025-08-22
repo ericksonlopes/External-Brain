@@ -11,17 +11,15 @@
             "id": "08299ff80f604771",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Programação/LangChain/LangChain Canvas.canvas",
-                "viewState": {
-                  "x": 266,
-                  "y": -312,
-                  "zoom": 0
-                }
+                "file": "Programação/LangChain/Chains/Simple Chains.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "LangChain Canvas"
+              "icon": "lucide-file",
+              "title": "Simple Chains"
             }
           }
         ]
@@ -189,8 +187,11 @@
   },
   "active": "08299ff80f604771",
   "lastOpenFiles": [
-    "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
+    "Programação/LangChain/Sem título.md",
+    "Programação/LangChain/Chains/Simple Chains.md",
+    "Programação/LangChain/Chains",
     "Programação/LangChain/LangChain Canvas.canvas",
+    "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
     "Sem título.base",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
     "Sem título.md",
@@ -220,7 +221,6 @@
     "Excalidraw/Drawing 2025-08-14 16.50.52.excalidraw.md",
     "Excalidraw/Drawing 2025-08-14 16.48.47.excalidraw.md",
     "Programação/Agno/Agente simples com Agno.md",
-    "Excalidraw/Drawing 2025-08-14 16.44.53.excalidraw.md",
     "copilot-custom-prompts",
     "Excalidraw",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
@@ -228,7 +228,6 @@
     "Programação/WAHA",
     "Programação/Pytube",
     "Programação/Algoritmos/Composite Pattern",
-    "Programação/Algoritmos",
     "RoadMap Python.canvas",
     "classes.svg",
     "teste.svg",
