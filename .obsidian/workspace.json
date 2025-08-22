@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/LangChain/Conetando IA com banco de dados.md",
+                "file": "Programação/Docker/Docker + MySQL.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Conetando IA com banco de dados"
+              "title": "Docker + MySQL"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 405.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -178,6 +178,7 @@
   },
   "active": "739acbb0bceb2ef7",
   "lastOpenFiles": [
+    "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/Arquitetura/rag.svg",
     "Programação/Arquitetura/Untitled Diagram.svg",
     "Untitled Diagram.svg",
@@ -229,7 +230,6 @@
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113449.jpg",
     "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113432.jpg",
-    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113414.jpg",
-    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113356.jpg"
+    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113414.jpg"
   ]
 }
