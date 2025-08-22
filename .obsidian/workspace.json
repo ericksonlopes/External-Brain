@@ -13,15 +13,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Programação/LangChain/Sem título.canvas",
+                "file": "Programação/LangChain/LangChain Canvas.canvas",
                 "viewState": {
-                  "x": 380,
-                  "y": 207,
+                  "x": 266,
+                  "y": 60,
                   "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Sem título"
+              "title": "LangChain Canvas"
             }
           }
         ]
@@ -190,7 +190,7 @@
   "active": "08299ff80f604771",
   "lastOpenFiles": [
     "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
-    "Programação/LangChain/Sem título.canvas",
+    "Programação/LangChain/LangChain Canvas.canvas",
     "Sem título.base",
     "Programação/FastAPI/Padrão MVC Com FastAPI.md",
     "Sem título.md",
