@@ -11,15 +11,17 @@
             "id": "08299ff80f604771",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Programação/LangChain/Chains/MultiRetrievalQAChain.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Programação/LangChain/LangChain Canvas.canvas",
+                "viewState": {
+                  "x": 146.3679245283019,
+                  "y": -72.94758909853249,
+                  "zoom": -0.13144177096273355
+                }
               },
-              "icon": "lucide-file",
-              "title": "MultiRetrievalQAChain"
+              "icon": "lucide-layout-dashboard",
+              "title": "LangChain Canvas"
             }
           }
         ]
@@ -188,8 +190,8 @@
   "active": "08299ff80f604771",
   "lastOpenFiles": [
     "Programação/LangChain/Chains/Simple Chains.md",
-    "Programação/LangChain/Chains/MultiRetrievalQAChain.md",
     "Programação/LangChain/Chains/Sequential Chain.md",
+    "Programação/LangChain/Chains/MultiRetrievalQAChain.md",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/LangChain/Sem título.md",
     "Programação/LangChain/Chains",
