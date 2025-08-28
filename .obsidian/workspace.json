@@ -13,16 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
+                "file": "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader)"
+              "title": "Web Scraper com LangChain e Playwright"
+            }
+          },
+          {
+            "id": "5e77f8fb59068880",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notas de Lançamento 1.9.12"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,8 +189,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "739acbb0bceb2ef7",
+  "active": "5e77f8fb59068880",
   "lastOpenFiles": [
+    "Programação/LangChain/LangChain Canvas.canvas",
+    "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
     "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/Arquitetura/rag.svg",
     "Programação/CosmosDB/Criar um artigo.md",
@@ -207,9 +222,7 @@
     "copilot-custom-prompts/Generate table of contents.md",
     "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts/Explain like I am 5.md",
-    "copilot-custom-prompts/Emojify.md",
     "Sem título.canvas",
-    "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/LangChain/Chains",
     "Programação/MCP/Canvas-MCP.canvas",
     "Programação/MCP/tutorial-mcp-servidor.md~",
