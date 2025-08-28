@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/LangChain/Conetando IA com banco de dados.md",
+                "file": "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Conetando IA com banco de dados"
+              "title": "Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader)"
             }
           }
         ]
@@ -178,6 +178,9 @@
   },
   "active": "739acbb0bceb2ef7",
   "lastOpenFiles": [
+    "Programação/LangChain/Conetando IA com banco de dados.md",
+    "Programação/Arquitetura/rag.svg",
+    "Programação/CosmosDB/Criar um artigo.md",
     "Programação/LangChain/Integração com LangChain e Playwright.md",
     "Programação/Projects/PyInvestAnalyser.md",
     "Programação/Projects/Compile-Repo.md",
@@ -186,8 +189,6 @@
     "Programação/Docker/Comandos Docker.md",
     "Programação/SQLAlchemy/Query com sqlalchemy sem definir tabelas.md",
     "Programação/Docker/logger + docker + volumes.md",
-    "Programação/LangChain/Conetando IA com banco de dados.md",
-    "Programação/Arquitetura/rag.svg",
     "Programação/Arquitetura/Untitled Diagram.svg",
     "Untitled Diagram.svg",
     "Programação/Arquitetura",
@@ -207,8 +208,6 @@
     "copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Emojify.md",
-    "Sem título.md",
-    "Sem título 1.md",
     "Sem título.canvas",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/LangChain/Chains",
