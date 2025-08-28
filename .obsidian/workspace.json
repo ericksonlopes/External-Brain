@@ -26,12 +26,15 @@
             "id": "5e77f8fb59068880",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.12"
+                "file": "Programação/Pydantic/pydantic_settings.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.9.12"
+              "icon": "lucide-file",
+              "title": "pydantic_settings"
             }
           }
         ],
@@ -191,6 +194,8 @@
   },
   "active": "5e77f8fb59068880",
   "lastOpenFiles": [
+    "Programação/Pydantic/BaseSettings + env.md",
+    "Programação/Pydantic/pydantic_settings.md",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
     "Programação/LangChain/Conetando IA com banco de dados.md",
@@ -221,7 +226,6 @@
     "copilot-custom-prompts/Make longer.md",
     "copilot-custom-prompts/Generate table of contents.md",
     "copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot-custom-prompts/Explain like I am 5.md",
     "Sem título.canvas",
     "Programação/LangChain/Chains",
     "Programação/MCP/Canvas-MCP.canvas",
