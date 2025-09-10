@@ -11,10 +11,15 @@
             "id": "d5f16ccb8076c120",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader)"
             }
           }
         ]
@@ -174,6 +179,7 @@
   "active": "d5f16ccb8076c120",
   "lastOpenFiles": [
     "Programação/LangChain/Integração com LangChain e Playwright.md",
+    "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
     "Programação/LangChain/Chains/Simple Chains.md",
     "Programação/LangChain/Chains/Sequential Chain.md",
@@ -183,7 +189,6 @@
     "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
     "Programação/Pydantic/pydantic_settings.md",
     "Programação/Pydantic/BaseSettings + env.md",
-    "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/Arquitetura/rag.svg",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Projects/PyInvestAnalyser.md",
