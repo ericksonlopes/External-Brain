@@ -175,13 +175,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "d5f16ccb8076c120",
   "lastOpenFiles": [
-    "Programação/Docker/Redis + docker.md",
+    "Programação/Docker/minio.md",
     "Programação/Docker/RabbitMQ + docker.md",
+    "Programação/Docker/Redis + docker.md",
     "Programação/Redis/Redis + Python.md",
     "Programação/Docker/Comandos Docker.md",
-    "Programação/Docker/minio.md",
     "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Docker/elasticsearch + kibana.md",
