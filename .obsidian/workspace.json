@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Docker/RabbitMQ + docker.md",
+                "file": "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "RabbitMQ + docker"
+              "title": "Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader)"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Docker/RabbitMQ + docker.md",
+                "file": "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para RabbitMQ + docker"
+              "title": "Links inversos para Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader)"
             }
           },
           {
@@ -177,8 +177,8 @@
   },
   "active": "d5f16ccb8076c120",
   "lastOpenFiles": [
-    "Programação/Docker/minio.md",
     "Programação/Docker/RabbitMQ + docker.md",
+    "Programação/Docker/minio.md",
     "Programação/Docker/Redis + docker.md",
     "Programação/Redis/Redis + Python.md",
     "Programação/Docker/Comandos Docker.md",
