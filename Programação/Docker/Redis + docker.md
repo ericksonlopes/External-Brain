@@ -45,7 +45,7 @@ Lembre-se de que a remoção do contêiner também removerá todos os dados arma
 ## docker-compose
 Subindo container com docker compose,
 
-```d
+```dockerfile
 version: "3"  
   
 services:  

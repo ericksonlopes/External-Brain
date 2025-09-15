@@ -1,31 +1,31 @@
 #docker #dockerfile #rabbitmq
-```dockerfile-compose
 
-services:  
-rabbitmq:  
-image: rabbitmq:latest  
-container_name: rabbitmq  
-restart: always  
-ports:  
-- 5672:5672  
-- 15672:15672  
-environment:  
-RABBITMQ_DEFAULT_USER: kalo  
-RABBITMQ_DEFAULT_PASS: kalo  
-configs:  
-- source: rabbitmq-plugins  
-target: /etc/rabbitmq/enabled_plugins  
-volumes:  
-- rabbitmq-lib:/var/lib/rabbitmq/  
-- rabbitmq-log:/var/log/rabbitmq  
-  
-configs:  
-rabbitmq-plugins:  
-content: "[rabbitmq_management]."  
-  
-volumes:  
-rabbitmq-lib:  
-driver: local  
-rabbitmq-log:  
-driver: local
+```dockerfile
+services:
+  rabbitmq:
+    image: rabbitmq:latest
+    container_name: rabbitmq
+    restart: always
+    ports:
+      - 5672:5672
+      - 15672:15672
+    environment:
+      RABBITMQ_DEFAULT_USER: kalo
+      RABBITMQ_DEFAULT_PASS: kalo
+    configs:
+      - source: rabbitmq-plugins
+        target: /etc/rabbitmq/enabled_plugins
+    volumes:
+      - rabbitmq-lib:/var/lib/rabbitmq/
+      - rabbitmq-log:/var/log/rabbitmq
+
+configs:
+  rabbitmq-plugins:
+    content: "[rabbitmq_management]."  
+
+volumes:
+  rabbitmq-lib:
+    driver: local
+  rabbitmq-log:
+    driver: local
 ```
