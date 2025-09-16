@@ -1,5 +1,5 @@
 
-#rag #langchain #openai #chromadb #PDF #pydantic #python #ai 
+#rag #langchain #openai #chromadb #PDF #pydantic #python #ai #pydantic-settings
   
   
 ## Aprenda como construir um sistema de recuperação de informações eficiente utilizando PDFs, LangChain e OpenAI.  
@@ -19,7 +19,8 @@ Antes de começarmos, você deve ter os seguintes pré-requisitos:
 Você pode instalar as bibliotecas necessárias com o seguinte comando:  
   
 ```bash  
-pip install langchain-openai langchain-community langchain-chroma loguru pypdf```  
+pip install langchain-openai langchain-community langchain-chroma loguru pypdf
+```  
   
 # Configuração do Ambiente  
   

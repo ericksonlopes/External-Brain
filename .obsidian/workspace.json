@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
+                "file": "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI"
+              "title": "Web Scraper com LangChain e Playwright"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
+                "file": "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI"
+              "title": "Links inversos para Web Scraper com LangChain e Playwright"
             }
           },
           {
@@ -177,14 +177,15 @@
   },
   "active": "d5f16ccb8076c120",
   "lastOpenFiles": [
-    "Programação/LangChain/Conetando IA com banco de dados.md",
+    "Programação/LangChain/LangChain Canvas.canvas",
+    "Programação/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
     "Programação/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
+    "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/LangChain/Chains/Simple Chains.md",
     "Programação/LangChain/Chains/Sequential Chain.md",
     "Programação/LangChain/Chains/MultiRetrievalQAChain.md",
     "Programação/LangChain/Tutorial Implementando MCP com FastMCP e LangChain.md",
     "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
-    "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
     "Programação/Docker/RabbitMQ + docker.md",
     "Programação/Docker/minio.md",
@@ -203,8 +204,6 @@
     "Programação/Projects/PyInvestAnalyser.md",
     "Programação/Projects/Compile-Repo.md",
     "Programação/Docker/Docker + MySQL.md",
-    "Programação/SQLAlchemy/Query com sqlalchemy sem definir tabelas.md",
-    "Programação/Docker/logger + docker + volumes.md",
     "Programação/Arquitetura/Untitled Diagram.svg",
     "Untitled Diagram.svg",
     "Programação/Arquitetura",
