@@ -1,5 +1,6 @@
 
-#rag #langchain #openai #chromadb #PDF #pydantic #
+#rag #langchain #openai #chromadb #PDF #pydantic #python #ai 
+  
   
 ## Aprenda como construir um sistema de recuperação de informações eficiente utilizando PDFs, LangChain e OpenAI.  
   
@@ -18,8 +19,7 @@ Antes de começarmos, você deve ter os seguintes pré-requisitos:
 Você pode instalar as bibliotecas necessárias com o seguinte comando:  
   
 ```bash  
-pip install langchain pydantic
-```  
+pip install langchain-openai langchain-community langchain-chroma loguru pypdf```  
   
 # Configuração do Ambiente  
   
@@ -27,9 +27,7 @@ Primeiro, vamos configurar um arquivo `.env` para armazenar nossas variáveis de
   
 ```  
 OPENAI_API_KEY=your_openai_api_key  
-USER_AGENT=your_user_agent  
-RABBITMQ_DEFAULT_USER=your_rabbitmq_user  
-RABBITMQ_DEFAULT_PASS=your_rabbitmq_pass  
+USER_AGENT=your_user_agent
 ```  
   
 Após configurar o arquivo `.env`, podemos prosseguir com a implementação.  
@@ -49,8 +47,6 @@ from pydantic_settings import BaseSettings
 class Settings(BaseSettings):  
     OPENAI_API_KEY: str  
     USER_AGENT: str  
-    RABBITMQ_DEFAULT_USER: str  
-    RABBITMQ_DEFAULT_PASS: str  
   
     class Config:  
         env_file = ".env"  
@@ -67,7 +63,7 @@ Usaremos a classe `PyPDFLoader` para carregar nosso PDF e a classe `CharacterTex
 from langchain.text_splitter import CharacterTextSplitter  
 from langchain_community.document_loaders import PyPDFLoader  
   
-path = r"C:\Users\ofcer\PycharmProjects\UniversityHubRAG\pdfs\Tutorial de Introducao ao Python - 32p.pdf"  
+path = r"path_file"  
 loader = PyPDFLoader(path)  
 documents = loader.load()  
   
@@ -174,58 +170,84 @@ logger.add(lambda msg: print(msg), level="DEBUG")
   
 ### Exemplo 2  
 ```python  
+import os  
+import pprint  
+import warnings  
+from pathlib import Path  
+  
 from langchain.text_splitter import CharacterTextSplitter  
-from langchain_community.document_loaders import PyPDFLoader  
-  
-path = r"C:\Users\ofcer\PycharmProjects\UniversityHubRAG\pdfs\Tutorial de Introducao ao Python - 32p.pdf"  
-loader = PyPDFLoader(path)  
-documents = loader.load()  
-  
-text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)  
-texts = text_splitter.split_documents(documents)  
-```  
-  
-### Exemplo 3  
-```python  
 from langchain_chroma import Chroma  
+from langchain_community.document_loaders import PyPDFLoader  
+from langchain_core.output_parsers import StrOutputParser  
+from langchain_core.prompts import PromptTemplate  
+from langchain_core.runnables import RunnablePassthrough  
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI  
   
+from src.config.settings import settings  
+  
+warnings.filterwarnings("ignore", category=UserWarning, module="langsmith.client")  
+  
+os.environ['OPENAI_API_KEY'] = settings.OPENAI_API_KEY  
+  
+# Define persist directory in project root  
 persist_directory = "chroma_db"  
 Path(persist_directory).mkdir(exist_ok=True)  
   
+# Initialize embedding model  
 embedding = OpenAIEmbeddings()  
   
-vectorstore = Chroma.from_documents(  
-    documents=texts,  
-    embedding=embedding,  
-    persist_directory=persist_directory  
-)  
-```  
+# Check if the vector store already exists  
+if not os.path.exists(persist_directory) or not os.listdir(persist_directory):  
+    path = r"C:\Users\ofcer\PycharmProjects\UniversityHubRAG\pdfs\Tutorial de Introducao ao Python - 32p.pdf"  
   
-### Exemplo 4  
-```python  
+    loader = PyPDFLoader(path)  
+    documents = loader.load()  
+  
+    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)  
+    texts = text_splitter.split_documents(documents)  
+  
+    print(texts[-1])  
+  
+    vectorstore = Chroma.from_documents(  
+        documents=texts,  
+        embedding=embedding,  
+        persist_directory=persist_directory  
+    )  
+else:  
+    vectorstore = Chroma(  
+        persist_directory=persist_directory,  
+        embedding_function=embedding  
+    )  
+  
 retriever = vectorstore.as_retriever(  
     search_type="mmr",  
     search_kwargs={"k": 3, "fetch_k": 10, "lambda_mult": 0.5},  
-    filter={"total_pages": 32}  
+    filter={'total_pages': 32}  
 )  
-```  
   
-### Exemplo 5  
-```python  
-from langchain_core.prompts import PromptTemplate  
-from langchain_openai import ChatOpenAI  
-from langchain_core.output_parsers import StrOutputParser  
-from langchain_core.runnables import RunnablePassthrough  
+# docs = retriever.invoke("O que faz um while?" )  
+# pprint.pprint(docs)  
   
 prompt = PromptTemplate.from_template(  
-    "Use os seguintes trechos de contexto para responder à pergunta no final.\n"    "Se você não sabe a resposta, apenas diga que não sabe, não tente inventar uma resposta.\n"    "Contexto: {context} \n\n Pergunta: {question}")  
-  
+    "Use os seguintes trechos de contexto para responder à pergunta no final."  
+    "Se você não sabe a resposta, apenas diga que não sabe, não tente inventar uma resposta."    "Contexto: {context} \n\n Pergunta: {question}")  
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)  
   
+  
+def format_docs(docs):  
+    return "\n\n".join(doc.page_content for doc in docs)  
+  
+  
 rag_chain = (  
-    {"context": retriever | format_docs, "question": RunnablePassthrough()}  
-    | prompt    | llm    | StrOutputParser()  
+        {"context": retriever | format_docs, "question": RunnablePassthrough()}  
+        | prompt  
+        | llm  
+        | StrOutputParser()  
 )  
+  
+# Use the RAG chain  
+result = rag_chain.invoke("Escreva três perguntas sobre While e IF e site um exmplo de cada")  
+print(result)
 ```  
   
 ## Referências  
@@ -237,4 +259,3 @@ rag_chain = (
 *Este artigo é baseado em experiências práticas e busca ajudar desenvolvedores a criarem soluções eficazes para recuperação de informações.*  
   
 ---  
-#Python #LangChain #OpenAI #RAG #Recuperação de Informações #PDF
