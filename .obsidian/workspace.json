@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/LangChain/Conetando IA com banco de dados.md",
+                "file": "Programação/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Conetando IA com banco de dados"
+              "title": "Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/LangChain/Conetando IA com banco de dados.md",
+                "file": "Programação/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Conetando IA com banco de dados"
+              "title": "Links inversos para Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI"
             }
           },
           {
@@ -177,6 +177,8 @@
   },
   "active": "d5f16ccb8076c120",
   "lastOpenFiles": [
+    "Programação/LangChain/Conetando IA com banco de dados.md",
+    "Programação/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
     "Programação/LangChain/Chains/Simple Chains.md",
     "Programação/LangChain/Chains/Sequential Chain.md",
     "Programação/LangChain/Chains/MultiRetrievalQAChain.md",
@@ -194,7 +196,6 @@
     "Programação/Docker/elasticsearch + kibana.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/LangChain/Integração com LangChain e Playwright.md",
-    "Programação/LangChain/Conetando IA com banco de dados.md",
     "Programação/Pydantic/pydantic_settings.md",
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Arquitetura/rag.svg",
