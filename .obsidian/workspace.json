@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
+                "file": "Programação/LangChain/Conetando IA com banco de dados.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader)"
+              "title": "Conetando IA com banco de dados"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
+                "file": "Programação/LangChain/Conetando IA com banco de dados.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader)"
+              "title": "Links inversos para Conetando IA com banco de dados"
             }
           },
           {
@@ -177,6 +177,13 @@
   },
   "active": "d5f16ccb8076c120",
   "lastOpenFiles": [
+    "Programação/LangChain/Chains/Simple Chains.md",
+    "Programação/LangChain/Chains/Sequential Chain.md",
+    "Programação/LangChain/Chains/MultiRetrievalQAChain.md",
+    "Programação/LangChain/Tutorial Implementando MCP com FastMCP e LangChain.md",
+    "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
+    "Programação/LangChain/LangChain Canvas.canvas",
+    "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
     "Programação/Docker/RabbitMQ + docker.md",
     "Programação/Docker/minio.md",
     "Programação/Docker/Redis + docker.md",
@@ -186,15 +193,8 @@
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Docker/elasticsearch + kibana.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
     "Programação/LangChain/Integração com LangChain e Playwright.md",
     "Programação/LangChain/Conetando IA com banco de dados.md",
-    "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
-    "Programação/LangChain/Chains/Simple Chains.md",
-    "Programação/LangChain/Chains/Sequential Chain.md",
-    "Programação/LangChain/Chains/MultiRetrievalQAChain.md",
-    "Programação/LangChain/Tutorial Implementando MCP com FastMCP e LangChain.md",
-    "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/Pydantic/pydantic_settings.md",
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Arquitetura/rag.svg",
@@ -208,7 +208,6 @@
     "Untitled Diagram.svg",
     "Programação/Arquitetura",
     "Sem título.base",
-    "Excalidraw/Drawing 2025-08-14 16.50.52.excalidraw.md",
     "Sem título.canvas",
     "Programação/LangChain/Chains",
     "Programação/MCP/Canvas-MCP.canvas",
