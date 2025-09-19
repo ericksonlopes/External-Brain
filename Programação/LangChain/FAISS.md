@@ -1,3 +1,5 @@
+#faiss #embedding #rag 
+
 ```pipfile
 [[source]]
 url = "https://pypi.org/simple"
