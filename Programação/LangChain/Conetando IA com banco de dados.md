@@ -1,4 +1,4 @@
-#python #IA #langchain #sql #openai #langchain_community #langchain_openai #agent
+#python #ai   #langchain #sql #openai #langchain_community #langchain_openai #agent #yfinance #pandas 
 
 ```python
 import os

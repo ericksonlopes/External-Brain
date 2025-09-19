@@ -1,7 +1,12 @@
 [
-  "table-editor-obsidian",
   "obsidian-git",
-  "obsidian-languagetool-plugin",
   "obsidian-wakatime",
-  "ava"
+  "obsidian-excalidraw-plugin",
+  "dataview",
+  "table-editor-obsidian",
+  "obsidian-languagetool-plugin",
+  "canvas-mindmap",
+  "obsidian-mindmap-nextgen",
+  "obsidian-markmind",
+  "drawio-obsidian"
 ]
