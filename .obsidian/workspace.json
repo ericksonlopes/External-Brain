@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/VPS/Iniciando Servidor.md",
+                "file": "Programação/Docker/postgres.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Iniciando Servidor"
+              "title": "postgres"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/VPS/Iniciando Servidor.md",
+                "file": "Programação/Docker/postgres.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Iniciando Servidor"
+              "title": "Links inversos para postgres"
             }
           },
           {
@@ -178,6 +178,7 @@
   "active": "a5e71cb8c829d91e",
   "lastOpenFiles": [
     "Programação/VPS/Iniciando Servidor.md",
+    "Programação/Docker/postgres.md",
     "Programação/VPS",
     "Programação/Sem título.md",
     "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
@@ -205,7 +206,6 @@
     "Programação/Arquitetura/rag.svg",
     "Programação/CosmosDB/Criar um artigo.md",
     "Programação/Projects/PyInvestAnalyser.md",
-    "Programação/Projects/Compile-Repo.md",
     "Programação/Arquitetura/Untitled Diagram.svg",
     "Untitled Diagram.svg",
     "Programação/Arquitetura",
