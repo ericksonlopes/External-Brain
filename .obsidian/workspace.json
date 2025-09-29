@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/Pydantic/BaseSettings + env.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Configurando o logging para enviar registros de log para o Elasticsearch com Python"
+              "title": "BaseSettings + env"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/Pydantic/BaseSettings + env.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Configurando o logging para enviar registros de log para o Elasticsearch com Python"
+              "title": "Links inversos para BaseSettings + env"
             }
           },
           {
@@ -177,6 +177,10 @@
   },
   "active": "8f2661f06e3d49ad",
   "lastOpenFiles": [
+    "Programação/Pydantic/pydantic_settings.md",
+    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
+    "Programação/Docker/Comandos Docker.md",
+    "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Arquitetura/rag.svg",
     "Programação/Docker/Docker + MySQL.md",
     "badge.md",
@@ -202,9 +206,6 @@
     "Programação/LangChain/Chains/MultiRetrievalQAChain.md",
     "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
     "Programação/Docker/RabbitMQ + docker.md",
-    "Programação/Docker/minio.md",
-    "Programação/Docker/Redis + docker.md",
-    "Programação/Docker/Comandos Docker.md",
     "Programação/Arquitetura/Untitled Diagram.svg",
     "Untitled Diagram.svg",
     "Programação/Arquitetura",
