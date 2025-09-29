@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 629.5
+    "width": 419.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -175,7 +175,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8f2661f06e3d49ad",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
     "Programação/Pydantic/pydantic_settings.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
