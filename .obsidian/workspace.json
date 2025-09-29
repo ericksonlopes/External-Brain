@@ -11,10 +11,15 @@
             "id": "8f2661f06e3d49ad",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Configurando o logging para enviar registros de log para o Elasticsearch com Python"
             }
           }
         ]
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para Configurando o logging para enviar registros de log para o Elasticsearch com Python"
             }
           },
           {
@@ -171,6 +177,14 @@
   },
   "active": "8f2661f06e3d49ad",
   "lastOpenFiles": [
+    "Programação/Arquitetura/rag.svg",
+    "Programação/Docker/Docker + MySQL.md",
+    "badge.md",
+    "Programação/Python/Decorator.md",
+    "Programação/Python/PEP8.md",
+    "Programação/Python/Pipenv.md",
+    "Programação/Python/Trabalhando com datas no python.md",
+    "Programação/Python/Context.md",
     "Programação/Docker/postgres.md",
     "Programação/Redis/Redis + Python.md",
     "Programação/VPS/Iniciando Servidor.md",
@@ -191,15 +205,6 @@
     "Programação/Docker/minio.md",
     "Programação/Docker/Redis + docker.md",
     "Programação/Docker/Comandos Docker.md",
-    "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/Docker/elasticsearch + kibana.md",
-    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/Pydantic/pydantic_settings.md",
-    "Programação/Pydantic/BaseSettings + env.md",
-    "Programação/Arquitetura/rag.svg",
-    "Programação/CosmosDB/Criar um artigo.md",
-    "Programação/Projects/PyInvestAnalyser.md",
     "Programação/Arquitetura/Untitled Diagram.svg",
     "Untitled Diagram.svg",
     "Programação/Arquitetura",
