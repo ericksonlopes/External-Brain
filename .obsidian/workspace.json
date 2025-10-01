@@ -4,32 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "83bb5619a45cd9af",
+        "id": "ed743d8bddbcd6a5",
         "type": "tabs",
         "children": [
           {
-            "id": "d5f16ccb8076c120",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
-            }
-          },
-          {
-            "id": "176abfdb7ba200b5",
+            "id": "1d3dc743cf69afa0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Pytube/Duração video youtube.md",
+                "file": "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Duração video youtube"
+              "title": "Configurando o Loguru para enviar registros de log para o Elasticsearch com Python"
             }
           }
         ]
@@ -64,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#embe",
+                "query": "tag:#loguru",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,11 +75,12 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 629.5
+    "width": 419.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -105,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +106,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para Configurando o Loguru para enviar registros de log para o Elasticsearch com Python"
             }
           },
           {
@@ -167,6 +159,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Criar nova base": false,
       "switcher:Abrir a troca rápida": false,
       "command-palette:Abrir paleta de comandos": false,
       "graph:Abrir visualização em gráfico": false,
@@ -183,37 +176,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5f16ccb8076c120",
+  "active": "1d3dc743cf69afa0",
   "lastOpenFiles": [
-    "Programação/Pytube/Duração video youtube.md",
-    "Captação audio.md",
-    "Programação/LangChain/FAISS.md~",
-    "Programação/LangChain/FAISS.md",
-    "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
-    "Programação/LangChain/LangChain Canvas.canvas",
-    "Programação/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
-    "Programação/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
-    "Programação/LangChain/Conetando IA com banco de dados.md",
-    "Programação/LangChain/Chains/Simple Chains.md",
-    "Programação/LangChain/Chains/Sequential Chain.md",
-    "Programação/LangChain/Chains/MultiRetrievalQAChain.md",
-    "Programação/LangChain/Tutorial Implementando MCP com FastMCP e LangChain.md",
-    "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
-    "Programação/Docker/RabbitMQ + docker.md",
-    "Programação/Docker/minio.md",
-    "Programação/Docker/Redis + docker.md",
-    "Programação/Redis/Redis + Python.md",
-    "Programação/Docker/Comandos Docker.md",
-    "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/Docker/elasticsearch + kibana.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/LangChain/Integração com LangChain e Playwright.md",
-    "Programação/Pydantic/pydantic_settings.md",
+    "Programação/Docker/filebrowser.md",
+    "Programação/Docker/minio.md",
+    "Programação/Docker/postgres.md",
+    "Programação/Docker/RabbitMQ + docker.md",
+    "Programação/Docker/Docker + MySQL.md",
+    "Programação/Docker/elasticsearch + kibana.md",
+    "Programação/Docker/Redis + docker.md",
+    "Programação/Docker/Comandos Docker.md",
+    "Programação/Docker/logger + docker + volumes.md",
+    "Programação/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Pydantic/BaseSettings + env.md",
+    "Programação/Pydantic/pydantic_settings.md",
+    "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Arquitetura/rag.svg",
-    "Programação/CosmosDB/Criar um artigo.md",
-    "Programação/Projects/PyInvestAnalyser.md",
+    "badge.md",
+    "Programação/Python/Decorator.md",
+    "Programação/Python/PEP8.md",
+    "Programação/Python/Pipenv.md",
+    "Programação/Python/Trabalhando com datas no python.md",
+    "Programação/Python/Context.md",
+    "Programação/Redis/Redis + Python.md",
+    "Programação/VPS/Iniciando Servidor.md",
+    "Programação/VPS",
+    "Programação/Sem título.md",
+    "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
+    "Programação/LangChain/Tutorial Implementando MCP com FastMCP e LangChain.md",
+    "Programação/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
+    "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
     "Untitled Diagram.svg",
     "Programação/Arquitetura",
