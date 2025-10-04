@@ -13,16 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/Evolution API/python + evolutionapi + lib.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Configurando o Loguru para enviar registros de log para o Elasticsearch com Python"
+              "title": "python + evolutionapi + lib"
+            }
+          },
+          {
+            "id": "30c383802d1842b7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.14"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notas de Lançamento 1.9.14"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#loguru",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +88,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -96,7 +108,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +117,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Configurando o Loguru para enviar registros de log para o Elasticsearch com Python"
+              "title": "Backlinks"
             }
           },
           {
@@ -176,8 +187,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1d3dc743cf69afa0",
+  "active": "30c383802d1842b7",
   "lastOpenFiles": [
+    "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Docker/filebrowser.md",
     "Programação/Docker/minio.md",
@@ -205,7 +217,6 @@
     "Programação/Sem título.md",
     "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
     "Programação/LangChain/Tutorial Implementando MCP com FastMCP e LangChain.md",
-    "Programação/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
     "Untitled Diagram.svg",
