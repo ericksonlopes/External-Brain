@@ -26,15 +26,10 @@
             "id": "30c383802d1842b7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Configurando o logging para enviar registros de log para o Elasticsearch com Python"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ],
@@ -70,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "elastic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +86,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -111,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +116,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Configurando o logging para enviar registros de log para o Elasticsearch com Python"
+              "title": "Backlinks"
             }
           },
           {
@@ -191,20 +186,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "30c383802d1842b7",
+  "active": "6a0b55f782205883",
   "lastOpenFiles": [
+    "Programação/RabbitMQ/rabbitmq + python.md",
+    "Programação/RabbitMQ/rabbitmq + fastAPI.md",
     "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
+    "Programação/Docker/Redis + docker.md",
+    "Programação/Docker/RabbitMQ + docker.md",
+    "Programação/Docker/postgres.md",
+    "Programação/Docker/logger + docker + volumes.md",
     "Programação/Docker/elasticsearch + kibana.md",
+    "Programação/Docker/Docker + MySQL.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
+    "Programação/Docker/Comandos Docker.md",
     "Programação/Docker/filebrowser.md",
     "Programação/Docker/minio.md",
-    "Programação/Docker/postgres.md",
-    "Programação/Docker/RabbitMQ + docker.md",
-    "Programação/Docker/Docker + MySQL.md",
-    "Programação/Docker/Redis + docker.md",
-    "Programação/Docker/Comandos Docker.md",
-    "Programação/Docker/logger + docker + volumes.md",
     "Programação/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Pydantic/BaseSettings + env.md",
     "Programação/Pydantic/pydantic_settings.md",
@@ -219,8 +216,6 @@
     "Programação/VPS/Iniciando Servidor.md",
     "Programação/VPS",
     "Programação/Sem título.md",
-    "Programação/LangChain/Web Scraper com LangChain e Playwright.md",
-    "Programação/LangChain/Tutorial Implementando MCP com FastMCP e LangChain.md",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
     "Untitled Diagram.svg",
