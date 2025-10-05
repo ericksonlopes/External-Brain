@@ -26,10 +26,15 @@
             "id": "30c383802d1842b7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Configurando o logging para enviar registros de log para o Elasticsearch com Python"
             }
           }
         ],
@@ -107,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +122,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para Configurando o logging para enviar registros de log para o Elasticsearch com Python"
             }
           },
           {
@@ -186,19 +192,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a0b55f782205883",
+  "active": "30c383802d1842b7",
   "lastOpenFiles": [
+    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
+    "Programação/Docker/elasticsearch + kibana.md",
+    "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/RabbitMQ/rabbitmq + python.md",
     "Programação/RabbitMQ/rabbitmq + fastAPI.md",
-    "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Docker/Redis + docker.md",
     "Programação/Docker/RabbitMQ + docker.md",
     "Programação/Docker/postgres.md",
     "Programação/Docker/logger + docker + volumes.md",
-    "Programação/Docker/elasticsearch + kibana.md",
     "Programação/Docker/Docker + MySQL.md",
-    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Docker/Comandos Docker.md",
     "Programação/Docker/filebrowser.md",
     "Programação/Docker/minio.md",
