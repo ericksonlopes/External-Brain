@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/ElasticSearch/Elasticsearch + kibana docker-compose.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Configurando o logging para enviar registros de log para o Elasticsearch com Python"
+              "title": "Elasticsearch + kibana docker-compose"
             }
           }
         ]
@@ -75,8 +75,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/ElasticSearch/Elasticsearch + kibana docker-compose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Configurando o logging para enviar registros de log para o Elasticsearch com Python"
+              "title": "Links inversos para Elasticsearch + kibana docker-compose"
             }
           },
           {
@@ -178,8 +177,10 @@
   },
   "active": "c3933de0056b9b3f",
   "lastOpenFiles": [
-    "Programação/Evolution API/python + evolutionapi + lib.md",
+    "Sem título 1.base",
+    "Programação/ElasticSearch/Elasticsearch + kibana docker-compose.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
+    "Programação/Evolution API/python + evolutionapi + lib.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Docker/elasticsearch + kibana.md",
     "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
@@ -203,8 +204,6 @@
     "Programação/Python/Pipenv.md",
     "Programação/Python/Trabalhando com datas no python.md",
     "Programação/Python/Context.md",
-    "Programação/Redis/Redis + Python.md",
-    "Programação/VPS/Iniciando Servidor.md",
     "Programação/VPS",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
@@ -221,7 +220,6 @@
     "Excalidraw",
     "Programação/Crewai/Conectando Crewai a um MCP.md~",
     "Programação/MCP (Model Context Protocol)",
-    "Programação/WAHA",
     "RoadMap Python.canvas",
     "classes.svg",
     "teste.svg",
