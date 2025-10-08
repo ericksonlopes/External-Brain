@@ -3,7 +3,7 @@ from elasticsearch import Elasticsearch
 from loguru import logger
 
 index_name = 'api_logs'
-es = Elasticsearch([{'host': 'localhost', 'port': 9200, 'scheme': 'http'}])
+es = Elasticsearch([{'host': 'localhost', 'port': 9200, 'scheme': 'http'}], basic_auth=('elastic', 'xxxxxxxx'))
 
 if not es.indices.exists(index=index_name):
     es.indices.create(index=index_name)
