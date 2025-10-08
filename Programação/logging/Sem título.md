@@ -23,7 +23,7 @@ class Logger:
   
         # Configurar o formato do log para incluir informações sobre a linha do código  
         formatter = logging.Formatter(  
-            '%(asctime)s - %(levelname)s - %(filename)s:%(lineno)d - %(funcName)s - %(message)s')  
+            '%(asctime)s | %(levelname)s | %(filename)s:%(lineno)d | %(funcName)s | %(message)s')  
         file_handler.setFormatter(formatter)  
   
         # Adicionar o handler ao logger  
