@@ -11,15 +11,12 @@
             "id": "c3933de0056b9b3f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diagram",
               "state": {
-                "file": "Programação/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Programação/Arquitetura/rag.svg"
               },
               "icon": "lucide-file",
-              "title": "Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI"
+              "title": "rag"
             }
           }
         ]
@@ -95,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
+                "file": "Programação/Arquitetura/rag.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +102,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI"
+              "title": "Links inversos para rag"
             }
           },
           {
@@ -177,6 +174,7 @@
   },
   "active": "c3933de0056b9b3f",
   "lastOpenFiles": [
+    "Programação/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
     "Programação/LangChain/Tutorial Implementando MCP com FastMCP e LangChain.md",
     "Programação/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
     "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
@@ -206,7 +204,6 @@
     "Programação/Docker/minio.md",
     "Programação/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Pydantic/BaseSettings + env.md",
-    "Programação/Pydantic/pydantic_settings.md",
     "Programação/VPS",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
