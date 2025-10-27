@@ -11,12 +11,15 @@
             "id": "c3933de0056b9b3f",
             "type": "leaf",
             "state": {
-              "type": "diagram",
+              "type": "markdown",
               "state": {
-                "file": "Programação/Arquitetura/rag.svg"
+                "file": "Programação/Docker/Redis + docker.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "rag"
+              "title": "Redis + docker"
             }
           }
         ]
@@ -92,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Arquitetura/rag.svg",
+                "file": "Programação/Docker/Redis + docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para rag"
+              "title": "Links inversos para Redis + docker"
             }
           },
           {
@@ -174,6 +177,15 @@
   },
   "active": "c3933de0056b9b3f",
   "lastOpenFiles": [
+    "Programação/Docker/postgres.md",
+    "Programação/Docker/RabbitMQ + docker.md",
+    "Programação/Docker/minio.md",
+    "Programação/Docker/logger + docker + volumes.md",
+    "Programação/RabbitMQ/rabbitmq + python.md",
+    "Programação/RabbitMQ/rabbitmq + fastAPI.md",
+    "Programação/Evolution API/python + evolutionapi + lib.md",
+    "Programação/Redis/Redis + Python.md",
+    "Programação/Arquitetura/rag.svg",
     "Programação/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
     "Programação/LangChain/Tutorial Implementando MCP com FastMCP e LangChain.md",
     "Programação/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
@@ -185,25 +197,16 @@
     "Programação/Sem título",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/Arquitetura/rag.svg",
     "Programação/WAHA/Como rodar o WAHA.md",
     "Programação/logging",
     "Sem título 1.base",
-    "Programação/Evolution API/python + evolutionapi + lib.md",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Docker/elasticsearch + kibana.md",
-    "Programação/RabbitMQ/rabbitmq + python.md",
-    "Programação/RabbitMQ/rabbitmq + fastAPI.md",
     "Programação/Docker/Redis + docker.md",
-    "Programação/Docker/RabbitMQ + docker.md",
-    "Programação/Docker/postgres.md",
-    "Programação/Docker/logger + docker + volumes.md",
     "Programação/Docker/Docker + MySQL.md",
     "Programação/Docker/Comandos Docker.md",
     "Programação/Docker/filebrowser.md",
-    "Programação/Docker/minio.md",
     "Programação/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
-    "Programação/Pydantic/BaseSettings + env.md",
     "Programação/VPS",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
