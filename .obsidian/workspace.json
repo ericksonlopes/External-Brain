@@ -11,10 +11,15 @@
             "id": "c3933de0056b9b3f",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Programação/MQTT/Docker compose MQTT.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Docker compose MQTT"
             }
           }
         ]
@@ -90,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/MQTT/Docker compose MQTT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para Docker compose MQTT"
             }
           },
           {
@@ -171,6 +177,10 @@
   },
   "active": "c3933de0056b9b3f",
   "lastOpenFiles": [
+    "Programação/Sem título.md",
+    "Programação/MQTT/Docker compose MQTT.md",
+    "Programação/MQTT",
+    "Programação/MQTT.md",
     "Programação/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
     "Programação/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
     "Programação/LangChain/Integração com LangChain e Playwright.md",
@@ -198,9 +208,6 @@
     "Sem título 1.base",
     "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Docker/elasticsearch + kibana.md",
-    "Programação/Docker/Docker + MySQL.md",
-    "Programação/Docker/Comandos Docker.md",
-    "Programação/Docker/filebrowser.md",
     "Programação/VPS",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
@@ -214,7 +221,6 @@
     "Sem título 1.canvas",
     "Sem título 2.canvas",
     "copilot-custom-prompts",
-    "Excalidraw",
     "RoadMap Python.canvas",
     "classes.svg",
     "teste.svg",
