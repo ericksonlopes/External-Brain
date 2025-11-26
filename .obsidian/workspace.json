@@ -21,12 +21,15 @@
             "id": "1ec0543a36034a66",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "Programação/MQTT/fastapi + mqtt.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.10.6"
+              "icon": "lucide-file",
+              "title": "fastapi + mqtt"
             }
           }
         ],
@@ -103,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/MQTT/fastapi + mqtt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +116,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para fastapi + mqtt"
             }
           },
           {
@@ -184,8 +188,10 @@
   },
   "active": "1ec0543a36034a66",
   "lastOpenFiles": [
-    "Programação/MQTT/class python with.md",
     "Programação/MQTT/Docker compose MQTT.md",
+    "Programação/MQTT/fastapi + mqtt.md",
+    "Programação/MQTT/class python with.md",
+    "Sem título 2.base",
     "Programação/Sem título.md",
     "Programação/MQTT",
     "Programação/MQTT.md",
@@ -214,7 +220,6 @@
     "Programação/WAHA/Como rodar o WAHA.md",
     "Programação/logging",
     "Sem título 1.base",
-    "Programação/Docker/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/VPS",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
@@ -227,7 +232,6 @@
     "Programação/MCP/tutorial-mcp-servidor.md~",
     "Sem título 1.canvas",
     "Sem título 2.canvas",
-    "copilot-custom-prompts",
     "RoadMap Python.canvas",
     "classes.svg",
     "teste.svg",
