@@ -11,18 +11,26 @@
             "id": "c3933de0056b9b3f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
+            }
+          },
+          {
+            "id": "1ec0543a36034a66",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
               "state": {
-                "file": "Programação/MQTT/class python with.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "currentVersion": "1.10.6"
               },
-              "icon": "lucide-file",
-              "title": "class python with"
+              "icon": "lucide-book-up",
+              "title": "Notas de Lançamento 1.10.6"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/MQTT/class python with.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +112,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para class python with"
+              "title": "Backlinks"
             }
           },
           {
@@ -175,10 +182,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c3933de0056b9b3f",
+  "active": "1ec0543a36034a66",
   "lastOpenFiles": [
-    "Programação/MQTT/Docker compose MQTT.md",
     "Programação/MQTT/class python with.md",
+    "Programação/MQTT/Docker compose MQTT.md",
     "Programação/Sem título.md",
     "Programação/MQTT",
     "Programação/MQTT.md",
