@@ -21,21 +21,8 @@
               "icon": "lucide-file",
               "title": "class python with"
             }
-          },
-          {
-            "id": "ff15ce558931e75e",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.10.3"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,7 +175,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff15ce558931e75e",
+  "active": "c3933de0056b9b3f",
   "lastOpenFiles": [
     "Programação/MQTT/Docker compose MQTT.md",
     "Programação/MQTT/class python with.md",
