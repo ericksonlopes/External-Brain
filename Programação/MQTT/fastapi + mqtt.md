@@ -1,4 +1,5 @@
 #mqtt #fastAPI #python
+
 ```python
 # mqtt_subscribes.py
 _subscribe_callbacks = []

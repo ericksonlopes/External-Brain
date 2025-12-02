@@ -32,8 +32,7 @@
               "title": "fastapi + mqtt"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/MQTT/fastapi + mqtt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +114,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para fastapi + mqtt"
+              "title": "Backlinks"
             }
           },
           {
@@ -186,10 +184,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ec0543a36034a66",
+  "active": "c3933de0056b9b3f",
   "lastOpenFiles": [
-    "Programação/MQTT/Docker compose MQTT.md",
     "Programação/MQTT/fastapi + mqtt.md",
+    "Programação/MQTT/Docker compose MQTT.md",
     "Programação/MQTT/class python with.md",
     "Sem título 2.base",
     "Programação/Sem título.md",
