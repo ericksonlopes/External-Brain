@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/logging/Sem título.md",
+                "file": "Programação/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando ModelosSem título.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "Gerenciador de LLMs para LangChain - Criando e Configurando ModelosSem título"
             }
           },
           {
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/logging/Sem título.md",
+                "file": "Programação/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando ModelosSem título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Sem título"
+              "title": "Links inversos para Gerenciador de LLMs para LangChain - Criando e Configurando ModelosSem título"
             }
           },
           {
@@ -192,6 +192,8 @@
   },
   "active": "c3933de0056b9b3f",
   "lastOpenFiles": [
+    "Programação/logging/Sem título.md",
+    "Programação/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando ModelosSem título.md",
     "Programação/MQTT/fastapi + mqtt.md",
     "Programação/MQTT/Docker compose MQTT.md",
     "Programação/MQTT/class python with.md",
@@ -219,9 +221,7 @@
     "Programação/LangChain/Tutorial Implementando MCP com FastMCP e LangChain.md",
     "Programação/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
     "Programação/LangChain/Conetando IA com banco de dados.md",
-    "Programação/logging/Sem título.md",
     "Programação/Sem título",
-    "Programação/WAHA/Como rodar o WAHA.md",
     "Programação/logging",
     "Sem título 1.base",
     "Programação/VPS",
