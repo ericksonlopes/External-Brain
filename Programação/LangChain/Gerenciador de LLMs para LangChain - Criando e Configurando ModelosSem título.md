@@ -59,6 +59,8 @@ class LLMConfigOpenai(LLMConfig):
 Agora, podemos definir uma configuração padrão para nossos modelos:  
   
 ```python  
+from typing import Dict
+
 models_config: Dict[str, LLMConfig] = {    
     "gpt-4o-mini": LLMConfigOpenai(  
         model="gpt-4o-mini",  
@@ -74,6 +76,7 @@ Para facilitar a criação dos modelos, vamos criar uma classe `LLMFactory` que 
 ```python  
 from langchain_core.runnables import Runnable
 from langchain_openai import ChatOpenAI
+from typing import Any, Dict
 
 class LLMFactory(LLMConfig):
     def __init__(self, /, **data: Any):
