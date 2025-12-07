@@ -37,9 +37,7 @@ Agora que temos uma ideia básica dos conceitos, vamos definir a configuração 
   
 Essa classe servirá como base para a configuração dos modelos:  
   
-```python  
-from pydantic import BaseModel, Field, SecretStr
-
+```python
 class LLMConfig(BaseModel):  
     model: str = Field(description="Nome do modelo a ser utilizado.")  
     platform: LLMPlatform | None = Field(default=None, description="Plataforma onde o modelo está hospedado.")  
@@ -61,7 +59,8 @@ class LLMConfigOpenai(LLMConfig):
 Agora, podemos definir uma configuração padrão para nossos modelos:  
   
 ```python  
-models_config: Dict[str, LLMConfig] = {    "gpt-4o-mini": LLMConfigOpenai(  
+models_config: Dict[str, LLMConfig] = {    
+    "gpt-4o-mini": LLMConfigOpenai(  
         model="gpt-4o-mini",  
         platform=LLMPlatform.OPENAI,  
         api_key=SecretStr("your-openai-api-key-here"),  
