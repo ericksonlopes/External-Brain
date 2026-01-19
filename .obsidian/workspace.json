@@ -23,8 +23,21 @@
               "icon": "lucide-layout-dashboard",
               "title": "Canvas-MCP"
             }
+          },
+          {
+            "id": "a16c815b31e9c179",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notas de Lançamento 1.11.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/MCP/Canvas-MCP.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +119,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Canvas-MCP"
+              "title": "Backlinks"
             }
           },
           {
@@ -177,7 +189,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee8c2a02fb4c767b",
+  "active": "a16c815b31e9c179",
   "lastOpenFiles": [
     "Programação/MCP/Cliente MCP Assíncrono com Python.md",
     "Programação/MCP/Criando um Servidor MCP Básico com FastMCP.md",
