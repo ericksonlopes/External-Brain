@@ -28,12 +28,15 @@
             "id": "a16c815b31e9c179",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.4"
+                "file": "Programação/ElasticSearch/get client elastic apm.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.11.4"
+              "icon": "lucide-file",
+              "title": "get client elastic apm"
             }
           }
         ],
@@ -110,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Programação/ElasticSearch/get client elastic apm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +123,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos para get client elastic apm"
             }
           },
           {
@@ -191,6 +195,7 @@
   },
   "active": "a16c815b31e9c179",
   "lastOpenFiles": [
+    "Programação/ElasticSearch/get client elastic apm.md",
     "Programação/MCP/Cliente MCP Assíncrono com Python.md",
     "Programação/MCP/Criando um Servidor MCP Básico com FastMCP.md",
     "Programação/MCP/Canvas-MCP.canvas",
@@ -221,7 +226,6 @@
     "Programação/RabbitMQ/rabbitmq + python.md",
     "Programação/RabbitMQ/rabbitmq + fastAPI.md",
     "Programação/Evolution API/python + evolutionapi + lib.md",
-    "Programação/Redis/Redis + Python.md",
     "Programação/Arquitetura/rag.svg",
     "Programação/Sem título",
     "Programação/logging",
