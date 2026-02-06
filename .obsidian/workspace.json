@@ -21,8 +21,21 @@
               "icon": "lucide-file",
               "title": "alembic"
             }
+          },
+          {
+            "id": "92891506a9d8d9d5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notas de Lançamento 1.11.7"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,7 +188,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bac1af81d900bd23",
+  "active": "92891506a9d8d9d5",
   "lastOpenFiles": [
     "Python Academy Linkedin Posts/Imagens/env.py",
     "Python Academy Linkedin Posts/Imagens",
