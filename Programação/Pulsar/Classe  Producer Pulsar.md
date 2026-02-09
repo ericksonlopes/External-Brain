@@ -4,13 +4,14 @@
 from typing import Optional, Any  
   
 import pulsar  
-import logging
-
+  
 from src.domain.services.pulsar_service_interface import IPulsarProducerService  
 from src.infrastructure.logger.logger import Logger  
+import logging
 
-  
-class PulsarProducerService:  
+logger = logging.getLogger(__name__)
+
+class PulsarProducerService(IPulsarProducerService, Logger):  
     def __init__(self, service_url: str, topic: str):  
         super().__init__()  
   
@@ -23,10 +24,10 @@ class PulsarProducerService:
         try:  
             self.client = pulsar.Client(self.service_url)  
             self.producer = self.client.create_producer(self.topic)  
-            logging.info(f"Producer connected to {self.topic}")  
+            logger.info(f"Producer connected to {self.topic}")  
             return self  
         except Exception as e:  
-            logging.error(e, context={"service_url": self.service_url, "topic": self.topic})  
+            logger.error(e, context={"service_url": self.service_url, "topic": self.topic})  
             raise  
   
     def __exit__(self, exc_type, exc_value, traceback):  
@@ -36,7 +37,7 @@ class PulsarProducerService:
             if self.client:  
                 self.client.close()  
         except Exception as e:  
-            logging.error(e)  
+            logger.error(e)  
   
     def send(self, data: Any, key: Optional[str] = None) -> bool:  
         if not self.producer:  
@@ -45,12 +46,12 @@ class PulsarProducerService:
             if isinstance(data, dict):  
                 data_bytes = str(data).encode()  
             elif isinstance(data, str):  
-                data_bytes = data.encode()            
-            else:  
+                data_bytes = data.encode()            else:  
                 data_bytes = data            msg = self.producer.send(data_bytes, key)  
-            logging.debug(f"Message sent: {msg}")  
+            logger.debug(f"Message sent: {msg}")  
             return True  
         except Exception as e:  
-            logging.error(f"Error sending: {e}")  
+            logger.error(f"Error sending: {e}")  
             return False
+
 ```
