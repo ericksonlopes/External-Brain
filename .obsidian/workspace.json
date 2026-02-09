@@ -4,38 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "bd790da247866447",
+        "id": "68f9b2b84bc1c83c",
         "type": "tabs",
         "children": [
           {
-            "id": "bac1af81d900bd23",
+            "id": "d3cf86b9235d735c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "alembic.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "alembic"
-            }
-          },
-          {
-            "id": "92891506a9d8d9d5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.7"
-              },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.11.7"
+              "title": "Nova aba"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -187,14 +169,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "92891506a9d8d9d5",
+  "active": "d3cf86b9235d735c",
   "lastOpenFiles": [
+    "Sem título 2.base",
+    "Sem título 3.base",
+    "Sem título 4.base",
+    "Sem título 1.base",
+    "Sem título 1.md",
+    "Sem título.md",
+    "Sem título.base",
+    "Drawing 2025-08-22 11.57.10.excalidraw.md",
+    "Drawing 2025-08-22 13.17.42.excalidraw.md",
+    "Captação audio.md",
+    "alembic.md",
     "Python Academy Linkedin Posts/Imagens/env.py",
     "Python Academy Linkedin Posts/Imagens",
     "Python Academy Linkedin Posts",
-    "alembic.md",
-    "Sem título 4.base",
-    "Sem título 3.base",
     "Programação/Python/logging com debug on e off.md",
     "Programação/WAHA/Como rodar o WAHA.md",
     "Programação/MCP/Canvas-MCP.canvas",
@@ -209,7 +199,6 @@
     "Programação/logging/Sem título.md",
     "Programação/MQTT/Docker compose MQTT.md",
     "Programação/MQTT/class python with.md",
-    "Sem título 2.base",
     "Programação/Sem título.md",
     "Programação/MQTT",
     "Programação/MQTT.md",
@@ -219,14 +208,7 @@
     "Programação/LangChain/FAISS.md",
     "Programação/ElasticSearch/Elasticsearch + kibana docker-compose.md",
     "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/Docker/Redis + docker.md",
-    "Programação/Docker/postgres.md",
-    "Programação/Docker/RabbitMQ + docker.md",
-    "Programação/Docker/minio.md",
     "Programação/Arquitetura/rag.svg",
-    "Programação/Sem título",
-    "Programação/logging",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
     "Untitled Diagram.svg",
