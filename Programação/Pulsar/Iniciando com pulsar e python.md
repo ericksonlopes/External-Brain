@@ -1,6 +1,7 @@
 #pulsar #python #pulsar-client
 
 ## Docker compose
+
 ```yml
 version: '3.8'
 services:
@@ -18,6 +19,7 @@ pip install pulsar-client
 ```
 
 ## Producer
+
 ```python
 import pulsar
 client = pulsar.Client('pulsar://localhost:6650')
@@ -25,8 +27,8 @@ producer = client.create_producer('my-topic')
 producer.send(b'Hello Pulsar!')
 client.close()
 ```
-
 ## Consumer
+
 ```python
 import pulsar
 client = pulsar.Client('pulsar://localhost:6650')
