@@ -70,8 +70,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -170,7 +169,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a0b55f782205883",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
     "Programação/weaviete/start.md",
     "Programação/Pulsar/Iniciando com pulsar e python.md",
