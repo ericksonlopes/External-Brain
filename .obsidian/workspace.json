@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alembic.md",
+                "file": "Programação/RabbitMQ/rabbitmq + python.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "alembic"
+              "title": "rabbitmq + python"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alembic.md",
+                "file": "Programação/RabbitMQ/rabbitmq + python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para alembic"
+              "title": "Links inversos para rabbitmq + python"
             }
           },
           {
@@ -177,6 +177,10 @@
   },
   "active": "d3cf86b9235d735c",
   "lastOpenFiles": [
+    "Programação/RabbitMQ/rabbitmq + fastAPI.md",
+    "Programação/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
+    "Programação/Agno/Agente simples com Agno.md",
+    "alembic.md",
     "Sem título 2.base",
     "Sem título 3.base",
     "Sem título 4.base",
@@ -187,7 +191,6 @@
     "Drawing 2025-08-22 11.57.10.excalidraw.md",
     "Drawing 2025-08-22 13.17.42.excalidraw.md",
     "Captação audio.md",
-    "alembic.md",
     "Python Academy Linkedin Posts/Imagens/env.py",
     "Python Academy Linkedin Posts/Imagens",
     "Python Academy Linkedin Posts",
@@ -206,14 +209,11 @@
     "Programação/MQTT/Docker compose MQTT.md",
     "Programação/MQTT/class python with.md",
     "Programação/Sem título.md",
-    "Programação/MQTT",
     "Programação/MQTT.md",
     "Programação/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
     "Programação/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
     "Programação/LangChain/Integração com LangChain e Playwright.md",
     "Programação/LangChain/FAISS.md",
-    "Programação/ElasticSearch/Elasticsearch + kibana docker-compose.md",
-    "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Arquitetura/rag.svg",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
