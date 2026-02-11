@@ -4,17 +4,12 @@
 from typing import Optional, Any  
   
 import pulsar  
-  
-from src.domain.services.pulsar_service_interface import IPulsarProducerService  
-from src.infrastructure.logger.logger import Logger  
 import logging
 
 logger = logging.getLogger(__name__)
 
-class PulsarProducerService(IPulsarProducerService, Logger):  
+class PulsarProducerService:  
     def __init__(self, service_url: str, topic: str):  
-        super().__init__()  
-  
         self.service_url = service_url  
         self.topic = topic  
         self.client: Optional[pulsar.Client] = None  
