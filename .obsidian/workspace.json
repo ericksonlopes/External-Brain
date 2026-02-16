@@ -11,15 +11,10 @@
             "id": "030941e7fb43e9cd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Pulsar/Classe Producer Pulsar.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Classe Producer Pulsar"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -95,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/Pulsar/Classe Producer Pulsar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +99,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Classe Producer Pulsar"
+              "title": "Backlinks"
             }
           },
           {
@@ -177,8 +171,8 @@
   },
   "active": "030941e7fb43e9cd",
   "lastOpenFiles": [
-    "Programação/Pulsar/Iniciando com pulsar e python.md",
     "Programação/Pulsar/Classe Producer Pulsar.md",
+    "Programação/Pulsar/Iniciando com pulsar e python.md",
     "Programação/Pulsar/Classe  Producer Pulsar.md",
     "Programação/weaviete/start.md",
     "Programação/pulsar.md",
