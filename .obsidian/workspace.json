@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "502f585cbd2e8146",
+        "id": "e47ab0ae7c6481f9",
         "type": "tabs",
         "children": [
           {
-            "id": "030941e7fb43e9cd",
+            "id": "b9e05516eb16909d",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#langchain",
+                "query": "tag:#decorator",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,12 +70,12 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 419.5,
-    "collapsed": true
+    "width": 419.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -170,8 +170,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "030941e7fb43e9cd",
+  "active": "6a0b55f782205883",
   "lastOpenFiles": [
+    "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
     "Programação/Pulsar/Classe Producer Pulsar.md",
     "Programação/Pulsar/Iniciando com pulsar e python.md",
     "Programação/Pulsar/Classe  Producer Pulsar.md",
@@ -208,7 +209,6 @@
     "Programação/logging/Sem título.md",
     "Programação/MQTT/Docker compose MQTT.md",
     "Programação/MQTT/class python with.md",
-    "Programação/MQTT.md",
     "Programação/Arquitetura/rag.svg",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
