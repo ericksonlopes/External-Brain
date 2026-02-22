@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7e2de8f1e8a0651e",
+        "id": "8f23a6e422c4effe",
         "type": "tabs",
         "children": [
           {
-            "id": "96504be1c5936b14",
+            "id": "a441e75ef6b649f3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -169,11 +169,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "96504be1c5936b14",
+  "active": "a441e75ef6b649f3",
   "lastOpenFiles": [
+    "Programação/Criando um projeto em python.md",
+    "Programação/Sem título.md",
     "Programação/weaviete/start.md",
     "Programação/firecrawl/iniciando com firecrawl.md",
-    "Programação/Sem título.md",
     "Programação/firecrawl",
     "Programação/Agno/Agente simples com Agno.md",
     "Programação/torch/creating embeddings.md",
@@ -207,7 +208,6 @@
     "Programação/Python/logging com debug on e off.md",
     "Programação/WAHA/Como rodar o WAHA.md",
     "Programação/MCP/Canvas-MCP.canvas",
-    "Programação/ElasticSearch/get client elastic apm.md",
     "Programação/Arquitetura/rag.svg",
     "Programação/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
