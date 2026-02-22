@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5e56d03d2417eebe",
+        "id": "b7a8e1c49ba0517a",
         "type": "tabs",
         "children": [
           {
-            "id": "51e65f327dc02c59",
+            "id": "4ef93a3fe960a77b",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -75,7 +75,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5
+    "width": 286.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -170,8 +170,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a0b55f782205883",
+  "floating": {
+    "id": "eacea6104fd3b379",
+    "type": "floating",
+    "children": [
+      {
+        "id": "1cf93d18d2c37337",
+        "type": "window",
+        "children": [
+          {
+            "id": "57974a1f87c415fd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "51e65f327dc02c59",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Visualização em gráfico"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 372,
+        "y": 20,
+        "width": 1175,
+        "height": 992,
+        "maximize": true,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "51e65f327dc02c59",
   "lastOpenFiles": [
+    "Sem título 6.base",
     "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
     "Programação/Criando um projeto em python.md",
     "Programação/Sem título.md",
@@ -207,7 +243,6 @@
     "Drawing 2025-08-22 13.17.42.excalidraw.md",
     "Captação audio.md",
     "Python Academy Linkedin Posts/Imagens/env.py",
-    "Programação/Python/logging com debug on e off.md",
     "Programação/MCP/Canvas-MCP.canvas",
     "Programação/Arquitetura/rag.svg",
     "Programação/LangChain/LangChain Canvas.canvas",
