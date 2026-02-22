@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "alembic.md",
+                "file": "Programação/LangChain/Sem título.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "alembic"
+              "title": "Sem título"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "llm_",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +75,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -96,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "alembic.md",
+                "file": "Programação/LangChain/Sem título.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para alembic"
+              "title": "Links inversos para Sem título"
             }
           },
           {
@@ -176,8 +175,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a0b55f782205883",
+  "active": "4ef93a3fe960a77b",
   "lastOpenFiles": [
+    "alembic.md",
+    "Programação/LangChain/Sem título.md",
     "Sem título 6.base",
     "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
     "Programação/Criando um projeto em python.md",
@@ -202,7 +203,6 @@
     "Programação/RabbitMQ/rabbitmq + python.md",
     "Programação/RabbitMQ/rabbitmq + fastAPI.md",
     "Programação/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
-    "alembic.md",
     "Sem título 2.base",
     "Sem título 3.base",
     "Sem título 4.base",
@@ -213,7 +213,6 @@
     "Drawing 2025-08-22 11.57.10.excalidraw.md",
     "Drawing 2025-08-22 13.17.42.excalidraw.md",
     "Captação audio.md",
-    "Python Academy Linkedin Posts/Imagens/env.py",
     "Programação/MCP/Canvas-MCP.canvas",
     "Programação/Arquitetura/rag.svg",
     "Programação/LangChain/LangChain Canvas.canvas",
