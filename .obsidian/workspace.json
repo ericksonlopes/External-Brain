@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/LangChain/Sem título.md",
+                "file": "Programação/LangChain/llm factory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "llm factory"
             }
           }
         ]
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/LangChain/Sem título.md",
+                "file": "Programação/LangChain/llm factory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Sem título"
+              "title": "Links inversos para llm factory"
             }
           },
           {
@@ -178,7 +178,7 @@
   "active": "4ef93a3fe960a77b",
   "lastOpenFiles": [
     "alembic.md",
-    "Programação/LangChain/Sem título.md",
+    "Programação/LangChain/llm factory.md",
     "Sem título 6.base",
     "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
     "Programação/Criando um projeto em python.md",
