@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/torch/creating embeddings.md",
+                "file": "Programação/Agno/Agente simples com Agno.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "creating embeddings"
+              "title": "Agente simples com Agno"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "agno",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/torch/creating embeddings.md",
+                "file": "Programação/Agno/Agente simples com Agno.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para creating embeddings"
+              "title": "Links inversos para Agente simples com Agno"
             }
           },
           {
@@ -176,10 +176,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a0b55f782205883",
+  "active": "b9e05516eb16909d",
   "lastOpenFiles": [
-    "Programação/VPS/Iniciando Servidor.md",
     "Programação/torch/creating embeddings.md",
+    "Programação/VPS/Iniciando Servidor.md",
     "Programação/torch",
     "Programação/Sem título.md",
     "Programação/MQTT/Docker compose MQTT.md",
