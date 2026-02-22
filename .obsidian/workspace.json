@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "alembic",
+                "query": "llm_",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,7 +176,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4ef93a3fe960a77b",
+  "active": "6a0b55f782205883",
   "lastOpenFiles": [
     "Sem título 6.base",
     "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
