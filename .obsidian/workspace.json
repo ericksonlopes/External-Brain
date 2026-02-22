@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e47ab0ae7c6481f9",
+        "id": "7e2de8f1e8a0651e",
         "type": "tabs",
         "children": [
           {
-            "id": "b9e05516eb16909d",
+            "id": "96504be1c5936b14",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/firecrawl/iniciando com.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "iniciando com"
+              "title": "Nova aba"
             }
           }
         ]
@@ -95,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/firecrawl/iniciando com.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +99,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para iniciando com"
+              "title": "Backlinks"
             }
           },
           {
@@ -154,7 +148,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 414.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,10 +169,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9e05516eb16909d",
+  "active": "96504be1c5936b14",
   "lastOpenFiles": [
+    "Programação/weaviete/start.md",
+    "Programação/firecrawl/iniciando com firecrawl.md",
     "Programação/Sem título.md",
-    "Programação/firecrawl/iniciando com.md",
     "Programação/firecrawl",
     "Programação/Agno/Agente simples com Agno.md",
     "Programação/torch/creating embeddings.md",
@@ -192,7 +187,6 @@
     "Sem título 5.base",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
     "Programação/Pulsar/Classe  Producer Pulsar.md",
-    "Programação/weaviete/start.md",
     "Programação/pulsar.md",
     "Programação/Pulsar",
     "Programação/RabbitMQ/rabbitmq + python.md",
