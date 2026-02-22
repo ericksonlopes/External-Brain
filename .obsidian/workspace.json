@@ -170,42 +170,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "floating": {
-    "id": "eacea6104fd3b379",
-    "type": "floating",
-    "children": [
-      {
-        "id": "1cf93d18d2c37337",
-        "type": "window",
-        "children": [
-          {
-            "id": "57974a1f87c415fd",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "51e65f327dc02c59",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {},
-                  "icon": "lucide-git-fork",
-                  "title": "Visualização em gráfico"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 372,
-        "y": 20,
-        "width": 1175,
-        "height": 992,
-        "maximize": true,
-        "zoom": 0
-      }
-    ]
-  },
-  "active": "51e65f327dc02c59",
+  "active": "4ef93a3fe960a77b",
   "lastOpenFiles": [
     "Sem título 6.base",
     "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
