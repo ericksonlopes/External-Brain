@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#decorator",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -175,7 +176,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9e05516eb16909d",
+  "active": "6a0b55f782205883",
   "lastOpenFiles": [
     "Programação/VPS/Iniciando Servidor.md",
     "Programação/torch/creating embeddings.md",

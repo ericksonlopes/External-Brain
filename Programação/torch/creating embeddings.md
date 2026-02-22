@@ -1,3 +1,5 @@
+#embedding #torch #sentence_transformers
+
 ```python
 import numpy as np  
 import torch  
