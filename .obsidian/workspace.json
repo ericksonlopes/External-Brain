@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/weaviete/weavitate coonector.md",
+                "file": "Programação/ElasticSearch/Elasticsearch + kibana docker-compose.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "weavitate coonector"
+              "title": "Elasticsearch + kibana docker-compose"
             }
           }
         ]
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5
+    "width": 475.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programação/weaviete/weavitate coonector.md",
+                "file": "Programação/ElasticSearch/Elasticsearch + kibana docker-compose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para weavitate coonector"
+              "title": "Links inversos para Elasticsearch + kibana docker-compose"
             }
           },
           {
@@ -177,8 +177,12 @@
   },
   "active": "d858daa92c97a7cd",
   "lastOpenFiles": [
-    "Programação/weaviete/start.md",
+    "Programação/ElasticSearch/get client elastic apm.md",
+    "Programação/ElasticSearch/Elasticsearch + kibana docker-compose.md",
+    "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
+    "Programação/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/weaviete/weavitate coonector.md",
+    "Programação/weaviete/start.md",
     "Programação/Docker/postgres.md",
     "Programação/Docker/postgres + completo.md",
     "Programação/Docker/minio.md",
@@ -203,11 +207,7 @@
     "Sem título 5.base",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
     "Programação/Pulsar/Classe  Producer Pulsar.md",
-    "Programação/pulsar.md",
     "Programação/Pulsar",
-    "Programação/RabbitMQ/rabbitmq + python.md",
-    "Programação/RabbitMQ/rabbitmq + fastAPI.md",
-    "Programação/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
     "Sem título 2.base",
     "Sem título 3.base",
     "Sem título 4.base",
