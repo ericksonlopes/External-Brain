@@ -4,17 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "e211c5eb0cf7febc",
+        "id": "d1150c027fbb4741",
         "type": "tabs",
         "children": [
           {
-            "id": "4e5444e7fda5a5b7",
+            "id": "57008f5aafe10258",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nova aba"
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notas de Lançamento 1.12.4"
             }
           }
         ]
@@ -143,8 +145,19 @@
               "icon": "links-going-out",
               "title": "Links de saída"
             }
+          },
+          {
+            "id": "cca38a706f2e253c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -169,8 +182,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e5444e7fda5a5b7",
+  "active": "57008f5aafe10258",
   "lastOpenFiles": [
+    "Sem título 7.base",
     "Programação/ElasticSearch/Elasticsearch + kibana docker-compose.md",
     "Programação/ElasticSearch/get client elastic apm.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
@@ -200,7 +214,6 @@
     "Programação/Pulsar/Iniciando com pulsar e python.md",
     "Sem título 5.base",
     "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
-    "Programação/Pulsar/Classe  Producer Pulsar.md",
     "Programação/Pulsar",
     "Sem título 2.base",
     "Sem título 3.base",
