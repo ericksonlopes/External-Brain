@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Captação audio.md",
+                "file": "Proposta_Organizacao.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Captação audio"
+              "title": "Proposta_Organizacao"
             }
           }
         ]
@@ -187,6 +187,8 @@
   },
   "active": "57008f5aafe10258",
   "lastOpenFiles": [
+    "Captação audio.md",
+    "Proposta_Organizacao.md",
     "alembic.md",
     "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
     "Componentes computador/Periféricos.md",
@@ -215,8 +217,6 @@
     "Programação/torch",
     "Programação/MQTT/Docker compose MQTT.md",
     "Programação/MQTT/fastapi + mqtt.md",
-    "Programação/MQTT/class python with.md",
-    "Programação/Pulsar/Classe Producer Pulsar.md",
     "Sem título 5.base",
     "Programação/Pulsar",
     "Sem título 2.base",
