@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
+                "file": "Captação audio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Obtendo Estrutura de Pastas no terminal linux"
+              "title": "Captação audio"
             }
           }
         ]
@@ -187,6 +187,8 @@
   },
   "active": "57008f5aafe10258",
   "lastOpenFiles": [
+    "alembic.md",
+    "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
     "Componentes computador/Periféricos.md",
     "Componentes computador/Componentes.md",
     "Sem título 7.base",
@@ -201,7 +203,6 @@
     "Programação/Docker/minio.md",
     "Programação/LangChain/FAISS.md",
     "Programação/LangChain/llm factory.md",
-    "alembic.md",
     "Sem título 6.base",
     "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
     "Programação/Criando um projeto em python.md",
@@ -216,7 +217,6 @@
     "Programação/MQTT/fastapi + mqtt.md",
     "Programação/MQTT/class python with.md",
     "Programação/Pulsar/Classe Producer Pulsar.md",
-    "Programação/Pulsar/Iniciando com pulsar e python.md",
     "Sem título 5.base",
     "Programação/Pulsar",
     "Sem título 2.base",
