@@ -11,12 +11,15 @@
             "id": "57008f5aafe10258",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.4"
+                "file": "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.12.4"
+              "icon": "lucide-file",
+              "title": "Obtendo Estrutura de Pastas no terminal linux"
             }
           }
         ]
@@ -184,6 +187,8 @@
   },
   "active": "57008f5aafe10258",
   "lastOpenFiles": [
+    "Componentes computador/Periféricos.md",
+    "Componentes computador/Componentes.md",
     "Sem título 7.base",
     "Programação/ElasticSearch/Elasticsearch + kibana docker-compose.md",
     "Programação/ElasticSearch/get client elastic apm.md",
@@ -213,13 +218,11 @@
     "Programação/Pulsar/Classe Producer Pulsar.md",
     "Programação/Pulsar/Iniciando com pulsar e python.md",
     "Sem título 5.base",
-    "Programação/Selenium/Trabalhando com selenium standalone-chrome.md",
     "Programação/Pulsar",
     "Sem título 2.base",
     "Sem título 3.base",
     "Sem título 4.base",
     "Sem título 1.base",
-    "Sem título.base",
     "Programação/MCP/Canvas-MCP.canvas",
     "Programação/Arquitetura/rag.svg",
     "Programação/LangChain/LangChain Canvas.canvas",
