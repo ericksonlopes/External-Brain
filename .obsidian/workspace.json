@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Componentes computador/Periféricos.md",
+                "file": "Componentes computador/Componentes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Periféricos"
+              "title": "Componentes"
             }
           }
         ]
@@ -187,13 +187,18 @@
   },
   "active": "c9522f930e1104bc",
   "lastOpenFiles": [
-    "Componentes computador/Componentes.md",
     "Componentes computador/Periféricos.md",
+    "Programação/Backend e APIs/SQLAlchemy/Query com sqlalchemy sem definir tabelas.md",
+    "Programação/Backend e APIs/FastAPI/Tests com FastAPI.md",
+    "Programação/Backend e APIs/FastAPI/Padrão MVC Com FastAPI.md",
+    "Programação/Backend e APIs/FastAPI/BaseSettings + FastAPI.md",
+    "Programação/Backend e APIs/Evolution API/python + evolutionapi + lib.md",
+    "Componentes computador/Componentes.md",
+    "Inbox/LINKS PARA VER.md",
     "Sociedade e Politica/Reflexões sobre Capitalismo e Estado no Brasil.md",
     "Sem título.base",
     "Sociedade e Politica",
     "Inbox/Sem título.md",
-    "Inbox/LINKS PARA VER.md",
     "Inbox/Sem título 1.md",
     "Inbox/badge.md",
     "Inbox/classes.drawio",
@@ -218,11 +223,6 @@
     "Programação/Projetos/Compile-Repo.md",
     "Programação/Automacao e Scraping/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
     "Programação/Automacao e Scraping/Selenium/webdriver.md",
-    "Programação/Automacao e Scraping/Selenium/Trabalhando com selenium standalone-chrome.md",
-    "Programação/Automacao e Scraping/Selenium/Fazendo download automatico do webdriver.md",
-    "Programação/Automacao e Scraping/Selenium/Capabilities.md",
-    "Programação/Automacao e Scraping/Pytube/Duração video youtube.md",
-    "Programação/Backend e APIs/Streamlit/Streamlit Templates.md",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/Arquitetura/rag.svg",
