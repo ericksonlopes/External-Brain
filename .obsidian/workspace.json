@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "30b0c4fc3bd720bb",
+        "id": "1ed7d17b854b56c9",
         "type": "tabs",
         "children": [
           {
-            "id": "3f588a2713b816bf",
+            "id": "776b682714e541dd",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "Programação/Engenharia de Dados e Mensageria/RabbitMQ/rabbitmq + python.md",
-                "bFile": "Programação/Engenharia de Dados e Mensageria/RabbitMQ/rabbitmq + python.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: rabbitmq + python"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#captalismo",
+                "query": "tag:#python",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +70,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -184,8 +181,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f588a2713b816bf",
+  "active": "6a0b55f782205883",
   "lastOpenFiles": [
+    "Programação/IA Agentes e LLMs/weaviete/start.md",
+    "Programação/Organizacao_Programacao.md",
+    "Programação/IA Agentes e LLMs/weaviete/weavitate coonector.md",
+    "Programação/IA Agentes e LLMs/MCP/Cliente MCP Assíncrono com Python.md",
+    "Programação/IA Agentes e LLMs/MCP/Criando um Servidor MCP Básico com FastMCP.md",
+    "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
+    "Programação/IA Agentes e LLMs/MCP/Autenticação.md",
+    "Programação/IA Agentes e LLMs/LangGraph/Iniciando com langGraph.md",
+    "Programação/IA Agentes e LLMs/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
+    "Programação/IA Agentes e LLMs/LangChain/FAISS.md",
+    "Programação/IA Agentes e LLMs/LangChain/Conetando IA com banco de dados.md",
+    "Programação/Fundamentos Python/Desing Patterns/Iterator (Iterador).md",
+    "Programação/Fundamentos Python/Desing Patterns/patterns.md",
+    "Programação/Fundamentos Python/Desing Patterns/Monolítico (monolithic).md",
+    "Programação/Fundamentos Python/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
+    "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/Engenharia de Dados e Mensageria/RabbitMQ/rabbitmq + fastAPI.md",
     "Programação/Engenharia de Dados e Mensageria/RabbitMQ/rabbitmq + python.md",
     "Programação/Engenharia de Dados e Mensageria/Redis/Redis + Python.md",
@@ -198,20 +211,6 @@
     "Programação/Engenharia de Dados e Mensageria/MQTT/class python with.md",
     "Programação/Engenharia de Dados e Mensageria/MQTT/fastapi + mqtt.md",
     "Programação/Engenharia de Dados e Mensageria/logging/Classe Logger.md",
-    "Programação/Automacao e Scraping/📥 Guia de Uso - gdown.md",
-    "Programação/Automacao e Scraping/Captura de Áudio de Lives do YouTube.md",
-    "Programação/Engenharia de Dados e Mensageria/Airflow/Executando Taks independente de erros (as_teardown).md",
-    "Programação/Engenharia de Dados e Mensageria/Airflow/Airflow Standalone.md",
-    "Programação/Engenharia de Dados e Mensageria/Airflow/Airflow no docker(Linux).md",
-    "Programação/Engenharia de Dados e Mensageria/Airflow/TaskGroup.md",
-    "Programação/Engenharia de Dados e Mensageria/Airflow/Agendando DAGs no Airflow (Schedule).md",
-    "Programação/Automacao e Scraping/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
-    "Programação/Automacao e Scraping/Selenium/Trabalhando com selenium standalone-chrome.md",
-    "Programação/Automacao e Scraping/Selenium/Fazendo download automatico do webdriver.md",
-    "Programação/Automacao e Scraping/Selenium/Capabilities.md",
-    "Programação/Automacao e Scraping/Pytube/Duração video youtube.md",
-    "Programação/Machine Learning/sklearn/Similaridade de Texto com TF-IDF e Sklearn.md",
-    "Programação/Machine Learning/sklearn/Sem título.md",
     "Sem título.base",
     "Sociedade e Politica",
     "Inbox/classes.drawio",
@@ -222,8 +221,6 @@
     "Inbox/Sem título 5.base",
     "Inbox/Sem título 6.base",
     "Inbox/Sem título 7.base",
-    "Programação/Fundamentos Python/Arquitetura/rag.svg",
-    "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
