@@ -11,10 +11,15 @@
             "id": "cb5680f70ba6c5ca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Automacao e Scraping/Captura de Áudio de Lives do YouTube.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Captura de Áudio de Lives do YouTube"
             }
           }
         ]
@@ -180,8 +185,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "cb5680f70ba6c5ca",
   "lastOpenFiles": [
+    "Programação/Automacao e Scraping/📥 Guia de Uso - gdown.md",
     "Programação/IA Agentes e LLMs/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
     "Programação/IA Agentes e LLMs/weaviete/start.md",
     "Programação/Organizacao_Programacao.md",
@@ -209,7 +215,6 @@
     "Programação/Engenharia de Dados e Mensageria/PySpark/Configurando ambiente para o pyspark e pycharm.md",
     "Programação/Engenharia de Dados e Mensageria/MQTT/Docker compose MQTT.md",
     "Programação/Engenharia de Dados e Mensageria/MQTT/class python with.md",
-    "Programação/Engenharia de Dados e Mensageria/MQTT/fastapi + mqtt.md",
     "Sem título.base",
     "Sociedade e Politica",
     "Inbox/classes.drawio",
