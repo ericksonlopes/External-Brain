@@ -1,3 +1,5 @@
+#mqtt #python #docker-compose 
+
 # Classe MQTT com Context Manager (Python)
 
 Esta implementação utiliza o padrão **Context Manager** (`with`) para garantir que a conexão com o broker MQTT seja aberta e fechada corretamente, evitando vazamentos de recursos.

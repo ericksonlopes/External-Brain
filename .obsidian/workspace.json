@@ -11,10 +11,14 @@
             "id": "3f588a2713b816bf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Programação/Engenharia de Dados e Mensageria/RabbitMQ/rabbitmq + python.md",
+                "bFile": "Programação/Engenharia de Dados e Mensageria/RabbitMQ/rabbitmq + python.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: rabbitmq + python"
             }
           }
         ]
@@ -182,13 +186,14 @@
   },
   "active": "3f588a2713b816bf",
   "lastOpenFiles": [
+    "Programação/Engenharia de Dados e Mensageria/RabbitMQ/rabbitmq + fastAPI.md",
+    "Programação/Engenharia de Dados e Mensageria/RabbitMQ/rabbitmq + python.md",
+    "Programação/Engenharia de Dados e Mensageria/Redis/Redis + Python.md",
     "Programação/Engenharia de Dados e Mensageria/PySpark/Joins com pyspark.md",
     "Programação/Engenharia de Dados e Mensageria/PySpark/Trabalhando com views no pyspark.md",
     "Programação/Engenharia de Dados e Mensageria/PySpark/Trabalhando com Grafos no pyspark.md",
     "Programação/Engenharia de Dados e Mensageria/PySpark/Exportando arquivos com pyspark.md",
     "Programação/Engenharia de Dados e Mensageria/PySpark/Configurando ambiente para o pyspark e pycharm.md",
-    "Programação/Engenharia de Dados e Mensageria/RabbitMQ/rabbitmq + fastAPI.md",
-    "Programação/Engenharia de Dados e Mensageria/RabbitMQ/rabbitmq + python.md",
     "Programação/Engenharia de Dados e Mensageria/MQTT/Docker compose MQTT.md",
     "Programação/Engenharia de Dados e Mensageria/MQTT/class python with.md",
     "Programação/Engenharia de Dados e Mensageria/MQTT/fastapi + mqtt.md",
@@ -207,7 +212,6 @@
     "Programação/Automacao e Scraping/Pytube/Duração video youtube.md",
     "Programação/Machine Learning/sklearn/Similaridade de Texto com TF-IDF e Sklearn.md",
     "Programação/Machine Learning/sklearn/Sem título.md",
-    "Programação/Engenharia de Dados e Mensageria/logging/Sem título.md",
     "Sem título.base",
     "Sociedade e Politica",
     "Inbox/classes.drawio",

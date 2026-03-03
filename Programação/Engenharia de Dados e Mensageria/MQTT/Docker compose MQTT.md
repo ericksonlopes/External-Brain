@@ -1,3 +1,5 @@
+#mqtt #python #docker-compose 
+
 # Infraestrutura e Padrões MQTT (VerneMQ)
 
 Este arquivo descreve a infraestrutura baseada no broker **VerneMQ** e os padrões básicos de comunicação (Pub/Sub).

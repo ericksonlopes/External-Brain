@@ -1,3 +1,5 @@
+#mqtt #fastAPI #python
+
 # Integração MQTT com FastAPI
 
 Esta implementação demonstra como integrar um cliente MQTT ao ciclo de vida de uma aplicação **FastAPI**, utilizando decoradores personalizados para registro dinâmico de assinaturas.
