@@ -1,11 +1,11 @@
 {
-  "collapse-filter": false,
+  "collapse-filter": true,
   "search": "",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"Componentes computador\"",
@@ -97,11 +97,11 @@
   "textFadeMultiplier": -2.3,
   "nodeSizeMultiplier": 1.171875,
   "lineSizeMultiplier": 2.090625,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.372395833333333,
   "repelStrength": 10.6770833333333,
   "linkStrength": 1,
   "linkDistance": 198,
-  "scale": 0.31214753848500726,
+  "scale": 0.43762551053888776,
   "close": false
 }

@@ -74,4 +74,4 @@ Por fim, são fornecidos métodos personalizados (info, error, warning, critical
 
 Na última linha do código, uma instância de ElasticSearchLogger é criada e uma mensagem de erro de teste é registrada no índice do Elasticsearch usando o método error. A mensagem de erro registrada inclui uma chave "message" com o valor "Hello World!".
 
-#Python #elasticsearch #Logging #logging #indexing
+#Python #elasticsearch #logging #indexing
