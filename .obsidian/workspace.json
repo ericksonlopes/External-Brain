@@ -4,20 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d1150c027fbb4741",
+        "id": "d686bd406c621e31",
         "type": "tabs",
         "children": [
           {
-            "id": "57008f5aafe10258",
+            "id": "acf495b3d9f162d4",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Inbox/Sem título 7.base",
-                "viewName": "Tabela"
+                "file": "Programação/Organizacao_Programacao.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-table",
-              "title": "Sem título 7"
+              "icon": "lucide-file",
+              "title": "Organizacao_Programacao"
             }
           }
         ]
@@ -183,10 +185,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "57008f5aafe10258",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
-    "Proposta_Organizacao.md",
+    "Programação/IA Agentes e LLMs",
+    "Programação/Selenium/Fazendo download automatico do webdriver.md",
+    "Programação/Selenium/Capabilities.md",
+    "Programação/sklearn/Sem título.md",
+    "Programação/Organizacao_Programacao.md",
     "Inbox/Sem título 7.base",
+    "Proposta_Organizacao.md",
     "Inbox",
     "Inbox/Captação audio.md",
     "Inbox/alembic.md",
@@ -202,27 +209,23 @@
     "Programação/Docker/postgres.md",
     "Programação/Docker/postgres + completo.md",
     "Programação/Docker/minio.md",
-    "Programação/LangChain/FAISS.md",
-    "Programação/LangChain/llm factory.md",
+    "Programação/IA Agentes e LLMs/LangChain/FAISS.md",
+    "Programação/IA Agentes e LLMs/LangChain/llm factory.md",
     "Inbox/Sem título 6.base",
-    "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
+    "Programação/IA Agentes e LLMs/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
     "Programação/Criando um projeto em python.md",
     "Programação/Sem título.md",
-    "Programação/firecrawl/iniciando com firecrawl.md",
-    "Programação/firecrawl",
-    "Programação/Agno/Agente simples com Agno.md",
-    "Programação/torch/creating embeddings.md",
-    "Programação/VPS/Iniciando Servidor.md",
+    "Programação/IA Agentes e LLMs/firecrawl/iniciando com firecrawl.md",
+    "Programação/IA Agentes e LLMs/firecrawl",
     "Programação/torch",
-    "Programação/MQTT/Docker compose MQTT.md",
     "Inbox/Sem título 5.base",
     "Programação/Pulsar",
     "Inbox/Sem título 2.base",
     "Inbox/Sem título 3.base",
     "Inbox/Sem título 4.base",
-    "Programação/MCP/Canvas-MCP.canvas",
+    "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/Arquitetura/rag.svg",
-    "Programação/LangChain/LangChain Canvas.canvas",
+    "Programação/IA Agentes e LLMs/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
     "Untitled Diagram.svg",
     "Sem título.canvas",
