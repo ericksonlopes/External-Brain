@@ -11,10 +11,15 @@
             "id": "c9522f930e1104bc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Componentes computador/Periféricos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Periféricos"
             }
           }
         ]
@@ -180,9 +185,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "c9522f930e1104bc",
   "lastOpenFiles": [
+    "Componentes computador/Componentes.md",
+    "Componentes computador/Periféricos.md",
+    "Sociedade e Politica/Reflexões sobre Capitalismo e Estado no Brasil.md",
     "Sem título.base",
+    "Sociedade e Politica",
     "Inbox/Sem título.md",
     "Inbox/LINKS PARA VER.md",
     "Inbox/Sem título 1.md",
@@ -195,7 +204,6 @@
     "Inbox/Sem título 5.base",
     "Inbox/Sem título 6.base",
     "Inbox/Sem título 7.base",
-    "Inbox/Sem título 1.base",
     "Inbox/Drawing 2025-08-22 13.17.42.excalidraw.md",
     "Inbox/Drawing 2025-08-22 11.57.10.excalidraw.md",
     "Programação/Engenharia de Dados e Mensageria/Redis/Redis + Python.md",
@@ -215,8 +223,6 @@
     "Programação/Automacao e Scraping/Selenium/Capabilities.md",
     "Programação/Automacao e Scraping/Pytube/Duração video youtube.md",
     "Programação/Backend e APIs/Streamlit/Streamlit Templates.md",
-    "Programação/Backend e APIs/Streamlit/Grafos com repositórios do github.md",
-    "Programação/Backend e APIs/WAHA/Como rodar o WAHA.md",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/Arquitetura/rag.svg",
