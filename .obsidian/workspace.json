@@ -11,15 +11,13 @@
             "id": "57008f5aafe10258",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Proposta_Organizacao.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "file": "Inbox/Sem título 7.base",
+                "viewName": "Tabela"
               },
-              "icon": "lucide-file",
-              "title": "Proposta_Organizacao"
+              "icon": "lucide-table",
+              "title": "Sem título 7"
             }
           }
         ]
@@ -187,13 +185,14 @@
   },
   "active": "57008f5aafe10258",
   "lastOpenFiles": [
-    "Captação audio.md",
     "Proposta_Organizacao.md",
-    "alembic.md",
+    "Inbox/Sem título 7.base",
+    "Inbox",
+    "Inbox/Captação audio.md",
+    "Inbox/alembic.md",
     "Linux/Obtendo Estrutura de Pastas no terminal linux.md",
     "Componentes computador/Periféricos.md",
     "Componentes computador/Componentes.md",
-    "Sem título 7.base",
     "Programação/ElasticSearch/Elasticsearch + kibana docker-compose.md",
     "Programação/ElasticSearch/get client elastic apm.md",
     "Programação/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
@@ -205,7 +204,7 @@
     "Programação/Docker/minio.md",
     "Programação/LangChain/FAISS.md",
     "Programação/LangChain/llm factory.md",
-    "Sem título 6.base",
+    "Inbox/Sem título 6.base",
     "Programação/Crewai/Conectando seu Agente de IA via MCP com CrewAI.md",
     "Programação/Criando um projeto em python.md",
     "Programação/Sem título.md",
@@ -216,13 +215,11 @@
     "Programação/VPS/Iniciando Servidor.md",
     "Programação/torch",
     "Programação/MQTT/Docker compose MQTT.md",
-    "Programação/MQTT/fastapi + mqtt.md",
-    "Sem título 5.base",
+    "Inbox/Sem título 5.base",
     "Programação/Pulsar",
-    "Sem título 2.base",
-    "Sem título 3.base",
-    "Sem título 4.base",
-    "Sem título 1.base",
+    "Inbox/Sem título 2.base",
+    "Inbox/Sem título 3.base",
+    "Inbox/Sem título 4.base",
     "Programação/MCP/Canvas-MCP.canvas",
     "Programação/Arquitetura/rag.svg",
     "Programação/LangChain/LangChain Canvas.canvas",
