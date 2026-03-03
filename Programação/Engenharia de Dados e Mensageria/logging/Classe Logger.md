@@ -1,4 +1,3 @@
-	# 📋 Classe de Logger com Saída em JSON
 
 Esta classe Python fornece uma maneira centralizada e configurável de gerenciar logs, gerando simultaneamente dois arquivos: um em formato de texto legível por humanos e outro em formato JSON para fácil ingestão por ferramentas de análise (como o ELK Stack).
 

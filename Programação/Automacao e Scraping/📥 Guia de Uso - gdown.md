@@ -1,4 +1,3 @@
-# 📥 Guia de Uso: gdown
 
 O `gdown` é uma ferramenta de linha de comando (CLI) e biblioteca Python extremamente útil para baixar arquivos grandes do Google Drive, contornando as restrições de segurança que impedem o uso de `curl` ou `wget` em arquivos que exigem confirmação de "verificação de vírus".
 
