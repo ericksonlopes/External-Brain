@@ -1,8 +1,9 @@
 #alembic #sqlalchemy #pydantic-settings #migrations
 
-```
+```bash
 pip install alembic pydantic_settings
 ```
+
 # settings.py
 ```python
 from pydantic_settings import BaseSettings  
@@ -87,6 +88,7 @@ writer = rewriter.Rewriter()
 @writer.rewrites(ops.CreateTableOp)  
 @writer.rewrites(ops.CreateIndexOp)  
 def add_if_not_exists(context, revision, op):  
+    op.if_exists = True  # Corrigido de acordo com a lógica de segurança
     op.if_not_exists = True  
     return op  
   
