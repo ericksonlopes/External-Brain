@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Bancos de Dados/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
+                "file": "Programação/IA Agentes e LLMs/LangChain/Web Scraper com LangChain e Playwright.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Configurando o Loguru para enviar registros de log para o Elasticsearch com Python"
+              "title": "Web Scraper com LangChain e Playwright"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#indexing",
+                "query": "tag:#langchain",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 475.5
+    "width": 474.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -188,6 +188,16 @@
   },
   "active": "cac6332e8ee13cbc",
   "lastOpenFiles": [
+    "Programação/IA Agentes e LLMs/firecrawl/iniciando com firecrawl.md",
+    "Programação/IA Agentes e LLMs/LangChain/Chains/Simple Chains.md",
+    "Programação/IA Agentes e LLMs/LangChain/Chains/Sequential Chain.md",
+    "Programação/IA Agentes e LLMs/LangChain/Chains/MultiRetrievalQAChain.md",
+    "Programação/IA Agentes e LLMs/LangChain/FAISS.md",
+    "Programação/IA Agentes e LLMs/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando ModelosSem título.md",
+    "Programação/IA Agentes e LLMs/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
+    "Programação/IA Agentes e LLMs/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
+    "Programação/IA Agentes e LLMs/LangChain/llm factory.md",
+    "Programação/Bancos de Dados/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
     "Programação/Bancos de Dados/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Inbox/LINKS PARA VER.md",
     "Sociedade e Politica/Reflexões sobre Capitalismo e Estado no Brasil.md",
@@ -204,16 +214,6 @@
     "Programação/Projetos/SmartNewsAI.md",
     "Programação/Projetos/ScrapingcoinMarketCap.md",
     "Programação/Projetos/Search In Export Chat.md",
-    "Programação/Projetos/Relatorio de Numeros GUI.md",
-    "Programação/Projetos/Map Generator of Brazilian Cities.md",
-    "Programação/Projetos/NFKeyExtractor.md",
-    "Programação/Projetos/CompileRepo StreamLit.md",
-    "Programação/Projetos/be3 Health Tech Teste.md",
-    "Programação/Projetos/Search In Export Chat (StreamLit).md",
-    "Programação/Projetos/RPA CeA Check Bag.md",
-    "Programação/Projetos/PyInvestAnalyser.md",
-    "Programação/Projetos/Consulta CEP GUI.md",
-    "Programação/Projetos/UniversityHubRAG.md",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Sem título.base",
