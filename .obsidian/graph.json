@@ -8,6 +8,27 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "path:\"Componentes computador\"",
+      "color": {
+        "a": 1,
+        "rgb": 6323595
+      }
+    },
+    {
+      "query": "path:Inbox",
+      "color": {
+        "a": 1,
+        "rgb": 16761095
+      }
+    },
+    {
+      "query": "path:\"Sociedade e Politica\"",
+      "color": {
+        "a": 1,
+        "rgb": 7951688
+      }
+    },
+    {
       "query": "path:Programação/Projetos",
       "color": {
         "a": 1,
@@ -15,38 +36,59 @@
       }
     },
     {
-      "query": "path:Programação/Docker",
+      "query": "path:\"Programação/Automacao e Scraping\"",
       "color": {
         "a": 1,
-        "rgb": 5431008
+        "rgb": 16733986
       }
     },
     {
-      "query": "path:Cursos",
+      "query": "path:\"Programação/Backend e APIs\"",
       "color": {
         "a": 1,
-        "rgb": 7577879
+        "rgb": 2201331
       }
     },
     {
-      "query": "path:Programação/FastAPI",
+      "query": "path:\"Programação/Bancos de Dados\"",
       "color": {
         "a": 1,
-        "rgb": 14729554
+        "rgb": 870305
       }
     },
     {
-      "query": "path:Programação/Python",
+      "query": "path:\"Programação/DevOps e Infraestrutura\"",
       "color": {
         "a": 1,
-        "rgb": 5431473
+        "rgb": 38536
       }
     },
     {
-      "query": "path:\"Programação/Padrões de projetos (Desing Patterns)\"",
+      "query": "path:\"Programação/Engenharia de Dados e Mensageria\"",
       "color": {
         "a": 1,
-        "rgb": 5419488
+        "rgb": 6765239
+      }
+    },
+    {
+      "query": "path:\"Programação/Fundamentos Python\"",
+      "color": {
+        "a": 1,
+        "rgb": 5025616
+      }
+    },
+    {
+      "query": "path:\"Programação/IA Agentes e LLMs\"",
+      "color": {
+        "a": 1,
+        "rgb": 15277667
+      }
+    },
+    {
+      "query": "path:\"Programação/Machine Learning\"",
+      "color": {
+        "a": 1,
+        "rgb": 16750592
       }
     }
   ],
@@ -56,10 +98,10 @@
   "nodeSizeMultiplier": 1.171875,
   "lineSizeMultiplier": 2.090625,
   "collapse-forces": false,
-  "centerStrength": 0.294270833333333,
-  "repelStrength": 10.9375,
+  "centerStrength": 0,
+  "repelStrength": 15.15625,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.1132743990746721,
+  "scale": 0.08079584940326598,
   "close": false
 }
