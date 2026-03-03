@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9a61a51517c7afd4",
+        "id": "77981303ee3b3fb4",
         "type": "tabs",
         "children": [
           {
-            "id": "829e6128ba02994f",
+            "id": "770ea6f000e4713f",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -180,7 +180,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "829e6128ba02994f",
+  "active": "770ea6f000e4713f",
   "lastOpenFiles": [
     "Programação/Projetos/Words-In-Songs.md",
     "Programação/Projetos/YouTranscripta.md",
