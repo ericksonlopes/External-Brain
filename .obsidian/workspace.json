@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f28af44b2ee7aaf5",
+        "id": "072fced2fca145bd",
         "type": "tabs",
         "children": [
           {
-            "id": "5985564ec69f0e51",
+            "id": "bc89bbf1fb6fbbcd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -185,8 +185,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5985564ec69f0e51",
+  "active": "bc89bbf1fb6fbbcd",
   "lastOpenFiles": [
+    "Programação/Automacao e Scraping/Captação audio.md",
+    "Programação/Automacao e Scraping/Guia gdown.md",
+    "Inbox/LINKS PARA VER.md",
     "Componentes computador/Componentes.md",
     "Componentes computador/Periféricos.md",
     "Programação/Backend e APIs/SQLAlchemy/Query com sqlalchemy sem definir tabelas.md",
@@ -194,7 +197,6 @@
     "Programação/Backend e APIs/FastAPI/Padrão MVC Com FastAPI.md",
     "Programação/Backend e APIs/FastAPI/BaseSettings + FastAPI.md",
     "Programação/Backend e APIs/Evolution API/python + evolutionapi + lib.md",
-    "Inbox/LINKS PARA VER.md",
     "Sociedade e Politica/Reflexões sobre Capitalismo e Estado no Brasil.md",
     "Sem título.base",
     "Sociedade e Politica",
@@ -216,13 +218,11 @@
     "Programação/Bancos de Dados/alembic.md",
     "Programação/Bancos de Dados/ElasticSearch/Configurando o logging para enviar registros de log para o Elasticsearch com Python.md",
     "Inbox/alembic.md",
-    "Programação/Automacao e Scraping/Captação audio.md",
     "Programação/Organizacao_Programacao.md",
     "Programação/Backend e APIs/Streamlit/Streamlit + Jinja2.md",
     "Programação/DevOps e Infraestrutura/Obtendo Estrutura de Pastas no terminal linux.md",
     "Programação/Projetos/Compile-Repo.md",
     "Programação/Automacao e Scraping/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
-    "Programação/Automacao e Scraping/Selenium/webdriver.md",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/Arquitetura/rag.svg",
