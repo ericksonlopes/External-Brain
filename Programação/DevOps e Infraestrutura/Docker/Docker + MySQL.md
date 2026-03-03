@@ -1,61 +1,66 @@
-#docker #mysql #sql #python #sqlalchemy #orm 
+# 🐬 MySQL com Docker e SQLAlchemy
+
+Este guia mostra como subir um banco de dados MySQL via Docker e realizar a conexão utilizando Python com a ORM **SQLAlchemy**.
+
+---
+
+## 🏗️ Configuração do Container (Dockerfile)
+
+Se preferir criar uma imagem customizada com credenciais pré-definidas:
 
 ```dockerfile
-# Use an official MySQL runtime as a parent image  
-FROM mysql:latest  
-  
-# Set the MySQL root password  
-ENV MYSQL_ROOT_PASSWORD=root_password  
-  
-# Create a database and user  
-ENV MYSQL_DATABASE=spaiglass_core  
-ENV MYSQL_USER=hootzpa  
-ENV MYSQL_PASSWORD=test_password  
-  
-# Expose the MySQL port  
+FROM mysql:latest
+
+# Configurações de Ambiente
+ENV MYSQL_ROOT_PASSWORD=root_password
+ENV MYSQL_DATABASE=meu_banco_core
+ENV MYSQL_USER=admin_user
+ENV MYSQL_PASSWORD=test_password
+
 EXPOSE 3306
 ```
 
-Conectando com python e mysql utilizando sqlalchemy
+---
 
+## 🐍 Conexão via Python (SQLAlchemy)
+
+### Instalação
+```bash
+pip install sqlalchemy pymysql
+```
+
+### Script de Exemplo
 ```python
-from sqlalchemy import create_engine, Column, Integer, String, Sequence  
-from sqlalchemy.ext.declarative import declarative_base  
-from sqlalchemy.orm import sessionmaker, Session  
-  
-# Configuração do SQLAlchemy para MySQL  
-DATABASE_URL = "mysql+pymysql://hootzpa:test_password@localhost:3306/spaiglass_core"  
-engine = create_engine(DATABASE_URL, echo=True)  
-  
-# Definição da base de modelo usando SQLAlchemy  
-Base = declarative_base()  
-  
-  
-class User(Base):  
-    __tablename__ = 'users'  
-  
-    id = Column(Integer, Sequence('user_id_seq'), primary_key=True)  
-    name = Column(String(50))  
-    age = Column(Integer)  
-  
-  
-# Criação das tabelas no banco de dados  
-# Base.metadata.create_all(bind=engine)  
-  
-session = Session(engine)  
-  
-# Adicionar um usuário  
-new_user = User(name='John 3', age=25)  
-new_user1 = User(name='John 2', age=25)  
-session.add(new_user)  
-session.add(new_user1)  
-session.commit()  
-  
-# Consultar usuários  
-users = session.query(User).all()  
-for user in users:  
-    print(f"ID: {user.id}, Name: {user.name}, Age: {user.age}")  
-  
-# Fechar a sessão  
+from sqlalchemy import create_engine, Column, Integer, String
+from sqlalchemy.orm import declarative_base, Session
+
+# 1. Configurar Engine (Driver pymysql)
+DATABASE_URL = "mysql+pymysql://admin_user:test_password@localhost:3306/meu_banco_core"
+engine = create_engine(DATABASE_URL)
+
+# 2. Definir Modelo
+Base = declarative_base()
+
+class User(Base):
+    __tablename__ = 'users'
+    id = Column(Integer, primary_key=True)
+    name = Column(String(50))
+    age = Column(Integer)
+
+# 3. Operações de Banco
+Base.metadata.create_all(bind=engine) # Cria tabela se não existir
+session = Session(engine)
+
+# Adicionar
+session.add(User(name='John Doe', age=30))
+session.commit()
+
+# Consultar
+for user in session.query(User).all():
+    print(f"User: {user.name}")
+
 session.close()
 ```
+
+---
+#docker #mysql #sql #python #sqlalchemy #orm #database

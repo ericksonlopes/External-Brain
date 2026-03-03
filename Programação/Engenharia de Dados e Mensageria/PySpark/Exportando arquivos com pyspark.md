@@ -1,55 +1,51 @@
+# 📊 Exportando Dados com PySpark e Pandas
+
+Este guia mostra como ler dados de um arquivo CSV, definir um schema tipado e exportar o DataFrame resultante para diversos formatos (Parquet, JSON, ORC, Excel).
+
+## 🛠️ Lendo CSV com Schema Definido
+
+Definir o schema manualmente evita que o Spark precise ler o arquivo duas vezes para inferir os tipos, melhorando a performance.
+
 ```python
 from pyspark.sql import SparkSession
-spark = SparkSession.builder.appName("dados").getOrCreate()
 
+spark = SparkSession.builder.appName("ExportacaoDados").getOrCreate()
+
+# Definindo a estrutura
 arqschema = "id int, nome string, status string, cidade string, vendas int, data string"
-despachantes = spark.read.csv("arquivos/despachantes.csv", header=False, schema=arqschema)
 
-despachantes.show()
+# Lendo o arquivo
+df = spark.read.csv("arquivos/despachantes.csv", header=False, schema=arqschema)
+df.show(5)
 ```
 
-    +---+-------------------+------+-------------+------+----------+
-    | id|               nome|status|       cidade|vendas|      data|
-    +---+-------------------+------+-------------+------+----------+
-    |  1|   Carminda Pestana| Ativo|  Santa Maria|    23|2020-08-11|
-    |  2|    Deolinda Vilela| Ativo|Novo Hamburgo|    34|2020-03-05|
-    |  3|   Emídio Dornelles| Ativo| Porto Alegre|    34|2020-02-05|
-    |  4|Felisbela Dornelles| Ativo| Porto Alegre|    36|2020-02-05|
-    |  5|     Graça Ornellas| Ativo| Porto Alegre|    12|2020-02-05|
-    |  6|   Matilde Rebouças| Ativo| Porto Alegre|    22|2019-01-05|
-    |  7|    Noêmia   Orriça| Ativo|  Santa Maria|    45|2019-10-05|
-    |  8|      Roque Vásquez| Ativo| Porto Alegre|    65|2020-03-05|
-    |  9|      Uriel Queiroz| Ativo| Porto Alegre|    54|2018-05-05|
-    | 10|   Viviana Sequeira| Ativo| Porto Alegre|     0|2020-09-05|
-    +---+-------------------+------+-------------+------+----------+
-    
-    
+## 📤 Exportando via PySpark (Nativo)
 
-# Salvar o dataframe em um arquivo csv, parquet, json e orc com PySpark
-
+O Spark exporta por padrão em pastas particionadas, o que é ideal para Big Data.
 
 ```python
-despachantes.write.csv("output/despachantes.csv")
-despachantes.write.format("parquet").save("output/despachantesparquet")
-despachantes.write.format("json").save("output/despachantesjson")
-despachantes.write.format("orc").save("output/despachantesorc")
-
+# Formatos comuns
+df.write.csv("output/csv_export")
+df.write.parquet("output/parquet_export")
+df.write.json("output/json_export")
+df.write.orc("output/orc_export")
 ```
 
-# Salvar o dataframe em um arquivo csv, parquet, json e orc com Pandas
+## 🐼 Exportando via Pandas (Para Arquivos Únicos)
 
+Se o volume de dados couber na memória e você precisar de um arquivo único (como um `.xlsx`), converta para Pandas:
 
 ```python
 import pandas as pd
-# import openpyxl
-# import pyarrow
 
-df = pd.DataFrame(despachantes.collect(), columns=despachantes.columns)
+# Converte Spark DF para Pandas DF
+df_pandas = df.toPandas()
 
-df.to_csv("output/despachantes.csv", index=True)
-df.to_parquet("output/despachantes.parquet")
-df.to_json("output/despachantes.json")
-df.to_excel("output/despachantes.xlsx")
+# Exportações
+df_pandas.to_csv("output/final.csv", index=False)
+df_pandas.to_excel("output/final.xlsx", index=False)
+df_pandas.to_parquet("output/final.parquet")
 ```
 
-#python #pyspark 
+---
+#pyspark #pandas #etl #data-engineering #python #csv #parquet

@@ -1,99 +1,57 @@
-#agent #ai #crewai #agent
-O código apresentado utiliza bibliotecas para criar um agente de IA especializado em Python, que responde a dúvidas sobre programação. Abaixo está a explicação de cada parte:
+# 🤖 Iniciando com CrewAI: Orquestração de Agentes
+
+O **CrewAI** permite criar sistemas onde múltiplos agentes de IA colaboram para resolver tarefas complexas, simulando uma equipe humana com papéis e objetivos distintos.
+
+## 🛠️ Instalação
 
 ```bash
-pip install python-decouple loguru crewai langchain-openai
+pip install crewai langchain-openai loguru
 ```
 
-## 1. **Importação de Bibliotecas**
+## 📄 Exemplo: Agente Especialista em Python
+
+Este script configura um agente, define uma tarefa de explicação técnica e executa a "equipe" (Crew).
+
 ```python
 from crewai import Agent, Task, Crew
 from langchain_openai import ChatOpenAI
-from config import Config
-```
-- Importa classes e funções necessárias para configurar o agente, tarefas e equipe.
-- A classe `Config` é usada para carregar variáveis de ambiente.
 
----
-
-## 2. **Configuração Inicial**
-```python
-import os  
-  
-from decouple import config  
-from loguru import logger  
-  
-  
-class Config:  
-    """Centralized environment configuration class."""  
-  
-    def __init__(self):  
-        logger.info("Loading environment variables...")  
-        self.openai_api_key = config('OPENAI_API_KEY')  
-        os.environ['OPENAI_API_KEY'] = self.openai_api_key  
-        logger.success("OPENAI_API_KEY successfully loaded.")
-        
-Config()
-```
-- Inicializa a classe `Config`, que carrega a chave da API OpenAI do arquivo `.env`.
-
----
-
-## 3. **Definição do Modelo de Linguagem**
-```python
+# 1. Configuração do Modelo (LLM)
 llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0.5)
-```
-- Configura o modelo de linguagem GPT-3.5-turbo com uma temperatura de 0.5 (controla a criatividade das respostas).
 
----
-
-## 4. **Criação do Agente**
-```python
-python_agent = Agent(
+# 2. Criação do Agente
+python_expert = Agent(
     role="Especialista em Python",
-    goal="Ajudar com dúvidas sobre programação em Python",
-    backstory="Você é um programador experiente que ajuda iniciantes a resolver problemas.",
-    verbose=True,
+    goal="Ajudar iniciantes com dúvidas de programação",
+    backstory="Você é um desenvolvedor sênior com 20 anos de experiência.",
     llm=llm,
+    verbose=True
 )
-```
-- Cria um agente com o papel de "Especialista em Python".
-- Define o objetivo, contexto e modelo de linguagem usado pelo agente.
 
----
-
-## 5. **Definição da Tarefa**
-```python
+# 3. Definição da Tarefa
 task = Task(
-    description="Explique o que são listas em Python e como usá-las com exemplos.",
-    expected_output="Uma explicação clara e exemplos de uso de listas em Python.",
-    agent=python_agent,
+    description="Explique o que são Decorators em Python com exemplos práticos.",
+    expected_output="Uma explicação didática e código funcional.",
+    agent=python_expert
 )
-```
-- Define uma tarefa para o agente, com uma descrição e o resultado esperado.
 
----
-
-## 6. **Criação da Equipe**
-```python
+# 4. Orquestração da Equipe
 crew = Crew(
-    agents=[python_agent],
+    agents=[python_expert],
     tasks=[task],
     verbose=True
 )
-```
-- Cria uma equipe (`Crew`) que associa o agente à tarefa definida.
 
----
-
-## 7. **Execução da Tarefa**
-```python
+# Início do processo
 result = crew.kickoff()
 print(result)
 ```
-- Executa a tarefa com o método `kickoff` e exibe o resultado no console.
+
+## 🎯 Componentes Chave
+
+- **Agent**: O "colaborador" com personalidade e metas.
+- **Task**: O trabalho específico a ser feito.
+- **Crew**: O gerente que une agentes e tarefas em um fluxo de trabalho.
 
 ---
-
-## Resumo
-O código configura um agente de IA que utiliza o modelo GPT-3.5-turbo para responder a perguntas sobre Python. Ele define uma tarefa específica, associa o agente a essa tarefa e executa-a, exibindo o resultado.
+#ai #crewai #agents #python #llm #openai

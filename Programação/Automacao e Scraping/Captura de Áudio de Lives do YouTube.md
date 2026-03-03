@@ -1,4 +1,3 @@
-# Captura de Áudio de Lives do YouTube
 
 Este script Python permite extrair o fluxo de áudio de uma transmissão ao vivo (ou vídeo) do YouTube em tempo real, salvando-o localmente em formato `.wav`.
 

@@ -1,51 +1,60 @@
-#docker
+# 🐳 Guia de Comandos Docker e Compose
 
-- Cria uma imagem
+Este documento serve como uma folha de cola (Cheat Sheet) rápida para as operações mais comuns do Docker no dia a dia.
 
-```bash
-docker build -t nome-da-imagem .
-``` 
+---
 
-- Inicia um container
+## 🏗️ Docker CLI (Imagens e Containers)
 
-```bash 
-docker run --name nome-do-container -d -it nome-da-imagem 
-``` 
+### Gerenciar Imagens
+- **Build**: Cria uma imagem a partir de um Dockerfile.
+  ```bash
+  docker build -t nome-da-imagem .
+  ```
+- **Listar**: `docker images`
+- **Remover**: `docker rmi id-da-imagem`
 
-- Inicia um container com a porta 3000 do host mapeada para a porta 3000 do container
+### Gerenciar Containers
+- **Executar (Run)**: Inicia um novo container.
+  - `-d`: Roda em background (detached).
+  - `-it`: Modo interativo com terminal.
+  - `--name`: Dá um nome amigável ao container.
+  ```bash
+  docker run --name meu-app -d -it nome-da-imagem
+  ```
+- **Mapeamento de Portas**: Libera o acesso externo ao container.
+  ```bash
+  docker run -p 3000:3000 nome-da-imagem
+  ```
+- **Parar/Iniciar**: `docker stop nome` / `docker start nome`
+- **Remover**: `docker rm -f nome` (Força a remoção mesmo se estiver rodando).
 
-```bash
-docker run --name nome-do-container -d -it -p 3000:3000 nome-da-imagem 
-``` 
+---
 
-#docker-compose
+## 🐙 Docker Compose (Orquestração Local)
 
-- Inicia os containers
+O Compose é ideal para rodar múltiplos serviços (ex: App + Banco de Dados) definidos em um arquivo `yaml`.
 
-```bash
-docker-compose up
-``` 
+- **Subir tudo**: 
+  ```bash
+  docker-compose up -d
+  ```
+- **Parar e Remover**: 
+  ```bash
+  docker-compose down
+  ```
+- **Ver Status**: 
+  ```bash
+  docker-compose ps
+  ```
+- **Logs em Tempo Real**: 
+  ```bash
+  docker-compose logs -f
+  ```
+- **Entrar no Container**:
+  ```bash
+  docker-compose exec nome-do-servico bash
+  ```
 
-- Inicia os containers em background
-
-```bash
-docker-compose up -d
-``` 
-
-- Para os containers
-
-```bash
-docker-compose down
-``` 
-
-- Lista os containers
-
-```bash
-docker-compose ps
-``` 
-
-- Lista os logs
-
-```bash
-docker-compose logs
-``` 
+---
+#docker #devops #cheatsheet #infra #linux

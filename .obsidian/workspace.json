@@ -4,17 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "050875a5ec8fa037",
+        "id": "8d49d21a917008c7",
         "type": "tabs",
         "children": [
           {
-            "id": "c3946ba5487aff72",
+            "id": "62d657e1c9e08e2a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Engenharia de Dados e Mensageria/Airflow/TaskGroup.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "TaskGroup"
             }
           }
         ]
@@ -180,8 +185,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c3946ba5487aff72",
+  "active": "62d657e1c9e08e2a",
   "lastOpenFiles": [
+    "Programação/Engenharia de Dados e Mensageria/Airflow/Executando Taks independente de erros (as_teardown).md",
+    "Programação/Engenharia de Dados e Mensageria/Airflow/Agendando DAGs no Airflow (Schedule).md",
+    "Programação/Engenharia de Dados e Mensageria/Airflow/Airflow no docker(Linux).md",
+    "Programação/Automacao e Scraping/Captura de Áudio de Lives do YouTube.md",
+    "Programação/Automacao e Scraping/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
+    "Programação/Automacao e Scraping/Selenium/Trabalhando com selenium standalone-chrome.md",
+    "Programação/Automacao e Scraping/Selenium/Fazendo download automatico do webdriver.md",
     "Programação/Automacao e Scraping/Selenium/Capabilities.md",
     "Programação/Automacao e Scraping/Pytube/Duração video youtube.md",
     "Programação/Machine Learning/sklearn/Similaridade de Texto com TF-IDF e Sklearn.md",
@@ -190,7 +202,6 @@
     "Programação/Engenharia de Dados e Mensageria/logging/Sem título.md",
     "Programação/IA Agentes e LLMs/MCP/Autenticação.md",
     "Inbox/LINKS PARA VER.md",
-    "Programação/Automacao e Scraping/Captação audio.md",
     "Programação/Automacao e Scraping/Guia gdown.md",
     "Componentes computador/Componentes.md",
     "Componentes computador/Periféricos.md",
@@ -204,7 +215,6 @@
     "Sociedade e Politica",
     "Inbox/Sem título.md",
     "Inbox/Sem título 1.md",
-    "Inbox/badge.md",
     "Inbox/classes.drawio",
     "Inbox/Sem título.base",
     "Inbox/Sem título 2.base",
@@ -213,11 +223,6 @@
     "Inbox/Sem título 5.base",
     "Inbox/Sem título 6.base",
     "Inbox/Sem título 7.base",
-    "Inbox/Drawing 2025-08-22 13.17.42.excalidraw.md",
-    "Inbox/Drawing 2025-08-22 11.57.10.excalidraw.md",
-    "Programação/Engenharia de Dados e Mensageria/Redis/Redis + Python.md",
-    "Programação/Bancos de Dados/Alembic Migrations.md",
-    "Programação/Bancos de Dados/alembic.md",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/Arquitetura/rag.svg",
