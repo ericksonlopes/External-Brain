@@ -51,4 +51,4 @@ channel.queue_declare(queue='minha_fila')
 ```
 
 ---
-#docker #rabbitmq #mensageria #backend #queue #python
+#docker #rabbitmq #mensageria #queue #python

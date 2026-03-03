@@ -79,4 +79,4 @@ O método que efetivamente realiza a requisição POST para o endpoint da API. E
 *   **Logs**: Caso receba um erro, verifique se a `base_url` termina com `/` e se a porta (8080 por padrão) está aberta.
 
 ---
-#python #evolution-api #whatsapp #automacao #backend
+#python #evolution-api #whatsapp #automacao

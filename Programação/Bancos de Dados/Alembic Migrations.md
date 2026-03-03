@@ -172,4 +172,4 @@ else:
 3.  **Voltar**: `alembic downgrade -1`
 
 ---
-#python #sqlalchemy #alembic #migrations #backend #database
+#python #sqlalchemy #alembic #migrations #database

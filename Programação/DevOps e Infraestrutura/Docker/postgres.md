@@ -41,4 +41,4 @@ volumes:
 - **Acesso Externo**: Conecte via ferramentas como DBeaver ou pgAdmin usando `localhost:5432`.
 
 ---
-#docker #postgresql #sql #database #backend #devops
+#docker #postgresql #sql #database #devops

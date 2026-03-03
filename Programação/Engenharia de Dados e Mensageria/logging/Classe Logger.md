@@ -62,4 +62,4 @@ logger.error("Falha ao conectar ao banco de dados")
 ```
 
 ---
-#python #logging #json #backend #data-engineering
+#python #logging #json #data-engineering

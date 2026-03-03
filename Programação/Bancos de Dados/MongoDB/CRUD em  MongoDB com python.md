@@ -71,4 +71,4 @@ db.close()
 ```
 
 ---
-#mongodb #nosql #python #database #backend
+#mongodb #nosql #python #database

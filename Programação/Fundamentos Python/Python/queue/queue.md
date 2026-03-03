@@ -47,4 +47,4 @@ t.join()       # Espera a thread terminar
 - **Pipelines de Dados**: Mover dados entre estágios de transformação de forma assíncrona.
 
 ---
-#python #threads #concurrency #backend #queue
+#python #threads #concurrency #queue
