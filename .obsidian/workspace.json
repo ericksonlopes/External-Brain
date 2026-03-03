@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Backend e APIs/Evolution API/python + evolutionapi + lib.md",
+                "file": "Programação/Projetos/Compile-Repo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "python + evolutionapi + lib"
+              "title": "Compile-Repo"
             }
           }
         ]
@@ -187,10 +187,16 @@
   },
   "active": "cb5680f70ba6c5ca",
   "lastOpenFiles": [
+    "Programação/Projetos/Search In Export Chat (StreamLit).md",
+    "Programação/Projetos/Words-In-Songs.md",
+    "Programação/Projetos/Search In Export Chat.md",
+    "Programação/Projetos/ScrapingcoinMarketCap.md",
+    "Programação/Projetos/PyInvestAnalyser.md",
+    "Programação/Projetos/Compile-Repo.md",
+    "Programação/Backend e APIs/Evolution API/📥 Guia de Uso - Python + Evolution API - Library.md",
     "Programação/Backend e APIs/FastAPI/Tests com FastAPI.md",
     "Programação/Backend e APIs/FastAPI/Padrão MVC Com FastAPI.md",
     "Programação/Backend e APIs/FastAPI/BaseSettings + FastAPI.md",
-    "Programação/Backend e APIs/Evolution API/python + evolutionapi + lib.md",
     "Programação/Automacao e Scraping/📥 Guia de Uso - gdown.md",
     "Programação/Automacao e Scraping/Captura de Áudio de Lives do YouTube.md",
     "Programação/DevOps e Infraestrutura/VPS/Iniciando Servidor.md",
@@ -208,13 +214,7 @@
     "Programação/IA Agentes e LLMs/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
     "Programação/IA Agentes e LLMs/LangChain/FAISS.md",
     "Programação/IA Agentes e LLMs/LangChain/Conetando IA com banco de dados.md",
-    "Programação/Fundamentos Python/Desing Patterns/Iterator (Iterador).md",
-    "Programação/Fundamentos Python/Desing Patterns/patterns.md",
-    "Programação/Fundamentos Python/Desing Patterns/Monolítico (monolithic).md",
-    "Programação/Fundamentos Python/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
-    "Programação/Engenharia de Dados e Mensageria/RabbitMQ/rabbitmq + fastAPI.md",
-    "Programação/Engenharia de Dados e Mensageria/RabbitMQ/rabbitmq + python.md",
     "Sem título.base",
     "Sociedade e Politica",
     "Inbox/classes.drawio",
