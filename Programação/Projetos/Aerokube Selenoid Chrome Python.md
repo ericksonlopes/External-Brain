@@ -1,4 +1,4 @@
-#python #docker #selenium #selenoid #testes #automacao #projeto
+#python #docker #selenium #selenoid #testes #automacao #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF) ![Docker](https://img.shields.io/badge/-Docker-2496ED?&logo=Docker&logoColor=FFFFFF) ![Selenium](https://img.shields.io/badge/-Selenium-43B02A?&logo=Selenium&logoColor=FFFFFF)
 

@@ -1,4 +1,4 @@
-#python #ia #rag #universidade #projeto
+#python #ia #rag #universidade #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF)
 

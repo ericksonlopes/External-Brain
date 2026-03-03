@@ -1,4 +1,4 @@
-#python #html #mapas #cidades #brasil #projeto
+#python #html #mapas #cidades #brasil #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF) ![HTML](https://img.shields.io/badge/-HTML-E34F26?&logo=HTML5&logoColor=FFFFFF)
 

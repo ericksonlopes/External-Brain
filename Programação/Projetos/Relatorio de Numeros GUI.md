@@ -1,4 +1,4 @@
-#python #tkinter #gui #numeros #projeto
+#python #tkinter #gui #numeros #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF)
 

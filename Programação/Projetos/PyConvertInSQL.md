@@ -1,4 +1,4 @@
-#python #sql #conversor #dados #projeto
+#python #sql #conversor #dados #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF) ![SQLite](https://img.shields.io/badge/-SQLite-003B57?&logo=SQLite&logoColor=FFFFFF)
 

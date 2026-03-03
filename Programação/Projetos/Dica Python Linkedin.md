@@ -1,4 +1,4 @@
-#python #dicas #linkedin #tips #projeto
+#python #dicas #linkedin #tips #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Erickson_Lopes-blue)](https://www.linkedin.com/in/ericksonlopes/) ![Star](https://img.shields.io/github/stars/Erickson-lopes-dev/Dica_Python_Linkedin?style=social)
 

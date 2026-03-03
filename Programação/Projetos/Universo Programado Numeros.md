@@ -1,4 +1,4 @@
-#python #ciencia #numeros #universo #study-project #projeto
+#python #ciencia #numeros #universo #study-project #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF)
 

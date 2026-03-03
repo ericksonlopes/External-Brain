@@ -1,4 +1,4 @@
-#python #nfe #nota-fiscal #extrator #projeto
+#python #nfe #nota-fiscal #extrator #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF)
 

@@ -1,4 +1,4 @@
-#python #airflow #docker #docker-compose #engenharia-de-dados #projeto
+#python #airflow #docker #docker-compose #engenharia-de-dados #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF) ![Docker](https://img.shields.io/badge/-Docker-2496ED?&logo=Docker&logoColor=FFFFFF) ![Airflow](https://img.shields.io/badge/-Airflow-017CEE?&logo=Apache%20Airflow&logoColor=FFFFFF)
 

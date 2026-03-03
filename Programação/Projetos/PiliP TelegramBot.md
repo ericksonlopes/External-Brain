@@ -1,4 +1,4 @@
-#python #telegram #bot #automacao #projeto
+#python #telegram #bot #automacao #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF) ![Telegram](https://img.shields.io/badge/-Telegram-26A5E4?&logo=Telegram&logoColor=FFFFFF)
 

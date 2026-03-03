@@ -1,4 +1,4 @@
-#python #rpa #automacao #projeto
+#python #rpa #automacao #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF)
 

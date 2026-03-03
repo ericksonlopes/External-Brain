@@ -1,4 +1,4 @@
-#python #ia #agentes #fastapi #docker #openai #banco-de-dados #projeto
+#python #ia #agentes #fastapi #docker #openai #banco-de-dados #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF) ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?&logo=FastAPI&logoColor=FFFFFF) ![Docker](https://img.shields.io/badge/-Docker-2496ED?&logo=Docker&logoColor=FFFFFF) ![OpenAI|54](https://img.shields.io/badge/-OpenAI-412991?&logo=OpenAI&logoColor=FFFFFF)
 

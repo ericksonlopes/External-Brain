@@ -1,4 +1,4 @@
-#python #flask #sqlite #api #rest #projeto
+#python #flask #sqlite #api #rest #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF) ![Flask](https://img.shields.io/badge/-Flask-181717?&logo=Flask&logoColor=FFFFFF) ![SQLite](https://img.shields.io/badge/-SQLite-003B57?&logo=SQLite&logoColor=FFFFFF)
 

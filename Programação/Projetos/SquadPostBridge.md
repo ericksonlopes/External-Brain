@@ -1,4 +1,4 @@
-#python #ia #openai #linkedin #streamlit #automacao #projeto
+#python #ia #openai #linkedin #streamlit #automacao #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF) ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?&logo=OpenAI&logoColor=FFFFFF) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?&logo=Streamlit&logoColor=FFFFFF)
 

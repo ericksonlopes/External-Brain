@@ -1,4 +1,4 @@
-#python #streamlit #github #repositorio #projeto
+#python #streamlit #github #repositorio #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?&logo=Streamlit&logoColor=FFFFFF)
 

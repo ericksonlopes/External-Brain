@@ -1,4 +1,4 @@
-#python #django #blog #filosofia #projeto
+#python #django #blog #filosofia #project
 
 ![Python](https://img.shields.io/badge/-Python-3776AB?&logo=Python&logoColor=FFFFFF) ![Django](https://img.shields.io/badge/-Django-092E20?&logo=Django&logoColor=FFFFFF)
 
