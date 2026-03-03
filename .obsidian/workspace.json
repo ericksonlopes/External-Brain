@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/LINKS PARA VER.md",
+                "file": "Programação/Engenharia de Dados e Mensageria/logging/Sem título.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "LINKS PARA VER"
+              "title": "Sem título"
             }
           }
         ]
@@ -187,9 +187,11 @@
   },
   "active": "bc89bbf1fb6fbbcd",
   "lastOpenFiles": [
+    "Programação/Machine Learning/sklearn/Sem título.md",
+    "Programação/IA Agentes e LLMs/MCP/Autenticação.md",
+    "Inbox/LINKS PARA VER.md",
     "Programação/Automacao e Scraping/Captação audio.md",
     "Programação/Automacao e Scraping/Guia gdown.md",
-    "Inbox/LINKS PARA VER.md",
     "Componentes computador/Componentes.md",
     "Componentes computador/Periféricos.md",
     "Programação/Backend e APIs/SQLAlchemy/Query com sqlalchemy sem definir tabelas.md",
@@ -221,8 +223,6 @@
     "Programação/Organizacao_Programacao.md",
     "Programação/Backend e APIs/Streamlit/Streamlit + Jinja2.md",
     "Programação/DevOps e Infraestrutura/Obtendo Estrutura de Pastas no terminal linux.md",
-    "Programação/Projetos/Compile-Repo.md",
-    "Programação/Automacao e Scraping/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/Arquitetura/rag.svg",
