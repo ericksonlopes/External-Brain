@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Automacao e Scraping/Captura de Áudio de Lives do YouTube.md",
+                "file": "Programação/DevOps e Infraestrutura/VPS/Iniciando Servidor.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Captura de Áudio de Lives do YouTube"
+              "title": "Iniciando Servidor"
             }
           }
         ]
@@ -187,6 +187,9 @@
   },
   "active": "cb5680f70ba6c5ca",
   "lastOpenFiles": [
+    "Programação/DevOps e Infraestrutura/Obtendo Estrutura de Pastas no terminal linux.md",
+    "Programação/Machine Learning/sklearn/Similaridade de Texto com TF-IDF e Sklearn.md",
+    "Programação/Automacao e Scraping/Captura de Áudio de Lives do YouTube.md",
     "Programação/Automacao e Scraping/📥 Guia de Uso - gdown.md",
     "Programação/IA Agentes e LLMs/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
     "Programação/IA Agentes e LLMs/weaviete/start.md",
@@ -212,9 +215,6 @@
     "Programação/Engenharia de Dados e Mensageria/PySpark/Trabalhando com views no pyspark.md",
     "Programação/Engenharia de Dados e Mensageria/PySpark/Trabalhando com Grafos no pyspark.md",
     "Programação/Engenharia de Dados e Mensageria/PySpark/Exportando arquivos com pyspark.md",
-    "Programação/Engenharia de Dados e Mensageria/PySpark/Configurando ambiente para o pyspark e pycharm.md",
-    "Programação/Engenharia de Dados e Mensageria/MQTT/Docker compose MQTT.md",
-    "Programação/Engenharia de Dados e Mensageria/MQTT/class python with.md",
     "Sem título.base",
     "Sociedade e Politica",
     "Inbox/classes.drawio",
