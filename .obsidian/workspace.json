@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Prompt para Geração de Documentação Obsidian.md",
+                "file": "Programação/Backend e APIs/FastAPI/Tests com FastAPI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Prompt para Geração de Documentação Obsidian"
+              "title": "Tests com FastAPI"
             }
           }
         ]
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Prompt para Geração de Documentação Obsidian.md",
+                "file": "Programação/Backend e APIs/FastAPI/Tests com FastAPI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Prompt para Geração de Documentação Obsidian"
+              "title": "Links de saída para Tests com FastAPI"
             }
           },
           {
@@ -188,8 +188,11 @@
   },
   "active": "740ae3a9eb3550ee",
   "lastOpenFiles": [
-    "logging com debug on e off.md",
+    "Programação/Backend e APIs/FastAPI/Padrão MVC Com FastAPI.md",
+    "Programação/Backend e APIs/FastAPI/BaseSettings + FastAPI.md",
+    "Programação/Backend e APIs/Evolution API/📥 Guia de Uso - Python + Evolution API - Library.md",
     "Programação/Prompt para Geração de Documentação Obsidian.md",
+    "logging com debug on e off.md",
     "Programação/IA Agentes e LLMs/Embeddings/Embeddings com Sentence Transformers e E5.md",
     "Programação/IA Agentes e LLMs/Agno/Agente simples com Agno.md",
     "Programação/IA Agentes e LLMs/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
@@ -199,8 +202,6 @@
     "Programação/Fundamentos Python/Algoritmos/Composite Pattern/🧩 Agrupamento com Set - Union-Find Simplificado.md",
     "Programação/Fundamentos Python/Algoritmos/Composite Pattern/🌳 Union-Find com collections - Agrupamento por Conexões.md",
     "Programação/Backend e APIs/WAHA/Como rodar o WAHA.md",
-    "Programação/Backend e APIs/FastAPI/BaseSettings + FastAPI.md",
-    "Programação/Backend e APIs/FastAPI/Padrão MVC Com FastAPI.md",
     "Programação/Backend e APIs/FastAPI/Tests com FastAPI.md",
     "Programação/Backend e APIs/MQTT/MQTT Client — PubSub com Paho MQTT v5.md",
     "Programação/IA Agentes e LLMs/Openai/Azure + Openai.md",
@@ -214,7 +215,6 @@
     "Inbox/LINKS PARA VER.md",
     "Programação/DevOps e Infraestrutura/VPS/Iniciando Servidor.md",
     "Programação/IA Agentes e LLMs/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando Modelos.md",
-    "Programação/Backend e APIs/Pydantic/⚙️ Pydantic Settings — Configuração Tipada com .env.md",
     "Programação/Fundamentos Python/logger",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
