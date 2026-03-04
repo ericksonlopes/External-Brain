@@ -37,8 +37,8 @@ print("Todos os itens foram processados.")
 
 - O `processing_lock` evita que o output do produtor e do consumidor se misturem no terminal.
 - `teste_queue.join()` bloqueia até que todos os `task_done()` sejam chamados.
-- Para uma versão com rastreio do item atual, veja [[queue tracking]].
-- Para o básico de Queues, veja [[queue]].
+- Para uma versão com rastreio do item atual, veja [[📊 queue tracking]].
+- Para o básico de Queues, veja [[📖 queue]].
 
 ---
 #python #threads #concurrency #queue

@@ -143,7 +143,7 @@ Configure.VectorIndex.hnsw(
 ## 📝 Notas
 
 - O `_ensure_schema` usa try/except em vez de `exists()` — mais robusto com a API do Weaviate.
-- Os vetores devem ser gerados antes de chamar `save_chunks` (ex: via [[Embeddings com Sentence Transformers e E5]]).
+- Os vetores devem ser gerados antes de chamar `save_chunks` (ex: via [[🔢 Embeddings com Sentence Transformers e E5]]).
 - O connector é injetado via construtor (DI) — veja [[🔌 WeaviateConnector — Context Manager para Conexão]].
 
 ---

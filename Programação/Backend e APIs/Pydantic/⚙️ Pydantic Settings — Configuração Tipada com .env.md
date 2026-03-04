@@ -67,7 +67,7 @@ O `BaseSettings` carrega valores na seguinte ordem (a mais alta sobrescreve):
 
 - Campos sem valor padrão são **obrigatórios** — a aplicação falha ao iniciar se não estiverem definidos.
 - O `settings` é tipicamente exportado como singleton no nível do módulo.
-- Para o conceito básico de `BaseSettings`, veja [[BaseSettings + env]].
+- Para o conceito básico de `BaseSettings`, veja [[📋 BaseSettings + env]].
 
 ---
 #python #pydantic #env 

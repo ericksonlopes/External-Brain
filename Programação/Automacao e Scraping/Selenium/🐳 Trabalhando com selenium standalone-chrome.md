@@ -43,8 +43,8 @@ if __name__ == '__main__':
 
 ## 📝 Notas
 
-- Para configurações mais avançadas (Selenoid, VNC, múltiplos browsers), veja [[Utilizando WebDriver Remoto com Selenium e Docker]].
-- Para entender as flags do Chrome (`--no-sandbox`, etc.), veja [[Capabilities]].
+- Para configurações mais avançadas (Selenoid, VNC, múltiplos browsers), veja [[🌐 Utilizando WebDriver Remoto com Selenium e Docker]].
+- Para entender as flags do Chrome (`--no-sandbox`, etc.), veja [[⚙️ Capabilities]].
 
 ---
 #python #selenium #docker #automation #webdriver

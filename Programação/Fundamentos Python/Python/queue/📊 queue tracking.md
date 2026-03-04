@@ -67,7 +67,7 @@ print("Todos os itens foram processados.")
 
 - O `processing_lock` garante que o `put` e a leitura do `current_task()` não conflitem com o `get` do worker.
 - A thread é `daemon=True`, então encerra automaticamente quando o programa principal termina.
-- Para o básico de Queues, veja [[queue]].
+- Para o básico de Queues, veja [[📖 queue]].
 
 ---
 #python #threads #concurrency #queue

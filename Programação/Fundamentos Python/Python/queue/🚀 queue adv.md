@@ -83,9 +83,9 @@ if __name__ == "__main__":
 
 ## 📝 Notas
 
-- Diferente do [[queue tracking]], aqui o worker usa `get(timeout=1)` com tratamento de `Empty`, evitando bloqueio permanente.
+- Diferente do [[📊 queue tracking]], aqui o worker usa `get(timeout=1)` com tratamento de `Empty`, evitando bloqueio permanente.
 - O `QueueProcessor` encapsula thread + lock, tornando o código mais reutilizável.
-- Para o básico de Queues, veja [[queue]].
+- Para o básico de Queues, veja [[📖 queue]].
 
 ---
 #python #threads #concurrency #queue #oop

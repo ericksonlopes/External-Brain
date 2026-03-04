@@ -157,9 +157,9 @@ apm_client = Client(
 
 - A ordem de inicialização é garantida por `depends_on` + `condition: service_healthy`.
 - Os volumes removidos (`pulsar-data`, `mongodb_data`, `weaviate_data`) e networks (`pulsar-net`) do compose original não são necessários para o stack APM.
-- Para o compose do Elasticsearch 8.x com autenticação, veja [[Elasticsearch + kibana docker-compose]].
-- Para o client APM em Python, veja [[Elastic APM Client — Singleton Thread-Safe com FastAPI]].
-- Para o logger que envia para o APM, veja [[APMLogger — Logger que envia logs para o Elastic APM]].
+- Para o compose do Elasticsearch 8.x com autenticação, veja [[🐳 Elasticsearch + kibana docker-compose]].
+- Para o client APM em Python, veja [[🔌 Elastic APM Client — Singleton Thread-Safe com FastAPI]].
+- Para o logger que envia para o APM, veja [[📊 APMLogger — Logger que envia logs para o Elastic APM]].
 
 ---
 #elasticsearch #kibana #apm #docker #docker-compose #observability

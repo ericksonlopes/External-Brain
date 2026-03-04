@@ -1,5 +1,3 @@
-# 🧠 Similaridade de Texto com TF-IDF e Sklearn
-
 Este script utiliza a técnica **TF-IDF (Term Frequency-Inverse Document Frequency)** para transformar textos em vetores numéricos e calcular a similaridade entre eles utilizando a **Similaridade de Cosseno**.
 
 ## 🛠️ Pré-requisitos

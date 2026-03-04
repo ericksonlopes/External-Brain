@@ -144,8 +144,8 @@ logger.error(Exception("Falha na conexão com DB"), context={"db": "postgres"})
 ## 📝 Notas
 
 - Se o `client` for `None`, nenhum log é enviado (fail-safe).
-- Reutiliza os mesmos utilitários (`get_log_record`, `get_allowed_levels`) do [[Sistema de logging (registro de logs) customizado em Python|StdLogger]].
-- Para configurar o client APM com FastAPI, veja [[Elastic APM Client — Singleton Thread-Safe com FastAPI]].
+- Reutiliza os mesmos utilitários (`get_log_record`, `get_allowed_levels`) do [[📝 Sistema de logging (registro de logs) customizado em Python|StdLogger]].
+- Para configurar o client APM com FastAPI, veja [[🔌 Elastic APM Client — Singleton Thread-Safe com FastAPI]].
 - Pode ser combinado com `StdLogger` usando um **CompositeLogger** para logar simultaneamente no console e no APM.
 
 ---
