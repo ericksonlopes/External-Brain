@@ -1,5 +1,3 @@
-# 🔄 Loop While com Dicionário — Esgotamento Alternado de Filas
-
 Padrão para extrair elementos de um dicionário cujos valores são listas, alternando entre as chaves até que todas as listas estejam vazias.
 
 ## 📄 Implementação

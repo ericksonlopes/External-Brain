@@ -1,4 +1,3 @@
-# 🌳 Union-Find com collections — Agrupamento por Conexões
 
 Implementação do algoritmo **Union-Find** (Disjoint Set) usando `defaultdict` para agrupar elementos conectados. Utiliza **path compression** no `find` para otimizar buscas.
 
@@ -57,7 +56,7 @@ Grupo 5: [4, 5]
 ## 📝 Notas
 
 - **Path compression** no `find` achata a árvore, tornando buscas futuras O(1) amortizado.
-- Para uma versão simplificada usando `set`, veja [[Agrupamento com Set - Union-Find Simplificado]].
+- Para uma versão simplificada usando `set`, veja [[🧩 Agrupamento com Set - Union-Find Simplificado]].
 
 ---
 #python #collections #union-find

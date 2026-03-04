@@ -1,4 +1,3 @@
-# 🔎 Algoritmo de Similaridade de Textos — TF-IDF + Cosseno
 
 Agrupa textos similares usando **TF-IDF** (Term Frequency-Inverse Document Frequency) e **similaridade do cosseno** com scikit-learn.
 

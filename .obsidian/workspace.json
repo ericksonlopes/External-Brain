@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Backend e APIs/MQTT/MQTT Client — PubSub com Paho MQTT v5.md",
+                "file": "Programação/IA Agentes e LLMs/Agno/Agente simples com Agno.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "MQTT Client — PubSub com Paho MQTT v5"
+              "title": "Agente simples com Agno"
             }
           }
         ]
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Backend e APIs/MQTT/MQTT Client — PubSub com Paho MQTT v5.md",
+                "file": "Programação/IA Agentes e LLMs/Agno/Agente simples com Agno.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para MQTT Client — PubSub com Paho MQTT v5"
+              "title": "Links de saída para Agente simples com Agno"
             }
           },
           {
@@ -188,9 +188,19 @@
   },
   "active": "0598d4f331e77759",
   "lastOpenFiles": [
+    "Programação/IA Agentes e LLMs/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
+    "Programação/Fundamentos Python/Criando um projeto em python.md",
+    "Programação/Fundamentos Python/Algoritmos/🔄 Loop While com Dicionário — Esgotamento Alternado de Filas.md",
+    "Programação/Fundamentos Python/Algoritmos/🔎 Algoritmo de Similaridade de Textos — TF-IDF + Cosseno.md",
+    "Programação/Fundamentos Python/Algoritmos/Composite Pattern/🧩 Agrupamento com Set - Union-Find Simplificado.md",
+    "Programação/Fundamentos Python/Algoritmos/Composite Pattern/🌳 Union-Find com collections - Agrupamento por Conexões.md",
+    "Programação/Backend e APIs/WAHA/Como rodar o WAHA.md",
+    "Programação/Backend e APIs/FastAPI/BaseSettings + FastAPI.md",
+    "Programação/Backend e APIs/FastAPI/Padrão MVC Com FastAPI.md",
+    "Programação/Backend e APIs/FastAPI/Tests com FastAPI.md",
+    "Programação/Backend e APIs/MQTT/MQTT Client — PubSub com Paho MQTT v5.md",
     "Programação/IA Agentes e LLMs/Openai/Azure + Openai.md",
     "Programação/IA Agentes e LLMs/Openai/Transcrição de audio - WhisperX.md",
-    "Programação/Backend e APIs/MQTT/MQTT Client — PubSub com Paho MQTT v5.md",
     "Programação/Backend e APIs/MQTT",
     "Programação/IA Agentes e LLMs/weaviete/🧠 RAG Híbrido - Weaviate (Busca Vetorial) + MongoDB.md",
     "Programação/Fundamentos Python/Python/PEP8.md",
@@ -202,20 +212,10 @@
     "Programação/IA Agentes e LLMs/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando Modelos.md",
     "Programação/IA Agentes e LLMs/Embeddings/Embeddings com Sentence Transformers e E5.md",
     "logging com debug on e off.md",
-    "Programação/Backend e APIs/FastAPI/BaseSettings + FastAPI.md",
     "Programação/Backend e APIs/Pydantic/⚙️ Pydantic Settings — Configuração Tipada com .env.md",
     "Programação/Backend e APIs/SQLAlchemy/🔍 SQLAlchemy — Query sem Definir Models (Reflection).md",
     "Programação/Backend e APIs/Pydantic/BaseSettings + env.md",
-    "Programação/Bancos de Dados/ElasticSearch/Elastic APM Client — Singleton Thread-Safe com FastAPI.md",
-    "Programação/Bancos de Dados/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/Bancos de Dados/ElasticSearch/Elastic Stack + APM Server docker-compose.md",
-    "Programação/Bancos de Dados/ElasticSearch/APMLogger — Logger que envia logs para o Elastic APM.md",
-    "Programação/Bancos de Dados/ElasticSearch/Elasticsearch + kibana docker-compose.md",
-    "Programação/Fundamentos Python/Sem título.md",
     "Programação/Fundamentos Python/logger",
-    "Programação/Engenharia de Dados e Mensageria/logging/Classe Logger.md",
-    "Programação/Fundamentos Python/Python/Trabalhando com datas no python.md",
-    "Programação/Fundamentos Python/logger/Sistema de logging (registro de logs) customizado em Python.md",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/IA Agentes e LLMs/Embeddings",

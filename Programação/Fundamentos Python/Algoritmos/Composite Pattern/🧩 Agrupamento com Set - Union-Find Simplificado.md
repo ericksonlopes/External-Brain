@@ -1,4 +1,3 @@
-# 🧩 Agrupamento com Set — Union-Find Simplificado
 
 Versão simplificada do padrão de agrupamento usando `set`. Busca um grupo existente que contenha um dos elementos e adiciona o novo; caso contrário, cria um grupo novo.
 
@@ -33,7 +32,7 @@ print(groups)
 ## 📝 Notas
 
 - Abordagem simples, mas **não lida com merge de grupos** — se `i` e `j` estiverem em grupos diferentes, apenas um é atualizado.
-- Para uma solução completa com path compression, veja [[Union-Find com collections - Agrupamento por Conexões]].
+- Para uma solução completa com path compression, veja [[🌳 Union-Find com collections - Agrupamento por Conexões]].
 
 ---
 #python #set #union-find
