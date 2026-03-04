@@ -1,18 +1,18 @@
-#chrome #selenium #webdriver 
+# 🐳 Selenium Standalone Chrome com Docker
 
-🚀🌟 Estou animado para compartilhar com vocês um código incrível para aprimorar sua automação de testes! 💻✨
+Forma rápida de rodar o Selenium em um container Docker usando a imagem oficial `selenium/standalone-chrome`. Ideal para testes locais sem precisar instalar o Chrome ou o ChromeDriver na máquina.
 
-Se você já trabalhou com testes de interface do usuário, com certeza conhece a poderosa ferramenta Selenium. E agora, vou mostrar como usar o Selenium em conjunto com o Docker para tornar suas tarefas de teste ainda mais eficientes e escaláveis.
+## 🚀 Subindo o Container
 
-🐳 Primeiro, vamos iniciar um contêiner Docker usando o seguinte comando:
+Execute o comando abaixo para iniciar uma instância do Selenium com Chrome:
 
-```
+```bash
 docker run -d -p 4444:4444 selenium/standalone-chrome
 ```
 
-Esse comando irá baixar e iniciar um contêiner Docker com uma instância do Selenium Standalone com o Chrome.
+Isso expõe o WebDriver remoto na porta `4444`, pronto para receber conexões.
 
-📝 Agora, vamos ao código Python:
+## 📄 Conectando via Python
 
 ```python
 from selenium import webdriver
@@ -22,8 +22,11 @@ def get_webdriver() -> WebDriver:
     options = webdriver.ChromeOptions()
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
-    ret_driver = webdriver.Remote(command_executor='http://localhost:4444/wd/hub', options=options)
-    return ret_driver
+
+    return webdriver.Remote(
+        command_executor='http://localhost:4444/wd/hub',
+        options=options
+    )
 
 if __name__ == '__main__':
     driver = get_webdriver()
@@ -32,14 +35,16 @@ if __name__ == '__main__':
     driver.quit()
 ```
 
-Esse código cria uma instância do WebDriver do Selenium e configura as opções do Chrome. Em seguida, ele se conecta ao contêiner Docker que iniciamos anteriormente e abre o Google no navegador.
+## ✅ Vantagens
 
-🎉🔍 Após executar o código, você verá o título da página do Google sendo impresso no console, confirmando que a automação está funcionando corretamente.
+1. **Isolamento**: O navegador roda dentro do container, sem poluir o ambiente local.
+2. **Simplicidade**: Um único comando sobe todo o ambiente necessário.
+3. **Reprodutibilidade**: Mesma versão do Chrome em qualquer máquina.
 
-Com essa abordagem, podemos aproveitar os benefícios do Docker para manter nosso ambiente de teste isolado e escalável. Além disso, o Selenium nos proporciona uma variedade de recursos poderosos para realizar testes automatizados em interfaces da web.
+## 📝 Notas
 
-🌐💡 Então, da próxima vez que você precisar realizar testes de interface do usuário de forma eficiente e confiável, lembre-se desse código e aproveite ao máximo a combinação entre Selenium e Docker!
+- Para configurações mais avançadas (Selenoid, VNC, múltiplos browsers), veja [[Utilizando WebDriver Remoto com Selenium e Docker]].
+- Para entender as flags do Chrome (`--no-sandbox`, etc.), veja [[Capabilities]].
 
-#automation #testing #selenium #docker #webdevelopment #python
-
-👉 Fique à vontade para deixar seus comentários e compartilhar suas experiências com automação de testes usando Selenium e Docker! Vamos aprender juntos e impulsionar nossas habilidades! 😄🌟
+---
+#python #selenium #docker #automation #webdriver
