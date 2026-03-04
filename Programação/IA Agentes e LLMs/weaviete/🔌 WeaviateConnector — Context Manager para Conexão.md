@@ -1,4 +1,3 @@
-# 🔌 WeaviateConnector — Context Manager para Conexão
 
 Classe que encapsula a conexão com o Weaviate usando o padrão **context manager** (`with`), garantindo que a conexão seja sempre fechada corretamente.
 
@@ -72,7 +71,7 @@ with connector as client:
 
 - O `__exit__` garante o `close()` mesmo em caso de exceção.
 - Para alternar entre local e cloud, basta trocar o método em `_create_client`.
-- Para a arquitetura completa de RAG com Weaviate + MongoDB, veja [[start]].
+- Para a arquitetura completa de RAG com Weaviate + MongoDB, veja [[🧠 RAG Híbrido - Weaviate (Busca Vetorial) + MongoDB]].
 
 ---
-#python #weaviate #vector-db #context-manager #ia
+#python #weaviate #vector-db #context-manager #ia 

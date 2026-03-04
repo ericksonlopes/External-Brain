@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "04c56e757c336d3c",
+        "id": "5646dc24e09037d7",
         "type": "tabs",
         "children": [
           {
-            "id": "07fe670d68207327",
+            "id": "56659be424b146aa",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "icon": "lucide-file",
+              "title": "Nova aba"
             }
           }
         ]
@@ -180,8 +180,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "07fe670d68207327",
+  "active": "56659be424b146aa",
   "lastOpenFiles": [
+    "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
+    "Programação/IA Agentes e LLMs/weaviete/🧠 RAG Híbrido - Weaviate (Busca Vetorial) + MongoDB.md",
     "Programação/Backend e APIs/Pydantic/pydantic_settings.md",
     "Programação/Fundamentos Python/Algoritmos/Algoritmo de Similaridade - (Ajustar).md",
     "Programação/Fundamentos Python/Algoritmos/Composite Pattern/Union-Find com collections - Agrupamento por Conexões.md",
@@ -207,8 +209,6 @@
     "Programação/Bancos de Dados/ElasticSearch/Elastic APM Client — Singleton Thread-Safe com FastAPI.md",
     "Programação/DevOps e Infraestrutura/VPS/Iniciando Servidor.md",
     "Programação/Backend e APIs/Streamlit/Streamlit Templates.md",
-    "Programação/IA Agentes e LLMs/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando Modelos.md",
-    "Programação/Automacao e Scraping/Selenium/webdriver.md",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/IA Agentes e LLMs/Embeddings",
     "Sem título.base",
