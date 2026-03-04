@@ -186,8 +186,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0598d4f331e77759",
+  "active": "cca38a706f2e253c",
   "lastOpenFiles": [
+    "Programação/Backend e APIs/MQTT/MQTT Client — PubSub com Paho MQTT v5.md",
+    "Programação/Backend e APIs/MQTT",
     "Programação/IA Agentes e LLMs/weaviete/🧠 RAG Híbrido - Weaviate (Busca Vetorial) + MongoDB.md",
     "Programação/Fundamentos Python/Python/PEP8.md",
     "Programação/IA Agentes e LLMs/LangChain/Extração de Dados Estruturados com LangChain e Pydantic.md",
@@ -214,7 +216,6 @@
     "Programação/Fundamentos Python/logger/Sistema de logging (registro de logs) customizado em Python.md",
     "Programação/Fundamentos Python/Python/Pipenv.md",
     "Programação/Fundamentos Python/Python/logging com debug on e off.md",
-    "Programação/IA Agentes e LLMs/Openai/Transcrição de audio - WhisperX.md",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/IA Agentes e LLMs/Embeddings",
@@ -225,7 +226,6 @@
     "Inbox/Sem título 2.base",
     "Inbox/Sem título 3.base",
     "Inbox/Sem título 4.base",
-    "Inbox/Sem título 5.base",
     "Programação/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/LangChain/LangChain Canvas.canvas",
     "Programação/Arquitetura/Untitled Diagram.svg",
