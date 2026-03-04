@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/📝 Prompt para Geração de Documentação Obsidian.md",
+                "file": "Programação/ericksonlopes readme.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "📝 Prompt para Geração de Documentação Obsidian"
+              "title": "ericksonlopes readme"
             }
           }
         ]
@@ -188,6 +188,7 @@
   },
   "active": "5d2a1c03568b8950",
   "lastOpenFiles": [
+    "Programação/📝 Prompt para Geração de Documentação Obsidian.md",
     "Programação/ericksonlopes readme.md",
     "Programação/Backend e APIs/Pydantic/⚙️ Pydantic Settings — Configuração Tipada com .env.md",
     "Programação/Backend e APIs/Pydantic/📋 BaseSettings + env.md",
@@ -214,7 +215,6 @@
     "Programação/Projetos/🔍 Search In Export Chat (StreamLit).md",
     "Programação/Projetos/🔄 PyConvertInSQL.md",
     "Programação/Machine Learning/torch/🔢 creating embeddings.md",
-    "Programação/IA Agentes e LLMs/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
     "Programação/Backend e APIs/MQTT",
     "Programação/Fundamentos Python/logger",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
