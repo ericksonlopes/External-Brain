@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "333730e6d3041d91",
+        "id": "65f901c9de57e8be",
         "type": "tabs",
         "children": [
           {
-            "id": "2374c81af9bdc866",
+            "id": "0598d4f331e77759",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "wea",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -181,8 +180,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2374c81af9bdc866",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "Programação/Fundamentos Python/Python/PEP8.md",
     "Programação/IA Agentes e LLMs/LangChain/Extração de Dados Estruturados com LangChain e Pydantic.md",
     "Programação/IA Agentes e LLMs/weaviete/📦 Weaviate Repository — Padrão Repository com Vector DB.md",
     "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
@@ -207,7 +207,6 @@
     "Programação/Fundamentos Python/Python/Trabalhando com datas no python.md",
     "Programação/Fundamentos Python/logger/Sistema de logging (registro de logs) customizado em Python.md",
     "Programação/Fundamentos Python/Python/Pipenv.md",
-    "Programação/Fundamentos Python/Python/PEP8.md",
     "Programação/Fundamentos Python/Python/logging com debug on e off.md",
     "Programação/IA Agentes e LLMs/Openai/Transcrição de audio - WhisperX.md",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
