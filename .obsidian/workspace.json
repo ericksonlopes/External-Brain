@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Engenharia de Dados e Mensageria/Airflow/📦 TaskGroup.md",
+                "file": "Programação/Engenharia de Dados e Mensageria/Redis/🐍 Redis + Python.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "📦 TaskGroup"
+              "title": "🐍 Redis + Python"
             }
           }
         ]
@@ -188,6 +188,16 @@
   },
   "active": "5d2a1c03568b8950",
   "lastOpenFiles": [
+    "Programação/DevOps e Infraestrutura/📂 Obtendo Estrutura de Pastas no terminal linux.md",
+    "Programação/Engenharia de Dados e Mensageria/MQTT/🐳 Docker compose MQTT.md",
+    "Programação/Engenharia de Dados e Mensageria/MQTT/🐍 Classe MQTT com Context Manager (Python).md",
+    "Programação/Engenharia de Dados e Mensageria/MQTT/⚡ fastapi + mqtt.md",
+    "Programação/Engenharia de Dados e Mensageria/Airflow/⏰ Agendando DAGs no Airflow (Schedule).md",
+    "Programação/Bancos de Dados/MongoDB/📝 CRUD em  MongoDB com python.md",
+    "Programação/Bancos de Dados/MongoDB/🐳 mongodb no docker.md",
+    "Programação/Bancos de Dados/Bucket/📥 Baixando e salvando imagens no bucket.md",
+    "Programação/Bancos de Dados/Bucket/📝 CRUD item no bucket.md",
+    "Programação/Engenharia de Dados e Mensageria/Airflow/📦 TaskGroup.md",
     "Programação/Engenharia de Dados e Mensageria/Airflow/🔧 Executando Taks independente de erros (as_teardown).md",
     "Programação/Engenharia de Dados e Mensageria/Airflow/🚀 Airflow Standalone.md",
     "Programação/IA Agentes e LLMs/Embeddings/🔢 Embeddings com Sentence Transformers e E5.md",
@@ -204,17 +214,7 @@
     "Programação/Automacao e Scraping/Selenium/📥 Fazendo download automatico do webdriver.md",
     "Programação/Backend e APIs/FastAPI/🧪 Tests com FastAPI.md",
     "Programação/Backend e APIs/FastAPI/🏗️ Padrão MVC Com FastAPI.md",
-    "Programação/IA Agentes e LLMs/weaviete/🧠 RAG Híbrido - Weaviate (Busca Vetorial) + MongoDB.md",
-    "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
-    "Programação/IA Agentes e LLMs/weaviete/📦 Weaviate Repository — Padrão Repository com Vector DB.md",
-    "Programação/IA Agentes e LLMs/LangChain/🗄️ Conetando IA com banco de dados.md",
     "Programação/IA Agentes e LLMs/LangChain/LangChain Canvas.canvas",
-    "Programação/IA Agentes e LLMs/LangChain/🔌 Tutorial Implementando MCP com FastMCP e LangChain.md",
-    "Programação/IA Agentes e LLMs/LangChain/🔍 FAISS.md",
-    "Programação/IA Agentes e LLMs/LangChain/Conetando IA com banco de dados.md",
-    "Programação/IA Agentes e LLMs/LangChain/Extração de Dados Estruturados com LangChain e Pydantic.md",
-    "Programação/IA Agentes e LLMs/LangChain/📚 Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
-    "Programação/IA Agentes e LLMs/MCP/🔐 Autenticação.md",
     "Programação/Backend e APIs/MQTT",
     "Programação/Fundamentos Python/logger",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
