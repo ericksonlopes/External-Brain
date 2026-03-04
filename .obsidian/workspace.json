@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Fundamentos Python/Python/Classmethod e Staticmethod.md",
+                "file": "Programação/Fundamentos Python/Python/queue/queue tracking.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Classmethod e Staticmethod"
+              "title": "queue tracking"
             }
           }
         ]
@@ -185,10 +185,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cac6332e8ee13cbc",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
-    "Programação/IA Agentes e LLMs/LangChain/Extração de Dados Estruturados com LangChain e Pydantic.md",
+    "Programação/Fundamentos Python/Python/queue/queue lock.md",
+    "Programação/Fundamentos Python/Python/queue/queue adv.md",
+    "Programação/Fundamentos Python/Python/queue/queue.md",
     "Programação/Fundamentos Python/Python/Classmethod e Staticmethod.md",
+    "Programação/Fundamentos Python/Python/Context.md",
+    "Programação/IA Agentes e LLMs/LangChain/Extração de Dados Estruturados com LangChain e Pydantic.md",
     "Programação/IA Agentes e LLMs/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando Modelos.md",
     "Programação/IA Agentes e LLMs/LangChain/Web Scraper com LangChain e Playwright.md",
     "Programação/IA Agentes e LLMs/firecrawl/iniciando com firecrawl.md",
@@ -209,10 +213,6 @@
     "Programação/Projetos/Dica Python Linkedin.md",
     "Programação/Projetos/API Agenda com Flask e SQLite3.md",
     "Programação/Projetos/Airflow Docker Example.md",
-    "Programação/Projetos/Agent Sales Insights Pharmaceutical.md",
-    "Programação/Projetos/Aerokube Selenoid Chrome Python.md",
-    "Programação/Projetos/YouTranscripta.md",
-    "Programação/Projetos/Words-In-Songs.md",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Sem título.base",
