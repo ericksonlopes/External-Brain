@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Sem título.md",
+                "file": "Programação/📝 Prompt para Geração de Documentação Obsidian.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "📝 Prompt para Geração de Documentação Obsidian"
             }
           }
         ]
@@ -188,8 +188,8 @@
   },
   "active": "5d2a1c03568b8950",
   "lastOpenFiles": [
+    "Programação/ericksonlopes readme.md",
     "Programação/Backend e APIs/Pydantic/⚙️ Pydantic Settings — Configuração Tipada com .env.md",
-    "Programação/Sem título.md",
     "Programação/Backend e APIs/Pydantic/📋 BaseSettings + env.md",
     "Programação/Fundamentos Python/Desing Patterns/🧊 Monolítico (monolithic).md",
     "Programação/Backend e APIs/MQTT/📡 MQTT Client — PubSub com Paho MQTT v5.md",
