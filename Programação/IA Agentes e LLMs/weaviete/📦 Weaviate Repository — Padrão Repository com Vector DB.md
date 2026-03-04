@@ -1,4 +1,3 @@
-# 📦 Weaviate Repository — Padrão Repository com Vector DB
 
 Implementação do padrão **Repository** para o Weaviate. Encapsula criação de schema (collection) e operações de escrita com vetores customizados.
 

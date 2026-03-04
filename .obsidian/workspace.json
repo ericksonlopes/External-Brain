@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
+                "file": "Programação/IA Agentes e LLMs/weaviete/📦 Weaviate Repository — Padrão Repository com Vector DB.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "🔌 WeaviateConnector — Context Manager para Conexão"
+              "title": "📦 Weaviate Repository — Padrão Repository com Vector DB"
             }
           }
         ]
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
+                "file": "Programação/IA Agentes e LLMs/weaviete/📦 Weaviate Repository — Padrão Repository com Vector DB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para 🔌 WeaviateConnector — Context Manager para Conexão"
+              "title": "Links de saída para 📦 Weaviate Repository — Padrão Repository com Vector DB"
             }
           },
           {
@@ -188,7 +188,8 @@
   },
   "active": "2374c81af9bdc866",
   "lastOpenFiles": [
-    "Programação/IA Agentes e LLMs/weaviete/Weaviate Repository — Padrão Repository com Vector DB.md",
+    "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
+    "Programação/IA Agentes e LLMs/weaviete/📦 Weaviate Repository — Padrão Repository com Vector DB.md",
     "Programação/IA Agentes e LLMs/weaviete/🧠 RAG Híbrido - Weaviate (Busca Vetorial) + MongoDB.md",
     "Inbox/LINKS PARA VER.md",
     "Programação/DevOps e Infraestrutura/VPS/Iniciando Servidor.md",
@@ -214,7 +215,6 @@
     "Programação/Fundamentos Python/Python/logging com debug on e off.md",
     "Programação/IA Agentes e LLMs/Openai/Transcrição de audio - WhisperX.md",
     "Programação/IA Agentes e LLMs/Openai/Azure + Openai.md",
-    "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/IA Agentes e LLMs/Embeddings",
