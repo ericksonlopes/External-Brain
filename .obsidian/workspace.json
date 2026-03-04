@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Backend e APIs/Pydantic/⚙️ Pydantic Settings — Configuração Tipada com .env.md",
+                "file": "Programação/Sem título.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "⚙️ Pydantic Settings — Configuração Tipada com .env"
+              "title": "Sem título"
             }
           }
         ]
@@ -188,6 +188,8 @@
   },
   "active": "5d2a1c03568b8950",
   "lastOpenFiles": [
+    "Programação/Backend e APIs/Pydantic/⚙️ Pydantic Settings — Configuração Tipada com .env.md",
+    "Programação/Sem título.md",
     "Programação/Backend e APIs/Pydantic/📋 BaseSettings + env.md",
     "Programação/Fundamentos Python/Desing Patterns/🧊 Monolítico (monolithic).md",
     "Programação/Backend e APIs/MQTT/📡 MQTT Client — PubSub com Paho MQTT v5.md",
@@ -213,8 +215,6 @@
     "Programação/Projetos/🔄 PyConvertInSQL.md",
     "Programação/Machine Learning/torch/🔢 creating embeddings.md",
     "Programação/IA Agentes e LLMs/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
-    "Programação/IA Agentes e LLMs/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
-    "Programação/IA Agentes e LLMs/LangChain/Integração com LangChain e Playwright.md",
     "Programação/Backend e APIs/MQTT",
     "Programação/Fundamentos Python/logger",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
