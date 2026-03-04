@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "edc770adb69d57b0",
+        "id": "04c56e757c336d3c",
         "type": "tabs",
         "children": [
           {
-            "id": "0749d4410581918f",
+            "id": "07fe670d68207327",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Automacao e Scraping/Selenium/Capabilities.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Capabilities"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -79,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 435.5
+    "width": 486.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -142,12 +137,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Automacao e Scraping/Selenium/Capabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Capabilities"
+              "title": "Links de saída"
             }
           },
           {
@@ -186,15 +180,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0749d4410581918f",
+  "active": "07fe670d68207327",
   "lastOpenFiles": [
+    "Programação/Fundamentos Python/Algoritmos/Algoritmo de Similaridade - (Ajustar).md",
+    "Programação/Fundamentos Python/Algoritmos/Composite Pattern/Union-Find com collections - Agrupamento por Conexões.md",
+    "Programação/Fundamentos Python/Algoritmos/Composite Pattern/Agrupamento com Set - Union-Find Simplificado.md",
+    "Programação/Automacao e Scraping/Selenium/Capabilities.md",
     "Programação/Automacao e Scraping/Selenium/Fazendo download automatico do webdriver.md",
     "Programação/Automacao e Scraping/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
     "Programação/Automacao e Scraping/Selenium/Trabalhando com selenium standalone-chrome.md",
     "Programação/Fundamentos Python/Algoritmos/Explicação do Loop While com Estrutura de Dicionário.md",
-    "Programação/Fundamentos Python/Algoritmos/Algoritmo de Similaridade - (Ajustar).md",
-    "Programação/Fundamentos Python/Algoritmos/Composite Pattern/groups (set).md",
-    "Programação/Fundamentos Python/Algoritmos/Composite Pattern/groups (collections).md",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/Fundamentos Python/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
     "Programação/Fundamentos Python/Desing Patterns/Factory Method (Método de Fábrica).md",
@@ -214,7 +209,6 @@
     "Programação/IA Agentes e LLMs/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando Modelos.md",
     "Programação/Automacao e Scraping/Selenium/webdriver.md",
     "Programação/IA Agentes e LLMs/weaviete/weavitate coonector.md",
-    "Programação/Fundamentos Python/Desing Patterns/patterns.md",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/IA Agentes e LLMs/Embeddings",
     "Sem título.base",

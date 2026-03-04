@@ -1,4 +1,8 @@
-#collections #python #groups #Union-Find #Union-by-Rank
+# 🌳 Union-Find com collections — Agrupamento por Conexões
+
+Implementação do algoritmo **Union-Find** (Disjoint Set) usando `defaultdict` para agrupar elementos conectados. Utiliza **path compression** no `find` para otimizar buscas.
+
+## 📄 Implementação
 
 ```python
 from collections import defaultdict
@@ -10,7 +14,7 @@ class UnionFind:
 
     def find(self, doc_id):
         if self.parents[doc_id] != doc_id:
-            self.parents[doc_id] = self.find(self.parents[doc_id])
+            self.parents[doc_id] = self.find(self.parents[doc_id])  # Path compression
         return self.parents[doc_id]
 
     def union(self, doc_id1, doc_id2):
@@ -27,9 +31,11 @@ class UnionFind:
 
         for root, group_members in groups.items():
             print(f"Grupo {root}: {group_members}")
+```
 
+## 🚀 Exemplo de Uso
 
-# Exemplo de uso
+```python
 documents = [1, 2, 3, 4, 5, 7]
 uf = UnionFind(documents)
 
@@ -41,8 +47,17 @@ uf.union(4, 5)
 uf.display_groups()
 ```
 
-```text
+## 📤 Saída Esperada
+
+```
 Grupo 3: [1, 2, 3, 7]
 Grupo 5: [4, 5]
 ```
 
+## 📝 Notas
+
+- **Path compression** no `find` achata a árvore, tornando buscas futuras O(1) amortizado.
+- Para uma versão simplificada usando `set`, veja [[Agrupamento com Set - Union-Find Simplificado]].
+
+---
+#python #collections #union-find

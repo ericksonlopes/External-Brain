@@ -1,49 +1,34 @@
+# 🔄 Loop While com Dicionário — Esgotamento Alternado de Filas
 
-Este código executa uma **extração iterativa de elementos de um dicionário cujos valores são listas**, até que todas essas listas estejam vazias. Vamos analisar passo a passo:
+Padrão para extrair elementos de um dicionário cujos valores são listas, alternando entre as chaves até que todas as listas estejam vazias.
 
-#dictionary #while #loop #pop #python
-
-#### 🧠 **O que o código faz?**
+## 📄 Implementação
 
 ```python
 x = {"economia": ["12", "12"], "investimento": ["21", "22"]}
 
 while True:
     no_news_found = True
-    
+
     for key, value in x.items():
         if value:
             print(value.pop(0))
             no_news_found = False
-    
+
     if no_news_found:
         break
 
 print(x)
 ```
 
-#### ⚙️ **Como funciona?**
+## ⚙️ Como Funciona
 
-1. **Dicionário `x`** contém duas chaves (`"economia"` e `"investimento"`), cada uma com uma lista de strings.
+1. **Dicionário `x`** contém chaves com listas de strings como valores.
+2. **Loop infinito** (`while True`) itera até todas as listas estarem vazias.
+3. A cada iteração, percorre todas as chaves e remove o primeiro elemento com `pop(0)`.
+4. A flag `no_news_found` controla o encerramento — se nenhuma lista tiver elementos, o loop para.
 
-2. **Loop infinito (`while True`)**: usado para continuar removendo elementos enquanto houver itens nas listas.
-
-3. Dentro do loop:
-
-   * A flag `no_news_found` é definida como `True`.
-   * Para cada chave do dicionário, o código verifica se a lista associada ainda possui elementos.
-   * Se sim:
-
-     * O primeiro elemento é **removido da lista** com `pop(0)` e impresso.
-     * A flag `no_news_found` vira `False`.
-
-4. Se, após a iteração completa, **nenhuma lista tiver elementos**, `no_news_found` permanece `True` e o loop é encerrado com `break`.
-
-5. Por fim, o dicionário `x` é impresso — agora com todas as listas **vazias**.
-
----
-
-#### 📤 **Saída esperada**:
+## 📤 Saída Esperada
 
 ```
 12
@@ -53,8 +38,10 @@ print(x)
 {'economia': [], 'investimento': []}
 ```
 
-#### ✅ **Resumo**:
+## 📝 Notas
 
-Este código funciona como um **"esgotador" de filas por chave**, onde os elementos das listas são processados um a um de forma alternada entre as chaves, até que todos os valores sejam consumidos.
+- Funciona como um **"round-robin"** entre as chaves, processando um item de cada por vez.
+- Útil para consumir filas de diferentes categorias de forma balanceada.
 
-Quer que eu transforme esse padrão em uma função reutilizável?
+---
+#python #dictionary #while #loop #algoritmos
