@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "65f901c9de57e8be",
+        "id": "397d38a483d04d7a",
         "type": "tabs",
         "children": [
           {
-            "id": "0598d4f331e77759",
+            "id": "740ae3a9eb3550ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/IA Agentes e LLMs/Agno/Agente simples com Agno.md",
+                "file": "Programação/Prompt para Geração de Documentação Obsidian.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Agente simples com Agno"
+              "title": "Prompt para Geração de Documentação Obsidian"
             }
           }
         ]
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/IA Agentes e LLMs/Agno/Agente simples com Agno.md",
+                "file": "Programação/Prompt para Geração de Documentação Obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Agente simples com Agno"
+              "title": "Links de saída para Prompt para Geração de Documentação Obsidian"
             }
           },
           {
@@ -186,8 +186,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0598d4f331e77759",
+  "active": "740ae3a9eb3550ee",
   "lastOpenFiles": [
+    "logging com debug on e off.md",
+    "Programação/Prompt para Geração de Documentação Obsidian.md",
+    "Programação/IA Agentes e LLMs/Embeddings/Embeddings com Sentence Transformers e E5.md",
+    "Programação/IA Agentes e LLMs/Agno/Agente simples com Agno.md",
     "Programação/IA Agentes e LLMs/Agno/Construindo um RAG Simples com AGNO e OpenAI.md",
     "Programação/Fundamentos Python/Criando um projeto em python.md",
     "Programação/Fundamentos Python/Algoritmos/🔄 Loop While com Dicionário — Esgotamento Alternado de Filas.md",
@@ -210,11 +214,7 @@
     "Inbox/LINKS PARA VER.md",
     "Programação/DevOps e Infraestrutura/VPS/Iniciando Servidor.md",
     "Programação/IA Agentes e LLMs/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando Modelos.md",
-    "Programação/IA Agentes e LLMs/Embeddings/Embeddings com Sentence Transformers e E5.md",
-    "logging com debug on e off.md",
     "Programação/Backend e APIs/Pydantic/⚙️ Pydantic Settings — Configuração Tipada com .env.md",
-    "Programação/Backend e APIs/SQLAlchemy/🔍 SQLAlchemy — Query sem Definir Models (Reflection).md",
-    "Programação/Backend e APIs/Pydantic/BaseSettings + env.md",
     "Programação/Fundamentos Python/logger",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
