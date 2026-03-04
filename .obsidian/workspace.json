@@ -11,10 +11,15 @@
             "id": "cac6332e8ee13cbc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
+              "type": "markdown",
+              "state": {
+                "file": "Programação/IA Agentes e LLMs/LangChain/Extração de Dados Estruturados com LangChain e Pydantic.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Extração de Dados Estruturados com LangChain e Pydantic"
             }
           }
         ]
@@ -74,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5
+    "width": 603.5
   },
   "right": {
     "id": "9c0b076a34e7ddac",
@@ -180,15 +185,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "cac6332e8ee13cbc",
   "lastOpenFiles": [
+    "Programação/IA Agentes e LLMs/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando Modelos.md",
+    "Programação/IA Agentes e LLMs/LangChain/Extração de Dados Estruturados com LangChain e Pydantic.md",
     "Programação/IA Agentes e LLMs/LangChain/Web Scraper com LangChain e Playwright.md",
     "Programação/IA Agentes e LLMs/firecrawl/iniciando com firecrawl.md",
     "Programação/IA Agentes e LLMs/LangChain/Chains/Simple Chains.md",
     "Programação/IA Agentes e LLMs/LangChain/Chains/Sequential Chain.md",
     "Programação/IA Agentes e LLMs/LangChain/Chains/MultiRetrievalQAChain.md",
     "Programação/IA Agentes e LLMs/LangChain/FAISS.md",
-    "Programação/IA Agentes e LLMs/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando ModelosSem título.md",
     "Programação/IA Agentes e LLMs/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
     "Programação/IA Agentes e LLMs/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
     "Programação/IA Agentes e LLMs/LangChain/llm factory.md",
@@ -207,7 +213,6 @@
     "Programação/Projetos/YouTranscripta.md",
     "Programação/Projetos/Words-In-Songs.md",
     "Programação/Projetos/SmartNewsAI.md",
-    "Programação/Projetos/ScrapingcoinMarketCap.md",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Sem título.base",
