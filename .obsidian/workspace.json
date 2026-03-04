@@ -8,44 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d4a7e7a382eaec64",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "graph",
-              "state": {},
-              "pinned": true,
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
-            }
-          },
-          {
             "id": "2374c81af9bdc866",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
-            }
-          },
-          {
-            "id": "163a42307dfb5b73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/LINKS PARA VER.md",
+                "file": "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "LINKS PARA VER"
+              "title": "🔌 WeaviateConnector — Context Manager para Conexão"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,11 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída"
+              "title": "Links de saída para 🔌 WeaviateConnector — Context Manager para Conexão"
             }
           },
           {
@@ -210,6 +188,8 @@
   },
   "active": "2374c81af9bdc866",
   "lastOpenFiles": [
+    "Programação/IA Agentes e LLMs/weaviete/Weaviate Repository — Padrão Repository com Vector DB.md",
+    "Programação/IA Agentes e LLMs/weaviete/🧠 RAG Híbrido - Weaviate (Busca Vetorial) + MongoDB.md",
     "Inbox/LINKS PARA VER.md",
     "Programação/DevOps e Infraestrutura/VPS/Iniciando Servidor.md",
     "Programação/IA Agentes e LLMs/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando Modelos.md",
@@ -235,8 +215,6 @@
     "Programação/IA Agentes e LLMs/Openai/Transcrição de audio - WhisperX.md",
     "Programação/IA Agentes e LLMs/Openai/Azure + Openai.md",
     "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
-    "Programação/IA Agentes e LLMs/weaviete/🧠 RAG Híbrido - Weaviate (Busca Vetorial) + MongoDB.md",
-    "Programação/Fundamentos Python/Algoritmos/Algoritmo de Similaridade - (Ajustar).md",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/IA Agentes e LLMs/Embeddings",

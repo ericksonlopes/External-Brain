@@ -13,6 +13,8 @@ pip install weaviate-client
 import weaviate
 from weaviate.classes.init import Auth
 
+from src.config.settings import settings
+
 
 class WeaviateConnector:
     def __init__(self, cluster_url: str, api_key: str):
@@ -21,19 +23,18 @@ class WeaviateConnector:
         self._client = None
 
     def _create_client(self):
-        """Cria a conexão com o Weaviate (local ou cloud)."""
-        # Conexão local (Docker)
-        return weaviate.connect_to_local(
-            host="localhost",
-            port=8080,
-            grpc_port=50051,
-        )
-
-        # Conexão cloud (descomentar para usar)
-        # return weaviate.connect_to_weaviate_cloud(
-        #     cluster_url=self.cluster_url,
-        #     auth_credentials=Auth.api_key(self.api_key),
-        # )
+        """Cria conexão local ou cloud com base na env var `settings.ENV`."""
+        if "local" in settings.ENV:
+            return weaviate.connect_to_local(
+                host="localhost",  # ou host.docker.internal dentro de container
+                port=8081,
+                grpc_port=50051,
+            )
+        else:
+            return weaviate.connect_to_weaviate_cloud(
+                cluster_url=self.cluster_url,
+                auth_credentials=Auth.api_key(self.api_key),
+            )
 
     def __enter__(self):
         """Context manager entry."""
@@ -45,11 +46,10 @@ class WeaviateConnector:
         if self._client is not None:
             try:
                 self._client.close()
+            except Exception:
+                pass
             finally:
                 self._client = None
-
-        if exc_type is not None:
-            print(f"Error during Weaviate operation: {exc_val}")
 ```
 
 ## 🚀 Exemplo de Uso
@@ -69,8 +69,9 @@ with connector as client:
 
 ## 📝 Notas
 
+- A seleção local/cloud é **automática** — baseada em `settings.ENV` (se contém `"local"`, conecta localmente).
+- Para Docker-in-Docker, use `host.docker.internal` em vez de `localhost`.
 - O `__exit__` garante o `close()` mesmo em caso de exceção.
-- Para alternar entre local e cloud, basta trocar o método em `_create_client`.
 - Para a arquitetura completa de RAG com Weaviate + MongoDB, veja [[🧠 RAG Híbrido - Weaviate (Busca Vetorial) + MongoDB]].
 
 ---
