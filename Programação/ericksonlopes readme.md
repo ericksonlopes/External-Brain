@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ericksonlopes/">
-    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logoColor=white" />
   </a>
   <a href="mailto:ofc.erickson@gmail.com">
     <img src="https://img.shields.io/badge/-Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
@@ -50,27 +50,27 @@ Olá! Sou **Erickson Lopes**, apaixonado por tecnologia, dados e resolver proble
 ![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=OpenAI&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/-Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![CrewAI](https://img.shields.io/badge/-CrewAI-000000?style=flat-square&logo=data:image/svg+xml;base64,&logoColor=white)
-![Weaviate](https://img.shields.io/badge/-Weaviate-00C853?style=flat-square&logo=Weaviate&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/-ChromaDB-4479A1?style=flat-square&logo=Chroma&logoColor=white)
+![CrewAI](https://img.shields.io/badge/-CrewAI-000000?style=flat-square&logoColor=white)
+![Weaviate](https://img.shields.io/badge/-Weaviate-00C853?style=flat-square&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/-ChromaDB-4479A1?style=flat-square&logoColor=white)
 
 #### 🗄️ Bancos de Dados
 ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=Redis&logoColor=white)
 ![MySQL](https://img.shields.io/badge/-MySQL-003B57?style=flat-square&logo=MySQL&logoColor=white)
 ![SQLite](https://img.shields.io/badge/-SQLite-4479A1?style=flat-square&logo=sqlite&logoColor=white)
-![CosmosDB](https://img.shields.io/badge/-CosmosDB-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
+![CosmosDB](https://img.shields.io/badge/-CosmosDB-0078D4?style=flat-square&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=flat-square&logo=elastic&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/-DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white)
-![Redshift](https://img.shields.io/badge/-Redshift-8C4FFF?style=flat-square&logo=amazonredshift&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/-DynamoDB-4053D6?style=flat-square&logoColor=white)
+![Redshift](https://img.shields.io/badge/-Redshift-8C4FFF?style=flat-square&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/-Snowflake-29B5E8?style=flat-square&logo=Snowflake&logoColor=white)
-![S3](https://img.shields.io/badge/-Bucket%20S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![S3](https://img.shields.io/badge/-Bucket%20S3-569A31?style=flat-square&logoColor=white)
 
 #### ☁️ Cloud & DevOps
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=Docker&logoColor=white)
-![AWS EC2](https://img.shields.io/badge/-EC2-232F3E?style=flat-square&logo=amazonec2&logoColor=white)
-![AWS Glue](https://img.shields.io/badge/-Glue-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-![AWS Lambda](https://img.shields.io/badge/-Lambda-232F3E?style=flat-square&logo=awslambda&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/-AWS%20EC2-FF9900?style=flat-square&logoColor=white)
+![AWS Glue](https://img.shields.io/badge/-AWS%20Glue-FF9900?style=flat-square&logoColor=white)
+![AWS Lambda](https://img.shields.io/badge/-AWS%20Lambda-FF9900?style=flat-square&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=Linux&logoColor=black)
@@ -95,7 +95,7 @@ Olá! Sou **Erickson Lopes**, apaixonado por tecnologia, dados e resolver proble
     <td width="50%">
       <h4><a href="https://github.com/ericksonlopes/SmartNewsAI">📰 SmartNewsAI</a></h4>
       <p>Descoberta inteligente de notícias com <strong>web scraping + NLP</strong>. O usuário escolhe um portal, faz uma query e o GPT gera respostas contextualizadas.</p>
-      <img src="https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" /> <img src="https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" /> <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=Streamlit&logoColor=white" />
+      <img src="https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" /> <img src="https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square&logoColor=white" /> <img src="https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=Streamlit&logoColor=white" />
     </td>
   </tr>
   <tr>
