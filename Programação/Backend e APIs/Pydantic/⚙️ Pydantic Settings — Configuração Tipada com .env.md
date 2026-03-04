@@ -1,4 +1,3 @@
-# ⚙️ Pydantic Settings — Configuração Tipada com .env
 
 Gerenciamento de configurações usando `pydantic-settings`. Carrega variáveis automaticamente do ambiente e de arquivos `.env` com validação de tipos.
 
@@ -71,4 +70,4 @@ O `BaseSettings` carrega valores na seguinte ordem (a mais alta sobrescreve):
 - Para o conceito básico de `BaseSettings`, veja [[BaseSettings + env]].
 
 ---
-#python #pydantic #env #configuration
+#python #pydantic #env 
