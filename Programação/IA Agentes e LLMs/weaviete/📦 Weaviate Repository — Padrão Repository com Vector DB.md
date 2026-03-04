@@ -45,7 +45,7 @@ from weaviate.classes.config import Configure, Property, DataType, VectorDistanc
 from weaviate.exceptions import WeaviateBaseError
 
 
-class BookChunkRepository:
+class ChunkRepository:
     def __init__(self, connector, collection_name: str = "BookChunks"):
         self.connector = connector
         self.collection_name = collection_name
@@ -103,7 +103,7 @@ connector = WeaviateConnector(cluster_url="...", api_key="...")
 repo = BookChunkRepository(connector)
 
 chunks = [
-    BookChunkEntity(
+    ChunkEntity(
         file_name="livro.pdf",
         content="Capítulo 1: Introdução à programação...",
         pages=[1, 2, 3],
