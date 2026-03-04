@@ -95,3 +95,6 @@ O método `chain.invoke` recebe um dicionário onde a chave `"texto"` contém o 
 
 ## 7. Notas de Segurança
 O código utiliza `os.environ["OPENAI_API_KEY"]`. Em ambientes de produção, recomenda-se o uso de arquivos `.env` ou gerenciadores de segredos para evitar a exposição da chave de API diretamente no código-fonte.
+
+---
+#langchain #python #pydantic #openai #ia

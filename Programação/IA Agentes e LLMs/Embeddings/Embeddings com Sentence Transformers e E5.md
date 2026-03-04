@@ -72,3 +72,6 @@ Este é o método principal que:
 
 ## 6. Dicas de Performance
 Se você tiver uma lista de textos, passe a lista inteira para o `model.encode(lista_de_textos)` em vez de fazer um loop. O modelo processará em **batch**, aproveitando muito melhor o hardware.
+
+---
+#nlp #embeddings #python #ia #machine-learning #huggingface #sentence-transformers #e5

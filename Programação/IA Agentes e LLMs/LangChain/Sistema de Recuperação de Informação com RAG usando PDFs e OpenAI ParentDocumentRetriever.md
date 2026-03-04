@@ -1,4 +1,4 @@
-#rag #langchain #openai #chromadb #PDF #pydantic #python #ai #pydantic-settings
+#rag #langchain #openai #chromadb #PDF #pydantic #python #ia   #pydantic-settings
   
 ## Integrando documentos PDF em um fluxo de trabalho de recuperação de informações com LangChain e OpenAI  
   

@@ -1,4 +1,4 @@
-#python #langchain #langchain_openai #rag #chromadb #web_scraping #ai 
+#python #langchain #langchain_openai #rag #chromadb #web_scraping #ia  
 
 ```python
 import os

@@ -56,4 +56,4 @@ executor.invoke({"input": f"Responda em português: {question}"})
 - **Flexibilidade**: Funciona com SQLite, PostgreSQL, MySQL e qualquer banco compatível com SQLAlchemy.
 
 ---
-#ai #langchain #sql #openai #agent #database #python
+#ia  #langchain #sql #openai #agent #database #python

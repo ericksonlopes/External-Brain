@@ -54,4 +54,4 @@ print(result)
 - **Crew**: O gerente que une agentes e tarefas em um fluxo de trabalho.
 
 ---
-#ai #crewai #agents #python #llm #openai
+#ia  #crewai #agents #python #llm #openai

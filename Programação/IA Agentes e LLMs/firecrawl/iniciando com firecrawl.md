@@ -47,4 +47,4 @@ for page in crawl_result["pages"]:
 3.  **Crawler Integrado**: Ele descobre e percorre links internos automaticamente.
 
 ---
-#ai #scraping #firecrawl #langchain #llm #python
+#ia  #scraping #firecrawl #langchain #llm #python

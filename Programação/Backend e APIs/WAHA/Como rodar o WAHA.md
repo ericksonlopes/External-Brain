@@ -2,7 +2,8 @@
 
 Este tutorial detalha como configurar e rodar o WAHA localmente, além de demonstrar como interagir com ele usando Python. Ele serve como uma documentação pessoal para referência futura.
 
-	#whatsapp #docker-compose #docker #waha #postgres #python 
+#whatsapp #docker-compose #docker #waha #postgres #python
+
 ---
 
 ## 1. Estrutura Mínima de Pastas/Arquivos

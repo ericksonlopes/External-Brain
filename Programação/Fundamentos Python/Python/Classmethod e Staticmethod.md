@@ -79,3 +79,6 @@ print(Calculadora.somar(5, 5))         # Saída: 10
 - **Instância (`self`)**: "Eu sei quem eu sou e o que eu tenho."
 - **Classe (`cls`)**: "Eu sei qual é o meu molde (classe) e posso criar novos como eu."
 - **Estático**: "Eu apenas executo uma tarefa lógica relacionada a este tema, mas não preciso saber de nada interno."
+
+---
+#python #oop #classmethod #staticmethod 

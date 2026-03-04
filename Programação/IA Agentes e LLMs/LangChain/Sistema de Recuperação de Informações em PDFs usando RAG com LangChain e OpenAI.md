@@ -1,5 +1,5 @@
 
-#rag #langchain #openai #chromadb #PDF #pydantic #python #ai #pydantic-settings
+#rag #langchain #openai #chromadb #PDF #pydantic #python #ia #pydantic-settings
   
   
 ## Aprenda como construir um sistema de recuperação de informações eficiente utilizando PDFs, LangChain e OpenAI.  

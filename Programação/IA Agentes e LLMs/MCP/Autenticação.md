@@ -38,4 +38,4 @@ No arquivo `claude_desktop_config.json`, a autenticação deve ser definida na s
 - Revogue chaves que possam ter sido expostas acidentalmente em logs.
 
 ---
-#ai #mcp #security #autenticacao #llm
+#ia  #mcp #security #autenticacao #llm

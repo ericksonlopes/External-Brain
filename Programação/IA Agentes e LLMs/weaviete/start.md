@@ -53,4 +53,4 @@ rag_chain = (
 - **Filtros Híbridos**: Permite filtrar por propriedades (segmento, data) antes da busca vetorial.
 
 ---
-#ai #weaviate #mongodb #langchain #rag #embedding #vector-db
+#ia #weaviate #mongodb #langchain #rag #embedding #vector-db

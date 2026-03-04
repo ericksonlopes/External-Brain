@@ -1,4 +1,4 @@
-#WhisperX #Whisper #python #audio #openai #transcription #ai  #machine-learning 
+#WhisperX #Whisper #python #audio #openai #transcription #ia  #machine-learning 
 
 
 ```python
