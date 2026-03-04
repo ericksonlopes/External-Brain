@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Backend e APIs/Pydantic/BaseSettings + env.md",
+                "file": "Programação/Backend e APIs/Pydantic/pydantic_settings.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "BaseSettings + env"
+              "title": "pydantic_settings"
             }
           }
         ]
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Backend e APIs/Pydantic/BaseSettings + env.md",
+                "file": "Programação/Backend e APIs/Pydantic/pydantic_settings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para BaseSettings + env"
+              "title": "Links de saída para pydantic_settings"
             }
           },
           {
@@ -186,8 +186,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "87f32d87544c608c",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
+    "Programação/Backend e APIs/Pydantic/BaseSettings + env.md",
     "Programação/Backend e APIs/Pydantic/pydantic_settings.md",
     "Programação/Bancos de Dados/ElasticSearch/Elastic APM Client — Singleton Thread-Safe com FastAPI.md",
     "Programação/Bancos de Dados/ElasticSearch/Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
@@ -214,7 +215,6 @@
     "Programação/Automacao e Scraping/Selenium/Fazendo download automatico do webdriver.md",
     "Programação/Automacao e Scraping/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
     "Programação/Automacao e Scraping/Selenium/Trabalhando com selenium standalone-chrome.md",
-    "Programação/Fundamentos Python/Algoritmos/Explicação do Loop While com Estrutura de Dicionário.md",
     "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/IA Agentes e LLMs/Embeddings",
