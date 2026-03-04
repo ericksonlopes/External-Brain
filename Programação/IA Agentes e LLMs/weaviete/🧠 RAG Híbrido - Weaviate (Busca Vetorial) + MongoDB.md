@@ -1,5 +1,3 @@
-# 🧠 RAG Híbrido: Weaviate (Busca Vetorial) + MongoDB
-
 Este guia descreve uma arquitetura avançada de **RAG (Retrieval-Augmented Generation)** que utiliza o **Weaviate** para busca semântica ultrarrápida e o **MongoDB** para recuperar o conteúdo completo dos documentos.
 
 ---

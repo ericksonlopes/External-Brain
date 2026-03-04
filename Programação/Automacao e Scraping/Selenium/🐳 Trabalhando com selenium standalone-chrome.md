@@ -1,5 +1,3 @@
-# 🐳 Selenium Standalone Chrome com Docker
-
 Forma rápida de rodar o Selenium em um container Docker usando a imagem oficial `selenium/standalone-chrome`. Ideal para testes locais sem precisar instalar o Chrome ou o ChromeDriver na máquina.
 
 ## 🚀 Subindo o Container
