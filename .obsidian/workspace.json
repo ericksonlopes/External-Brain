@@ -142,11 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Programação/IA Agentes e LLMs/Embeddings/Embeddings com Sentence Transformers e E5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída"
+              "title": "Links de saída para Embeddings com Sentence Transformers e E5"
             }
           },
           {
@@ -185,7 +186,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cac6332e8ee13cbc",
+  "active": "20d8562995e5a927",
   "lastOpenFiles": [
     "Programação/Fundamentos Python/Python/queue/queue tracking.md",
     "Programação/IA Agentes e LLMs/Embeddings/Embeddings com Sentence Transformers e E5.md",
@@ -198,7 +199,7 @@
     "Programação/IA Agentes e LLMs/LangChain/Extração de Dados Estruturados com LangChain e Pydantic.md",
     "Programação/IA Agentes e LLMs/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando Modelos.md",
     "Programação/IA Agentes e LLMs/LangChain/Web Scraper com LangChain e Playwright.md",
-    "Programação/IA Agentes e LLMs/firecrawl/iniciando com firecrawl.md",
+    "Programação/IA Agentes e LLMs/Firecrawl/iniciando com firecrawl.md",
     "Programação/IA Agentes e LLMs/LangChain/Chains/Simple Chains.md",
     "Programação/IA Agentes e LLMs/LangChain/Chains/Sequential Chain.md",
     "Programação/IA Agentes e LLMs/LangChain/Chains/MultiRetrievalQAChain.md",
