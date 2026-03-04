@@ -1,6 +1,6 @@
 # 📋 Sistema de Logging Customizado em Python
 
-Módulo de logging padronizado que encapsula o `logging` nativo do Python com interface limpa (`ILogger`), detecção automática do caller (arquivo, linha, classe, função) e filtragem de níveis via variável de ambiente.
+Módulo de logging padronizado que encapsula o `logging` nativo do Python com interface limpa (`ILogger`), detecção automática do caller (arquivo, linha, classe, função), filtragem de níveis via variável de ambiente e suporte a **log em arquivo** com rotação automática.
 
 ## 🏗️ Arquitetura
 
@@ -11,7 +11,7 @@ Módulo de logging padronizado que encapsula o `logging` nativo do Python com in
 └──────┬──────┘
        │ implements
 ┌──────▼──────┐
-│  StdLogger  │  ← Implementação concreta
+│  StdLogger  │  ← Implementação concreta (console + arquivo)
 │  (logging)  │
 └──────┬──────┘
        │ uses
@@ -22,14 +22,19 @@ Módulo de logging padronizado que encapsula o `logging` nativo do Python com in
 
 ## ⚙️ Configuração
 
-A filtragem de níveis é controlada pela variável de ambiente `LIST_LOG_LEVELS`:
+Controlado por variáveis de ambiente:
+
+| Variável | Descrição | Padrão |
+|---|---|---|
+| `LIST_LOG_LEVELS` | Níveis permitidos (separados por vírgula) | `INFO,ERROR,CRITICAL,WARNING,DEBUG` |
+| `LOG_FILE_PATH` | Caminho do arquivo de log | `./std_logger.log` |
 
 ```bash
-# Padrão (todos os níveis)
-LIST_LOG_LEVELS="INFO,ERROR,CRITICAL,WARNING,DEBUG"
-
 # Apenas erros e acima
 LIST_LOG_LEVELS="ERROR,CRITICAL"
+
+# Log em arquivo customizado
+LOG_FILE_PATH="/var/log/minha-app/app.log"
 ```
 
 ## 📄 Implementação
@@ -38,13 +43,13 @@ LIST_LOG_LEVELS="ERROR,CRITICAL"
 import functools
 import inspect
 import logging
+from logging.handlers import RotatingFileHandler
 import os
 import sys
 from abc import abstractmethod, ABC
 from datetime import datetime
 from typing import Any
 
-LOG_FORMAT = "{asctime} | {levelname} | {filepath}:{lineno} | {message}"
 
 _LEVEL_MAP: dict[str, int] = {
     "DEBUG": logging.DEBUG,
@@ -79,20 +84,12 @@ class _LoggerUtils:
 
     @staticmethod
     @functools.lru_cache(maxsize=1)
-    def get_module_files(base_dir: str | None = None) -> frozenset[str]:
+    def get_module_files() -> frozenset[str]:
         """
-        Retorna frozenset com caminhos absolutos de todos os .py do diretório do logger.
-        Cacheado na primeira chamada para evitar walks repetidos no filesystem.
+        Retorna frozenset com o caminho absoluto do próprio módulo de logger.
+        Usado para filtrar frames internos na resolução de caller.
         """
-        if base_dir is None:
-            base_dir = os.path.dirname(os.path.abspath(__file__))
-
-        logger_files: set[str] = set()
-        for root, _, files in os.walk(base_dir):
-            for file in files:
-                if file.endswith('.py'):
-                    logger_files.add(os.path.abspath(os.path.join(root, file)))
-        return frozenset(logger_files)
+        return frozenset({os.path.abspath(__file__)})
 
     @staticmethod
     def get_log_record(level: str, message: str) -> dict[str, object]:
@@ -115,6 +112,8 @@ class _LoggerUtils:
                 break
 
         asctime = datetime.now().strftime('%Y-%m-%d %H:%M:%S,%f')[:-3]
+        func_name = frame_best.function
+        caller = f"{cls_name}.{func_name}" if cls_name else func_name
 
         return {
             'asctime': asctime,
@@ -123,7 +122,8 @@ class _LoggerUtils:
             'filepath': os.path.abspath(frame_best.filename),
             'lineno': frame_best.lineno,
             'class': cls_name,
-            'funcName': frame_best.function,
+            'funcName': func_name,
+            'caller': caller,
             'message': message,
         }
 
@@ -144,7 +144,7 @@ class _LoggerUtils:
 class StdLogger(ILogger):
     """Implementação concreta usando logging nativo do Python."""
 
-    def __init__(self, log_format: str, name: str = "std-logger") -> None:
+    def __init__(self, log_format: str, name: str = "std-logger", log_file: str | None = None) -> None:
         self._log_format = log_format
         self._service_name = name
         self._allowed_levels = _LoggerUtils.get_allowed_levels()
@@ -154,10 +154,24 @@ class StdLogger(ILogger):
         self._logger.setLevel(logging.DEBUG)
         self._logger.propagate = False
 
-        handler = logging.StreamHandler(sys.stdout)
-        handler.setLevel(logging.NOTSET)
-        handler.setFormatter(logging.Formatter("%(message)s"))
-        self._logger.addHandler(handler)
+        # Console handler (stdout)
+        console_handler = logging.StreamHandler(sys.stdout)
+        console_handler.setLevel(logging.NOTSET)
+        console_handler.setFormatter(logging.Formatter("%(message)s"))
+        self._logger.addHandler(console_handler)
+
+        # File handler (opcional — só se log_file for informado)
+        if log_file:
+            os.makedirs(os.path.dirname(log_file), exist_ok=True)
+            file_handler = RotatingFileHandler(
+                log_file,
+                maxBytes=10 * 1024 * 1024,  # 10 MB
+                backupCount=5,
+                encoding="utf-8",
+            )
+            file_handler.setLevel(logging.NOTSET)
+            file_handler.setFormatter(logging.Formatter("%(message)s"))
+            self._logger.addHandler(file_handler)
 
     def _is_allowed(self, level_name: str) -> bool:
         return level_name.upper() in self._allowed_levels
@@ -192,8 +206,13 @@ class StdLogger(ILogger):
         self._log("CRITICAL", message, context)
 
 
-# Singleton module-level
-logger: ILogger = StdLogger(LOG_FORMAT)
+LOG_FORMAT = "{asctime} | {levelname:<8} | {filename}:{caller}:{lineno} | {message}"
+
+logger: ILogger = StdLogger(
+    LOG_FORMAT,
+    name="std_logger",
+    log_file=os.environ.get("LOG_FILE_PATH", os.path.join(os.getcwd(), "std_logger.log")),
+)
 ```
 
 ## 🚀 Uso
@@ -219,9 +238,9 @@ logger.critical("Banco de dados indisponível")
 ## 📤 Saída Esperada
 
 ```
-2026-03-04 14:10:32,451 | INFO | C:\app\main.py:15 | Servidor iniciado na porta 8080
-2026-03-04 14:10:32,452 | DEBUG | C:\app\main.py:16 | Variáveis carregadas | context={'env': 'production'}
-2026-03-04 14:10:32,453 | ERROR | C:\app\main.py:21 | division by zero | context={'operation': 'divisão'}
+2026-03-04 14:10:32,451 | INFO     | main.py:start_server:15 | Servidor iniciado na porta 8080
+2026-03-04 14:10:32,452 | DEBUG    | main.py:start_server:16 | Variáveis carregadas | context={'env': 'production'}
+2026-03-04 14:10:32,453 | ERROR    | main.py:start_server:21 | division by zero | context={'operation': 'divisão'}
 ```
 
 ## 🔑 Componentes Principais
@@ -230,20 +249,22 @@ logger.critical("Banco de dados indisponível")
 |---|---|
 | `ILogger` | Contrato abstrato — permite trocar a implementação (ex: para Loguru, Datadog) |
 | `_LoggerUtils` | Detecção do caller real via `inspect.stack()`, filtragem de níveis |
-| `StdLogger` | Implementação concreta com `logging` nativo, formatação customizada |
-| `LOG_FORMAT` | Template da mensagem: `{asctime} \| {levelname} \| {filepath}:{lineno} \| {message}` |
+| `StdLogger` | Implementação concreta com console + arquivo rotativo |
+| `LOG_FORMAT` | Template: `{asctime} \| {levelname:<8} \| {filename}:{caller}:{lineno} \| {message}` |
 
 ## 💡 Destaques da Implementação
 
 1. **Detecção automática do caller**: O `get_log_record` percorre a stack e ignora frames internos do logger, mostrando sempre o arquivo/linha de quem chamou.
-2. **Cache com `lru_cache`**: A lista de arquivos do módulo do logger é escaneada uma única vez e cacheada.
-3. **Filtragem por env var**: `LIST_LOG_LEVELS` permite ativar/desativar níveis sem alterar código.
-4. **Sem dependências externas**: Usa apenas `logging`, `inspect` e `functools` da stdlib.
+2. **Campo `caller`**: Formato `Classe.metodo` ou apenas `funcao` — identifica quem logou sem precisar abrir o arquivo.
+3. **RotatingFileHandler**: Log em arquivo com rotação automática a cada 10 MB, mantendo até 5 backups.
+4. **Cache com `lru_cache`**: O path do módulo do logger é cacheado para não recalcular a cada chamada.
+5. **Filtragem por env var**: `LIST_LOG_LEVELS` permite ativar/desativar níveis sem alterar código.
+6. **Sem dependências externas**: Usa apenas `logging`, `inspect` e `functools` da stdlib.
 
 ## 📝 Notas
 
-- Para uma versão com Singleton thread-safe e toggle debug on/off, veja [[logging com debug on e off]].
 - O `logger` é exportado como singleton no nível do módulo — basta importar e usar.
+- O `get_module_files()` agora retorna apenas o path do próprio arquivo (mais leve que o `os.walk` anterior).
 
 ---
 #python #logging #observability #clean-architecture #stdlib

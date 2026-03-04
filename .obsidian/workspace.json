@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "30e998fb189e099b",
+        "id": "85664bff60014fd8",
         "type": "tabs",
         "children": [
           {
-            "id": "e0f4b44e83de9cdd",
+            "id": "ccee99d7cc7dcf83",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -186,10 +186,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e0f4b44e83de9cdd",
+  "active": "ccee99d7cc7dcf83",
   "lastOpenFiles": [
-    "Programação/Fundamentos Python/Python/Pipenv.md",
+    "logging com debug on e off.md",
     "Programação/Fundamentos Python/Python/Sistema de logging (registro de logs) customizado em Python.md",
+    "Programação/Fundamentos Python/Python/Pipenv.md",
     "Programação/Fundamentos Python/Python/PEP8.md",
     "Programação/Fundamentos Python/Python/logging com debug on e off.md",
     "Programação/IA Agentes e LLMs/Openai/Transcrição de audio - WhisperX.md",
@@ -214,7 +215,6 @@
     "Programação/Fundamentos Python/Python/Decorator.md",
     "Programação/Fundamentos Python/Python/queue/queue tracking.md",
     "Programação/Fundamentos Python/Python/queue/queue lock.md",
-    "Programação/Fundamentos Python/Python/queue/queue adv.md",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
     "Programação/IA Agentes e LLMs/Embeddings",
     "Sem título.base",
