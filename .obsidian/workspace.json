@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "5992abad3b688aa1",
+        "id": "edc770adb69d57b0",
         "type": "tabs",
         "children": [
           {
-            "id": "f03e2eef1e9e8b41",
+            "id": "0749d4410581918f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Fundamentos Python/Python/Sistema de logging (registro de logs) customizado em Python.md",
+                "file": "Programação/Automacao e Scraping/Selenium/Capabilities.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sistema de logging (registro de logs) customizado em Python"
+              "title": "Capabilities"
             }
           }
         ]
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programação/Fundamentos Python/Python/Sistema de logging (registro de logs) customizado em Python.md",
+                "file": "Programação/Automacao e Scraping/Selenium/Capabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Sistema de logging (registro de logs) customizado em Python"
+              "title": "Links de saída para Capabilities"
             }
           },
           {
@@ -186,10 +186,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f03e2eef1e9e8b41",
+  "active": "0749d4410581918f",
   "lastOpenFiles": [
-    "Programação/Fundamentos Python/Python/logging com debug on e off.md",
+    "Programação/Automacao e Scraping/Selenium/Fazendo download automatico do webdriver.md",
+    "Programação/Automacao e Scraping/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
+    "Programação/Automacao e Scraping/Selenium/Trabalhando com selenium standalone-chrome.md",
+    "Programação/Fundamentos Python/Algoritmos/Explicação do Loop While com Estrutura de Dicionário.md",
+    "Programação/Fundamentos Python/Algoritmos/Algoritmo de Similaridade - (Ajustar).md",
+    "Programação/Fundamentos Python/Algoritmos/Composite Pattern/groups (set).md",
+    "Programação/Fundamentos Python/Algoritmos/Composite Pattern/groups (collections).md",
+    "Programação/Fundamentos Python/Arquitetura/rag.svg",
+    "Programação/Fundamentos Python/dataclass/como usar dataclass para pegar as variaveis de ambiente e usar como arquivo de configucacao.md",
+    "Programação/Fundamentos Python/Desing Patterns/Factory Method (Método de Fábrica).md",
+    "Programação/Fundamentos Python/Desing Patterns/Builder (Construtor).md",
+    "Programação/Fundamentos Python/Desing Patterns/Application Factory Pattern (Fábrica de aplicativos).md",
+    "Programação/Fundamentos Python/Desing Patterns/Abstract Factory (Fábrica Abstrata).md",
     "Programação/Fundamentos Python/Python/Sistema de logging (registro de logs) customizado em Python.md",
+    "Programação/Fundamentos Python/Python/logging com debug on e off.md",
     "Programação/Fundamentos Python/Python/Decorator.md",
     "Programação/Fundamentos Python/Python/queue/queue tracking.md",
     "Programação/Fundamentos Python/Python/queue/queue lock.md",
@@ -198,25 +211,12 @@
     "Programação/Bancos de Dados/ElasticSearch/Elastic APM Client — Singleton Thread-Safe com FastAPI.md",
     "Programação/DevOps e Infraestrutura/VPS/Iniciando Servidor.md",
     "Programação/Backend e APIs/Streamlit/Streamlit Templates.md",
-    "Programação/Automacao e Scraping/Selenium/Trabalhando com selenium standalone-chrome.md",
-    "Programação/Automacao e Scraping/Selenium/Fazendo download automatico do webdriver.md",
-    "Programação/Automacao e Scraping/Selenium/Utilizando WebDriver Remoto com Selenium e Docker.md",
     "Programação/IA Agentes e LLMs/LangChain/Gerenciador de LLMs para LangChain - Criando e Configurando Modelos.md",
     "Programação/Automacao e Scraping/Selenium/webdriver.md",
     "Programação/IA Agentes e LLMs/weaviete/weavitate coonector.md",
     "Programação/Fundamentos Python/Desing Patterns/patterns.md",
     "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
-    "Inbox/LINKS PARA VER.md",
-    "Programação/Backend e APIs/WAHA/Como rodar o WAHA.md",
-    "Programação/IA Agentes e LLMs/LangChain/Web Scraper com LangChain e Playwright.md",
-    "Programação/IA Agentes e LLMs/weaviete/start.md",
-    "Programação/IA Agentes e LLMs/Openai/Transcrição de audio - WhisperX.md",
-    "Programação/IA Agentes e LLMs/LangChain/Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
-    "Programação/IA Agentes e LLMs/LangChain/Sistema de Recuperação de Informação com RAG usando PDFs e OpenAI ParentDocumentRetriever.md",
-    "Programação/IA Agentes e LLMs/LangChain/Langchain - RAG + Web Scraping + ChromaDB (WebBaseLoader).md",
-    "Programação/IA Agentes e LLMs/LangChain/Integração com LangChain e Playwright.md",
     "Programação/IA Agentes e LLMs/Embeddings",
-    "Programação/Fundamentos Python/Arquitetura/rag.svg",
     "Sem título.base",
     "Sociedade e Politica",
     "Inbox/classes.drawio",
