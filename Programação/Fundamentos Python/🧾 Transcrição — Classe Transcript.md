@@ -1,6 +1,6 @@
-# 🧾 Container de Transcrição — Classe iterável para snippets de transcrição
+# 🧾 Container de Transcrição — Classe iterável com foco em Iterator
 
-Representa uma transcrição composta por fragmentos (snippets) com metadados do vídeo. Fornece comportamento de sequência (iterable, indexing, len) e serialização para dados brutos, facilitando iteração, inspeção e armazenamento.
+Representa uma transcrição composta por fragmentos (snippets) com metadados do vídeo. Este documento destaca como usar a classe como um Iterable/Iterator em Python (for, iter(), next(), itertools), mostrando padrões práticos e alternativas para consumo em pipeline.
 
 ```
 ┌───────────────┐
@@ -20,8 +20,15 @@ Representa uma transcrição composta por fragmentos (snippets) com metadados do
 ```bash
 # Nenhuma dependência externa; usa a biblioteca padrão (Python 3.7+).
 # Opcional (Python < 3.7):
-pip install dataclasses
+# pip install dataclasses
 ```
+
+## 🔁 Foco: Uso do Iterator
+
+- A classe Transcript implementa `__iter__` retornando um `Iterator[TranscriptSnippet]`. Isso permite usar `for s in transcript`, `iter(transcript)` e `next(...)`.
+- `__getitem__` e `__len__` delegam para a lista interna (`self.snippets`), o que também habilita comportamento de sequência: indexing, `reversed(transcript)` e suporte a slices (ex.: `transcript[0:3]` retorna uma lista de snippets).
+- Para processamento em pipeline (map/filter/comprehensions) basta passar o objeto `transcript` onde se espera um Iterable.
+- Observação: a implementação atual usa um iterator da lista interna (não é "lazy" em origem), se for necessário consumir de uma fonte streaming, veja a sugestão de `__iter__` lazy abaixo.
 
 ## ⚙️ Implementação
 
@@ -42,8 +49,7 @@ class TranscriptSnippet:
 @dataclass
 class Transcript:
     """
-    Represents a fetched transcript. Iterable over TranscriptSnippet objects.
-    Supports indexing and len() so it behaves like a sequence of snippets.
+    Container de snippets. Implementa protocolo de iteração e sequencia.
     """
     snippets: List[TranscriptSnippet]
     video_id: str
@@ -52,9 +58,20 @@ class Transcript:
     is_generated: bool = False
 
     def __iter__(self) -> Iterator[TranscriptSnippet]:
+        """
+        Retorna um iterator sobre `self.snippets`.
+
+        - Uso: `it = iter(transcript)` produz um iterator que pode ser consumido com `next(it)`.
+        - Se desejar comportamento "lazy/streaming" (ex.: fetch por pedaços), substituir por um generator que `yield` snippets.
+        """
         return iter(self.snippets)
 
-    def __getitem__(self, index) -> TranscriptSnippet:
+    def __getitem__(self, index):
+        """
+        Suporta index e slices porque delega para a lista interna.
+        - `transcript[0]` -> TranscriptSnippet
+        - `transcript[0:3]` -> List[TranscriptSnippet]
+        """
         return self.snippets[index]
 
     def __len__(self) -> int:
@@ -62,58 +79,80 @@ class Transcript:
 
     def to_raw_data(self) -> List[Dict]:
         """
-        Serialize the transcript to a list of plain dicts (one per snippet).
-        Uses dataclasses.asdict so the result is JSON-serializable.
+        Serializa para lista de dicts (pronto para json / persistência).
         """
         return [asdict(snippet) for snippet in self]
+
+    # Sugestão (opcional) para __iter__ lazy, quando os snippets são obtidos sob demanda:
+    # def __iter__(self) -> Iterator[TranscriptSnippet]:
+    #     for piece in fetch_snippets_from_source(self.video_id):
+    #         yield piece
 ```
 
-## 🧪 Exemplo de Uso
+## 🧪 Exemplos práticos centrados no Iterator
 
 ```python
-# Example usage (assumes the classes above are available in the same module).
-snippets = [
+from itertools import islice
+
+# setup (mesmo do exemplo anterior)
+transcript = Transcript(snippets=[
     TranscriptSnippet(text="Olá mundo", start=0.0, end=1.4, speaker="Locutor"),
     TranscriptSnippet(text="Exemplo de snippet.", start=1.5, end=3.0)
-]
+], video_id="v1", language="Português", language_code="pt")
 
-transcript = Transcript(
-    snippets=snippets,
-    video_id="video_abc123",
-    language="Português",
-    language_code="pt",
-    is_generated=True
-)
-
-# Iterate over snippets
+# 1) Loop simples (mais comum)
 for s in transcript:
-    print(f"{s.start:.2f}-{s.end:.2f} [{s.speaker or 'unknown'}]: {s.text}")
+    print(s.text)
 
-# Indexing and length
-print("First snippet:", transcript[0])
-print("Total snippets:", len(transcript))
+# 2) Iterator manual com next()
+it = iter(transcript)
+first = next(it, None)        # obtém o primeiro snippet ou None
+second = next(it, None)       # próximo
 
-# Serialize to raw data (list of dicts) — ready for JSON or DB storage
-raw = transcript.to_raw_data()
-import json
-print(json.dumps(raw, ensure_ascii=False, indent=2))
+# 3) Consumir até uma condição (StopIteration)
+it = iter(transcript)
+try:
+    while True:
+        s = next(it)
+        if "erro" in s.text:
+            break
+except StopIteration:
+    pass
+
+# 4) Trabalhando com slices e islice
+print(transcript[0])          # primeiro snippet
+print(transcript[0:2])       # lista de snippets
+for s in islice(transcript, 0, 1):
+    print("islice:", s.text)
+
+# 5) Pipeline / filtros (comprehension ou generator)
+short_texts = [s for s in transcript if len(s.text) < 50]
+long_gen = (s for s in transcript if len(s.text) >= 50)
+
+# 6) reversed, enumerate
+for i, s in enumerate(transcript, 1):
+    print(i, s.start)
+for s in reversed(transcript):
+    print("reversed", s.text)
+
+# 7) Pegar o primeiro elemento com segurança
+first = next(iter(transcript), None)
 ```
 
 ## 📝 Tabela de Conceitos / Configuração
 
 | Conceito | Descrição |
 |----------|----------|
-| Transcript | Container iterável de snippets com metadados do vídeo (video_id, language, language_code, is_generated). |
+| Transcript | Container iterável de snippets com metadados do vídeo (video_id, language, language_code, is_generated). É um Iterable. |
 | TranscriptSnippet | Fragmento de transcrição com texto e timestamps (start, end) e campo opcional `speaker`. |
+| Iterator vs Iterable | `Transcript` é um Iterable (implementa `__iter__`); `iter(transcript)` retorna um Iterator que pode ser consumido com `next()`.
 | to_raw_data | Retorna `List[Dict]` com os campos dos snippets (pronto para JSON/armazenamento). |
-| is_generated | Booleano que indica se a transcrição foi gerada automaticamente (speech-to-text, LLM, etc.). |
 
 ## 🔗 Notas
 
-- Renomeação: os nomes originais (por exemplo, `FetchedTranscript` / `FetchedTranscriptSnippet`) foram alterados para `Transcript` / `TranscriptSnippet` para maior clareza; o comportamento original (iterable, indexing, len, serialização) foi preservado.
-- Validações recomendadas em produção: checar ordem/consistência dos timestamps, normalizar espaços e remover caracteres indesejados antes de persistir.
-- Para armazenamento/transferência, usar `json.dumps(transcript.to_raw_data(), ensure_ascii=False)` ou inserir diretamente em bases/document stores que aceitem JSON.
-> 🔗 Veja também: [[Transcrições — Formatos e Conversão]]
+- A implementação atual usa a lista interna como fonte de truth; para grandes volumes, prefira uma versão lazy para reduzir uso de memória.
+- `reversed(transcript)` funciona porque `__len__` + `__getitem__` estão presentes; slices retornam listas, não um novo Transcript.
+- Ao alterar `__iter__` para um generator, documente a mudança pois operações que dependem de indexação/len podem não funcionar da mesma forma.
 
 ---
-#python #transcricao #dataclasses
+#python #transcricao #dataclasses #iterable
