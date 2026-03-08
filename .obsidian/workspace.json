@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Projetos/🎵 Words-In-Songs.md",
+                "file": "Programação/Projetos/💡 Dica Python Linkedin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "🎵 Words-In-Songs"
+              "title": "💡 Dica Python Linkedin"
             }
           }
         ]
@@ -188,6 +188,9 @@
   },
   "active": "eb3b12bb3d5d5885",
   "lastOpenFiles": [
+    "Programação/Projetos/💊 Agent Sales Insights Pharmaceutical.md",
+    "Programação/Projetos/🏥 be3 Health Tech Teste.md",
+    "Programação/Projetos/🎵 Words-In-Songs.md",
     "Programação/Projetos/🎬 YouTranscripta.md",
     "Programação/Projetos/🎨 CompileRepo StreamLit.md",
     "Programação/Projetos/🎓 UniversityHubRAG.md",
@@ -211,9 +214,6 @@
     "Programação/IA Agentes e LLMs/LangChain/🗄️ Conetando IA com banco de dados.md",
     "Programação/Engenharia de Dados e Mensageria/Airflow/📦 TaskGroup.md",
     "Programação/Engenharia de Dados e Mensageria/Redis/🐍 Redis + Python.md",
-    "Programação/DevOps e Infraestrutura/📂 Obtendo Estrutura de Pastas no terminal linux.md",
-    "Programação/Engenharia de Dados e Mensageria/MQTT/🐳 Docker compose MQTT.md",
-    "Programação/Engenharia de Dados e Mensageria/MQTT/🐍 Classe MQTT com Context Manager (Python).md",
     "Programação/IA Agentes e LLMs/LangChain/LangChain Canvas.canvas",
     "Programação/Backend e APIs/MQTT",
     "Programação/Fundamentos Python/logger",
