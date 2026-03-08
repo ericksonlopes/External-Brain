@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Projetos/💡 Dica Python Linkedin.md",
+                "file": "Programação/Projetos/🔎 Search In Export Chat.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "💡 Dica Python Linkedin"
+              "title": "🔎 Search In Export Chat"
             }
           }
         ]
@@ -188,6 +188,13 @@
   },
   "active": "eb3b12bb3d5d5885",
   "lastOpenFiles": [
+    "Programação/Projetos/🔍 Search In Export Chat (StreamLit).md",
+    "Programação/Projetos/🔄 PyConvertInSQL.md",
+    "Programação/Projetos/🔎 Search In Export Chat.md",
+    "Programação/Projetos/🗺️ Map Generator of Brazilian Cities.md",
+    "Programação/Projetos/🔢 Relatorio de Numeros GUI.md",
+    "Programação/Projetos/🔑 NFKeyExtractor.md",
+    "Programação/Projetos/💡 Dica Python Linkedin.md",
     "Programação/Projetos/💊 Agent Sales Insights Pharmaceutical.md",
     "Programação/Projetos/🏥 be3 Health Tech Teste.md",
     "Programação/Projetos/🎵 Words-In-Songs.md",
@@ -207,13 +214,6 @@
     "Programação/Fundamentos Python/🧾 Transcrição — Classe Transcript.md",
     "Programação/📝 Prompt para Geração de Documentação Obsidian.md",
     "Programação/IA Agentes e LLMs/Openai/🎙️ Transcrição de audio - WhisperX.md",
-    "README.md",
-    "Programação/IA Agentes e LLMs/LangChain/📋 Extração de Dados Estruturados com LangChain e Pydantic.md",
-    "Programação/IA Agentes e LLMs/LangChain/🏭 Gerenciador de LLMs para LangChain - Criando e Configurando Modelos.md",
-    "Programação/IA Agentes e LLMs/LangChain/📑 Sistema de Recuperação de Informações em PDFs usando RAG com LangChain e OpenAI.md",
-    "Programação/IA Agentes e LLMs/LangChain/🗄️ Conetando IA com banco de dados.md",
-    "Programação/Engenharia de Dados e Mensageria/Airflow/📦 TaskGroup.md",
-    "Programação/Engenharia de Dados e Mensageria/Redis/🐍 Redis + Python.md",
     "Programação/IA Agentes e LLMs/LangChain/LangChain Canvas.canvas",
     "Programação/Backend e APIs/MQTT",
     "Programação/Fundamentos Python/logger",
