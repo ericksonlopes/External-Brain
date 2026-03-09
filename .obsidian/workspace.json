@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem título.md",
+                "file": "Componentes computador/Componentes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "Componentes"
             }
           }
         ]
@@ -188,8 +188,8 @@
   },
   "active": "76c8a1b2c0cbd73d",
   "lastOpenFiles": [
-    "Programação/Projetos/🔎 Search In Export Chat.md",
     "Sem título.md",
+    "Programação/Projetos/🔎 Search In Export Chat.md",
     "Programação/Projetos/🔍 Search In Export Chat (StreamLit).md",
     "Programação/Projetos/🔄 PyConvertInSQL.md",
     "Programação/Projetos/🗺️ Map Generator of Brazilian Cities.md",
