@@ -1,3 +1,8 @@
+
+from typing import Optional  
+  
+from pydantic import BaseModel, Field, ConfigDict, model_validator
+
 class PdfEntity(BaseModel):  
     model_config = ConfigDict(populate_by_name=True)  
   
