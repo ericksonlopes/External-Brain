@@ -103,7 +103,5 @@ python main.py
 - `pydantic` validará tipos na inicialização e levantará `ValidationError` se valores estiverem ausentes ou inválidos.
 - O `env_nested_delimiter` é útil para agrupar configurações por serviço sem precisar de prefixes distintos.
 
-> 🔗 Veja também: [[README]]
-
 ---
 #python #pydantic #env
