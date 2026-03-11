@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem título.md",
+                "file": "Sem título 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sem título"
+              "title": "Sem título 2"
             }
           }
         ]
@@ -189,8 +189,8 @@
   "active": "76c8a1b2c0cbd73d",
   "lastOpenFiles": [
     "Sem título 1.md",
-    "Sem título 2.md",
     "Sem título.md",
+    "Sem título 2.md",
     "Componentes computador/Componentes.md",
     "Programação/Projetos/🔎 Search In Export Chat.md",
     "Programação/Projetos/🔍 Search In Export Chat (StreamLit).md",
