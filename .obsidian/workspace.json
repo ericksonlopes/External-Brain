@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "cdf352de91eaeb80",
+        "id": "6d6d16960250735e",
         "type": "tabs",
         "children": [
           {
-            "id": "76c8a1b2c0cbd73d",
+            "id": "62c652bed6b31fba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem título 1.md",
+                "file": "Programação/Bancos de Dados/🔄 Alembic Migrations.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sem título 1"
+              "title": "🔄 Alembic Migrations"
             }
           }
         ]
@@ -186,8 +186,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "76c8a1b2c0cbd73d",
+  "active": "62c652bed6b31fba",
   "lastOpenFiles": [
+    "Programação/Bancos de Dados/📦 alembic.md",
+    "Sem título 1.md",
     "Programação/Backend e APIs/Pydantic/🔧 Pydantic SettingsConfigDict.md",
     "Programação/Backend e APIs/Pydantic/📋 BaseSettings + env.md",
     "Programação/Backend e APIs/Pydantic/⚙️ Pydantic Settings — Configuração Tipada com .env.md",
@@ -195,7 +197,6 @@
     "Sem título 2.md",
     "Inbox/LINKS PARA VER.md",
     "README.md",
-    "Sem título 1.md",
     "Sem título.md",
     "Componentes computador/Componentes.md",
     "Programação/Projetos/🔎 Search In Export Chat.md",
@@ -213,7 +214,6 @@
     "Programação/Projetos/🎓 UniversityHubRAG.md",
     "Programação/Projetos/🌬️ Airflow Docker Example.md",
     "Programação/Projetos/🌐 Aerokube Selenoid Chrome Python.md",
-    "Programação/Projetos/🌌 Universo Programado Numeros.md",
     "Programação/IA Agentes e LLMs/LangChain/LangChain Canvas.canvas",
     "Programação/Backend e APIs/MQTT",
     "Programação/Fundamentos Python/logger",
