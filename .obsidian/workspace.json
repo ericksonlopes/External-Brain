@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sem título 2.md",
+                "file": "Programação/Backend e APIs/Pydantic Settings - Redis e Weaviate.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Sem título 2"
+              "title": "Pydantic Settings - Redis e Weaviate"
             }
           }
         ]
@@ -186,12 +186,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "20d8562995e5a927",
+  "active": "76c8a1b2c0cbd73d",
   "lastOpenFiles": [
     "Programação/📝 Prompt para Geração de Documentação Obsidian.md",
+    "Sem título 2.md",
+    "Programação/Backend e APIs/Pydantic Settings - Redis e Weaviate.md",
     "Inbox/LINKS PARA VER.md",
     "README.md",
-    "Sem título 2.md",
     "Sem título 1.md",
     "Sem título.md",
     "Componentes computador/Componentes.md",
@@ -213,7 +214,6 @@
     "Programação/Projetos/🌌 Universo Programado Numeros.md",
     "Programação/Projetos/🌉 SquadPostBridge.md",
     "Programação/Projetos/⚙️ RPA CeA Check Bag.md",
-    "Programação/Projetos/📦 Compile-Repo.md",
     "Programação/IA Agentes e LLMs/LangChain/LangChain Canvas.canvas",
     "Programação/Backend e APIs/MQTT",
     "Programação/Fundamentos Python/logger",
