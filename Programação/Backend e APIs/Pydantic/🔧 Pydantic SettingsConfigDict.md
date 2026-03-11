@@ -106,4 +106,4 @@ python main.py
 > 🔗 Veja também: [[README]]
 
 ---
-#python #config #pydantic #redis #weaviate
+#python #pydantic #env
