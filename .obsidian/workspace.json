@@ -189,6 +189,7 @@
   "active": "62c652bed6b31fba",
   "lastOpenFiles": [
     "Programação/Bancos de Dados/📦 alembic.md",
+    "Programação/Bancos de Dados/🔄 Alembic Migrations.md",
     "Sem título 1.md",
     "Programação/Backend e APIs/Pydantic/🔧 Pydantic SettingsConfigDict.md",
     "Programação/Backend e APIs/Pydantic/📋 BaseSettings + env.md",
@@ -213,7 +214,6 @@
     "Programação/Projetos/🎨 CompileRepo StreamLit.md",
     "Programação/Projetos/🎓 UniversityHubRAG.md",
     "Programação/Projetos/🌬️ Airflow Docker Example.md",
-    "Programação/Projetos/🌐 Aerokube Selenoid Chrome Python.md",
     "Programação/IA Agentes e LLMs/LangChain/LangChain Canvas.canvas",
     "Programação/Backend e APIs/MQTT",
     "Programação/Fundamentos Python/logger",

@@ -163,6 +163,10 @@ else:
     run_migrations_online()
 ```
 
+no alembic.ini colocar o 
+
+prepend_sys_path = .
+
 ---
 
 ## 🚀 Fluxo de Trabalho (Workflow)
