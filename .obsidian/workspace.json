@@ -1,25 +1,20 @@
 {
   "main": {
-    "id": "8d1086f5a1e12cc2",
+    "id": "669bb36e533be55b",
     "type": "split",
     "children": [
       {
-        "id": "6d6d16960250735e",
+        "id": "04651c24adde3d05",
         "type": "tabs",
         "children": [
           {
-            "id": "62c652bed6b31fba",
+            "id": "e6852dd0b21669dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/Projetos/🔍 Search In Export Chat (StreamLit).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "🔍 Search In Export Chat (StreamLit)"
+              "title": "Nova aba"
             }
           }
         ]
@@ -28,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "e82f43af2fb82f46",
+    "id": "bbfe8850d845b9b1",
     "type": "split",
     "children": [
       {
-        "id": "a729af8e756853e3",
+        "id": "86dfe6872865ff08",
         "type": "tabs",
         "children": [
           {
-            "id": "20d8562995e5a927",
+            "id": "92d668bccf9a41e3",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -49,7 +44,7 @@
             }
           },
           {
-            "id": "6a0b55f782205883",
+            "id": "4d04bce176a0aea6",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -66,7 +61,7 @@
             }
           },
           {
-            "id": "5e4d7d2bd78f2783",
+            "id": "a514b9c3a11e6aab",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -79,18 +74,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 412.5
+    "width": 300
   },
   "right": {
-    "id": "9c0b076a34e7ddac",
+    "id": "04cf9629d76d85af",
     "type": "split",
     "children": [
       {
-        "id": "cb22e0583fa7be86",
+        "id": "75f44d9ecb45e201",
         "type": "tabs",
         "children": [
           {
-            "id": "32efcf806dc55de8",
+            "id": "577a149363850fe2",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -101,29 +96,42 @@
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Links inversos"
             }
           },
           {
-            "id": "c1fc8908b1c1dfff",
+            "id": "d3453b84b1fadf5c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "dd2df0d9a1f7e4b1",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
-            "id": "23bad85325823dd8",
+            "id": "c9e8b8166a3dc8c0",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -135,111 +143,33 @@
               "icon": "lucide-list",
               "title": "Sumário"
             }
-          },
-          {
-            "id": "2a309079cc7df85f",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Programação/IA Agentes e LLMs/LangChain/🔌 Tutorial Implementando MCP com FastMCP e LangChain.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Links de saída para 🔌 Tutorial Implementando MCP com FastMCP e LangChain"
-            }
-          },
-          {
-            "id": "cca38a706f2e253c",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 424.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Criar nova base": false,
       "switcher:Abrir a troca rápida": false,
-      "command-palette:Abrir paleta de comandos": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
       "markdown-importer:Abrir importador Markdown": false,
       "zk-prefixer:Criar nova nota única": false,
       "random-note:Abrir nota aleatória": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "publish:Publicar mudanças": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "bases:Criar nova base": false,
+      "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "obsidian-git:Open Git source control": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "62c652bed6b31fba",
-  "lastOpenFiles": [
-    "Programação/Projetos/🔎 Search In Export Chat.md",
-    "Programação/Projetos/🔍 Search In Export Chat (StreamLit).md",
-    "Programação/Projetos/🔄 PyConvertInSQL.md",
-    "Programação/Projetos/📦 Compile-Repo.md",
-    "Programação/Projetos/📍 Consulta CEP GUI.md",
-    "Programação/Projetos/📈 PyInvestAnalyser.md",
-    "Programação/Projetos/📅 API Agenda com Flask e SQLite3.md",
-    "Programação/Projetos/💰 ScrapingcoinMarketCap.md",
-    "Programação/Projetos/💭 Pratical Project Philosophizing.md",
-    "Programação/Projetos/💡 Dica Python Linkedin.md",
-    "Programação/Projetos/💊 Agent Sales Insights Pharmaceutical.md",
-    "Programação/Projetos/🏥 be3 Health Tech Teste.md",
-    "Programação/Projetos/🎵 Words-In-Songs.md",
-    "Programação/Projetos/🎬 YouTranscripta.md",
-    "AGENTS.MD.md",
-    "README.md",
-    "Sem título.md",
-    "Sem título 1.md",
-    "Programação/Bancos de Dados/🔄 Alembic Migrations.md",
-    "Programação/Bancos de Dados/📦 alembic.md",
-    "Programação/Backend e APIs/Pydantic/🔧 Pydantic SettingsConfigDict.md",
-    "Programação/Backend e APIs/Pydantic/📋 BaseSettings + env.md",
-    "Programação/Backend e APIs/Pydantic/⚙️ Pydantic Settings — Configuração Tipada com .env.md",
-    "Sem título 2.md",
-    "Inbox/LINKS PARA VER.md",
-    "Componentes computador/Componentes.md",
-    "Programação/IA Agentes e LLMs/LangChain/LangChain Canvas.canvas",
-    "Programação/Backend e APIs/MQTT",
-    "Programação/Fundamentos Python/logger",
-    "Programação/Fundamentos Python/Arquitetura/rag.svg",
-    "Programação/IA Agentes e LLMs/MCP/Canvas-MCP.canvas",
-    "Programação/IA Agentes e LLMs/Embeddings",
-    "Sem título.base",
-    "Sociedade e Politica",
-    "Inbox/classes.drawio",
-    "Inbox/Sem título.base",
-    "Inbox/Sem título 2.base",
-    "Inbox/Sem título 3.base",
-    "Inbox/Sem título 4.base",
-    "Programação/Arquitetura/rag.svg",
-    "Programação/Arquitetura/Untitled Diagram.svg",
-    "Untitled Diagram.svg",
-    "Sem título.canvas",
-    "Sem título 1.canvas",
-    "Sem título 2.canvas",
-    "RoadMap Python.canvas",
-    "classes.svg",
-    "teste.svg",
-    "Programação/Padrões de projetos (Desing Patterns)/Sem título.canvas",
-    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113729.jpg",
-    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113659.jpg",
-    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113449.jpg",
-    "Python Academy Linkedin Posts/Imagens/Pasted image 20230211113432.jpg"
-  ]
+  "active": "e6852dd0b21669dc",
+  "lastOpenFiles": []
 }
