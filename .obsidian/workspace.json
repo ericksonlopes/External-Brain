@@ -11,10 +11,15 @@
             "id": "e6852dd0b21669dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programação/IA Agentes e LLMs/Embeddings/🔢 Embeddings com Sentence Transformers e E5.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "🔢 Embeddings com Sentence Transformers e E5"
             }
           }
         ]
@@ -171,5 +176,10 @@
     }
   },
   "active": "e6852dd0b21669dc",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Programação/Bancos de Dados/MongoDB/📝 CRUD em  MongoDB com python.md",
+    "Programação/Bancos de Dados/MongoDB/🐳 mongodb no docker.md",
+    "Programação/Bancos de Dados/🔄 Alembic Migrations.md",
+    "Programação/Bancos de Dados/📦 alembic.md"
+  ]
 }
