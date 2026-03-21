@@ -11,10 +11,15 @@
             "id": "86f2fb6011e3a6a1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Programação/Fundamentos Python/Python/queue/🔒 queue lock.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "🔒 queue lock"
             }
           }
         ]
@@ -49,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "queu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +75,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -172,6 +178,8 @@
   },
   "active": "86f2fb6011e3a6a1",
   "lastOpenFiles": [
+    "Programação/Fundamentos Python/Python/queue/📖 queue.md",
+    "Programação/Fundamentos Python/Python/queue/📊 queue tracking.md",
     "Sem título 2.md",
     "Sem título 3.md",
     "Sem título.md",
