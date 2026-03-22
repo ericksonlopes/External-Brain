@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/IA Agentes e LLMs/Ollama/🐳 Ollama GPU — Docker Compose com Suporte a NVIDIA.md",
+                "file": "Programação/DevOps e Infraestrutura/Docker/📂 filebrowser.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "🐳 Ollama GPU — Docker Compose com Suporte a NVIDIA"
+              "title": "📂 filebrowser"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "queu",
+                "query": "fileb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,6 +178,7 @@
   },
   "active": "342f6d33f02a1834",
   "lastOpenFiles": [
+    "Programação/IA Agentes e LLMs/Ollama/🐳 Ollama GPU — Docker Compose com Suporte a NVIDIA.md",
     "Programação/DevOps e Infraestrutura/Docker/🔍 elasticsearch + kibana.md",
     "Programação/DevOps e Infraestrutura/Docker/📝 logger + docker + volumes.md",
     "Programação/DevOps e Infraestrutura/Docker/🔴 Redis + docker.md",
@@ -195,7 +197,6 @@
     "Programação/IA Agentes e LLMs/Rerank",
     "Programação/Backend e APIs/FastAPI/WebSocket Notifications — Endpoint de Notificações Real-time.md",
     "Programação/IA Agentes e LLMs/LangChain/ContextualCompressionRetriever — Recuperação com Re-rank no LangChain.md",
-    "Programação/IA Agentes e LLMs/Ollama/🐳 Ollama GPU — Docker Compose com Suporte a NVIDIA.md",
     "Programação/Backend e APIs/Pydantic/PdfEntity — Pydantic Model com Alias Dinâmico.md",
     "Programação/IA Agentes e LLMs/Ollama",
     "AGENTS.MD.md",
