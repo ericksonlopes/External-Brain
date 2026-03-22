@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "53cf6f8ebb5f9f63",
+        "id": "8f2cf40453c9ffde",
         "type": "tabs",
         "children": [
           {
-            "id": "86f2fb6011e3a6a1",
+            "id": "342f6d33f02a1834",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programação/IA Agentes e LLMs/crawl4ai/🕷️ Apresentando crawl4ai.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "🕷️ Apresentando crawl4ai"
+              "title": "Nova aba"
             }
           }
         ]
@@ -175,8 +170,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "86f2fb6011e3a6a1",
+  "active": "342f6d33f02a1834",
   "lastOpenFiles": [
+    "AGENTS.MD.md",
+    "Sem título 7.md",
+    "Sem título 6.md",
+    "Sem título 5.md",
+    "Programação/IA Agentes e LLMs/crawl4ai/🕷️ Apresentando crawl4ai.md",
     "Sem título 4.md",
     "Programação/Fundamentos Python/Python/queue/🔒 queue lock.md",
     "Sem título",
