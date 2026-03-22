@@ -1,4 +1,4 @@
-﻿# 🐳 Ollama GPU — Docker Compose com Suporte a NVIDIA
+
 
 Configuração do Docker Compose para rodar o **Ollama** com aceleração de hardware (GPU NVIDIA) e exemplo de integração com LangChain.
 
@@ -10,7 +10,8 @@ Configuração do Docker Compose para rodar o **Ollama** com aceleração de har
 ## ⚙️ Implementação
 
 ### Docker Compose
-`yaml
+
+```yaml
 version: '3.8'
 services:
   ollama:
@@ -38,7 +39,7 @@ services:
 
 volumes:
   ollama_data:
-`
+```
 
 ## 🧪 Exemplo de Uso (LangChain)
 
