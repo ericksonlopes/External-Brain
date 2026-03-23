@@ -21,8 +21,24 @@
               "icon": "lucide-file",
               "title": "📂 filebrowser"
             }
+          },
+          {
+            "id": "8b7309f667f24d53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programação/DevOps e Infraestrutura/Docker/🐘 postgres + completo.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "🐘 postgres + completo"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fileb",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,8 +91,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,8 +191,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "342f6d33f02a1834",
+  "active": "8b7309f667f24d53",
   "lastOpenFiles": [
+    "Programação/DevOps e Infraestrutura/Docker/🐘 postgres.md",
+    "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
+    "Programação/DevOps e Infraestrutura/Docker/📂 filebrowser.md",
+    "Programação/IA Agentes e LLMs/Rerank/ReRankService — Reranking de Documentos com FlashRank.md",
+    "Sem título.canvas",
     "Programação/IA Agentes e LLMs/Ollama/🐳 Ollama GPU — Docker Compose com Suporte a NVIDIA.md",
     "Programação/DevOps e Infraestrutura/Docker/🔍 elasticsearch + kibana.md",
     "Programação/DevOps e Infraestrutura/Docker/📝 logger + docker + volumes.md",
@@ -191,7 +211,6 @@
     "Programação/Infraestrutura/Docker/FileBrowser — Gerenciador de Arquivos com Docker Compose.md",
     "Programação/Backend e APIs/SQLAlchemy/PostgreSQL 17 — Database com Docker Compose.md",
     "Programação/Infraestrutura/Docker/MinIO — Object Storage com Docker Compose.md",
-    "Programação/IA Agentes e LLMs/Rerank/ReRankService — Reranking de Documentos com FlashRank.md",
     "Programação/Infraestrutura/Docker",
     "Programação/Infraestrutura",
     "Programação/IA Agentes e LLMs/Rerank",
@@ -206,9 +225,6 @@
     "Sem título 5.md",
     "Sem título 4.md",
     "Programação/Fundamentos Python/Python/queue/🔒 queue lock.md",
-    "Sem título",
-    "Programação/Fundamentos Python/Python/queue/📖 queue.md",
-    "Programação/Fundamentos Python/Python/queue/📊 queue tracking.md",
-    "Sem título 2.md"
+    "Sem título"
   ]
 }
