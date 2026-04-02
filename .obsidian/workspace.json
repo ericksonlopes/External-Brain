@@ -41,12 +41,15 @@
             "id": "fd1067eea7d541c7",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.12.7"
+                "file": "Programação/DevOps e Infraestrutura/Docker/🪣 minio.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.12.7"
+              "icon": "lucide-file",
+              "title": "🪣 minio"
             }
           }
         ],
@@ -82,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "minio",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +106,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -205,6 +209,8 @@
   },
   "active": "fd1067eea7d541c7",
   "lastOpenFiles": [
+    "Programação/Bancos de Dados/Bucket/📝 CRUD item no bucket.md",
+    "Programação/DevOps e Infraestrutura/Docker/🪣 minio.md",
     "Programação/DevOps e Infraestrutura/Docker/🐘 postgres.md",
     "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
     "Programação/DevOps e Infraestrutura/Docker/📂 filebrowser.md",
@@ -215,7 +221,6 @@
     "Programação/DevOps e Infraestrutura/Docker/📝 logger + docker + volumes.md",
     "Programação/DevOps e Infraestrutura/Docker/🔴 Redis + docker.md",
     "Programação/DevOps e Infraestrutura/Docker/🪵 Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/DevOps e Infraestrutura/Docker/🪣 minio.md",
     "Programação/DevOps e Infraestrutura/📂 Obtendo Estrutura de Pastas no terminal linux.md",
     "Programação/Fundamentos Python/🧾 Transcrição — Classe Transcript.md",
     "Programação/Fundamentos Python/🚀 Criando um projeto em python.md",
@@ -236,7 +241,6 @@
     "Sem título 6.md",
     "Sem título 5.md",
     "Sem título 4.md",
-    "Programação/Fundamentos Python/Python/queue/🔒 queue lock.md",
     "Sem título"
   ]
 }
