@@ -36,9 +36,21 @@
               "icon": "lucide-file",
               "title": "🐘 postgres + completo"
             }
+          },
+          {
+            "id": "fd1067eea7d541c7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notas de Lançamento 1.12.7"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -191,7 +203,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8b7309f667f24d53",
+  "active": "fd1067eea7d541c7",
   "lastOpenFiles": [
     "Programação/DevOps e Infraestrutura/Docker/🐘 postgres.md",
     "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
