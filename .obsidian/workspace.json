@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sociedade e Politica/Reflexões sobre Capitalismo e Estado no Brasil.md",
+                "file": "Programação/Backend e APIs/YouTube/YouTube Live Chat Monitor.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Reflexões sobre Capitalismo e Estado no Brasil"
+              "title": "YouTube Live Chat Monitor"
             }
           }
         ]
@@ -177,6 +177,9 @@
   },
   "active": "af47178b6f78d516",
   "lastOpenFiles": [
+    "Sociedade e Politica/Reflexões sobre Capitalismo e Estado no Brasil.md",
+    "Programação/Backend e APIs/YouTube/YouTube Live Chat Monitor.md",
+    "Programação/Backend e APIs/YouTube",
     "AGENTS.MD.md",
     "Programação/Bancos de Dados/Bucket/📝 CRUD item no bucket.md",
     "Programação/DevOps e Infraestrutura/Docker/📂 filebrowser.md",
@@ -207,8 +210,6 @@
     "Programação/Backend e APIs/Pydantic/PdfEntity — Pydantic Model com Alias Dinâmico.md",
     "Programação/IA Agentes e LLMs/Ollama",
     "Nova pasta",
-    "Sem título 7.md",
-    "Sem título 6.md",
     "Sem título"
   ]
 }
