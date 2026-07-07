@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7197ed87b2a3ea16",
+        "id": "67f28d28df50a412",
         "type": "tabs",
         "children": [
           {
-            "id": "af47178b6f78d516",
+            "id": "7b418a4f7f26a4a1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AGENTS.MD.md",
+                "file": "start raspberry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "AGENTS.MD"
+              "title": "start raspberry"
             }
           }
         ]
@@ -169,25 +169,29 @@
       "random-note:Abrir nota aleatória": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "publish:Publicar mudanças": false,
-      "bases:Criar nova base": false
+      "bases:Criar nova base": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "92d668bccf9a41e3",
+  "active": "7b418a4f7f26a4a1",
   "lastOpenFiles": [
+    "start raspberry.md",
+    "Sem título.canvas",
+    "Sem título.md",
+    "AGENTS.MD.md",
     "Programação/Projetos/🎙️ Voice Recognition POC.md",
     "Programação/Backend e APIs/YouTube/YouTube Live Chat Monitor.md",
     "Sociedade e Politica/Reflexões sobre Capitalismo e Estado no Brasil.md",
     "Programação/Backend e APIs/YouTube",
-    "AGENTS.MD.md",
     "Programação/Bancos de Dados/Bucket/📝 CRUD item no bucket.md",
     "Programação/DevOps e Infraestrutura/Docker/📂 filebrowser.md",
     "Programação/DevOps e Infraestrutura/Docker/🐘 postgres + completo.md",
     "Programação/DevOps e Infraestrutura/Docker/🪣 minio.md",
-    "Sem título.md",
     "Programação/DevOps e Infraestrutura/Docker/🐘 postgres.md",
     "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
     "Programação/IA Agentes e LLMs/Rerank/ReRankService — Reranking de Documentos com FlashRank.md",
-    "Sem título.canvas",
     "Programação/IA Agentes e LLMs/Ollama/🐳 Ollama GPU — Docker Compose com Suporte a NVIDIA.md",
     "Programação/DevOps e Infraestrutura/Docker/🔍 elasticsearch + kibana.md",
     "Programação/DevOps e Infraestrutura/Docker/📝 logger + docker + volumes.md",
@@ -204,7 +208,6 @@
     "Programação/Infraestrutura",
     "Programação/IA Agentes e LLMs/Rerank",
     "Programação/Backend e APIs/FastAPI/WebSocket Notifications — Endpoint de Notificações Real-time.md",
-    "Programação/IA Agentes e LLMs/LangChain/ContextualCompressionRetriever — Recuperação com Re-rank no LangChain.md",
     "Programação/IA Agentes e LLMs/Ollama",
     "Nova pasta",
     "Sem título"
