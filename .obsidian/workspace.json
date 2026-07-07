@@ -169,10 +169,7 @@
       "random-note:Abrir nota aleatória": false,
       "workspaces:Gerenciar leiautes da área de trabalho": false,
       "publish:Publicar mudanças": false,
-      "bases:Criar nova base": false,
-      "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "bases:Criar nova base": false
     }
   },
   "active": "92d668bccf9a41e3",
