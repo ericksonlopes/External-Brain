@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Bancos de Dados/📦 alembic.md",
+                "file": "start raspberry.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "📦 alembic"
+              "title": "start raspberry"
             }
           }
         ]
@@ -177,10 +177,11 @@
   },
   "active": "7b418a4f7f26a4a1",
   "lastOpenFiles": [
+    "Sem título.md",
+    "Programação/Bancos de Dados/📦 alembic.md",
     "Programação/Infraestrutura/Docker/FileBrowser — Gerenciador de Arquivos com Docker Compose.md",
     "start raspberry.md",
     "Sem título.canvas",
-    "Sem título.md",
     "AGENTS.MD.md",
     "Programação/Projetos/🎙️ Voice Recognition POC.md",
     "Programação/Backend e APIs/YouTube/YouTube Live Chat Monitor.md",
@@ -207,7 +208,6 @@
     "Programação/Infraestrutura/Docker",
     "Programação/Infraestrutura",
     "Programação/IA Agentes e LLMs/Rerank",
-    "Programação/Backend e APIs/FastAPI/WebSocket Notifications — Endpoint de Notificações Real-time.md",
     "Programação/IA Agentes e LLMs/Ollama",
     "Nova pasta",
     "Sem título"
