@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programação/Infraestrutura/Docker/FileBrowser — Gerenciador de Arquivos com Docker Compose.md",
+                "file": "Programação/Bancos de Dados/📦 alembic.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "FileBrowser — Gerenciador de Arquivos com Docker Compose"
+              "title": "📦 alembic"
             }
           }
         ]
@@ -177,6 +177,7 @@
   },
   "active": "7b418a4f7f26a4a1",
   "lastOpenFiles": [
+    "Programação/Infraestrutura/Docker/FileBrowser — Gerenciador de Arquivos com Docker Compose.md",
     "start raspberry.md",
     "Sem título.canvas",
     "Sem título.md",
@@ -201,7 +202,6 @@
     "Programação/Fundamentos Python/🧾 Transcrição — Classe Transcript.md",
     "Programação/Fundamentos Python/🚀 Criando um projeto em python.md",
     "Programação/IA Agentes e LLMs/crawl4ai/🕷️ Apresentando crawl4ai.md",
-    "Programação/Infraestrutura/Docker/FileBrowser — Gerenciador de Arquivos com Docker Compose.md",
     "Programação/Backend e APIs/SQLAlchemy/PostgreSQL 17 — Database com Docker Compose.md",
     "Programação/Infraestrutura/Docker/MinIO — Object Storage com Docker Compose.md",
     "Programação/Infraestrutura/Docker",

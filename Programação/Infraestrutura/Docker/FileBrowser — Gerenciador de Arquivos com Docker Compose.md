@@ -1,4 +1,4 @@
-﻿# 🐳 FileBrowser — Gerenciador de Arquivos com Docker Compose
+# 🐳 FileBrowser — Gerenciador de Arquivos com Docker Compose
 
 Interface web rápida e leve para gerenciar arquivos dentro de volumes do Docker.
 
