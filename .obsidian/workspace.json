@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "start raspberry.md",
+                "file": "Programação/Infraestrutura/Docker/FileBrowser — Gerenciador de Arquivos com Docker Compose.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "start raspberry"
+              "title": "FileBrowser — Gerenciador de Arquivos com Docker Compose"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "minio",
+                "query": "filebro",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,7 +75,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,10 +178,11 @@
   },
   "active": "7b418a4f7f26a4a1",
   "lastOpenFiles": [
+    "Programação/DevOps e Infraestrutura/Docker/📂 filebrowser.md",
+    "start raspberry.md",
     "Sem título.md",
     "Programação/Bancos de Dados/📦 alembic.md",
     "Programação/Infraestrutura/Docker/FileBrowser — Gerenciador de Arquivos com Docker Compose.md",
-    "start raspberry.md",
     "Sem título.canvas",
     "AGENTS.MD.md",
     "Programação/Projetos/🎙️ Voice Recognition POC.md",
@@ -188,7 +190,6 @@
     "Sociedade e Politica/Reflexões sobre Capitalismo e Estado no Brasil.md",
     "Programação/Backend e APIs/YouTube",
     "Programação/Bancos de Dados/Bucket/📝 CRUD item no bucket.md",
-    "Programação/DevOps e Infraestrutura/Docker/📂 filebrowser.md",
     "Programação/DevOps e Infraestrutura/Docker/🐘 postgres + completo.md",
     "Programação/DevOps e Infraestrutura/Docker/🪣 minio.md",
     "Programação/DevOps e Infraestrutura/Docker/🐘 postgres.md",
