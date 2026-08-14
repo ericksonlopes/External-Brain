@@ -1,25 +1,20 @@
 {
   "main": {
-    "id": "669bb36e533be55b",
+    "id": "9584ddbd9e4e316b",
     "type": "split",
     "children": [
       {
-        "id": "aa94404ef13c5f76",
+        "id": "1a979c7c4d62622c",
         "type": "tabs",
         "children": [
           {
-            "id": "4a2c30c369c99696",
+            "id": "843e74e5973dad70",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "start raspberry.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "start raspberry"
+              "title": "Nova aba"
             }
           }
         ]
@@ -28,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bbfe8850d845b9b1",
+    "id": "9a7fd401f3236ea9",
     "type": "split",
     "children": [
       {
-        "id": "86dfe6872865ff08",
+        "id": "14860791e7e2b848",
         "type": "tabs",
         "children": [
           {
-            "id": "92d668bccf9a41e3",
+            "id": "1ff3c509658fa2de",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -51,7 +46,7 @@
             }
           },
           {
-            "id": "4d04bce176a0aea6",
+            "id": "021e5580f177f884",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -68,11 +63,14 @@
             }
           },
           {
-            "id": "a514b9c3a11e6aab",
+            "id": "c4707ff38a095f9f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {},
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
               "icon": "lucide-bookmark",
               "title": "Marcadores"
             }
@@ -84,15 +82,15 @@
     "width": 300
   },
   "right": {
-    "id": "04cf9629d76d85af",
+    "id": "eb3531c8a2e8dbf6",
     "type": "split",
     "children": [
       {
-        "id": "75f44d9ecb45e201",
+        "id": "d6c4675fce6dd5b1",
         "type": "tabs",
         "children": [
           {
-            "id": "577a149363850fe2",
+            "id": "c50beb21e63fdc06",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -110,7 +108,7 @@
             }
           },
           {
-            "id": "d3453b84b1fadf5c",
+            "id": "70ef0dc24f9ffec4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -123,7 +121,7 @@
             }
           },
           {
-            "id": "dd2df0d9a1f7e4b1",
+            "id": "a3e73432720f46c9",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -138,7 +136,7 @@
             }
           },
           {
-            "id": "c9e8b8166a3dc8c0",
+            "id": "ec06577e62eb1e43",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -177,41 +175,6 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4a2c30c369c99696",
-  "lastOpenFiles": [
-    "Componentes computador/Componentes.md",
-    "Programação/IA Agentes e LLMs/Rerank/ReRankService — Reranking de Documentos com FlashRank.md",
-    "Programação/Infraestrutura/Docker/FileBrowser — Gerenciador de Arquivos com Docker Compose.md",
-    "Programação/DevOps e Infraestrutura/Docker/📂 filebrowser.md",
-    "start raspberry.md",
-    "Sem título.md",
-    "Programação/Bancos de Dados/📦 alembic.md",
-    "Sem título.canvas",
-    "AGENTS.MD.md",
-    "Programação/Projetos/🎙️ Voice Recognition POC.md",
-    "Programação/Backend e APIs/YouTube/YouTube Live Chat Monitor.md",
-    "Sociedade e Politica/Reflexões sobre Capitalismo e Estado no Brasil.md",
-    "Programação/Backend e APIs/YouTube",
-    "Programação/Bancos de Dados/Bucket/📝 CRUD item no bucket.md",
-    "Programação/DevOps e Infraestrutura/Docker/🐘 postgres + completo.md",
-    "Programação/DevOps e Infraestrutura/Docker/🪣 minio.md",
-    "Programação/DevOps e Infraestrutura/Docker/🐘 postgres.md",
-    "Programação/IA Agentes e LLMs/weaviete/🔌 WeaviateConnector — Context Manager para Conexão.md",
-    "Programação/IA Agentes e LLMs/Ollama/🐳 Ollama GPU — Docker Compose com Suporte a NVIDIA.md",
-    "Programação/DevOps e Infraestrutura/Docker/🔍 elasticsearch + kibana.md",
-    "Programação/DevOps e Infraestrutura/Docker/📝 logger + docker + volumes.md",
-    "Programação/DevOps e Infraestrutura/Docker/🔴 Redis + docker.md",
-    "Programação/DevOps e Infraestrutura/Docker/🪵 Configurando o Loguru para enviar registros de log para o Elasticsearch com Python.md",
-    "Programação/DevOps e Infraestrutura/📂 Obtendo Estrutura de Pastas no terminal linux.md",
-    "Programação/Fundamentos Python/🧾 Transcrição — Classe Transcript.md",
-    "Programação/Fundamentos Python/🚀 Criando um projeto em python.md",
-    "Programação/IA Agentes e LLMs/crawl4ai/🕷️ Apresentando crawl4ai.md",
-    "Programação/Backend e APIs/SQLAlchemy/PostgreSQL 17 — Database com Docker Compose.md",
-    "Programação/Infraestrutura/Docker",
-    "Programação/Infraestrutura",
-    "Programação/IA Agentes e LLMs/Rerank",
-    "Programação/IA Agentes e LLMs/Ollama",
-    "Nova pasta",
-    "Sem título"
-  ]
+  "active": "843e74e5973dad70",
+  "lastOpenFiles": []
 }
