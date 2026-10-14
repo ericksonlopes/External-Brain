@@ -169,7 +169,6 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
       "zk-prefixer:Create new unique note": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
